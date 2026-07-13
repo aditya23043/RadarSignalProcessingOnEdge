@@ -19,4 +19,4 @@ This implementation supports both:
 
 ## Architecture
 
-![Architecture](./assets/rsp_architecture.png)
+![Architecture](./assets/rsp_architecture_dark.png)
