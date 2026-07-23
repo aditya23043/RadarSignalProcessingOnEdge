@@ -1,0 +1,85 @@
+12:46:58 **** Incremental Build of configuration Debug for project golay_full_optimized ****
+make all 
+make --no-print-directory pre-build
+a9-linaro-pre-build-step
+ 
+make --no-print-directory main-build
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_golay_full/design_1_wrapper_optimized/export/design_1_wrapper_optimized/sw/design_1_wrapper_optimized/standalone_ps7_cortexa9_0/bspinclude/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c:69:33: warning: excess elements in array initializer
+   69 | int snr_levels[NUM_SNR] = {-45, -44, -43, -42, -41, -40, -39, -38, -37, -36, -35, -34 ,-33, -32, -31, -30};
+      |                                 ^
+../src/main.c:69:33: note: (near initialization for 'snr_levels')
+../src/main.c:69:38: warning: excess elements in array initializer
+   69 | int snr_levels[NUM_SNR] = {-45, -44, -43, -42, -41, -40, -39, -38, -37, -36, -35, -34 ,-33, -32, -31, -30};
+      |                                      ^
+../src/main.c:69:38: note: (near initialization for 'snr_levels')
+../src/main.c:69:43: warning: excess elements in array initializer
+   69 | int snr_levels[NUM_SNR] = {-45, -44, -43, -42, -41, -40, -39, -38, -37, -36, -35, -34 ,-33, -32, -31, -30};
+      |                                           ^
+../src/main.c:69:43: note: (near initialization for 'snr_levels')
+../src/main.c:69:48: warning: excess elements in array initializer
+   69 | int snr_levels[NUM_SNR] = {-45, -44, -43, -42, -41, -40, -39, -38, -37, -36, -35, -34 ,-33, -32, -31, -30};
+      |                                                ^
+../src/main.c:69:48: note: (near initialization for 'snr_levels')
+../src/main.c:69:53: warning: excess elements in array initializer
+   69 | int snr_levels[NUM_SNR] = {-45, -44, -43, -42, -41, -40, -39, -38, -37, -36, -35, -34 ,-33, -32, -31, -30};
+      |                                                     ^
+../src/main.c:69:53: note: (near initialization for 'snr_levels')
+../src/main.c:69:58: warning: excess elements in array initializer
+   69 | int snr_levels[NUM_SNR] = {-45, -44, -43, -42, -41, -40, -39, -38, -37, -36, -35, -34 ,-33, -32, -31, -30};
+      |                                                          ^
+../src/main.c:69:58: note: (near initialization for 'snr_levels')
+../src/main.c:69:63: warning: excess elements in array initializer
+   69 | int snr_levels[NUM_SNR] = {-45, -44, -43, -42, -41, -40, -39, -38, -37, -36, -35, -34 ,-33, -32, -31, -30};
+      |                                                               ^
+../src/main.c:69:63: note: (near initialization for 'snr_levels')
+../src/main.c:69:68: warning: excess elements in array initializer
+   69 | int snr_levels[NUM_SNR] = {-45, -44, -43, -42, -41, -40, -39, -38, -37, -36, -35, -34 ,-33, -32, -31, -30};
+      |                                                                    ^
+../src/main.c:69:68: note: (near initialization for 'snr_levels')
+../src/main.c:69:73: warning: excess elements in array initializer
+   69 | int snr_levels[NUM_SNR] = {-45, -44, -43, -42, -41, -40, -39, -38, -37, -36, -35, -34 ,-33, -32, -31, -30};
+      |                                                                         ^
+../src/main.c:69:73: note: (near initialization for 'snr_levels')
+../src/main.c:69:78: warning: excess elements in array initializer
+   69 | int snr_levels[NUM_SNR] = {-45, -44, -43, -42, -41, -40, -39, -38, -37, -36, -35, -34 ,-33, -32, -31, -30};
+      |                                                                              ^
+../src/main.c:69:78: note: (near initialization for 'snr_levels')
+../src/main.c:69:83: warning: excess elements in array initializer
+   69 | int snr_levels[NUM_SNR] = {-45, -44, -43, -42, -41, -40, -39, -38, -37, -36, -35, -34 ,-33, -32, -31, -30};
+      |                                                                                   ^
+../src/main.c:69:83: note: (near initialization for 'snr_levels')
+../src/main.c:69:88: warning: excess elements in array initializer
+   69 | int snr_levels[NUM_SNR] = {-45, -44, -43, -42, -41, -40, -39, -38, -37, -36, -35, -34 ,-33, -32, -31, -30};
+      |                                                                                        ^
+../src/main.c:69:88: note: (near initialization for 'snr_levels')
+../src/main.c:69:93: warning: excess elements in array initializer
+   69 | int snr_levels[NUM_SNR] = {-45, -44, -43, -42, -41, -40, -39, -38, -37, -36, -35, -34 ,-33, -32, -31, -30};
+      |                                                                                             ^
+../src/main.c:69:93: note: (near initialization for 'snr_levels')
+../src/main.c:69:98: warning: excess elements in array initializer
+   69 | int snr_levels[NUM_SNR] = {-45, -44, -43, -42, -41, -40, -39, -38, -37, -36, -35, -34 ,-33, -32, -31, -30};
+      |                                                                                                  ^
+../src/main.c:69:98: note: (near initialization for 'snr_levels')
+../src/main.c:69:103: warning: excess elements in array initializer
+   69 | int snr_levels[NUM_SNR] = {-45, -44, -43, -42, -41, -40, -39, -38, -37, -36, -35, -34 ,-33, -32, -31, -30};
+      |                                                                                                       ^
+../src/main.c:69:103: note: (near initialization for 'snr_levels')
+Finished building: ../src/main.c
+ 
+Building target: golay_full_optimized.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_golay_full/design_1_wrapper_optimized/export/design_1_wrapper_optimized/sw/design_1_wrapper_optimized/standalone_ps7_cortexa9_0/bsplib/lib -o "golay_full_optimized.elf"  ./src/main.o ./src/platform.o ./src/tw_1024.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: golay_full_optimized.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size golay_full_optimized.elf  |tee "golay_full_optimized.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  89239	  21220	20989728	21100187	141f69b	golay_full_optimized.elf
+Finished building: golay_full_optimized.elf.size
+ 
+
+12:46:58 Build Finished (took 487ms)
+

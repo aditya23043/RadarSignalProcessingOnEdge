@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="tw.h" path="C:\Users\nadis\AppData\Roaming\Xilinx\Vitis\ifft_project_wlo\tw.h"/>
+    <originFiles name="tw.cpp" path="C:\Users\nadis\AppData\Roaming\Xilinx\Vitis\ifft_project_wlo\tw.cpp"/>
+    <originFiles name="ifft.h" path="C:\Users\nadis\AppData\Roaming\Xilinx\Vitis\ifft_project_wlo\ifft.h"/>
+    <originFiles name="ifft.cpp" path="C:\Users\nadis\AppData\Roaming\Xilinx\Vitis\ifft_project_wlo\ifft.cpp"/>
+  </source>
+  <testbench>
+    <originFiles name="ifft_tb.cpp" path="C:\Users\nadis\AppData\Roaming\Xilinx\Vitis\ifft_project_wlo\ifft_tb.cpp"/>
+    <originFiles name="ifft_input.h" path="C:\Users\nadis\AppData\Roaming\Xilinx\Vitis\ifft_project_wlo\ifft_input.h"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>

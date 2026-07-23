@@ -1,0 +1,13 @@
+,AESL_inst_fft_1024_top,,module_status1.csv
+,grp_fft_1024_top_Pipeline_1_fu_142,,module_status2.csv
+,grp_fft_1024_top_Pipeline_2_fu_148,,module_status3.csv
+,grp_fft_1024_top_Pipeline_VITIS_LOOP_45_1_fu_154,,module_status4.csv
+,grp_fft_1024_top_Pipeline_VITIS_LOOP_50_2_fu_168,,module_status5.csv
+,grp_fft_fast_fu_182,,module_status6.csv
+grp_fft_fast_fu_182,grp_fft_fast_Pipeline_VITIS_LOOP_7_1_fu_65,,module_status7.csv
+grp_fft_fast_fu_182,grp_fft_fast_Pipeline_VITIS_LOOP_22_4_fu_75,,module_status8.csv
+,grp_fft_fast_fu_194,,module_status9.csv
+grp_fft_fast_fu_194,grp_fft_fast_Pipeline_VITIS_LOOP_7_1_fu_65,,module_status10.csv
+grp_fft_fast_fu_194,grp_fft_fast_Pipeline_VITIS_LOOP_22_4_fu_75,,module_status11.csv
+,grp_fft_1024_top_Pipeline_VITIS_LOOP_59_3_fu_206,,module_status12.csv
+,grp_fft_1024_top_Pipeline_VITIS_LOOP_65_4_fu_220,,module_status13.csv

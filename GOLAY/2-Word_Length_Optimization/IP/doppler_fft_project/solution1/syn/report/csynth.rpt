@@ -1,0 +1,186 @@
+
+
+================================================================
+== Synthesis Summary Report of 'doppler_fft_256'
+================================================================
++ General Information: 
+    * Date:           Tue May  5 21:39:10 2026
+    * Version:        2022.1 (Build 3526262 on Mon Apr 18 15:48:16 MDT 2022)
+    * Project:        doppler_fft_project
+    * Solution:       solution1 (Vivado IP Flow Target)
+    * Product family: zynq
+    * Target device:  xc7z020-clg484-1
+    
+
++ Performance & Resource Estimates: 
+    
+    PS: '+' for module; 'o' for loop; '*' for dataflow
+    +---------------------------------------------+------+------+---------+-----------+----------+---------+------+----------+---------+---------+------------+------------+-----+
+    |                   Modules                   | Issue|      | Latency |  Latency  | Iteration|         | Trip |          |         |         |            |            |     |
+    |                   & Loops                   | Type | Slack| (cycles)|    (ns)   |  Latency | Interval| Count| Pipelined|  BRAM   |   DSP   |     FF     |     LUT    | URAM|
+    +---------------------------------------------+------+------+---------+-----------+----------+---------+------+----------+---------+---------+------------+------------+-----+
+    |+ doppler_fft_256                            |     -|  0.08|        -|          -|         -|        -|     -|        no|   7 (2%)|  10 (4%)|   3361 (3%)|  6924 (13%)|    -|
+    | + doppler_fft_256_Pipeline_VITIS_LOOP_65_1  |     -|  0.08|      267|  2.670e+03|         -|      267|     -|        no|        -|        -|  1043 (~0%)|   1344 (2%)|    -|
+    |  o VITIS_LOOP_65_1                          |     -|  7.30|      265|  2.650e+03|        11|        1|   256|       yes|        -|        -|           -|           -|    -|
+    | + fft_fast                                  |     -|  0.08|        -|          -|         -|        -|     -|        no|   3 (1%)|   4 (1%)|   992 (~0%)|   2165 (4%)|    -|
+    |  + fft_fast_Pipeline_VITIS_LOOP_8_1         |     -|  0.79|      771|  7.710e+03|         -|      771|     -|        no|  1 (~0%)|        -|   105 (~0%)|   168 (~0%)|    -|
+    |   o VITIS_LOOP_8_1                          |    II|  7.30|      769|  7.690e+03|         4|        3|   256|       yes|        -|        -|           -|           -|    -|
+    |  o VITIS_LOOP_18_2                          |     -|  7.30|        -|          -|         -|        -|     -|        no|        -|        -|           -|           -|    -|
+    |   o VITIS_LOOP_22_3                         |     -|  7.30|        -|          -|       908|        -|     -|        no|        -|        -|           -|           -|    -|
+    |    + fft_fast_Pipeline_VITIS_LOOP_23_4      |     -|  0.08|      905|  9.050e+03|         -|      905|     -|        no|  2 (~0%)|   4 (1%)|   695 (~0%)|   1550 (2%)|    -|
+    |     o VITIS_LOOP_23_4                       |    II|  7.30|      903|  9.030e+03|        15|        7|   128|       yes|        -|        -|           -|           -|    -|
+    | + doppler_fft_256_Pipeline_VITIS_LOOP_49_1  |     -|  0.79|      258|  2.580e+03|         -|      258|     -|        no|        -|        -|    43 (~0%)|   132 (~0%)|    -|
+    |  o VITIS_LOOP_49_1                          |    II|  7.30|      256|  2.560e+03|         2|        2|   128|       yes|        -|        -|           -|           -|    -|
+    | + doppler_fft_256_Pipeline_VITIS_LOOP_74_2  |     -|  0.33|      266|  2.660e+03|         -|      266|     -|        no|        -|        -|   983 (~0%)|   2167 (4%)|    -|
+    |  o VITIS_LOOP_74_2                          |     -|  7.30|      264|  2.640e+03|        10|        1|   256|       yes|        -|        -|           -|           -|    -|
+    +---------------------------------------------+------+------+---------+-----------+----------+---------+------+----------+---------+---------+------------+------------+-----+
+
+
+================================================================
+== HW Interfaces
+================================================================
+* AXIS
++-----------+---------------+-------+-------+-------+--------+-------+--------+
+| Interface | Register Mode | TDATA | TKEEP | TLAST | TREADY | TSTRB | TVALID |
++-----------+---------------+-------+-------+-------+--------+-------+--------+
+| input_r   | both          | 64    | 8     | 1     | 1      | 8     | 1      |
+| output_r  | both          | 64    | 8     | 1     | 1      | 8     | 1      |
++-----------+---------------+-------+-------+-------+--------+-------+--------+
+
+* TOP LEVEL CONTROL
++-----------+--------------+----------+
+| Interface | Type         | Ports    |
++-----------+--------------+----------+
+| ap_clk    | clock        | ap_clk   |
+| ap_rst_n  | reset        | ap_rst_n |
+| ap_ctrl   | ap_ctrl_none |          |
++-----------+--------------+----------+
+
+
+================================================================
+== SW I/O Information
+================================================================
+* Top Function Arguments
++----------+-----------+-----------------------------------------------------+
+| Argument | Direction | Datatype                                            |
++----------+-----------+-----------------------------------------------------+
+| input    | in        | stream<hls::axis<std::complex<float>, 0, 0, 0>, 0>& |
+| output   | out       | stream<hls::axis<std::complex<float>, 0, 0, 0>, 0>& |
++----------+-----------+-----------------------------------------------------+
+
+* SW-to-HW Mapping
++----------+--------------+-----------+
+| Argument | HW Interface | HW Type   |
++----------+--------------+-----------+
+| input    | input_r      | interface |
+| output   | output_r     | interface |
++----------+--------------+-----------+
+
+
+================================================================
+== M_AXI Burst Information
+================================================================
+ Note: All burst requests might be further partitioned into multiple requests during RTL generation based on max_read_burst_length or max_write_burst_length settings.
+
+  No burst in design
+
+================================================================
+== Bind Op Report
+================================================================
++---------------------------------------------+-----+--------+--------------+-----+--------+---------+
+| Name                                        | DSP | Pragma | Variable     | Op  | Impl   | Latency |
++---------------------------------------------+-----+--------+--------------+-----+--------+---------+
+| + doppler_fft_256                           | 10  |        |              |     |        |         |
+|  + doppler_fft_256_Pipeline_VITIS_LOOP_65_1 | 0   |        |              |     |        |         |
+|    add_ln65_fu_162_p2                       | -   |        | add_ln65     | add | fabric | 0       |
+|    man_V_6_fu_285_p2                        | -   |        | man_V_6      | sub | fabric | 0       |
+|    F2_fu_298_p2                             | -   |        | F2           | sub | fabric | 0       |
+|    add_ln616_fu_310_p2                      | -   |        | add_ln616    | add | fabric | 0       |
+|    sub_ln616_fu_316_p2                      | -   |        | sub_ln616    | sub | fabric | 0       |
+|    man_V_9_fu_371_p2                        | -   |        | man_V_9      | sub | fabric | 0       |
+|    F2_2_fu_384_p2                           | -   |        | F2_2         | sub | fabric | 0       |
+|    add_ln616_2_fu_396_p2                    | -   |        | add_ln616_2  | add | fabric | 0       |
+|    sub_ln616_2_fu_402_p2                    | -   |        | sub_ln616_2  | sub | fabric | 0       |
+|  + fft_fast                                 | 4   |        |              |     |        |         |
+|    add_ln22_fu_164_p2                       | -   |        | add_ln22     | add | fabric | 0       |
+|    ti_1_fu_169_p2                           | -   |        | ti_1         | add | fabric | 0       |
+|    s_3_fu_174_p2                            | -   |        | s_3          | add | fabric | 0       |
+|   + fft_fast_Pipeline_VITIS_LOOP_8_1        | 0   |        |              |     |        |         |
+|     add_ln8_fu_120_p2                       | -   |        | add_ln8      | add | fabric | 0       |
+|   + fft_fast_Pipeline_VITIS_LOOP_23_4       | 4   |        |              |     |        |         |
+|     add_ln23_fu_487_p2                      | -   |        | add_ln23     | add | fabric | 0       |
+|     add_ln25_fu_203_p2                      | -   |        | add_ln25     | add | fabric | 0       |
+|     man_V_1_fu_265_p2                       | -   |        | man_V_1      | sub | fabric | 0       |
+|     F2_fu_278_p2                            | -   |        | F2           | sub | fabric | 0       |
+|     add_ln616_fu_290_p2                     | -   |        | add_ln616    | add | fabric | 0       |
+|     sub_ln616_fu_296_p2                     | -   |        | sub_ln616    | sub | fabric | 0       |
+|     man_V_4_fu_432_p2                       | -   |        | man_V_4      | sub | fabric | 0       |
+|     F2_1_fu_445_p2                          | -   |        | F2_1         | sub | fabric | 0       |
+|     add_ln616_1_fu_457_p2                   | -   |        | add_ln616_1  | add | fabric | 0       |
+|     sub_ln616_1_fu_463_p2                   | -   |        | sub_ln616_1  | sub | fabric | 0       |
+|     add_ln28_fu_554_p2                      | -   |        | add_ln28     | add | fabric | 0       |
+|     add_ln28_1_fu_670_p2                    | -   |        | add_ln28_1   | add | fabric | 0       |
+|     mul_mul_19s_19s_36_4_1_U16              | 1   |        | mul_ln859    | mul | dsp48  | 3       |
+|     mul_mul_19s_19s_36_4_1_U17              | 1   |        | mul_ln1394   | mul | dsp48  | 3       |
+|     ret_V_fu_694_p2                         | -   |        | ret_V        | sub | fabric | 0       |
+|     mul_mul_19s_19s_36_4_1_U18              | 1   |        | mul_ln859_1  | mul | dsp48  | 3       |
+|     mul_mul_19s_19s_36_4_1_U19              | 1   |        | mul_ln1393   | mul | dsp48  | 3       |
+|     ret_V_1_fu_708_p2                       | -   |        | ret_V_1      | add | fabric | 0       |
+|     ret_V_2_fu_728_p2                       | -   |        | ret_V_2      | add | fabric | 0       |
+|     ret_V_3_fu_751_p2                       | -   |        | ret_V_3      | add | fabric | 0       |
+|     ret_V_4_fu_768_p2                       | -   |        | ret_V_4      | sub | fabric | 0       |
+|     ret_V_5_fu_784_p2                       | -   |        | ret_V_5      | sub | fabric | 0       |
+|  + doppler_fft_256_Pipeline_VITIS_LOOP_49_1 | 0   |        |              |     |        |         |
+|    add_ln49_fu_102_p2                       | -   |        | add_ln49     | add | fabric | 0       |
+|  + doppler_fft_256_Pipeline_VITIS_LOOP_74_2 | 0   |        |              |     |        |         |
+|    add_ln74_fu_190_p2                       | -   |        | add_ln74     | add | fabric | 0       |
+|    tmp_V_fu_234_p2                          | -   |        | tmp_V        | sub | fabric | 0       |
+|    sub_ln1145_fu_275_p2                     | -   |        | sub_ln1145   | sub | fabric | 0       |
+|    lsb_index_fu_357_p2                      | -   |        | lsb_index    | add | fabric | 0       |
+|    sub_ln1148_fu_378_p2                     | -   |        | sub_ln1148   | sub | fabric | 0       |
+|    add_ln1150_fu_424_p2                     | -   |        | add_ln1150   | add | fabric | 0       |
+|    add_ln1159_fu_570_p2                     | -   |        | add_ln1159   | add | fabric | 0       |
+|    sub_ln1160_fu_585_p2                     | -   |        | sub_ln1160   | sub | fabric | 0       |
+|    m_3_fu_610_p2                            | -   |        | m_3          | add | fabric | 0       |
+|    tmp_V_2_fu_298_p2                        | -   |        | tmp_V_2      | sub | fabric | 0       |
+|    sub_ln1145_1_fu_339_p2                   | -   |        | sub_ln1145_1 | sub | fabric | 0       |
+|    lsb_index_1_fu_462_p2                    | -   |        | lsb_index_1  | add | fabric | 0       |
+|    sub_ln1148_1_fu_483_p2                   | -   |        | sub_ln1148_1 | sub | fabric | 0       |
+|    add_ln1150_1_fu_529_p2                   | -   |        | add_ln1150_1 | add | fabric | 0       |
+|    add_ln1159_1_fu_637_p2                   | -   |        | add_ln1159_1 | add | fabric | 0       |
+|    sub_ln1160_1_fu_652_p2                   | -   |        | sub_ln1160_1 | sub | fabric | 0       |
+|    m_6_fu_677_p2                            | -   |        | m_6          | add | fabric | 0       |
++---------------------------------------------+-----+--------+--------------+-----+--------+---------+
+
+
+================================================================
+== Bind Storage Report
+================================================================
++---------------------------------------+------+------+--------+--------------+---------+------+---------+
+| Name                                  | BRAM | URAM | Pragma | Variable     | Storage | Impl | Latency |
++---------------------------------------+------+------+--------+--------------+---------+------+---------+
+| + doppler_fft_256                     | 7    | 0    |        |              |         |      |         |
+|   buf_M_real_V_U                      | 2    | -    |        | buf_M_real_V | ram_t2p | auto | 1       |
+|   buf_M_imag_V_U                      | 2    | -    |        | buf_M_imag_V | ram_t2p | auto | 1       |
+|  + fft_fast                           | 3    | 0    |        |              |         |      |         |
+|   + fft_fast_Pipeline_VITIS_LOOP_8_1  | 1    | 0    |        |              |         |      |         |
+|     br_lut_U                          | 1    | -    |        | br_lut       | rom_1p  | auto | 1       |
+|   + fft_fast_Pipeline_VITIS_LOOP_23_4 | 2    | 0    |        |              |         |      |         |
+|     tw_M_value_1_U                    | 1    | -    |        | tw_M_value_1 | rom_1p  | auto | 1       |
+|     tw_M_value_U                      | 1    | -    |        | tw_M_value   | rom_1p  | auto | 1       |
++---------------------------------------+------+------+--------+--------------+---------+------+---------+
+
+
+================================================================
+== Pragma Report
+================================================================
+* Valid Pragma Syntax
++-----------+--------------------------------+-------------------------------------------------------------------+
+| Type      | Options                        | Location                                                          |
++-----------+--------------------------------+-------------------------------------------------------------------+
+| interface | ap_ctrl_none port=return       | doppler_fft_project/doppler_fft.cpp:59 in doppler_fft_256, return |
+| interface | axis register both port=input  | doppler_fft_project/doppler_fft.cpp:60 in doppler_fft_256, input  |
+| interface | axis register both port=output | doppler_fft_project/doppler_fft.cpp:61 in doppler_fft_256, output |
++-----------+--------------------------------+-------------------------------------------------------------------+
+
+

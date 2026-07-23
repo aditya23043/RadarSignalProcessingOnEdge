@@ -1,0 +1,38 @@
+Nothing to build in platform 'design_1_wrapper_dopp_1'
+
+00:07:19 **** Clean-only build of configuration Debug for project dopp_2 ****
+make clean 
+rm -rf  ./src/main.o ./src/platform.o ./src/tw_1024.o  ./src/main.d ./src/platform.d ./src/tw_1024.d  dopp_2.elf.size  dopp_2.elf
+ 
+00:07:20 **** Incremental Build of configuration Debug for project dopp_2 ****
+make all 
+make --no-print-directory pre-build
+a9-linaro-pre-build-step
+ 
+make --no-print-directory main-build
+Building file: ../src/main.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I/mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/design_1_wrapper_dopp_1/export/design_1_wrapper_dopp_1/sw/design_1_wrapper_dopp_1/standalone_ps7_cortexa9_0/bspinclude/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+Finished building: ../src/main.c
+ 
+Building file: ../src/platform.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I/mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/design_1_wrapper_dopp_1/export/design_1_wrapper_dopp_1/sw/design_1_wrapper_dopp_1/standalone_ps7_cortexa9_0/bspinclude/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+Finished building: ../src/platform.c
+ 
+Building file: ../src/tw_1024.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/tw_1024.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I/mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/design_1_wrapper_dopp_1/export/design_1_wrapper_dopp_1/sw/design_1_wrapper_dopp_1/standalone_ps7_cortexa9_0/bspinclude/include -MMD -MP -MF"src/tw_1024.d" -MT"src/tw_1024.o" -o "src/tw_1024.o" "../src/tw_1024.c"
+Finished building: ../src/tw_1024.c
+ 
+Building target: dopp_2.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L/mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/design_1_wrapper_dopp_1/export/design_1_wrapper_dopp_1/sw/design_1_wrapper_dopp_1/standalone_ps7_cortexa9_0/bsplib/lib -o "dopp_2.elf"  ./src/main.o ./src/platform.o ./src/tw_1024.o   -lm -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: dopp_2.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size dopp_2.elf  |tee "dopp_2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  89239	  21284	20989728	21100251	141f6db	dopp_2.elf
+Finished building: dopp_2.elf.size
+ 

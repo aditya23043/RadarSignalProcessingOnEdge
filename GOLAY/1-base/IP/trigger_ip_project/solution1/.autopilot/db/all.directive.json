@@ -1,0 +1,35 @@
+{"sourceFile": [{
+      "name": "",
+      "directive": [
+        {
+          "functionName": "trigger_ip",
+          "label": "",
+          "functionLabel": "",
+          "id": "1",
+          "sourceFile": "C:\/Users\/nadis\/AppData\/Roaming\/Xilinx\/Vitis\/trigger_ip_project\/solution1\/directives.tcl",
+          "sourceLine": "6",
+          "pragma": {
+            "name": "TOP",
+            "option": [{
+                "name": "name",
+                "value": "trigger_ip"
+              }]
+          }
+        },
+        {
+          "functionName": "trigger_ip",
+          "label": "",
+          "functionLabel": "",
+          "id": "2",
+          "sourceFile": "C:\/Users\/nadis\/AppData\/Roaming\/Xilinx\/Vitis\/trigger_ip_project\/solution1\/csynth.tcl",
+          "sourceLine": "16",
+          "pragma": {
+            "name": "TOP",
+            "option": [{
+                "name": "name",
+                "value": "trigger_ip"
+              }]
+          }
+        }
+      ]
+    }]}

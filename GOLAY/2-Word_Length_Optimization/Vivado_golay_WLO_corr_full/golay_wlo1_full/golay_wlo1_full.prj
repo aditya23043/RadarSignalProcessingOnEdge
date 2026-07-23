@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="golay_wlo1_full" location="/mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/golay_wlo1_full" platform="/mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/design_1_wrapper_wlo1/export/design_1_wrapper_wlo1/design_1_wrapper_wlo1.xpfm" platformUID="xilinx:zedboard::0.0(custom)" systemProject="golay_wlo1_full_system" sysConfig="design_1_wrapper_wlo1" runtime="cpp" cpu="standalone_ps7_cortexa9_0" cpuInstance="ps7_cortexa9_0" os="standalone" mssSignature="7742d767aab975b4c46917e620a1a378">
+  <configuration name="Debug" id="xilinx.gnu.armv7.exe.debug.1434582687">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.armv7.exe.release.119976071" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="hello_world"/>
+</sdkproject:SdkProject>

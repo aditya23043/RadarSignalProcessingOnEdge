@@ -1,0 +1,217 @@
+
+
+================================================================
+== Vitis HLS Report for 'doppler_fft_256'
+================================================================
+* Date:           Tue Apr 28 15:48:52 2026
+
+* Version:        2022.1 (Build 3526262 on Mon Apr 18 15:47:01 MDT 2022)
+* Project:        doppler_fft_256
+* Solution:       solution1 (Vivado IP Flow Target)
+* Product family: zynq
+* Target device:  xc7z020-clg484-1
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing: 
+    * Summary: 
+    +--------+----------+----------+------------+
+    |  Clock |  Target  | Estimated| Uncertainty|
+    +--------+----------+----------+------------+
+    |ap_clk  |  10.00 ns|  7.256 ns|     2.70 ns|
+    +--------+----------+----------+------------+
+
++ Latency: 
+    * Summary: 
+    +---------+---------+----------+----------+-----+-----+---------+
+    |  Latency (cycles) |  Latency (absolute) |  Interval | Pipeline|
+    |   min   |   max   |    min   |    max   | min | max |   Type  |
+    +---------+---------+----------+----------+-----+-----+---------+
+    |        ?|        ?|         ?|         ?|    ?|    ?|       no|
+    +---------+---------+----------+----------+-----+-----+---------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        N/A
+
+============================================================
++ Verbose Summary: Synthesis Manager
+============================================================
+InlineROM: 1
+ExposeGlobal: 0
+============================================================
++ Verbose Summary: CDFG Model
+============================================================
+IsTopModel: 1
+ResetActiveHigh: 1
+IsCombinational: 0
+IsDatapathOnly: 0
+HasWiredReturn: 1
+HasMFsm: 0
+HasVarLatency: 1
+IsPipeline: 0
+IsRtlPipelined: 0
+IsInstanceOverlapped: 0
+IsDontTouch: 0
+HasImplIP: 0
+IsGatedGlobalClock: 0
+
+
+============================================================
++ Verbose Summary: Schedule
+============================================================
+* Number of FSM states : 12
+* Pipeline : 0
+* Dataflow Pipeline: 0
+
+* FSM state transitions: 
+1 --> 2 
+2 --> 3 
+3 --> 4 
+4 --> 5 
+5 --> 6 
+6 --> 7 
+7 --> 8 
+8 --> 9 
+9 --> 10 
+10 --> 11 
+11 --> 12 
+12 --> 
+
+* FSM state operations: 
+
+State 1 <SV = 0> <Delay = 3.25>
+ST_1 : Operation 13 [1/1] (0.00ns)   --->   "%range_dop_map_M_value = alloca i64 1" [doppler_fft_256/doppler.cpp:55]   --->   Operation 13 'alloca' 'range_dop_map_M_value' <Predicate = true> <Delay = 0.00> <CoreInst = "RAM">   --->   Core 82 'RAM' <Latency = 1> <II = 1> <Delay = 3.25> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 256> <RAM>
+ST_1 : Operation 14 [1/1] (0.00ns)   --->   "%range_dop_map_M_value_1 = alloca i64 1" [doppler_fft_256/doppler.cpp:55]   --->   Operation 14 'alloca' 'range_dop_map_M_value_1' <Predicate = true> <Delay = 0.00> <CoreInst = "RAM">   --->   Core 82 'RAM' <Latency = 1> <II = 1> <Delay = 3.25> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 256> <RAM>
+ST_1 : Operation 15 [1/1] (0.00ns)   --->   "%range_dop_map_M_value_addr = getelementptr i32 %range_dop_map_M_value, i64 0, i64 0"   --->   Operation 15 'getelementptr' 'range_dop_map_M_value_addr' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 16 [1/1] (0.00ns)   --->   "%range_dop_map_M_value_1_addr = getelementptr i32 %range_dop_map_M_value_1, i64 0, i64 0"   --->   Operation 16 'getelementptr' 'range_dop_map_M_value_1_addr' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 17 [1/1] (3.25ns)   --->   "%store_ln1081 = store i32 0, i8 %range_dop_map_M_value_addr"   --->   Operation 17 'store' 'store_ln1081' <Predicate = true> <Delay = 3.25> <CoreInst = "RAM">   --->   Core 82 'RAM' <Latency = 1> <II = 1> <Delay = 3.25> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 256> <RAM>
+ST_1 : Operation 18 [1/1] (3.25ns)   --->   "%store_ln1081 = store i32 0, i8 %range_dop_map_M_value_1_addr"   --->   Operation 18 'store' 'store_ln1081' <Predicate = true> <Delay = 3.25> <CoreInst = "RAM">   --->   Core 82 'RAM' <Latency = 1> <II = 1> <Delay = 3.25> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 32> <Depth = 256> <RAM>
+
+State 2 <SV = 1> <Delay = 0.00>
+ST_2 : Operation 19 [2/2] (0.00ns)   --->   "%call_ln0 = call void @doppler_fft_256_Pipeline_1, i32 %range_dop_map_M_value, i32 %range_dop_map_M_value_1"   --->   Operation 19 'call' 'call_ln0' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+
+State 3 <SV = 2> <Delay = 0.00>
+ST_3 : Operation 20 [1/2] (0.00ns)   --->   "%call_ln0 = call void @doppler_fft_256_Pipeline_1, i32 %range_dop_map_M_value, i32 %range_dop_map_M_value_1"   --->   Operation 20 'call' 'call_ln0' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+
+State 4 <SV = 3> <Delay = 3.25>
+ST_4 : Operation 21 [1/1] (0.00ns)   --->   "%empty = wait i32 @_ssdm_op_Wait"   --->   Operation 21 'wait' 'empty' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 22 [2/2] (3.25ns)   --->   "%call_ln0 = call void @doppler_fft_256_Pipeline_VITIS_LOOP_58_1, i64 %input_r_V_data_V, i8 %input_r_V_keep_V, i8 %input_r_V_strb_V, i1 %input_r_V_last_V, i32 %range_dop_map_M_value, i32 %range_dop_map_M_value_1"   --->   Operation 22 'call' 'call_ln0' <Predicate = true> <Delay = 3.25> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+
+State 5 <SV = 4> <Delay = 0.00>
+ST_5 : Operation 23 [1/2] (0.00ns)   --->   "%call_ln0 = call void @doppler_fft_256_Pipeline_VITIS_LOOP_58_1, i64 %input_r_V_data_V, i8 %input_r_V_keep_V, i8 %input_r_V_strb_V, i1 %input_r_V_last_V, i32 %range_dop_map_M_value, i32 %range_dop_map_M_value_1"   --->   Operation 23 'call' 'call_ln0' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+
+State 6 <SV = 5> <Delay = 0.00>
+ST_6 : Operation 24 [1/1] (0.00ns)   --->   "%empty_19 = wait i32 @_ssdm_op_Wait"   --->   Operation 24 'wait' 'empty_19' <Predicate = true> <Delay = 0.00>
+ST_6 : Operation 25 [2/2] (0.00ns)   --->   "%call_ln63 = call void @fft_fast, i32 %range_dop_map_M_value, i32 %range_dop_map_M_value_1, i8 %br_lut, i32 %tw_M_value_1, i32 %tw_M_value" [doppler_fft_256/doppler.cpp:63]   --->   Operation 25 'call' 'call_ln63' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+
+State 7 <SV = 6> <Delay = 0.00>
+ST_7 : Operation 26 [1/2] (0.00ns)   --->   "%call_ln63 = call void @fft_fast, i32 %range_dop_map_M_value, i32 %range_dop_map_M_value_1, i8 %br_lut, i32 %tw_M_value_1, i32 %tw_M_value" [doppler_fft_256/doppler.cpp:63]   --->   Operation 26 'call' 'call_ln63' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+
+State 8 <SV = 7> <Delay = 0.00>
+ST_8 : Operation 27 [2/2] (0.00ns)   --->   "%call_ln0 = call void @doppler_fft_256_Pipeline_VITIS_LOOP_38_1, i32 %range_dop_map_M_value, i32 %range_dop_map_M_value_1"   --->   Operation 27 'call' 'call_ln0' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+
+State 9 <SV = 8> <Delay = 0.00>
+ST_9 : Operation 28 [1/2] (0.00ns)   --->   "%call_ln0 = call void @doppler_fft_256_Pipeline_VITIS_LOOP_38_1, i32 %range_dop_map_M_value, i32 %range_dop_map_M_value_1"   --->   Operation 28 'call' 'call_ln0' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+
+State 10 <SV = 9> <Delay = 0.00>
+ST_10 : Operation 29 [1/1] (0.00ns)   --->   "%empty_20 = wait i32 @_ssdm_op_Wait"   --->   Operation 29 'wait' 'empty_20' <Predicate = true> <Delay = 0.00>
+ST_10 : Operation 30 [2/2] (0.00ns)   --->   "%call_ln0 = call void @doppler_fft_256_Pipeline_VITIS_LOOP_66_2, i32 %range_dop_map_M_value, i32 %range_dop_map_M_value_1, i64 %output_r_V_data_V, i8 %output_r_V_keep_V, i8 %output_r_V_strb_V, i1 %output_r_V_last_V"   --->   Operation 30 'call' 'call_ln0' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+
+State 11 <SV = 10> <Delay = 3.25>
+ST_11 : Operation 31 [1/2] (3.25ns)   --->   "%call_ln0 = call void @doppler_fft_256_Pipeline_VITIS_LOOP_66_2, i32 %range_dop_map_M_value, i32 %range_dop_map_M_value_1, i64 %output_r_V_data_V, i8 %output_r_V_keep_V, i8 %output_r_V_strb_V, i1 %output_r_V_last_V"   --->   Operation 31 'call' 'call_ln0' <Predicate = true> <Delay = 3.25> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+
+State 12 <SV = 11> <Delay = 0.00>
+ST_12 : Operation 32 [1/1] (0.00ns)   --->   "%spectopmodule_ln47 = spectopmodule void @_ssdm_op_SpecTopModule, void @empty_10" [doppler_fft_256/doppler.cpp:47]   --->   Operation 32 'spectopmodule' 'spectopmodule_ln47' <Predicate = true> <Delay = 0.00>
+ST_12 : Operation 33 [1/1] (0.00ns)   --->   "%specinterface_ln47 = specinterface void @_ssdm_op_SpecInterface, i32 0, void @empty_1, i32 0, i32 0, void @empty_6, i32 0, i32 0, void @empty_6, void @empty_6, void @empty_6, i32 0, i32 0, i32 0, i32 0, void @empty_6, void @empty_6, i32 4294967295, i32 0" [doppler_fft_256/doppler.cpp:47]   --->   Operation 33 'specinterface' 'specinterface_ln47' <Predicate = true> <Delay = 0.00>
+ST_12 : Operation 34 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i64 %input_r_V_data_V, i8 %input_r_V_keep_V, i8 %input_r_V_strb_V, i1 %input_r_V_last_V, void @empty_8, i32 1, i32 1, void @empty_7, i32 0, i32 0, void @empty_6, void @empty_6, void @empty_6, i32 0, i32 0, i32 0, i32 0, void @empty_6, void @empty_6, i32 4294967295, i32 0"   --->   Operation 34 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_12 : Operation 35 [1/1] (0.00ns)   --->   "%specbitsmap_ln0 = specbitsmap void @_ssdm_op_SpecBitsMap, i64 %input_r_V_data_V"   --->   Operation 35 'specbitsmap' 'specbitsmap_ln0' <Predicate = true> <Delay = 0.00>
+ST_12 : Operation 36 [1/1] (0.00ns)   --->   "%specbitsmap_ln0 = specbitsmap void @_ssdm_op_SpecBitsMap, i8 %input_r_V_keep_V"   --->   Operation 36 'specbitsmap' 'specbitsmap_ln0' <Predicate = true> <Delay = 0.00>
+ST_12 : Operation 37 [1/1] (0.00ns)   --->   "%specbitsmap_ln0 = specbitsmap void @_ssdm_op_SpecBitsMap, i8 %input_r_V_strb_V"   --->   Operation 37 'specbitsmap' 'specbitsmap_ln0' <Predicate = true> <Delay = 0.00>
+ST_12 : Operation 38 [1/1] (0.00ns)   --->   "%specbitsmap_ln0 = specbitsmap void @_ssdm_op_SpecBitsMap, i1 %input_r_V_last_V"   --->   Operation 38 'specbitsmap' 'specbitsmap_ln0' <Predicate = true> <Delay = 0.00>
+ST_12 : Operation 39 [1/1] (0.00ns)   --->   "%specinterface_ln0 = specinterface void @_ssdm_op_SpecInterface, i64 %output_r_V_data_V, i8 %output_r_V_keep_V, i8 %output_r_V_strb_V, i1 %output_r_V_last_V, void @empty_8, i32 1, i32 1, void @empty_7, i32 0, i32 0, void @empty_6, void @empty_6, void @empty_6, i32 0, i32 0, i32 0, i32 0, void @empty_6, void @empty_6, i32 4294967295, i32 0"   --->   Operation 39 'specinterface' 'specinterface_ln0' <Predicate = true> <Delay = 0.00>
+ST_12 : Operation 40 [1/1] (0.00ns)   --->   "%specbitsmap_ln0 = specbitsmap void @_ssdm_op_SpecBitsMap, i64 %output_r_V_data_V"   --->   Operation 40 'specbitsmap' 'specbitsmap_ln0' <Predicate = true> <Delay = 0.00>
+ST_12 : Operation 41 [1/1] (0.00ns)   --->   "%specbitsmap_ln0 = specbitsmap void @_ssdm_op_SpecBitsMap, i8 %output_r_V_keep_V"   --->   Operation 41 'specbitsmap' 'specbitsmap_ln0' <Predicate = true> <Delay = 0.00>
+ST_12 : Operation 42 [1/1] (0.00ns)   --->   "%specbitsmap_ln0 = specbitsmap void @_ssdm_op_SpecBitsMap, i8 %output_r_V_strb_V"   --->   Operation 42 'specbitsmap' 'specbitsmap_ln0' <Predicate = true> <Delay = 0.00>
+ST_12 : Operation 43 [1/1] (0.00ns)   --->   "%specbitsmap_ln0 = specbitsmap void @_ssdm_op_SpecBitsMap, i1 %output_r_V_last_V"   --->   Operation 43 'specbitsmap' 'specbitsmap_ln0' <Predicate = true> <Delay = 0.00>
+ST_12 : Operation 44 [1/1] (0.00ns)   --->   "%ret_ln75 = ret" [doppler_fft_256/doppler.cpp:75]   --->   Operation 44 'ret' 'ret_ln75' <Predicate = true> <Delay = 0.00>
+
+
+============================================================
++ Verbose Summary: Timing violations
+============================================================
+Target clock period: 10ns, clock uncertainty: 2.7ns.
+
+ <State 1>: 3.25ns
+The critical path consists of the following:
+	'alloca' operation ('range_dop_map._M_value', doppler_fft_256/doppler.cpp:55) [24]  (0 ns)
+	'getelementptr' operation ('range_dop_map_M_value_addr') [26]  (0 ns)
+	'store' operation ('store_ln1081') of constant 0 on array 'range_dop_map._M_value', doppler_fft_256/doppler.cpp:55 [28]  (3.25 ns)
+
+ <State 2>: 0ns
+The critical path consists of the following:
+
+ <State 3>: 0ns
+The critical path consists of the following:
+
+ <State 4>: 3.25ns
+The critical path consists of the following:
+	'call' operation ('call_ln0') to 'doppler_fft_256_Pipeline_VITIS_LOOP_58_1' [32]  (3.25 ns)
+
+ <State 5>: 0ns
+The critical path consists of the following:
+
+ <State 6>: 0ns
+The critical path consists of the following:
+
+ <State 7>: 0ns
+The critical path consists of the following:
+
+ <State 8>: 0ns
+The critical path consists of the following:
+
+ <State 9>: 0ns
+The critical path consists of the following:
+
+ <State 10>: 0ns
+The critical path consists of the following:
+
+ <State 11>: 3.25ns
+The critical path consists of the following:
+	'call' operation ('call_ln0') to 'doppler_fft_256_Pipeline_VITIS_LOOP_66_2' [37]  (3.25 ns)
+
+ <State 12>: 0ns
+The critical path consists of the following:
+
+
+============================================================
++ Verbose Summary: Binding
+============================================================
+N/A
+* FSMD analyzer results:
+  - Output states:
+ - Input state : 
+  - Chain level:
+	State 1
+	State 2
+	State 3
+	State 4
+	State 5
+	State 6
+	State 7
+	State 8
+	State 9
+	State 10
+	State 11
+	State 12
+
+
+============================================================
++ Verbose Summary: Datapath Resource usage 
+============================================================
+N/A

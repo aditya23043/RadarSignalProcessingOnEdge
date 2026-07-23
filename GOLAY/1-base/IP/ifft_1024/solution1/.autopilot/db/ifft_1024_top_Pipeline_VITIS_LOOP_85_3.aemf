@@ -1,0 +1,504 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cdfg:DBCdfg xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cdfg="http://www.autoesl.com/DBCdfg" timeStamp="1777367150583">
+  <ports id="1" name="ga_M_value" type="PortType" coreName="RAM" coreId="3621216858" bitwidth="32" iftype="IfTypeRegister" arraysize="1024">
+    <dataOutputObjs>getelementptr</dataOutputObjs>
+  </ports>
+  <ports id="2" name="ga_M_value_1" type="PortType" coreName="RAM" coreId="1717987643" bitwidth="32" iftype="IfTypeRegister" arraysize="1024">
+    <dataOutputObjs>getelementptr</dataOutputObjs>
+  </ports>
+  <ports id="3" name="gb_M_value" type="PortType" coreName="RAM" coreId="346682064" bitwidth="32" iftype="IfTypeRegister" arraysize="1024">
+    <dataOutputObjs>getelementptr</dataOutputObjs>
+  </ports>
+  <ports id="4" name="gb_M_value_1" type="PortType" coreName="RAM" coreId="347633552" bitwidth="32" iftype="IfTypeRegister" arraysize="1024">
+    <dataOutputObjs>getelementptr</dataOutputObjs>
+  </ports>
+  <ports id="5" name="output_r_V_data_V" type="PortType" originalName="this" coreId="7955819" bitwidth="64" direction="DirOut">
+    <dataInputObjs>write</dataInputObjs>
+  </ports>
+  <ports id="6" name="output_r_V_keep_V" type="PortType" originalName="this" coreId="30" bitwidth="8" direction="DirOut">
+    <dataInputObjs>write</dataInputObjs>
+  </ports>
+  <ports id="7" name="output_r_V_strb_V" type="PortType" originalName="this" coreId="347568304" bitwidth="8" direction="DirOut">
+    <dataInputObjs>write</dataInputObjs>
+  </ports>
+  <ports id="8" name="output_r_V_last_V" type="PortType" originalName="this" coreId="348602128" bitwidth="1" direction="DirOut">
+    <dataInputObjs>write</dataInputObjs>
+  </ports>
+  <edges id="47" source_obj="//@blocks.0/@node_objs.0" sink_obj="//@blocks.0/@node_objs.1"/>
+  <edges id="48" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.0" sink_obj="//@blocks.0/@node_objs.2"/>
+  <edges id="49" source_obj="//@blocks.0/@node_objs.0" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.0"/>
+  <edges id="50" source_obj="//@regions.0/@basic_blocks.0/@node_objs.0" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.1"/>
+  <edges id="53" source_obj="//@regions.0/@basic_blocks.0/@node_objs.0" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.2"/>
+  <edges id="56" source_obj="//@regions.0/@basic_blocks.0/@node_objs.1" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.3"/>
+  <edges id="57" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.1" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.3"/>
+  <edges id="58" edge_type="CtrlEdge" source_obj="//@blocks.1" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.3"/>
+  <edges id="59" source_obj="//@regions.0/@basic_blocks.0/@node_objs.0" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.0"/>
+  <edges id="60" source_obj="//@ports.0" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.1"/>
+  <edges id="63" source_obj="//@regions.0/@basic_blocks.1/@node_objs.0" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.1"/>
+  <edges id="64" source_obj="//@regions.0/@basic_blocks.1/@node_objs.1" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.2"/>
+  <edges id="65" source_obj="//@ports.1" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.3"/>
+  <edges id="67" source_obj="//@regions.0/@basic_blocks.1/@node_objs.0" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.3"/>
+  <edges id="68" source_obj="//@regions.0/@basic_blocks.1/@node_objs.3" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.4"/>
+  <edges id="69" source_obj="//@ports.2" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.5"/>
+  <edges id="71" source_obj="//@regions.0/@basic_blocks.1/@node_objs.0" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.5"/>
+  <edges id="72" source_obj="//@regions.0/@basic_blocks.1/@node_objs.5" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.6"/>
+  <edges id="73" source_obj="//@regions.0/@basic_blocks.1/@node_objs.2" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.7"/>
+  <edges id="74" source_obj="//@regions.0/@basic_blocks.1/@node_objs.6" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.7"/>
+  <edges id="75" source_obj="//@ports.3" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.8"/>
+  <edges id="77" source_obj="//@regions.0/@basic_blocks.1/@node_objs.0" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.8"/>
+  <edges id="78" source_obj="//@regions.0/@basic_blocks.1/@node_objs.8" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.9"/>
+  <edges id="79" source_obj="//@regions.0/@basic_blocks.1/@node_objs.4" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.10"/>
+  <edges id="80" source_obj="//@regions.0/@basic_blocks.1/@node_objs.9" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.10"/>
+  <edges id="81" source_obj="//@regions.0/@basic_blocks.0/@node_objs.0" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.11"/>
+  <edges id="84" source_obj="//@regions.0/@basic_blocks.1/@node_objs.7" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.12"/>
+  <edges id="85" source_obj="//@regions.0/@basic_blocks.1/@node_objs.10" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.13"/>
+  <edges id="88" source_obj="//@regions.0/@basic_blocks.1/@node_objs.13" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.14"/>
+  <edges id="89" source_obj="//@regions.0/@basic_blocks.1/@node_objs.12" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.14"/>
+  <edges id="92" source_obj="//@regions.0/@basic_blocks.1/@node_objs.15" sink_obj="//@ports.4"/>
+  <edges id="93" source_obj="//@regions.0/@basic_blocks.1/@node_objs.15" sink_obj="//@ports.5"/>
+  <edges id="94" source_obj="//@regions.0/@basic_blocks.1/@node_objs.15" sink_obj="//@ports.6"/>
+  <edges id="95" source_obj="//@regions.0/@basic_blocks.1/@node_objs.15" sink_obj="//@ports.7"/>
+  <edges id="96" source_obj="//@regions.0/@basic_blocks.1/@node_objs.14" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.15"/>
+  <edges id="101" source_obj="//@regions.0/@basic_blocks.1/@node_objs.11" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.15"/>
+  <edges id="102" source_obj="//@regions.0/@basic_blocks.0/@node_objs.2" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.16"/>
+  <edges id="103" source_obj="//@blocks.0/@node_objs.0" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.16"/>
+  <edges id="104" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.0" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.17"/>
+  <edges id="151" edge_type="CtrlEdge" source_obj="//@blocks.0" sink_obj="//@regions.0/@basic_blocks.0"/>
+  <edges id="152" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.0" sink_obj="//@blocks.1"/>
+  <edges id="153" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.0" sink_obj="//@regions.0/@basic_blocks.1"/>
+  <edges id="154" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.1" sink_obj="//@regions.0/@basic_blocks.0" is_back_edge="1"/>
+  <edges id="155" edge_type="VirtEdge" source_obj="//@blocks.0/@node_objs.1" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.0"/>
+  <edges id="156" edge_type="VirtEdge" source_obj="//@blocks.0/@node_objs.1" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.16"/>
+  <edges id="157" edge_type="VirtEdge" source_obj="//@regions.0/@basic_blocks.0/@node_objs.0" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.16"/>
+  <blocks id="13" name="newFuncRoot" type="BlockType">
+    <controlOutputObjs>for.body27</controlOutputObjs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="9" name="i" originalName="i" coreId="0" bitwidth="11" opcode="alloca" m_display="0" m_topoIndex="1" m_clusterGroupNumber="-1">
+      <dataOutputObjs>store</dataOutputObjs>
+      <dataOutputObjs>load</dataOutputObjs>
+      <dataOutputObjs>store</dataOutputObjs>
+      <constName>empty</constName>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="11" name="i_write_ln0" coreId="0" opcode="store" m_display="0" m_delay="1.58" m_topoIndex="2" m_clusterGroupNumber="-1">
+      <dataInputObjs>alloca</dataInputObjs>
+      <constName>empty</constName>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="12" name="br_ln0" coreId="0" opcode="br" m_display="0" m_topoIndex="3" m_clusterGroupNumber="-1">
+      <controlInputObjs>for.body27</controlInputObjs>
+    </node_objs>
+  </blocks>
+  <blocks id="42" name="for.cond.cleanup26.exitStub" type="BlockType">
+    <controlInputObjs>for.body27</controlInputObjs>
+    <controlOutputObjs>br</controlOutputObjs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="41" name="_ln0" coreId="347566944" opcode="ret" nodeLabel="5.0" m_display="0" m_topoIndex="21" m_clusterGroupNumber="-1"/>
+  </blocks>
+  <regions anchor_node="-1" region_type="8" interval="1" typeName="Pipeline" iiViolation="" id="165" pipe_depth="7" RegionName="VITIS_LOOP_85_3">
+    <basic_blocks id="20" name="for.body27" type="BlockType">
+      <controlInputObjs>newFuncRoot</controlInputObjs>
+      <controlInputObjs>for.body27.split</controlInputObjs>
+      <controlOutputObjs>br</controlOutputObjs>
+      <controlOutputObjs>br</controlOutputObjs>
+      <controlOutputObjs>for.cond.cleanup26.exitStub</controlOutputObjs>
+      <controlOutputObjs>for.body27.split</controlOutputObjs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="14" name="i_2" lineNumber="85" originalName="i" fileName="ifft_1024/ifft.cpp" fileDirectory=".." coreId="0" contextFuncName="ifft_1024_top" bitwidth="11" opcode="load" m_display="0" m_topoIndex="4" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="ifft_1024/ifft.cpp" linenumber="85" fileDirectory="/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem" functionName="ifft_1024_top"/>
+        <dataInputObjs>alloca</dataInputObjs>
+        <dataOutputObjs>icmp</dataOutputObjs>
+        <dataOutputObjs>add</dataOutputObjs>
+        <dataOutputObjs>zext</dataOutputObjs>
+        <dataOutputObjs>icmp</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="16" name="icmp_ln85" lineNumber="85" fileName="ifft_1024/ifft.cpp" fileDirectory=".." rtlName="icmp_ln85_fu_150_p2" coreName="Cmp" implIndex="auto" control="no" opType="icmp" coreId="9" contextFuncName="ifft_1024_top" bitwidth="1" opcode="icmp" m_display="0" m_delay="1.88" m_topoIndex="5" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="ifft_1024/ifft.cpp" linenumber="85" fileDirectory="/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem" functionName="ifft_1024_top"/>
+        <dataInputObjs>load</dataInputObjs>
+        <dataOutputObjs>br</dataOutputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="18" name="add_ln85" lineNumber="85" fileName="ifft_1024/ifft.cpp" fileDirectory=".." rtlName="add_ln85_fu_156_p2" coreName="Adder" implIndex="fabric" control="no" opType="add" coreId="1" contextFuncName="ifft_1024_top" bitwidth="11" opcode="add" m_display="0" m_delay="1.63" m_topoIndex="6" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="ifft_1024/ifft.cpp" linenumber="85" fileDirectory="/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem" functionName="ifft_1024_top"/>
+        <dataInputObjs>load</dataInputObjs>
+        <dataOutputObjs>store</dataOutputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="19" name="br_ln85" lineNumber="85" fileName="ifft_1024/ifft.cpp" fileDirectory=".." coreId="348664064" contextFuncName="ifft_1024_top" opcode="br" m_display="0" m_topoIndex="7" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="ifft_1024/ifft.cpp" linenumber="85" fileDirectory="/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem" functionName="ifft_1024_top"/>
+        <dataInputObjs>icmp</dataInputObjs>
+        <controlInputObjs>for.body27.split</controlInputObjs>
+        <controlInputObjs>for.cond.cleanup26.exitStub</controlInputObjs>
+      </node_objs>
+      <fileValidLineNumbers fileName="ifft_1024/ifft.cpp">
+        <validLinenumbers>85</validLinenumbers>
+      </fileValidLineNumbers>
+    </basic_blocks>
+    <basic_blocks id="40" name="for.body27.split" type="BlockType">
+      <controlInputObjs>for.body27</controlInputObjs>
+      <controlOutputObjs>br</controlOutputObjs>
+      <controlOutputObjs>for.body27</controlOutputObjs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="21" name="i_3_cast" lineNumber="85" fileName="ifft_1024/ifft.cpp" fileDirectory=".." rtlName="i_3_cast_fu_162_p1" coreId="347425256" contextFuncName="ifft_1024_top" bitwidth="64" opcode="zext" m_display="0" m_topoIndex="8" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="ifft_1024/ifft.cpp" linenumber="85" fileDirectory="/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem" functionName="ifft_1024_top"/>
+        <dataInputObjs>load</dataInputObjs>
+        <dataOutputObjs>getelementptr</dataOutputObjs>
+        <dataOutputObjs>getelementptr</dataOutputObjs>
+        <dataOutputObjs>getelementptr</dataOutputObjs>
+        <dataOutputObjs>getelementptr</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="23" name="ga_M_value_addr" lineNumber="328" fileName="/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/complex" fileDirectory=".." coreId="347425616" contextFuncName="operator_add_float" bitwidth="10" opcode="getelementptr" m_display="0" m_topoIndex="9" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/complex" linenumber="328" fileDirectory="/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem" functionName="operator+&amp;lt;float&amp;gt;"/>
+        <dataInputObjs>ga_M_value</dataInputObjs>
+        <dataInputObjs>zext</dataInputObjs>
+        <dataOutputObjs>load</dataOutputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="24" name="p_r_M_value" lineNumber="328" originalName="__r._M_value" fileName="/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/complex" fileDirectory=".." coreName="RAM" implIndex="auto" control="no" opType="ram" coreId="82" contextFuncName="operator_add_float" bitwidth="32" opcode="load" nodeLatency="1" m_display="0" m_delay="3.25" m_topoIndex="10" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/complex" linenumber="328" fileDirectory="/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem" functionName="operator+&amp;lt;float&amp;gt;"/>
+        <dataInputObjs>getelementptr</dataInputObjs>
+        <dataOutputObjs>fadd</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="25" name="ga_M_value_1_addr" lineNumber="328" fileName="/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/complex" fileDirectory=".." coreId="48" contextFuncName="operator_add_float" bitwidth="10" opcode="getelementptr" m_display="0" m_topoIndex="11" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/complex" linenumber="328" fileDirectory="/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem" functionName="operator+&amp;lt;float&amp;gt;"/>
+        <dataInputObjs>ga_M_value_1</dataInputObjs>
+        <dataInputObjs>zext</dataInputObjs>
+        <dataOutputObjs>load</dataOutputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="26" name="p_r_M_value_8" lineNumber="328" originalName="__r._M_value" fileName="/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/complex" fileDirectory=".." coreName="RAM" implIndex="auto" control="no" opType="ram" coreId="82" contextFuncName="operator_add_float" bitwidth="32" opcode="load" nodeLatency="1" m_display="0" m_delay="3.25" m_topoIndex="12" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/complex" linenumber="328" fileDirectory="/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem" functionName="operator+&amp;lt;float&amp;gt;"/>
+        <dataInputObjs>getelementptr</dataInputObjs>
+        <dataOutputObjs>fadd</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="27" name="gb_M_value_addr" lineNumber="1097" fileName="/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/complex" fileDirectory=".." coreId="348734000" contextFuncName="real" bitwidth="10" opcode="getelementptr" m_display="0" m_topoIndex="13" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/complex" linenumber="1097" fileDirectory="/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem" functionName="real"/>
+        <dataInputObjs>gb_M_value</dataInputObjs>
+        <dataInputObjs>zext</dataInputObjs>
+        <dataOutputObjs>load</dataOutputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="28" name="gb_M_value_load" lineNumber="1097" fileName="/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/complex" fileDirectory=".." coreName="RAM" implIndex="auto" control="no" opType="ram" coreId="82" contextFuncName="real" bitwidth="32" opcode="load" nodeLatency="1" m_display="0" m_delay="3.25" m_topoIndex="14" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/complex" linenumber="1097" fileDirectory="/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem" functionName="real"/>
+        <dataInputObjs>getelementptr</dataInputObjs>
+        <dataOutputObjs>fadd</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="29" name="p_r_M_value_11" lineNumber="1176" originalName="__r._M_value" fileName="/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/complex" fileDirectory=".." rtlName="fadd_32ns_32ns_32_5_full_dsp_1_U45" coreName="FAddSub_fulldsp" implIndex="fulldsp" control="no" opType="fadd" coreId="18" contextFuncName="operator_add_assign_float" bitwidth="32" opcode="fadd" nodeLabel="2.0" nodeLatency="4" m_display="0" m_delay="7.25" m_topoIndex="19" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/complex" linenumber="1176" fileDirectory="/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem" functionName="operator+=&amp;lt;float&amp;gt;"/>
+        <dataInputObjs>load</dataInputObjs>
+        <dataInputObjs>load</dataInputObjs>
+        <dataOutputObjs>bitcast</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="30" name="gb_M_value_1_addr" lineNumber="1101" fileName="/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/complex" fileDirectory=".." coreId="348660768" contextFuncName="imag" bitwidth="10" opcode="getelementptr" m_display="0" m_topoIndex="15" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/complex" linenumber="1101" fileDirectory="/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem" functionName="imag"/>
+        <dataInputObjs>gb_M_value_1</dataInputObjs>
+        <dataInputObjs>zext</dataInputObjs>
+        <dataOutputObjs>load</dataOutputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="31" name="gb_M_value_1_load" lineNumber="1101" fileName="/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/complex" fileDirectory=".." coreName="RAM" implIndex="auto" control="no" opType="ram" coreId="82" contextFuncName="imag" bitwidth="32" opcode="load" nodeLatency="1" m_display="0" m_delay="3.25" m_topoIndex="16" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/complex" linenumber="1101" fileDirectory="/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem" functionName="imag"/>
+        <dataInputObjs>getelementptr</dataInputObjs>
+        <dataOutputObjs>fadd</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="32" name="p_r_M_value_12" lineNumber="1177" originalName="__r._M_value" fileName="/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/complex" fileDirectory=".." rtlName="fadd_32ns_32ns_32_5_full_dsp_1_U46" coreName="FAddSub_fulldsp" implIndex="fulldsp" control="no" opType="fadd" coreId="18" contextFuncName="operator_add_assign_float" bitwidth="32" opcode="fadd" nodeLabel="2.0" nodeLatency="4" m_display="0" m_delay="7.25" m_topoIndex="20" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/complex" linenumber="1177" fileDirectory="/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem" functionName="operator+=&amp;lt;float&amp;gt;"/>
+        <dataInputObjs>load</dataInputObjs>
+        <dataInputObjs>load</dataInputObjs>
+        <dataOutputObjs>bitcast</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="33" name="tmp_last_V" lineNumber="89" originalName="tmp.last.V" fileName="ifft_1024/ifft.cpp" fileDirectory=".." rtlName="tmp_last_V_fu_170_p2" coreName="Cmp" implIndex="auto" control="no" opType="icmp" coreId="9" contextFuncName="ifft_1024_top" bitwidth="1" opcode="icmp" m_display="0" m_delay="1.88" m_topoIndex="17" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="ifft_1024/ifft.cpp" linenumber="89" fileDirectory="/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem" functionName="ifft_1024_top"/>
+        <dataInputObjs>load</dataInputObjs>
+        <dataOutputObjs>write</dataOutputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="34" name="bitcast_ln304" lineNumber="304" fileName="/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_axi_sdata.h" fileDirectory=".." rtlName="bitcast_ln304_fu_181_p1" coreId="348104256" contextFuncName="write" bitwidth="32" opcode="bitcast" nodeLabel="6.0" m_display="0" m_topoIndex="22" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_axi_sdata.h" linenumber="304" fileDirectory="/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem" functionName="write"/>
+        <dataInputObjs>fadd</dataInputObjs>
+        <dataOutputObjs>bitconcatenate</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="35" name="bitcast_ln304_1" lineNumber="304" fileName="/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_axi_sdata.h" fileDirectory=".." rtlName="bitcast_ln304_1_fu_185_p1" coreId="347566944" contextFuncName="write" bitwidth="32" opcode="bitcast" nodeLabel="6.0" m_display="0" m_topoIndex="23" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_axi_sdata.h" linenumber="304" fileDirectory="/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem" functionName="write"/>
+        <dataInputObjs>fadd</dataInputObjs>
+        <dataOutputObjs>bitconcatenate</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="36" name="p_0" lineNumber="304" fileName="/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_axi_sdata.h" fileDirectory=".." rtlName="output_r_TDATA" coreId="347404112" contextFuncName="write" bitwidth="64" opcode="bitconcatenate" nodeLabel="6.0" m_display="0" m_topoIndex="24" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_axi_sdata.h" linenumber="304" fileDirectory="/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem" functionName="write"/>
+        <dataInputObjs>bitcast</dataInputObjs>
+        <dataInputObjs>bitcast</dataInputObjs>
+        <dataOutputObjs>write</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="37" name="output_r_V_data_V_write_ln304" lineNumber="304" fileName="/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_axi_sdata.h" fileDirectory=".." coreName="axis" implIndex="axi4stream" control="no" opType="adapter" coreId="115" contextFuncName="write" opcode="write" nodeLabel="6.0" m_display="0" m_topoIndex="25" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_axi_sdata.h" linenumber="304" fileDirectory="/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem" functionName="write"/>
+        <dataInputObjs>bitconcatenate</dataInputObjs>
+        <dataInputObjs>icmp</dataInputObjs>
+        <dataOutputObjs>output_r_V_data_V</dataOutputObjs>
+        <dataOutputObjs>output_r_V_keep_V</dataOutputObjs>
+        <dataOutputObjs>output_r_V_strb_V</dataOutputObjs>
+        <dataOutputObjs>output_r_V_last_V</dataOutputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="38" name="i_write_ln85" lineNumber="85" fileName="ifft_1024/ifft.cpp" fileDirectory=".." coreId="347406240" contextFuncName="ifft_1024_top" opcode="store" m_display="0" m_delay="1.58" m_topoIndex="18" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="ifft_1024/ifft.cpp" linenumber="85" fileDirectory="/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem" functionName="ifft_1024_top"/>
+        <dataInputObjs>add</dataInputObjs>
+        <dataInputObjs>alloca</dataInputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="39" name="br_ln85" lineNumber="85" fileName="ifft_1024/ifft.cpp" fileDirectory=".." coreId="0" contextFuncName="ifft_1024_top" opcode="br" nodeLabel="6.0" m_display="0" m_topoIndex="26" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="ifft_1024/ifft.cpp" linenumber="85" fileDirectory="/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem" functionName="ifft_1024_top"/>
+        <controlInputObjs>for.body27</controlInputObjs>
+      </node_objs>
+      <fileValidLineNumbers fileName="/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/lib/gcc/x86_64-pc-linux-gnu/8.3.0/../../../../include/c++/8.3.0/complex">
+        <validLinenumbers>328</validLinenumbers>
+        <validLinenumbers>1097</validLinenumbers>
+        <validLinenumbers>1176</validLinenumbers>
+        <validLinenumbers>1101</validLinenumbers>
+        <validLinenumbers>1177</validLinenumbers>
+      </fileValidLineNumbers>
+      <fileValidLineNumbers fileName="ifft_1024/ifft.cpp">
+        <validLinenumbers>85</validLinenumbers>
+        <validLinenumbers>89</validLinenumbers>
+      </fileValidLineNumbers>
+      <fileValidLineNumbers fileName="/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_axi_sdata.h">
+        <validLinenumbers>304</validLinenumbers>
+      </fileValidLineNumbers>
+    </basic_blocks>
+  </regions>
+  <ScheduleInfo time="0"/>
+  <ScheduleInfo time="1"/>
+  <ScheduleInfo time="2"/>
+  <ScheduleInfo time="3"/>
+  <ScheduleInfo time="4"/>
+  <ScheduleInfo time="5"/>
+  <ScheduleInfo time="6"/>
+  <regnodes realName="tmp_last_V_reg_229">
+    <nodeIds>33</nodeIds>
+  </regnodes>
+  <regnodes realName="p_r_M_value_reg_234">
+    <nodeIds>24</nodeIds>
+  </regnodes>
+  <regnodes realName="gb_M_value_addr_reg_219">
+    <nodeIds>27</nodeIds>
+  </regnodes>
+  <regnodes realName="i_reg_198">
+    <nodeIds>9</nodeIds>
+  </regnodes>
+  <regnodes realName="p_r_M_value_8_reg_239">
+    <nodeIds>26</nodeIds>
+  </regnodes>
+  <regnodes realName="ga_M_value_addr_reg_209">
+    <nodeIds>23</nodeIds>
+  </regnodes>
+  <regnodes realName="gb_M_value_1_load_reg_249">
+    <nodeIds>31</nodeIds>
+  </regnodes>
+  <regnodes realName="gb_M_value_load_reg_244">
+    <nodeIds>28</nodeIds>
+  </regnodes>
+  <regnodes realName="ga_M_value_1_addr_reg_214">
+    <nodeIds>25</nodeIds>
+  </regnodes>
+  <regnodes realName="gb_M_value_1_addr_reg_224">
+    <nodeIds>30</nodeIds>
+  </regnodes>
+  <regnodes realName="icmp_ln85_reg_205">
+    <nodeIds>16</nodeIds>
+  </regnodes>
+  <expressionNodes realName="bitcast_ln304_1_fu_185">
+    <nodeIds>35</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="i_3_cast_fu_162">
+    <nodeIds>21</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="ga_M_value_addr_gep_fu_82">
+    <nodeIds>23</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="add_ln85_fu_156">
+    <nodeIds>18</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="i_fu_60">
+    <nodeIds>9</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="p_0_fu_189">
+    <nodeIds>36</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="ga_M_value_1_addr_gep_fu_95">
+    <nodeIds>25</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="tmp_last_V_fu_170">
+    <nodeIds>33</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="bitcast_ln304_fu_181">
+    <nodeIds>34</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="gb_M_value_1_addr_gep_fu_121">
+    <nodeIds>30</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="gb_M_value_addr_gep_fu_108">
+    <nodeIds>27</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="icmp_ln85_fu_150">
+    <nodeIds>16</nodeIds>
+  </expressionNodes>
+  <moduleNodes realName="grp_fu_138">
+    <nodeIds>32</nodeIds>
+  </moduleNodes>
+  <moduleNodes realName="grp_fu_134">
+    <nodeIds>29</nodeIds>
+  </moduleNodes>
+  <ioNodes realName="store_ln0_store_fu_142">
+    <nodeIds>11</nodeIds>
+  </ioNodes>
+  <ioNodes realName="store_ln85_store_fu_176">
+    <nodeIds>38</nodeIds>
+  </ioNodes>
+  <ioNodes realName="i_2_load_fu_147">
+    <nodeIds>14</nodeIds>
+  </ioNodes>
+  <ioNodes realName="write_ln304_write_fu_64">
+    <nodeIds>37</nodeIds>
+  </ioNodes>
+  <memoryPorts dataString="ga_M_value">
+    <nodeIds>24</nodeIds>
+  </memoryPorts>
+  <memoryPorts dataString="ga_M_value_1">
+    <nodeIds>26</nodeIds>
+  </memoryPorts>
+  <memoryPorts dataString="gb_M_value">
+    <nodeIds>28</nodeIds>
+  </memoryPorts>
+  <memoryPorts dataString="gb_M_value_1">
+    <nodeIds>31</nodeIds>
+  </memoryPorts>
+  <ioPorts name="ga_M_value(p0)">
+    <contents name="load">
+      <nodeIds>24</nodeIds>
+    </contents>
+  </ioPorts>
+  <ioPorts name="ga_M_value_1(p0)">
+    <contents name="load">
+      <nodeIds>26</nodeIds>
+    </contents>
+  </ioPorts>
+  <ioPorts name="gb_M_value(p0)">
+    <contents name="load">
+      <nodeIds>28</nodeIds>
+    </contents>
+  </ioPorts>
+  <ioPorts name="gb_M_value_1(p0)">
+    <contents name="load">
+      <nodeIds>31</nodeIds>
+    </contents>
+  </ioPorts>
+  <ioPorts name="output_r_V_data_V">
+    <contents name="write">
+      <nodeIds>37</nodeIds>
+    </contents>
+  </ioPorts>
+  <ioPorts name="output_r_V_keep_V">
+    <contents name="write">
+      <nodeIds>37</nodeIds>
+    </contents>
+  </ioPorts>
+  <ioPorts name="output_r_V_last_V">
+    <contents name="write">
+      <nodeIds>37</nodeIds>
+    </contents>
+  </ioPorts>
+  <ioPorts name="output_r_V_strb_V">
+    <contents name="write">
+      <nodeIds>37</nodeIds>
+    </contents>
+  </ioPorts>
+  <fsm>
+    <states id="1">
+      <operations id="9" stage="1" latency="1"/>
+      <operations id="10" stage="1" latency="1"/>
+      <operations id="11" stage="1" latency="1"/>
+      <operations id="12" stage="1" latency="1"/>
+      <operations id="14" stage="1" latency="1"/>
+      <operations id="15" stage="1" latency="1"/>
+      <operations id="16" stage="1" latency="1"/>
+      <operations id="17" stage="1" latency="1"/>
+      <operations id="18" stage="1" latency="1"/>
+      <operations id="19" stage="1" latency="1"/>
+      <operations id="21" stage="1" latency="1"/>
+      <operations id="23" stage="1" latency="1"/>
+      <operations id="24" stage="2" latency="2"/>
+      <operations id="25" stage="1" latency="1"/>
+      <operations id="26" stage="2" latency="2"/>
+      <operations id="27" stage="1" latency="1"/>
+      <operations id="28" stage="2" latency="2"/>
+      <operations id="30" stage="1" latency="1"/>
+      <operations id="31" stage="2" latency="2"/>
+      <operations id="33" stage="1" latency="1"/>
+      <operations id="38" stage="1" latency="1"/>
+    </states>
+    <states id="2">
+      <operations id="24" stage="1" latency="2"/>
+      <operations id="26" stage="1" latency="2"/>
+      <operations id="28" stage="1" latency="2"/>
+      <operations id="31" stage="1" latency="2"/>
+    </states>
+    <states id="3">
+      <operations id="29" stage="5" latency="5"/>
+      <operations id="32" stage="5" latency="5"/>
+    </states>
+    <states id="4">
+      <operations id="29" stage="4" latency="5"/>
+      <operations id="32" stage="4" latency="5"/>
+    </states>
+    <states id="5">
+      <operations id="29" stage="3" latency="5"/>
+      <operations id="32" stage="3" latency="5"/>
+    </states>
+    <states id="6">
+      <operations id="29" stage="2" latency="5"/>
+      <operations id="32" stage="2" latency="5"/>
+      <operations id="41" stage="1" latency="1"/>
+    </states>
+    <states id="7">
+      <operations id="22" stage="1" latency="1"/>
+      <operations id="29" stage="1" latency="5"/>
+      <operations id="32" stage="1" latency="5"/>
+      <operations id="34" stage="1" latency="1"/>
+      <operations id="35" stage="1" latency="1"/>
+      <operations id="36" stage="1" latency="1"/>
+      <operations id="37" stage="1" latency="1"/>
+      <operations id="39" stage="1" latency="1"/>
+    </states>
+    <transitions inState="2" outState="3">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="3" outState="4">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="4" outState="5">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="5" outState="6">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="6" outState="7">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="1" outState="2">
+      <condition id="-1"/>
+    </transitions>
+  </fsm>
+  <CFGRegionsRoot>
+    <cfgRegions mId="1" mTag="ifft_1024_top_Pipeline_VITIS_LOOP_85_3" mII="-1" mDepth="-1" mMinTripCount="-1" mMaxTripCount="-1" mMinLatency="1031" mMaxLatency="1031">
+      <subRegions>2</subRegions>
+      <subRegions>3</subRegions>
+      <subRegions>4</subRegions>
+      <mDfPipe/>
+    </cfgRegions>
+    <cfgRegions mId="2" mTag="Entry" mII="-1" mDepth="-1" mMinTripCount="-1" mMaxTripCount="-1">
+      <basicBlocks>13</basicBlocks>
+      <mDfPipe/>
+    </cfgRegions>
+    <cfgRegions mId="3" mTag="VITIS_LOOP_85_3" mII="1" mDepth="7" mMinTripCount="1024" mMaxTripCount="1024" mMinLatency="1029" mMaxLatency="1029" mType="1">
+      <basicBlocks>20</basicBlocks>
+      <basicBlocks>40</basicBlocks>
+      <mDfPipe/>
+    </cfgRegions>
+    <cfgRegions mId="4" mTag="Return" mII="-1" mDepth="-1" mMinTripCount="-1" mMaxTripCount="-1">
+      <basicBlocks>42</basicBlocks>
+      <mDfPipe/>
+    </cfgRegions>
+  </CFGRegionsRoot>
+</cdfg:DBCdfg>

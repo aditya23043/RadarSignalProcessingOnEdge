@@ -1,0 +1,16 @@
+
+========== DOPPLER FFT IP TESTBENCH ==========
+Total output beats : 262146 (expected 262146)
+last asserted at   : beat 262145 (expected 262145)
+
+--- Peak from IP ---
+  range_bin  (col): 5 (expected 5)
+  doppler_bin (row): 138 (expected 138 after fftshift)
+
+--- Software cross-check peak ---
+  range_bin  (col): 5
+  doppler_bin (row): 138
+
+*** ALL CHECKS PASSED ***
+==============================================
+

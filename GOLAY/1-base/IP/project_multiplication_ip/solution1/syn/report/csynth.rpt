@@ -1,0 +1,120 @@
+
+
+================================================================
+== Synthesis Summary Report of 'corr_multiplication'
+================================================================
++ General Information: 
+    * Date:           Sun Apr 26 23:31:41 2026
+    * Version:        2022.1 (Build 3526262 on Mon Apr 18 15:47:01 MDT 2022)
+    * Project:        project_multiplication_ip
+    * Solution:       solution1 (Vivado IP Flow Target)
+    * Product family: zynq
+    * Target device:  xc7z020-clg484-1
+    
+
++ Performance & Resource Estimates: 
+    
+    PS: '+' for module; 'o' for loop; '*' for dataflow
+    +-------------------------------------------------+------+------+---------+-----------+----------+---------+------+----------+--------+---------+-----------+-----------+-----+
+    |                     Modules                     | Issue|      | Latency |  Latency  | Iteration|         | Trip |          |        |         |           |           |     |
+    |                     & Loops                     | Type | Slack| (cycles)|    (ns)   |  Latency | Interval| Count| Pipelined|  BRAM  |   DSP   |     FF    |    LUT    | URAM|
+    +-------------------------------------------------+------+------+---------+-----------+----------+---------+------+----------+--------+---------+-----------+-----------+-----+
+    |+ corr_multiplication                            |     -|  0.04|     2076|  2.076e+04|         -|     2077|     -|        no|  8 (2%)|  16 (7%)|  1825 (1%)|  2700 (5%)|    -|
+    | + corr_multiplication_Pipeline_VITIS_LOOP_27_1  |     -|  0.04|     1035|  1.035e+04|         -|     1035|     -|        no|  4 (1%)|        -|  417 (~0%)|  127 (~0%)|    -|
+    |  o VITIS_LOOP_27_1                              |     -|  7.30|     1033|  1.033e+04|        11|        1|  1024|       yes|       -|        -|          -|          -|    -|
+    | + corr_multiplication_Pipeline_VITIS_LOOP_45_2  |     -|  0.04|     1035|  1.035e+04|         -|     1035|     -|        no|  4 (1%)|        -|  417 (~0%)|  127 (~0%)|    -|
+    |  o VITIS_LOOP_45_2                              |     -|  7.30|     1033|  1.033e+04|        11|        1|  1024|       yes|       -|        -|          -|          -|    -|
+    +-------------------------------------------------+------+------+---------+-----------+----------+---------+------+----------+--------+---------+-----------+-----------+-----+
+
+
+================================================================
+== HW Interfaces
+================================================================
+* AXIS
++-----------+---------------+-------+-------+-------+--------+-------+--------+
+| Interface | Register Mode | TDATA | TKEEP | TLAST | TREADY | TSTRB | TVALID |
++-----------+---------------+-------+-------+-------+--------+-------+--------+
+| input_r   | both          | 64    | 8     | 1     | 1      | 8     | 1      |
+| output_r  | both          | 64    | 8     | 1     | 1      | 8     | 1      |
++-----------+---------------+-------+-------+-------+--------+-------+--------+
+
+* TOP LEVEL CONTROL
++-----------+--------------+----------+
+| Interface | Type         | Ports    |
++-----------+--------------+----------+
+| ap_clk    | clock        | ap_clk   |
+| ap_rst_n  | reset        | ap_rst_n |
+| ap_ctrl   | ap_ctrl_none |          |
++-----------+--------------+----------+
+
+
+================================================================
+== SW I/O Information
+================================================================
+* Top Function Arguments
++----------+-----------+-----------------------------------------------------+
+| Argument | Direction | Datatype                                            |
++----------+-----------+-----------------------------------------------------+
+| input    | in        | stream<hls::axis<std::complex<float>, 0, 0, 0>, 0>& |
+| output   | out       | stream<hls::axis<std::complex<float>, 0, 0, 0>, 0>& |
++----------+-----------+-----------------------------------------------------+
+
+* SW-to-HW Mapping
++----------+--------------+-----------+
+| Argument | HW Interface | HW Type   |
++----------+--------------+-----------+
+| input    | input_r      | interface |
+| output   | output_r     | interface |
++----------+--------------+-----------+
+
+
+================================================================
+== M_AXI Burst Information
+================================================================
+ Note: All burst requests might be further partitioned into multiple requests during RTL generation based on max_read_burst_length or max_write_burst_length settings.
+
+  No burst in design
+
+================================================================
+== Bind Op Report
+================================================================
++-------------------------------------------------+-----+--------+----------+-----+--------+---------+
+| Name                                            | DSP | Pragma | Variable | Op  | Impl   | Latency |
++-------------------------------------------------+-----+--------+----------+-----+--------+---------+
+| + corr_multiplication                           | 16  |        |          |     |        |         |
+|  + corr_multiplication_Pipeline_VITIS_LOOP_27_1 | 0   |        |          |     |        |         |
+|    add_ln27_fu_170_p2                           | -   |        | add_ln27 | add | fabric | 0       |
+|  + corr_multiplication_Pipeline_VITIS_LOOP_45_2 | 0   |        |          |     |        |         |
+|    add_ln45_fu_170_p2                           | -   |        | add_ln45 | add | fabric | 0       |
++-------------------------------------------------+-----+--------+----------+-----+--------+---------+
+
+
+================================================================
+== Bind Storage Report
+================================================================
++-------------------------------------------------+------+------+--------+-------------------+---------+------+---------+
+| Name                                            | BRAM | URAM | Pragma | Variable          | Storage | Impl | Latency |
++-------------------------------------------------+------+------+--------+-------------------+---------+------+---------+
+| + corr_multiplication                           | 8    | 0    |        |                   |         |      |         |
+|  + corr_multiplication_Pipeline_VITIS_LOOP_27_1 | 4    | 0    |        |                   |         |      |         |
+|    ga_conj_M_value_1_U                          | 2    | -    |        | ga_conj_M_value_1 | rom_1p  | auto | 1       |
+|    ga_conj_M_value_U                            | 2    | -    |        | ga_conj_M_value   | rom_1p  | auto | 1       |
+|  + corr_multiplication_Pipeline_VITIS_LOOP_45_2 | 4    | 0    |        |                   |         |      |         |
+|    gb_conj_M_value_1_U                          | 2    | -    |        | gb_conj_M_value_1 | rom_1p  | auto | 1       |
+|    gb_conj_M_value_U                            | 2    | -    |        | gb_conj_M_value   | rom_1p  | auto | 1       |
++-------------------------------------------------+------+------+--------+-------------------+---------+------+---------+
+
+
+================================================================
+== Pragma Report
+================================================================
+* Valid Pragma Syntax
++-----------+--------------------------------+---------------------------------------------------------------------+
+| Type      | Options                        | Location                                                            |
++-----------+--------------------------------+---------------------------------------------------------------------+
+| interface | ap_ctrl_none port=return       | project_multiplication_ip/mul.cpp:13 in corr_multiplication, return |
+| interface | axis register both port=input  | project_multiplication_ip/mul.cpp:14 in corr_multiplication, input  |
+| interface | axis register both port=output | project_multiplication_ip/mul.cpp:15 in corr_multiplication, output |
++-----------+--------------------------------+---------------------------------------------------------------------+
+
+

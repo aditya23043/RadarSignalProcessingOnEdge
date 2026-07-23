@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="mul.h" path="/mnt/arch/home/adi/repo/AELD_Lab_2026/project_multiplication_ip/mul.h"/>
+    <originFiles name="mul.cpp" path="/mnt/arch/home/adi/repo/AELD_Lab_2026/project_multiplication_ip/mul.cpp"/>
+    <originFiles name="conj_values.h" path="/mnt/arch/home/adi/repo/AELD_Lab_2026/project_multiplication_ip/conj_values.h"/>
+    <originFiles name="conj_values.cpp" path="/mnt/arch/home/adi/repo/AELD_Lab_2026/project_multiplication_ip/conj_values.cpp"/>
+  </source>
+  <testbench>
+    <originFiles name="mul_tb.cpp" path="/mnt/arch/home/adi/repo/AELD_Lab_2026/project_multiplication_ip/mul_tb.cpp"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>

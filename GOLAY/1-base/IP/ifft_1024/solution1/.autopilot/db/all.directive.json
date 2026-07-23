@@ -1,0 +1,50 @@
+{"sourceFile": [{
+      "name": "",
+      "directive": [
+        {
+          "functionName": "ifft_1024_top",
+          "label": "",
+          "functionLabel": "",
+          "id": "1",
+          "sourceFile": "\/mnt\/arch\/home\/adi\/repo\/AELD_Lab_2026\/as_close_as_midsem\/ifft_1024\/solution1\/directives.tcl",
+          "sourceLine": "6",
+          "pragma": {
+            "name": "TOP",
+            "option": [{
+                "name": "name",
+                "value": "ifft_1024_top"
+              }]
+          }
+        },
+        {
+          "functionName": "ifft_1024_top",
+          "label": "",
+          "functionLabel": "",
+          "id": "2",
+          "sourceFile": "\/mnt\/arch\/home\/adi\/repo\/AELD_Lab_2026\/as_close_as_midsem\/ifft_1024\/solution1\/csynth.tcl",
+          "sourceLine": "18",
+          "pragma": {
+            "name": "TOP",
+            "option": [{
+                "name": "name",
+                "value": "ifft_1024_top"
+              }]
+          }
+        },
+        {
+          "functionName": "ifft_1024_top",
+          "label": "",
+          "functionLabel": "",
+          "id": "3",
+          "sourceFile": "\/mnt\/arch\/home\/adi\/repo\/AELD_Lab_2026\/as_close_as_midsem\/ifft_1024\/solution1\/csynth.tcl",
+          "sourceLine": "18",
+          "pragma": {
+            "name": "TOP",
+            "option": [{
+                "name": "name",
+                "value": "ifft_1024_top"
+              }]
+          }
+        }
+      ]
+    }]}

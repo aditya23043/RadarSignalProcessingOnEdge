@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="conj_values.cpp" path="C:\Users\nadis\AppData\Roaming\Xilinx\Vitis\mult_project_wlo\conj_values.cpp"/>
+    <originFiles name="conj_values.h" path="C:\Users\nadis\AppData\Roaming\Xilinx\Vitis\mult_project_wlo\conj_values.h"/>
+    <originFiles name="mul.cpp" path="C:\Users\nadis\AppData\Roaming\Xilinx\Vitis\mult_project_wlo\mul.cpp"/>
+    <originFiles name="mul.h" path="C:\Users\nadis\AppData\Roaming\Xilinx\Vitis\mult_project_wlo\mul.h"/>
+  </source>
+  <testbench>
+    <originFiles name="mul_tb.cpp" path="C:\Users\nadis\AppData\Roaming\Xilinx\Vitis\mult_project_wlo\mul_tb.cpp"/>
+    <originFiles name="mult_input.h" path="C:\Users\nadis\AppData\Roaming\Xilinx\Vitis\mult_project_wlo\mult_input.h"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>

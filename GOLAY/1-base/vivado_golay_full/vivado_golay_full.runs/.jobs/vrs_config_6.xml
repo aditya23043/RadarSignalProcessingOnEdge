@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="design_1_processing_system7_0_0_synth_1" LaunchDir="/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_golay_full/vivado_golay_full.runs/design_1_processing_system7_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_axi_dma_0_0_synth_1" LaunchDir="/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_golay_full/vivado_golay_full.runs/design_1_axi_dma_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_xbar_1_synth_1" LaunchDir="/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_golay_full/vivado_golay_full.runs/design_1_xbar_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_rst_ps7_0_100M_0_synth_1" LaunchDir="/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_golay_full/vivado_golay_full.runs/design_1_rst_ps7_0_100M_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_xbar_0_synth_1" LaunchDir="/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_golay_full/vivado_golay_full.runs/design_1_xbar_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_axi_dma_0_1_synth_1" LaunchDir="/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_golay_full/vivado_golay_full.runs/design_1_axi_dma_0_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="design_1_axi_dma_0_0_synth_1"/>
+	</Run>
+	<Run Id="design_1_axi_dma_0_2_synth_1" LaunchDir="/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_golay_full/vivado_golay_full.runs/design_1_axi_dma_0_2_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="design_1_axi_dma_0_0_synth_1"/>
+	</Run>
+	<Run Id="design_1_xbar_2_synth_1" LaunchDir="/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_golay_full/vivado_golay_full.runs/design_1_xbar_2_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="design_1_xbar_0_synth_1"/>
+	</Run>
+	<Run Id="design_1_xbar_3_synth_1" LaunchDir="/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_golay_full/vivado_golay_full.runs/design_1_xbar_3_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="design_1_xbar_0_synth_1"/>
+	</Run>
+	<Run Id="design_1_axis_data_fifo_0_0_synth_1" LaunchDir="/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_golay_full/vivado_golay_full.runs/design_1_axis_data_fifo_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_fft_1024_top_0_0_synth_1" LaunchDir="/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_golay_full/vivado_golay_full.runs/design_1_fft_1024_top_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_corr_multiplication_0_0_synth_1" LaunchDir="/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_golay_full/vivado_golay_full.runs/design_1_corr_multiplication_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_ifft_1024_top_0_0_synth_1" LaunchDir="/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_golay_full/vivado_golay_full.runs/design_1_ifft_1024_top_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_doppler_fft_256_0_0_synth_1" LaunchDir="/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_golay_full/vivado_golay_full.runs/design_1_doppler_fft_256_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_auto_pc_0_synth_1" LaunchDir="/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_golay_full/vivado_golay_full.runs/design_1_auto_pc_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_auto_pc_1_synth_1" LaunchDir="/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_golay_full/vivado_golay_full.runs/design_1_auto_pc_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_1_auto_pc_2_synth_1" LaunchDir="/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_golay_full/vivado_golay_full.runs/design_1_auto_pc_2_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="design_1_auto_pc_1_synth_1"/>
+	</Run>
+	<Run Id="design_1_auto_pc_3_synth_1" LaunchDir="/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_golay_full/vivado_golay_full.runs/design_1_auto_pc_3_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="design_1_auto_pc_1_synth_1"/>
+	</Run>
+	<Parameters>
+		<Parameter Name="runs.monitorLSFJobs" Val="true" Type="bool"/>
+		<Parameter Name="runs.enableClusterConf" Val="true" Type="bool"/>
+	</Parameters>
+</Runs>
+

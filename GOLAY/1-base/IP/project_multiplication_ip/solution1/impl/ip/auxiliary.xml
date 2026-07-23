@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xd:acceleratorMap xmlns:xd="http://www.xilinx.com/xidane" xd:functionName="corr_multiplication" xd:componentRef="corr_multiplication" xd:initiationInterval="2077" xd:clockPeriod="10" xd:sequential="true" xd:hostMachine="64" xd:reset="control">
+  <xd:arg xd:name="input" xd:originalName="input" xd:direction="in" xd:interfaceRef="input_r" xd:busTypeRef="axis" xd:dataWidth="64"/>
+  <xd:arg xd:name="output" xd:originalName="output" xd:direction="out" xd:interfaceRef="output_r" xd:busTypeRef="axis" xd:dataWidth="64"/>
+  <xd:latencyEstimates xd:best-case="2076" xd:worst-case="2076" xd:average-case="2076"/>
+  <xd:resourceEstimates xd:LUT="2700" xd:FF="1825" xd:BRAM="0" xd:DSP="16"/>
+</xd:acceleratorMap>

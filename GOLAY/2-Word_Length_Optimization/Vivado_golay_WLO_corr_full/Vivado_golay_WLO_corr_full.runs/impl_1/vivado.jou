@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:47:01 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Tue May  5 23:53:25 2026
+# Process ID: 331263
+# Current directory: /mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/Vivado_golay_WLO_corr_full.runs/impl_1
+# Command line: vivado -log design_1_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source design_1_wrapper.tcl -notrace
+# Log file: /mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/Vivado_golay_WLO_corr_full.runs/impl_1/design_1_wrapper.vdi
+# Journal file: /mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/Vivado_golay_WLO_corr_full.runs/impl_1/vivado.jou
+# Running On: adi-ubuntu, OS: Linux, CPU Frequency: 1300.000 MHz, CPU Physical cores: 16, Host memory: 16131 MB
+#-----------------------------------------------------------
+source design_1_wrapper.tcl -notrace

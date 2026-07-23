@@ -1,0 +1,149 @@
+
+
+================================================================
+== Vitis HLS Report for 'fft_1024_top_Pipeline_VITIS_LOOP_50_2'
+================================================================
+* Date:           Wed Apr 29 22:40:59 2026
+
+* Version:        2022.1 (Build 3526262 on Mon Apr 18 15:47:01 MDT 2022)
+* Project:        fft_1024
+* Solution:       solution1 (Vivado IP Flow Target)
+* Product family: zynq
+* Target device:  xc7z020-clg484-1
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing: 
+    * Summary: 
+    +--------+----------+----------+------------+
+    |  Clock |  Target  | Estimated| Uncertainty|
+    +--------+----------+----------+------------+
+    |ap_clk  |  10.00 ns|  5.134 ns|     2.70 ns|
+    +--------+----------+----------+------------+
+
++ Latency: 
+    * Summary: 
+    +---------+---------+-----------+-----------+------+------+---------+
+    |  Latency (cycles) |   Latency (absolute)  |   Interval  | Pipeline|
+    |   min   |   max   |    min    |    max    |  min |  max |   Type  |
+    +---------+---------+-----------+-----------+------+------+---------+
+    |     1026|     1026|  10.260 us|  10.260 us|  1026|  1026|       no|
+    +---------+---------+-----------+-----------+------+------+---------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        +-------------------+---------+---------+----------+-----------+-----------+------+----------+
+        |                   |  Latency (cycles) | Iteration|  Initiation Interval  | Trip |          |
+        |     Loop Name     |   min   |   max   |  Latency |  achieved |   target  | Count| Pipelined|
+        +-------------------+---------+---------+----------+-----------+-----------+------+----------+
+        |- VITIS_LOOP_50_2  |     1024|     1024|         1|          1|          1|  1024|       yes|
+        +-------------------+---------+---------+----------+-----------+-----------+------+----------+
+
+
+
+================================================================
+== Utilization Estimates
+================================================================
+* Summary: 
++-----------------+---------+-----+--------+-------+-----+
+|       Name      | BRAM_18K| DSP |   FF   |  LUT  | URAM|
++-----------------+---------+-----+--------+-------+-----+
+|DSP              |        -|    -|       -|      -|    -|
+|Expression       |        -|    -|       0|     28|    -|
+|FIFO             |        -|    -|       -|      -|    -|
+|Instance         |        -|    -|       -|      -|    -|
+|Memory           |        -|    -|       -|      -|    -|
+|Multiplexer      |        -|    -|       -|     36|    -|
+|Register         |        -|    -|      13|      -|    -|
++-----------------+---------+-----+--------+-------+-----+
+|Total            |        0|    0|      13|     64|    0|
++-----------------+---------+-----+--------+-------+-----+
+|Available        |      280|  220|  106400|  53200|    0|
++-----------------+---------+-----+--------+-------+-----+
+|Utilization (%)  |        0|    0|      ~0|     ~0|    0|
++-----------------+---------+-----+--------+-------+-----+
+
++ Detail: 
+    * Instance: 
+    N/A
+
+    * DSP: 
+    N/A
+
+    * Memory: 
+    N/A
+
+    * FIFO: 
+    N/A
+
+    * Expression: 
+    +----------------------------------+----------+----+---+----+------------+------------+
+    |           Variable Name          | Operation| DSP| FF| LUT| Bitwidth P0| Bitwidth P1|
+    +----------------------------------+----------+----+---+----+------------+------------+
+    |add_ln50_fu_110_p2                |         +|   0|  0|  12|          11|           1|
+    |ap_condition_133                  |       and|   0|  0|   2|           1|           1|
+    |icmp_ln50_fu_104_p2               |      icmp|   0|  0|  12|          11|          12|
+    |ap_block_state1_pp0_stage0_iter0  |        or|   0|  0|   2|           1|           1|
+    +----------------------------------+----------+----+---+----+------------+------------+
+    |Total                             |          |   0|  0|  28|          24|          15|
+    +----------------------------------+----------+----+---+----+------------+------------+
+
+    * Multiplexer: 
+    +---------------------+----+-----------+-----+-----------+
+    |         Name        | LUT| Input Size| Bits| Total Bits|
+    +---------------------+----+-----------+-----+-----------+
+    |ap_done_int          |   9|          2|    1|          2|
+    |ap_sig_allocacmp_i   |   9|          2|   11|         22|
+    |i_1_fu_54            |   9|          2|   11|         22|
+    |input_r_TDATA_blk_n  |   9|          2|    1|          2|
+    +---------------------+----+-----------+-----+-----------+
+    |Total                |  36|          8|   24|         48|
+    +---------------------+----+-----------+-----+-----------+
+
+    * Register: 
+    +-------------+----+----+-----+-----------+
+    |     Name    | FF | LUT| Bits| Const Bits|
+    +-------------+----+----+-----+-----------+
+    |ap_CS_fsm    |   1|   0|    1|          0|
+    |ap_done_reg  |   1|   0|    1|          0|
+    |i_1_fu_54    |  11|   0|   11|          0|
+    +-------------+----+----+-----+-----------+
+    |Total        |  13|   0|   13|          0|
+    +-------------+----+----+-----+-----------+
+
+
+
+================================================================
+== Interface
+================================================================
+* Summary: 
++-----------------------+-----+-----+------------+---------------------------------------+--------------+
+|       RTL Ports       | Dir | Bits|  Protocol  |             Source Object             |    C Type    |
++-----------------------+-----+-----+------------+---------------------------------------+--------------+
+|ap_clk                 |   in|    1|  ap_ctrl_hs|  fft_1024_top_Pipeline_VITIS_LOOP_50_2|  return value|
+|ap_rst                 |   in|    1|  ap_ctrl_hs|  fft_1024_top_Pipeline_VITIS_LOOP_50_2|  return value|
+|ap_start               |   in|    1|  ap_ctrl_hs|  fft_1024_top_Pipeline_VITIS_LOOP_50_2|  return value|
+|ap_done                |  out|    1|  ap_ctrl_hs|  fft_1024_top_Pipeline_VITIS_LOOP_50_2|  return value|
+|ap_idle                |  out|    1|  ap_ctrl_hs|  fft_1024_top_Pipeline_VITIS_LOOP_50_2|  return value|
+|ap_ready               |  out|    1|  ap_ctrl_hs|  fft_1024_top_Pipeline_VITIS_LOOP_50_2|  return value|
+|input_r_TVALID         |   in|    1|        axis|                       input_r_V_data_V|       pointer|
+|input_r_TDATA          |   in|   64|        axis|                       input_r_V_data_V|       pointer|
+|input_r_TREADY         |  out|    1|        axis|                       input_r_V_last_V|       pointer|
+|input_r_TLAST          |   in|    1|        axis|                       input_r_V_last_V|       pointer|
+|input_r_TKEEP          |   in|    8|        axis|                       input_r_V_keep_V|       pointer|
+|input_r_TSTRB          |   in|    8|        axis|                       input_r_V_strb_V|       pointer|
+|gb_M_value_address0    |  out|   10|   ap_memory|                             gb_M_value|         array|
+|gb_M_value_ce0         |  out|    1|   ap_memory|                             gb_M_value|         array|
+|gb_M_value_we0         |  out|    1|   ap_memory|                             gb_M_value|         array|
+|gb_M_value_d0          |  out|   32|   ap_memory|                             gb_M_value|         array|
+|gb_M_value_1_address0  |  out|   10|   ap_memory|                           gb_M_value_1|         array|
+|gb_M_value_1_ce0       |  out|    1|   ap_memory|                           gb_M_value_1|         array|
+|gb_M_value_1_we0       |  out|    1|   ap_memory|                           gb_M_value_1|         array|
+|gb_M_value_1_d0        |  out|   32|   ap_memory|                           gb_M_value_1|         array|
++-----------------------+-----+-----+------------+---------------------------------------+--------------+
+

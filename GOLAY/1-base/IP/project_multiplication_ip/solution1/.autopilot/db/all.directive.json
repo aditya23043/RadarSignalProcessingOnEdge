@@ -1,0 +1,50 @@
+{"sourceFile": [{
+      "name": "",
+      "directive": [
+        {
+          "functionName": "corr_multiplication",
+          "label": "",
+          "functionLabel": "",
+          "id": "1",
+          "sourceFile": "\/mnt\/arch\/home\/adi\/repo\/AELD_Lab_2026\/project_multiplication_ip\/solution1\/directives.tcl",
+          "sourceLine": "6",
+          "pragma": {
+            "name": "TOP",
+            "option": [{
+                "name": "name",
+                "value": "corr_multiplication"
+              }]
+          }
+        },
+        {
+          "functionName": "corr_multiplication",
+          "label": "",
+          "functionLabel": "",
+          "id": "2",
+          "sourceFile": "\/mnt\/arch\/home\/adi\/repo\/AELD_Lab_2026\/project_multiplication_ip\/solution1\/csynth.tcl",
+          "sourceLine": "18",
+          "pragma": {
+            "name": "TOP",
+            "option": [{
+                "name": "name",
+                "value": "corr_multiplication"
+              }]
+          }
+        },
+        {
+          "functionName": "corr_multiplication",
+          "label": "",
+          "functionLabel": "",
+          "id": "3",
+          "sourceFile": "\/mnt\/arch\/home\/adi\/repo\/AELD_Lab_2026\/project_multiplication_ip\/solution1\/csynth.tcl",
+          "sourceLine": "18",
+          "pragma": {
+            "name": "TOP",
+            "option": [{
+                "name": "name",
+                "value": "corr_multiplication"
+              }]
+          }
+        }
+      ]
+    }]}

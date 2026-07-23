@@ -1,0 +1,198 @@
+
+
+================================================================
+== Vitis HLS Report for 'ifft_fast'
+================================================================
+* Date:           Tue Apr 28 14:35:49 2026
+
+* Version:        2022.1 (Build 3526262 on Mon Apr 18 15:47:01 MDT 2022)
+* Project:        ifft_1024
+* Solution:       solution1 (Vivado IP Flow Target)
+* Product family: zynq
+* Target device:  xc7z020-clg484-1
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing: 
+    * Summary: 
+    +--------+----------+----------+------------+
+    |  Clock |  Target  | Estimated| Uncertainty|
+    +--------+----------+----------+------------+
+    |ap_clk  |  10.00 ns|  7.256 ns|     2.70 ns|
+    +--------+----------+----------+------------+
+
++ Latency: 
+    * Summary: 
+    +---------+---------+----------+----------+-----+-----+---------+
+    |  Latency (cycles) |  Latency (absolute) |  Interval | Pipeline|
+    |   min   |   max   |    min   |    max   | min | max |   Type  |
+    +---------+---------+----------+----------+-----+-----+---------+
+    |        ?|        ?|         ?|         ?|    ?|    ?|       no|
+    +---------+---------+----------+----------+-----+-----+---------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        +--------------------+---------+---------+-----------+-----------+-----------+------+----------+
+        |                    |  Latency (cycles) | Iteration |  Initiation Interval  | Trip |          |
+        |      Loop Name     |   min   |   max   |  Latency  |  achieved |   target  | Count| Pipelined|
+        +--------------------+---------+---------+-----------+-----------+-----------+------+----------+
+        |- VITIS_LOOP_18_2   |        ?|        ?|          ?|          -|          -|    10|        no|
+        | + VITIS_LOOP_21_3  |        ?|        ?|  23 ~ 9221|          -|          -|     ?|        no|
+        +--------------------+---------+---------+-----------+-----------+-----------+------+----------+
+
+============================================================
++ Verbose Summary: Synthesis Manager
+============================================================
+InlineROM: 1
+ExposeGlobal: 0
+============================================================
++ Verbose Summary: CDFG Model
+============================================================
+IsTopModel: 0
+ResetActiveHigh: 1
+IsCombinational: 0
+IsDatapathOnly: 0
+HasWiredReturn: 1
+HasMFsm: 0
+HasVarLatency: 1
+IsPipeline: 0
+IsRtlPipelined: 0
+IsInstanceOverlapped: 0
+IsDontTouch: 0
+HasImplIP: 0
+IsGatedGlobalClock: 0
+
+
+============================================================
++ Verbose Summary: Schedule
+============================================================
+* Number of FSM states : 7
+* Pipeline : 0
+* Dataflow Pipeline: 0
+
+* FSM state transitions: 
+1 --> 2 
+2 --> 3 
+3 --> 7 4 
+4 --> 5 3 
+5 --> 6 
+6 --> 4 
+7 --> 
+
+* FSM state operations: 
+
+State 1 <SV = 0> <Delay = 1.58>
+ST_1 : Operation 8 [1/1] (0.00ns)   --->   "%ti = alloca i32 1"   --->   Operation 8 'alloca' 'ti' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 9 [1/1] (0.00ns)   --->   "%s = alloca i32 1"   --->   Operation 9 'alloca' 's' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 10 [2/2] (0.00ns)   --->   "%call_ln0 = call void @ifft_fast_Pipeline_VITIS_LOOP_7_1, i32 %x_0, i32 %x_1, i10 %br_lut"   --->   Operation 10 'call' 'call_ln0' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_1 : Operation 11 [1/1] (1.58ns)   --->   "%store_ln18 = store i4 1, i4 %s" [ifft_1024/ifft.cpp:18]   --->   Operation 11 'store' 'store_ln18' <Predicate = true> <Delay = 1.58>
+ST_1 : Operation 12 [1/1] (1.58ns)   --->   "%store_ln18 = store i13 0, i13 %ti" [ifft_1024/ifft.cpp:18]   --->   Operation 12 'store' 'store_ln18' <Predicate = true> <Delay = 1.58>
+
+State 2 <SV = 1> <Delay = 0.00>
+ST_2 : Operation 13 [1/2] (0.00ns)   --->   "%call_ln0 = call void @ifft_fast_Pipeline_VITIS_LOOP_7_1, i32 %x_0, i32 %x_1, i10 %br_lut"   --->   Operation 13 'call' 'call_ln0' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_2 : Operation 14 [1/1] (0.00ns)   --->   "%br_ln18 = br void %VITIS_LOOP_21_3" [ifft_1024/ifft.cpp:18]   --->   Operation 14 'br' 'br_ln18' <Predicate = true> <Delay = 0.00>
+
+State 3 <SV = 2> <Delay = 2.39>
+ST_3 : Operation 15 [1/1] (0.00ns)   --->   "%s_2 = load i4 %s" [ifft_1024/ifft.cpp:18]   --->   Operation 15 'load' 's_2' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 16 [1/1] (1.30ns)   --->   "%icmp_ln18 = icmp_eq  i4 %s_2, i4 11" [ifft_1024/ifft.cpp:18]   --->   Operation 16 'icmp' 'icmp_ln18' <Predicate = true> <Delay = 1.30> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 1.30> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_3 : Operation 17 [1/1] (0.00ns)   --->   "%empty = speclooptripcount i32 @_ssdm_op_SpecLoopTripCount, i64 10, i64 10, i64 10"   --->   Operation 17 'speclooptripcount' 'empty' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 18 [1/1] (0.00ns)   --->   "%br_ln18 = br i1 %icmp_ln18, void %VITIS_LOOP_21_3.split, void %for.inc58.preheader" [ifft_1024/ifft.cpp:18]   --->   Operation 18 'br' 'br_ln18' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 19 [1/1] (0.00ns)   --->   "%ti_load = load i13 %ti" [ifft_1024/ifft.cpp:21]   --->   Operation 19 'load' 'ti_load' <Predicate = (!icmp_ln18)> <Delay = 0.00>
+ST_3 : Operation 20 [1/1] (0.00ns)   --->   "%zext_ln18 = zext i4 %s_2" [ifft_1024/ifft.cpp:18]   --->   Operation 20 'zext' 'zext_ln18' <Predicate = (!icmp_ln18)> <Delay = 0.00>
+ST_3 : Operation 21 [1/1] (0.00ns)   --->   "%specloopname_ln17 = specloopname void @_ssdm_op_SpecLoopName, void @empty_0" [ifft_1024/ifft.cpp:17]   --->   Operation 21 'specloopname' 'specloopname_ln17' <Predicate = (!icmp_ln18)> <Delay = 0.00>
+ST_3 : Operation 22 [1/1] (2.39ns)   --->   "%m = shl i11 1, i11 %zext_ln18" [ifft_1024/ifft.cpp:19]   --->   Operation 22 'shl' 'm' <Predicate = (!icmp_ln18)> <Delay = 2.39> <CoreInst = "Shifter">   --->   Core 75 'Shifter' <Latency = 0> <II = 1> <Delay = 2.39> <FuncUnit> <Opcode : 'shl' 'lshr' 'ashr'> <InPorts = 2> <OutPorts = 1>
+ST_3 : Operation 23 [1/1] (0.00ns)   --->   "%m2 = partselect i10 @_ssdm_op_PartSelect.i10.i11.i32.i32, i11 %m, i32 1, i32 10" [ifft_1024/ifft.cpp:20]   --->   Operation 23 'partselect' 'm2' <Predicate = (!icmp_ln18)> <Delay = 0.00>
+ST_3 : Operation 24 [1/1] (0.00ns)   --->   "%zext_ln20 = zext i10 %m2" [ifft_1024/ifft.cpp:20]   --->   Operation 24 'zext' 'zext_ln20' <Predicate = (!icmp_ln18)> <Delay = 0.00>
+ST_3 : Operation 25 [1/1] (0.00ns)   --->   "%trunc_ln21 = trunc i13 %ti_load" [ifft_1024/ifft.cpp:21]   --->   Operation 25 'trunc' 'trunc_ln21' <Predicate = (!icmp_ln18)> <Delay = 0.00>
+ST_3 : Operation 26 [1/1] (0.00ns)   --->   "%zext_ln21 = zext i11 %m" [ifft_1024/ifft.cpp:21]   --->   Operation 26 'zext' 'zext_ln21' <Predicate = (!icmp_ln18)> <Delay = 0.00>
+ST_3 : Operation 27 [1/1] (1.58ns)   --->   "%br_ln21 = br void %for.cond14" [ifft_1024/ifft.cpp:21]   --->   Operation 27 'br' 'br_ln21' <Predicate = (!icmp_ln18)> <Delay = 1.58>
+ST_3 : Operation 28 [2/2] (0.00ns)   --->   "%call_ln0 = call void @ifft_fast_Pipeline_VITIS_LOOP_33_5, i32 %x_0, i32 %x_1"   --->   Operation 28 'call' 'call_ln0' <Predicate = (icmp_ln18)> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+
+State 4 <SV = 3> <Delay = 4.46>
+ST_4 : Operation 29 [1/1] (0.00ns)   --->   "%k = phi i64 %add_ln21, void %VITIS_LOOP_22_4, i64 0, void %VITIS_LOOP_21_3.split" [ifft_1024/ifft.cpp:21]   --->   Operation 29 'phi' 'k' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 30 [1/1] (0.00ns)   --->   "%tmp = partselect i54 @_ssdm_op_PartSelect.i54.i64.i32.i32, i64 %k, i32 10, i32 63" [ifft_1024/ifft.cpp:21]   --->   Operation 30 'partselect' 'tmp' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 31 [1/1] (2.87ns)   --->   "%icmp_ln21 = icmp_slt  i54 %tmp, i54 1" [ifft_1024/ifft.cpp:21]   --->   Operation 31 'icmp' 'icmp_ln21' <Predicate = true> <Delay = 2.87> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 2.87> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_4 : Operation 32 [1/1] (0.00ns)   --->   "%br_ln21 = br i1 %icmp_ln21, void %for.inc46, void %VITIS_LOOP_22_4" [ifft_1024/ifft.cpp:21]   --->   Operation 32 'br' 'br_ln21' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 33 [1/1] (0.00ns)   --->   "%trunc_ln21_1 = trunc i64 %k" [ifft_1024/ifft.cpp:21]   --->   Operation 33 'trunc' 'trunc_ln21_1' <Predicate = (icmp_ln21)> <Delay = 0.00>
+ST_4 : Operation 34 [1/1] (3.52ns)   --->   "%add_ln21 = add i64 %zext_ln21, i64 %k" [ifft_1024/ifft.cpp:21]   --->   Operation 34 'add' 'add_ln21' <Predicate = (icmp_ln21)> <Delay = 3.52> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 3.52> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_4 : Operation 35 [1/1] (0.00ns)   --->   "%ti_load_1 = load i13 %ti" [ifft_1024/ifft.cpp:30]   --->   Operation 35 'load' 'ti_load_1' <Predicate = (!icmp_ln21)> <Delay = 0.00>
+ST_4 : Operation 36 [1/1] (1.67ns)   --->   "%ti_1 = add i13 %zext_ln20, i13 %ti_load_1" [ifft_1024/ifft.cpp:30]   --->   Operation 36 'add' 'ti_1' <Predicate = (!icmp_ln21)> <Delay = 1.67> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 1.67> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_4 : Operation 37 [1/1] (1.73ns)   --->   "%s_3 = add i4 %s_2, i4 1" [ifft_1024/ifft.cpp:18]   --->   Operation 37 'add' 's_3' <Predicate = (!icmp_ln21)> <Delay = 1.73> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 1.73> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_4 : Operation 38 [1/1] (1.58ns)   --->   "%store_ln18 = store i4 %s_3, i4 %s" [ifft_1024/ifft.cpp:18]   --->   Operation 38 'store' 'store_ln18' <Predicate = (!icmp_ln21)> <Delay = 1.58>
+ST_4 : Operation 39 [1/1] (1.58ns)   --->   "%store_ln18 = store i13 %ti_1, i13 %ti" [ifft_1024/ifft.cpp:18]   --->   Operation 39 'store' 'store_ln18' <Predicate = (!icmp_ln21)> <Delay = 1.58>
+ST_4 : Operation 40 [1/1] (0.00ns)   --->   "%br_ln18 = br void %VITIS_LOOP_21_3" [ifft_1024/ifft.cpp:18]   --->   Operation 40 'br' 'br_ln18' <Predicate = (!icmp_ln21)> <Delay = 0.00>
+
+State 5 <SV = 4> <Delay = 6.71>
+ST_5 : Operation 41 [2/2] (6.71ns)   --->   "%call_ln20 = call void @ifft_fast_Pipeline_VITIS_LOOP_22_4, i10 %m2, i10 %trunc_ln21, i10 %trunc_ln21_1, i32 %x_0, i32 %x_1, i32 %tw_M_value_1, i32 %tw_M_value" [ifft_1024/ifft.cpp:20]   --->   Operation 41 'call' 'call_ln20' <Predicate = true> <Delay = 6.71> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+
+State 6 <SV = 5> <Delay = 0.00>
+ST_6 : Operation 42 [1/1] (0.00ns)   --->   "%specloopname_ln22 = specloopname void @_ssdm_op_SpecLoopName, void @empty_3" [ifft_1024/ifft.cpp:22]   --->   Operation 42 'specloopname' 'specloopname_ln22' <Predicate = true> <Delay = 0.00>
+ST_6 : Operation 43 [1/2] (0.00ns)   --->   "%call_ln20 = call void @ifft_fast_Pipeline_VITIS_LOOP_22_4, i10 %m2, i10 %trunc_ln21, i10 %trunc_ln21_1, i32 %x_0, i32 %x_1, i32 %tw_M_value_1, i32 %tw_M_value" [ifft_1024/ifft.cpp:20]   --->   Operation 43 'call' 'call_ln20' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_6 : Operation 44 [1/1] (0.00ns)   --->   "%br_ln21 = br void %for.cond14" [ifft_1024/ifft.cpp:21]   --->   Operation 44 'br' 'br_ln21' <Predicate = true> <Delay = 0.00>
+
+State 7 <SV = 3> <Delay = 0.00>
+ST_7 : Operation 45 [1/2] (0.00ns)   --->   "%call_ln0 = call void @ifft_fast_Pipeline_VITIS_LOOP_33_5, i32 %x_0, i32 %x_1"   --->   Operation 45 'call' 'call_ln0' <Predicate = true> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_7 : Operation 46 [1/1] (0.00ns)   --->   "%ret_ln35 = ret" [ifft_1024/ifft.cpp:35]   --->   Operation 46 'ret' 'ret_ln35' <Predicate = true> <Delay = 0.00>
+
+
+============================================================
++ Verbose Summary: Timing violations
+============================================================
+Target clock period: 10ns, clock uncertainty: 2.7ns.
+
+ <State 1>: 1.59ns
+The critical path consists of the following:
+	'alloca' operation ('s') [7]  (0 ns)
+	'store' operation ('store_ln18', ifft_1024/ifft.cpp:18) of constant 1 on local variable 's' [9]  (1.59 ns)
+
+ <State 2>: 0ns
+The critical path consists of the following:
+
+ <State 3>: 2.4ns
+The critical path consists of the following:
+	'load' operation ('s', ifft_1024/ifft.cpp:18) on local variable 's' [13]  (0 ns)
+	'shl' operation ('m', ifft_1024/ifft.cpp:19) [21]  (2.4 ns)
+
+ <State 4>: 4.46ns
+The critical path consists of the following:
+	'phi' operation ('k', ifft_1024/ifft.cpp:21) with incoming values : ('add_ln21', ifft_1024/ifft.cpp:21) [28]  (0 ns)
+	'add' operation ('add_ln21', ifft_1024/ifft.cpp:21) [36]  (3.52 ns)
+	blocking operation 0.943 ns on control path)
+
+ <State 5>: 6.72ns
+The critical path consists of the following:
+	'call' operation ('call_ln20', ifft_1024/ifft.cpp:20) to 'ifft_fast_Pipeline_VITIS_LOOP_22_4' [35]  (6.72 ns)
+
+ <State 6>: 0ns
+The critical path consists of the following:
+
+ <State 7>: 0ns
+The critical path consists of the following:
+
+
+============================================================
++ Verbose Summary: Binding
+============================================================
+N/A
+* FSMD analyzer results:
+  - Output states:
+ - Input state : 
+  - Chain level:
+	State 1
+	State 2
+	State 3
+	State 4
+	State 5
+	State 6
+	State 7
+
+
+============================================================
++ Verbose Summary: Datapath Resource usage 
+============================================================
+N/A

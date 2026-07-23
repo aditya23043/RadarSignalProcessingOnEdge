@@ -1,0 +1,7 @@
+Running: xsim.dir/doppler_fft_256/xsimk -simmode gui -wdb doppler_fft_256.wdb -simrunnum 0 -socket 48583
+Design successfully loaded
+Design Loading Memory Usage: 29328 KB (Peak: 29328 KB)
+Design Loading CPU Usage: 10 ms
+Simulation completed
+Simulation Memory Usage: 120116 KB (Peak: 168596 KB)
+Simulation CPU Usage: 4720 ms

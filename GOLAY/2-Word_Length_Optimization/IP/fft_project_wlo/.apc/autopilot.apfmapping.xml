@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="fft.cpp" path="C:\Users\nadis\AppData\Roaming\Xilinx\Vitis\fft_project_wlo\fft.cpp"/>
+    <originFiles name="fft.h" path="C:\Users\nadis\AppData\Roaming\Xilinx\Vitis\fft_project_wlo\fft.h"/>
+    <originFiles name="tw.cpp" path="C:\Users\nadis\AppData\Roaming\Xilinx\Vitis\fft_project_wlo\tw.cpp"/>
+    <originFiles name="tw.h" path="C:\Users\nadis\AppData\Roaming\Xilinx\Vitis\fft_project_wlo\tw.h"/>
+  </source>
+  <testbench>
+    <originFiles name="fft_1024_input_wlo.h" path="C:\Users\nadis\AppData\Roaming\Xilinx\Vitis\fft_project_wlo\fft_1024_input_wlo.h"/>
+    <originFiles name="fft_tb.cpp" path="C:\Users\nadis\AppData\Roaming\Xilinx\Vitis\fft_project_wlo\fft_tb.cpp"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>

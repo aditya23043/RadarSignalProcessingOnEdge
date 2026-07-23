@@ -1,0 +1,45 @@
+#-----------------------------------------------------------
+# xsim v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:47:01 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Sun Apr 26 23:40:08 2026
+# Process ID: 300941
+# Current directory: /mnt/arch/home/adi/repo/AELD_Lab_2026/project_multiplication_ip/solution1/sim/verilog
+# Command line: xsim -mode tcl -source {xsim.dir/corr_multiplication/xsim_script.tcl}
+# Log file: /mnt/arch/home/adi/repo/AELD_Lab_2026/project_multiplication_ip/solution1/sim/verilog/xsim.log
+# Journal file: /mnt/arch/home/adi/repo/AELD_Lab_2026/project_multiplication_ip/solution1/sim/verilog/xsim.jou
+# Running On: adi-ubuntu, OS: Linux, CPU Frequency: 1300.000 MHz, CPU Physical cores: 16, Host memory: 16131 MB
+#-----------------------------------------------------------
+source xsim.dir/corr_multiplication/xsim_script.tcl
+# xsim {corr_multiplication} -autoloadwcfg -tclbatch {corr_multiplication.tcl}
+Time resolution is 1 ps
+source corr_multiplication.tcl
+## run all
+////////////////////////////////////////////////////////////////////////////////////
+// Inter-Transaction Progress: Completed Transaction / Total Transaction
+// Intra-Transaction Progress: Measured Latency / Latency Estimation * 100%
+//
+// RTL Simulation : "Inter-Transaction Progress" ["Intra-Transaction Progress"] @ "Simulation Time"
+////////////////////////////////////////////////////////////////////////////////////
+// RTL Simulation : 0 / 1 [0.00%] @ "125000"
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 10505 ns  Iteration: 12  Process: /apatb_corr_multiplication_top/AESL_inst_corr_multiplication/fsub_32ns_32ns_32_5_full_dsp_1_U33/corr_multiplication_fsub_32ns_32ns_32_5_full_dsp_1_ip_u/inst/i_synth/addsub_op/ADDSUB/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/i_no_versal_es1_workaround/DSP/prcs_opmode_drc  File: /tools/Xilinx/Vivado/2022.1/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 10505 ns  Iteration: 12  Process: /apatb_corr_multiplication_top/AESL_inst_corr_multiplication/fadd_32ns_32ns_32_5_full_dsp_1_U34/corr_multiplication_fadd_32ns_32ns_32_5_full_dsp_1_ip_u/inst/i_synth/addsub_op/ADDSUB/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/i_no_versal_es1_workaround/DSP/prcs_opmode_drc  File: /tools/Xilinx/Vivado/2022.1/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 10545 ns  Iteration: 12  Process: /apatb_corr_multiplication_top/AESL_inst_corr_multiplication/fsub_32ns_32ns_32_5_full_dsp_1_U33/corr_multiplication_fsub_32ns_32ns_32_5_full_dsp_1_ip_u/inst/i_synth/addsub_op/ADDSUB/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/i_no_versal_es1_workaround/DSP/prcs_opmode_drc  File: /tools/Xilinx/Vivado/2022.1/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 10545 ns  Iteration: 12  Process: /apatb_corr_multiplication_top/AESL_inst_corr_multiplication/fadd_32ns_32ns_32_5_full_dsp_1_U34/corr_multiplication_fadd_32ns_32ns_32_5_full_dsp_1_ip_u/inst/i_synth/addsub_op/ADDSUB/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/i_no_versal_es1_workaround/DSP/prcs_opmode_drc  File: /tools/Xilinx/Vivado/2022.1/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+// RTL Simulation : 1 / 1 [100.00%] @ "20855000"
+////////////////////////////////////////////////////////////////////////////////////
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 20865 ns  Iteration: 12  Process: /apatb_corr_multiplication_top/AESL_inst_corr_multiplication/fsub_32ns_32ns_32_5_full_dsp_1_U33/corr_multiplication_fsub_32ns_32ns_32_5_full_dsp_1_ip_u/inst/i_synth/addsub_op/ADDSUB/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/i_no_versal_es1_workaround/DSP/prcs_opmode_drc  File: /tools/Xilinx/Vivado/2022.1/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 20865 ns  Iteration: 12  Process: /apatb_corr_multiplication_top/AESL_inst_corr_multiplication/fadd_32ns_32ns_32_5_full_dsp_1_U34/corr_multiplication_fadd_32ns_32ns_32_5_full_dsp_1_ip_u/inst/i_synth/addsub_op/ADDSUB/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/i_no_versal_es1_workaround/DSP/prcs_opmode_drc  File: /tools/Xilinx/Vivado/2022.1/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 20905 ns  Iteration: 12  Process: /apatb_corr_multiplication_top/AESL_inst_corr_multiplication/fsub_32ns_32ns_32_5_full_dsp_1_U33/corr_multiplication_fsub_32ns_32ns_32_5_full_dsp_1_ip_u/inst/i_synth/addsub_op/ADDSUB/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/i_no_versal_es1_workaround/DSP/prcs_opmode_drc  File: /tools/Xilinx/Vivado/2022.1/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 0110X0X with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 20905 ns  Iteration: 12  Process: /apatb_corr_multiplication_top/AESL_inst_corr_multiplication/fadd_32ns_32ns_32_5_full_dsp_1_U34/corr_multiplication_fadd_32ns_32ns_32_5_full_dsp_1_ip_u/inst/i_synth/addsub_op/ADDSUB/dsp/OP/dsp48e1_body/ALIGN_ADD/DSP2/i_no_versal_es1_workaround/DSP/prcs_opmode_drc  File: /tools/Xilinx/Vivado/2022.1/data/vhdl/src/unisims/primitive/DSP48E1.vhd
+$finish called at time : 20915 ns : File "/mnt/arch/home/adi/repo/AELD_Lab_2026/project_multiplication_ip/solution1/sim/verilog/corr_multiplication.autotb.v" Line 248
+## quit
+INFO: [Common 17-206] Exiting xsim at Sun Apr 26 23:40:13 2026...

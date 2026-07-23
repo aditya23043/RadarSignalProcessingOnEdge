@@ -1,0 +1,8 @@
+   Build using "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/bin/g++"
+   Compiling fft_tb.cpp_pre.cpp.tb.cpp
+   Compiling apatb_fft_1024_top_util.cpp
+   Compiling tw.cpp_pre.cpp.tb.cpp
+   Compiling fft.cpp_pre.cpp.tb.cpp
+   Compiling apatb_fft_1024_top.cpp
+   Compiling apatb_fft_1024_top_ir.ll
+   Generating cosim.tv.exe

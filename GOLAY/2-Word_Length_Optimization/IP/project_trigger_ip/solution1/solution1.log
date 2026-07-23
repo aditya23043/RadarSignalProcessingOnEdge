@@ -1,0 +1,1139 @@
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2022.1 (64-bit)
+Tool Version Limit: 2022.04
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1611] Setting target device to 'xc7z020-clg484-1'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1510] Running: set_part xc7z020clg484-1 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1510] Running: csim_design -quiet 
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+ERROR: [SIM 211-100] 'csim_design' failed: nonzero return value.
+INFO: [SIM 211-3] *************** CSIM finish ***************
+INFO: [HLS 200-111] Finished Command csim_design CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 11.317 seconds; current allocated memory: 0.000 MB.
+INFO: [HLS 200-112] Total CPU user time: 6 seconds. Total CPU system time: 3 seconds. Total elapsed time: 16.936 seconds; peak allocated memory: 1.380 GB.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2022.1 (64-bit)
+Tool Version Limit: 2022.04
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1611] Setting target device to 'xc7z020-clg484-1'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1510] Running: set_part xc7z020clg484-1 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [HLS 200-1510] Running: csim_design -quiet 
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+INFO: [SIM 211-1] CSim done with 0 errors.
+INFO: [SIM 211-3] *************** CSIM finish ***************
+INFO: [HLS 200-111] Finished Command csim_design CPU user time: 0 seconds. CPU system time: 1 seconds. Elapsed time: 6.447 seconds; current allocated memory: 0.000 MB.
+INFO: [HLS 200-112] Total CPU user time: 5 seconds. Total CPU system time: 3 seconds. Total elapsed time: 10.919 seconds; peak allocated memory: 1.384 GB.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2022.1 (64-bit)
+Tool Version Limit: 2022.04
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1611] Setting target device to 'xc7z020-clg484-1'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1510] Running: set_part xc7z020clg484-1 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [HLS 200-1510] Running: csynth_design 
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.024 seconds; current allocated memory: 1.398 GB.
+INFO: [HLS 200-10] Analyzing design file 'trigger_ip_project/trigger_ip.cpp' ... 
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 5.446 seconds; current allocated memory: 1.398 GB.
+INFO: [HLS 200-777] Using interface defaults for 'Vivado' flow target.
+INFO: [HLS 214-131] Inlining function 'ssdm_int<16, false>::ssdm_int(unsigned short)' into 'ap_int_base<16, false>::ap_int_base(int)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_int_base.h:260:67)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<16, false>::ap_int_base(int)' into 'ap_uint<16>::ap_uint(int)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_int.h:333:58)
+INFO: [HLS 214-131] Inlining function '_ZN8ssdm_intILi5ELb0EEC2EDq5_j' into 'ap_int_base<5, false>::ap_int_base(int)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_int_base.h:260:67)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<5, false>::ap_int_base(int)' into 'ap_uint<5>::ap_uint(int)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_int.h:333:58)
+INFO: [HLS 214-131] Inlining function '_ZN8ssdm_intILi1ELb0EEC2EDq1_j' into 'ap_int_base<1, false>::ap_int_base(int)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_int_base.h:260:67)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<1, false>::ap_int_base(int)' into 'ap_uint<1>::ap_uint(int)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_int.h:333:58)
+INFO: [HLS 214-131] Inlining function 'hls::axis<ap_uint<64>, 1ul, 1ul, 1ul>::get_user_ptr()' into 'hls::stream<hls::axis<ap_uint<64>, 1ul, 1ul, 1ul>, 0>::read()' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:293:50)
+INFO: [HLS 214-131] Inlining function 'hls::axis<ap_uint<64>, 1ul, 1ul, 1ul>::get_dest_ptr()' into 'hls::stream<hls::axis<ap_uint<64>, 1ul, 1ul, 1ul>, 0>::read()' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:296:25)
+INFO: [HLS 214-131] Inlining function 'hls::axis<ap_uint<64>, 1ul, 1ul, 1ul>::get_id_ptr()' into 'hls::stream<hls::axis<ap_uint<64>, 1ul, 1ul, 1ul>, 0>::read()' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:295:67)
+INFO: [HLS 214-131] Inlining function 'hls::axis<ap_uint<64>, 1ul, 1ul, 1ul>::get_user_ptr()' into 'hls::stream<hls::axis<ap_uint<64>, 1ul, 1ul, 1ul>, 0>::read()' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:295:36)
+INFO: [HLS 214-131] Inlining function 'hls::axis<ap_uint<64>, 1ul, 1ul, 1ul>::get_dest_ptr()' into 'hls::stream<hls::axis<ap_uint<64>, 1ul, 1ul, 1ul>, 0>::read()' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:294:39)
+INFO: [HLS 214-131] Inlining function 'hls::axis<ap_uint<64>, 1ul, 1ul, 1ul>::get_id_ptr()' into 'hls::stream<hls::axis<ap_uint<64>, 1ul, 1ul, 1ul>, 0>::read()' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:294:23)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<1, false>::ap_int_base(int)' into 'ap_int_base<16, false>::operator++(int)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_int_base.h:925:16)
+INFO: [HLS 214-131] Inlining function 'ap_uint<16>::ap_uint<16, false>(ap_int_base<16, false> const&)' into 'ap_int_base<16, false>::operator++(int)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_int_base.h:926:12)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<16, false>& ap_int_base<16, false>::operator+=<1, false>(ap_int_base<1, false> const&)' into 'ap_int_base<16, false>::operator++(int)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_int_base.h:925:5)
+INFO: [HLS 214-131] Inlining function 'ssdm_int<32, true>::ssdm_int(int)' into 'ap_int_base<32, true>::ap_int_base(int)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_int_base.h:260:67)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<32, true>::ap_int_base(int)' into 'bool operator==<16, false>(ap_int_base<16, false> const&, int)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_int_base.h:1834:1853)
+INFO: [HLS 214-131] Inlining function 'bool ap_int_base<16, false>::operator==<32, true>(ap_int_base<32, true> const&) const' into 'bool operator==<16, false>(ap_int_base<16, false> const&, int)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_int_base.h:1834:1850)
+INFO: [HLS 214-131] Inlining function 'hls::axis<ap_uint<64>, 1ul, 1ul, 1ul>::get_user_ptr()' into 'hls::stream<hls::axis<ap_uint<64>, 1ul, 1ul, 1ul>, 0>::write(hls::axis<ap_uint<64>, 1ul, 1ul, 1ul> const&)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:304:51)
+INFO: [HLS 214-131] Inlining function 'hls::axis<ap_uint<64>, 1ul, 1ul, 1ul>::get_dest_ptr()' into 'hls::stream<hls::axis<ap_uint<64>, 1ul, 1ul, 1ul>, 0>::write(hls::axis<ap_uint<64>, 1ul, 1ul, 1ul> const&)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:307:26)
+INFO: [HLS 214-131] Inlining function 'hls::axis<ap_uint<64>, 1ul, 1ul, 1ul>::get_id_ptr()' into 'hls::stream<hls::axis<ap_uint<64>, 1ul, 1ul, 1ul>, 0>::write(hls::axis<ap_uint<64>, 1ul, 1ul, 1ul> const&)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:306:68)
+INFO: [HLS 214-131] Inlining function 'hls::axis<ap_uint<64>, 1ul, 1ul, 1ul>::get_user_ptr()' into 'hls::stream<hls::axis<ap_uint<64>, 1ul, 1ul, 1ul>, 0>::write(hls::axis<ap_uint<64>, 1ul, 1ul, 1ul> const&)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:306:37)
+INFO: [HLS 214-131] Inlining function 'hls::axis<ap_uint<64>, 1ul, 1ul, 1ul>::get_dest_ptr()' into 'hls::stream<hls::axis<ap_uint<64>, 1ul, 1ul, 1ul>, 0>::write(hls::axis<ap_uint<64>, 1ul, 1ul, 1ul> const&)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:305:40)
+INFO: [HLS 214-131] Inlining function 'hls::axis<ap_uint<64>, 1ul, 1ul, 1ul>::get_id_ptr()' into 'hls::stream<hls::axis<ap_uint<64>, 1ul, 1ul, 1ul>, 0>::write(hls::axis<ap_uint<64>, 1ul, 1ul, 1ul> const&)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:305:24)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<1, false>::ap_int_base(int)' into 'ap_int_base<5, false>::operator++(int)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_int_base.h:925:16)
+INFO: [HLS 214-131] Inlining function 'ap_uint<5>::ap_uint<5, false>(ap_int_base<5, false> const&)' into 'ap_int_base<5, false>::operator++(int)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_int_base.h:926:12)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<5, false>& ap_int_base<5, false>::operator+=<1, false>(ap_int_base<1, false> const&)' into 'ap_int_base<5, false>::operator++(int)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_int_base.h:925:5)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<32, true>::ap_int_base(int)' into 'bool operator==<5, false>(ap_int_base<5, false> const&, int)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_int_base.h:1834:1853)
+INFO: [HLS 214-131] Inlining function 'bool ap_int_base<5, false>::operator==<32, true>(ap_int_base<32, true> const&) const' into 'bool operator==<5, false>(ap_int_base<5, false> const&, int)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_int_base.h:1834:1850)
+INFO: [HLS 214-131] Inlining function 'ap_uint<16>::ap_uint(int)' into 'trigger_ip(hls::stream<hls::axis<ap_uint<64>, 1ul, 1ul, 1ul>, 0>&, hls::stream<hls::axis<ap_uint<64>, 1ul, 1ul, 1ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (trigger_ip_project/trigger_ip.cpp:64:32)
+INFO: [HLS 214-131] Inlining function 'ap_uint<1>::ap_uint(int)' into 'trigger_ip(hls::stream<hls::axis<ap_uint<64>, 1ul, 1ul, 1ul>, 0>&, hls::stream<hls::axis<ap_uint<64>, 1ul, 1ul, 1ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (trigger_ip_project/trigger_ip.cpp:128:28)
+INFO: [HLS 214-131] Inlining function 'ap_uint<1>::ap_uint(int)' into 'trigger_ip(hls::stream<hls::axis<ap_uint<64>, 1ul, 1ul, 1ul>, 0>&, hls::stream<hls::axis<ap_uint<64>, 1ul, 1ul, 1ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (trigger_ip_project/trigger_ip.cpp:127:20)
+INFO: [HLS 214-131] Inlining function 'bool operator==<5, false>(ap_int_base<5, false> const&, int)' into 'trigger_ip(hls::stream<hls::axis<ap_uint<64>, 1ul, 1ul, 1ul>, 0>&, hls::stream<hls::axis<ap_uint<64>, 1ul, 1ul, 1ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (trigger_ip_project/trigger_ip.cpp:126:23)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<5, false>::operator++(int)' into 'trigger_ip(hls::stream<hls::axis<ap_uint<64>, 1ul, 1ul, 1ul>, 0>&, hls::stream<hls::axis<ap_uint<64>, 1ul, 1ul, 1ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (trigger_ip_project/trigger_ip.cpp:125:9)
+INFO: [HLS 214-131] Inlining function 'ap_uint<16>::ap_uint(int)' into 'trigger_ip(hls::stream<hls::axis<ap_uint<64>, 1ul, 1ul, 1ul>, 0>&, hls::stream<hls::axis<ap_uint<64>, 1ul, 1ul, 1ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (trigger_ip_project/trigger_ip.cpp:124:20)
+INFO: [HLS 214-131] Inlining function 'hls::stream<hls::axis<ap_uint<64>, 1ul, 1ul, 1ul>, 0>::write(hls::axis<ap_uint<64>, 1ul, 1ul, 1ul> const&)' into 'trigger_ip(hls::stream<hls::axis<ap_uint<64>, 1ul, 1ul, 1ul>, 0>&, hls::stream<hls::axis<ap_uint<64>, 1ul, 1ul, 1ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (trigger_ip_project/trigger_ip.cpp:120:16)
+INFO: [HLS 214-131] Inlining function 'ap_uint<1>::ap_uint(int)' into 'trigger_ip(hls::stream<hls::axis<ap_uint<64>, 1ul, 1ul, 1ul>, 0>&, hls::stream<hls::axis<ap_uint<64>, 1ul, 1ul, 1ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (trigger_ip_project/trigger_ip.cpp:118:21)
+INFO: [HLS 214-131] Inlining function 'bool operator==<16, false>(ap_int_base<16, false> const&, int)' into 'trigger_ip(hls::stream<hls::axis<ap_uint<64>, 1ul, 1ul, 1ul>, 0>&, hls::stream<hls::axis<ap_uint<64>, 1ul, 1ul, 1ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (trigger_ip_project/trigger_ip.cpp:117:36)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<16, false>::operator++(int)' into 'trigger_ip(hls::stream<hls::axis<ap_uint<64>, 1ul, 1ul, 1ul>, 0>&, hls::stream<hls::axis<ap_uint<64>, 1ul, 1ul, 1ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (trigger_ip_project/trigger_ip.cpp:114:5)
+INFO: [HLS 214-131] Inlining function 'hls::stream<hls::axis<ap_uint<64>, 1ul, 1ul, 1ul>, 0>::read()' into 'trigger_ip(hls::stream<hls::axis<ap_uint<64>, 1ul, 1ul, 1ul>, 0>&, hls::stream<hls::axis<ap_uint<64>, 1ul, 1ul, 1ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (trigger_ip_project/trigger_ip.cpp:102:32)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<1, false>::operator unsigned long long() const' into 'trigger_ip(hls::stream<hls::axis<ap_uint<64>, 1ul, 1ul, 1ul>, 0>&, hls::stream<hls::axis<ap_uint<64>, 1ul, 1ul, 1ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (trigger_ip_project/trigger_ip.cpp:92:9)
+INFO: [HLS 214-131] Inlining function 'ap_uint<1>::ap_uint(int)' into 'trigger_ip(hls::stream<hls::axis<ap_uint<64>, 1ul, 1ul, 1ul>, 0>&, hls::stream<hls::axis<ap_uint<64>, 1ul, 1ul, 1ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (trigger_ip_project/trigger_ip.cpp:77:24)
+INFO: [HLS 214-131] Inlining function 'ap_uint<1>::ap_uint(int)' into 'trigger_ip(hls::stream<hls::axis<ap_uint<64>, 1ul, 1ul, 1ul>, 0>&, hls::stream<hls::axis<ap_uint<64>, 1ul, 1ul, 1ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (trigger_ip_project/trigger_ip.cpp:76:16)
+INFO: [HLS 214-131] Inlining function 'ap_uint<5>::ap_uint(int)' into 'trigger_ip(hls::stream<hls::axis<ap_uint<64>, 1ul, 1ul, 1ul>, 0>&, hls::stream<hls::axis<ap_uint<64>, 1ul, 1ul, 1ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (trigger_ip_project/trigger_ip.cpp:75:21)
+INFO: [HLS 214-131] Inlining function 'ap_uint<16>::ap_uint(int)' into 'trigger_ip(hls::stream<hls::axis<ap_uint<64>, 1ul, 1ul, 1ul>, 0>&, hls::stream<hls::axis<ap_uint<64>, 1ul, 1ul, 1ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (trigger_ip_project/trigger_ip.cpp:74:20)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<1, false>::operator unsigned long long() const' into 'trigger_ip(hls::stream<hls::axis<ap_uint<64>, 1ul, 1ul, 1ul>, 0>&, hls::stream<hls::axis<ap_uint<64>, 1ul, 1ul, 1ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (trigger_ip_project/trigger_ip.cpp:73:9)
+INFO: [HLS 214-131] Inlining function 'ap_uint<1>::ap_uint(int)' into 'trigger_ip(hls::stream<hls::axis<ap_uint<64>, 1ul, 1ul, 1ul>, 0>&, hls::stream<hls::axis<ap_uint<64>, 1ul, 1ul, 1ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (trigger_ip_project/trigger_ip.cpp:66:30)
+INFO: [HLS 214-131] Inlining function 'ap_uint<5>::ap_uint(int)' into 'trigger_ip(hls::stream<hls::axis<ap_uint<64>, 1ul, 1ul, 1ul>, 0>&, hls::stream<hls::axis<ap_uint<64>, 1ul, 1ul, 1ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (trigger_ip_project/trigger_ip.cpp:65:35)
+INFO: [HLS 214-241] Aggregating scalar variable 'trigger_done' with compact=bit mode in 1-bits (trigger_ip_project/trigger_ip.cpp:48:0)
+INFO: [HLS 214-131] Inlining function '_llvm.fpga.unpack.none.s_struct.ap_uint<64>s.i64' into 'trigger_ip(hls::stream<hls::axis<ap_uint<64>, 1ul, 1ul, 1ul>, 0>&, hls::stream<hls::axis<ap_uint<64>, 1ul, 1ul, 1ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:293:5)
+INFO: [HLS 214-131] Inlining function '_llvm.fpga.pack.none.i1.s_struct.ap_uint<1>s' into 'trigger_ip(hls::stream<hls::axis<ap_uint<64>, 1ul, 1ul, 1ul>, 0>&, hls::stream<hls::axis<ap_uint<64>, 1ul, 1ul, 1ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:304:5)
+INFO: [HLS 214-131] Inlining function '_llvm.fpga.pack.none.i8.s_struct.ap_uint<8>s' into 'trigger_ip(hls::stream<hls::axis<ap_uint<64>, 1ul, 1ul, 1ul>, 0>&, hls::stream<hls::axis<ap_uint<64>, 1ul, 1ul, 1ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:304:5)
+INFO: [HLS 214-131] Inlining function '_llvm.fpga.pack.none.i64.s_struct.ap_uint<64>s' into 'trigger_ip(hls::stream<hls::axis<ap_uint<64>, 1ul, 1ul, 1ul>, 0>&, hls::stream<hls::axis<ap_uint<64>, 1ul, 1ul, 1ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:304:5)
+INFO: [HLS 214-131] Inlining function '_llvm.fpga.unpack.none.s_struct.ap_uint<1>s.i1' into 'trigger_ip(hls::stream<hls::axis<ap_uint<64>, 1ul, 1ul, 1ul>, 0>&, hls::stream<hls::axis<ap_uint<64>, 1ul, 1ul, 1ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:293:5)
+INFO: [HLS 214-131] Inlining function '_llvm.fpga.unpack.none.s_struct.ap_uint<8>s.i8' into 'trigger_ip(hls::stream<hls::axis<ap_uint<64>, 1ul, 1ul, 1ul>, 0>&, hls::stream<hls::axis<ap_uint<64>, 1ul, 1ul, 1ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:293:5)
+INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 6.463 seconds; current allocated memory: 1.398 GB.
+INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.004 seconds; current allocated memory: 1.398 GB.
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.158 seconds; current allocated memory: 1.398 GB.
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.14 seconds; current allocated memory: 1.398 GB.
+INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.185 seconds; current allocated memory: 1.398 GB.
+INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.103 seconds; current allocated memory: 1.398 GB.
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'trigger_ip' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'trigger_ip' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.353 seconds; current allocated memory: 1.398 GB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.087 seconds; current allocated memory: 1.398 GB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'trigger_ip' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+WARNING: [RTGEN 206-101] Design contains AXI ports. Reset is fixed to synchronous and active low.
+INFO: [RTGEN 206-500] Setting interface mode on port 'trigger_ip/s_axis_in_V_data_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'trigger_ip/s_axis_in_V_keep_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'trigger_ip/s_axis_in_V_strb_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'trigger_ip/s_axis_in_V_user_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'trigger_ip/s_axis_in_V_last_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'trigger_ip/s_axis_in_V_id_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'trigger_ip/s_axis_in_V_dest_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'trigger_ip/m_axis_out_V_data_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'trigger_ip/m_axis_out_V_keep_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'trigger_ip/m_axis_out_V_strb_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'trigger_ip/m_axis_out_V_user_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'trigger_ip/m_axis_out_V_last_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'trigger_ip/m_axis_out_V_id_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'trigger_ip/m_axis_out_V_dest_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'trigger_ip/sync_reset' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'trigger_ip/trigger_done' to 'ap_none'.
+WARNING: [RTGEN 206-101] Port 'trigger_done' with mode 'ap_none' may require an associated data valid signal to correctly communicate with other blocks or a test bench; automatic C/RTL co-simulation may not be able to verify such a port.
+INFO: [RTGEN 206-500] Setting interface mode on function 'trigger_ip' to 'ap_ctrl_none'.
+WARNING: [RTGEN 206-101] Register 'samp_cnt_V' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'batch_cnt_V' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'done_V' is power-on initialization.
+INFO: [RTGEN 206-100] Finished creating RTL model for 'trigger_ip'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 1 seconds. Elapsed time: 0.505 seconds; current allocated memory: 1.398 GB.
+INFO: [HLS 200-111] Finished Generating all RTL models: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.856 seconds; current allocated memory: 1.398 GB.
+INFO: [HLS 200-111] Finished Updating report files: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.659 seconds; current allocated memory: 1.398 GB.
+INFO: [VHDL 208-304] Generating VHDL RTL for trigger_ip.
+INFO: [VLOG 209-307] Generating Verilog RTL for trigger_ip.
+INFO: [HLS 200-789] **** Estimated Fmax: 211.32 MHz
+INFO: [HLS 200-111] Finished Command csynth_design CPU user time: 2 seconds. CPU system time: 1 seconds. Elapsed time: 15.111 seconds; current allocated memory: 0.000 MB.
+INFO: [HLS 200-112] Total CPU user time: 6 seconds. Total CPU system time: 3 seconds. Total elapsed time: 18.739 seconds; peak allocated memory: 1.398 GB.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2022.1 (64-bit)
+Tool Version Limit: 2022.04
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1611] Setting target device to 'xc7z020-clg484-1'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1510] Running: set_part xc7z020clg484-1 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [HLS 200-1510] Running: csim_design -quiet 
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+INFO: [SIM 211-1] CSim done with 0 errors.
+INFO: [SIM 211-3] *************** CSIM finish ***************
+INFO: [HLS 200-111] Finished Command csim_design CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 6.57 seconds; current allocated memory: 0.000 MB.
+INFO: [HLS 200-112] Total CPU user time: 8 seconds. Total CPU system time: 3 seconds. Total elapsed time: 12.777 seconds; peak allocated memory: 1.380 GB.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2022.1 (64-bit)
+Tool Version Limit: 2022.04
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1611] Setting target device to 'xc7z020-clg484-1'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1510] Running: set_part xc7z020clg484-1 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [HLS 200-1510] Running: csim_design -quiet 
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+INFO: [SIM 211-1] CSim done with 0 errors.
+INFO: [SIM 211-3] *************** CSIM finish ***************
+INFO: [HLS 200-111] Finished Command csim_design CPU user time: 0 seconds. CPU system time: 1 seconds. Elapsed time: 13.534 seconds; current allocated memory: 0.000 MB.
+INFO: [HLS 200-112] Total CPU user time: 7 seconds. Total CPU system time: 4 seconds. Total elapsed time: 27.05 seconds; peak allocated memory: 1.367 GB.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2022.1 (64-bit)
+Tool Version Limit: 2022.04
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1611] Setting target device to 'xc7z020-clg484-1'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1510] Running: set_part xc7z020clg484-1 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [HLS 200-1510] Running: csynth_design 
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.052 seconds; current allocated memory: 1.390 GB.
+INFO: [HLS 200-10] Analyzing design file 'trigger_ip_project/trigger_ip.cpp' ... 
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 7.481 seconds; current allocated memory: 1.390 GB.
+INFO: [HLS 200-777] Using interface defaults for 'Vivado' flow target.
+INFO: [HLS 214-131] Inlining function 'ssdm_int<16, false>::ssdm_int(unsigned short)' into 'ap_int_base<16, false>::ap_int_base(int)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_int_base.h:260:67)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<16, false>::ap_int_base(int)' into 'ap_uint<16>::ap_uint(int)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_int.h:333:58)
+INFO: [HLS 214-131] Inlining function '_ZN8ssdm_intILi5ELb0EEC2EDq5_j' into 'ap_int_base<5, false>::ap_int_base(int)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_int_base.h:260:67)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<5, false>::ap_int_base(int)' into 'ap_uint<5>::ap_uint(int)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_int.h:333:58)
+INFO: [HLS 214-131] Inlining function '_ZN8ssdm_intILi1ELb0EEC2EDq1_j' into 'ap_int_base<1, false>::ap_int_base(int)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_int_base.h:260:67)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<1, false>::ap_int_base(int)' into 'ap_uint<1>::ap_uint(int)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_int.h:333:58)
+INFO: [HLS 214-131] Inlining function 'hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>::get_user_ptr()' into 'hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>::read()' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:293:50)
+INFO: [HLS 214-131] Inlining function 'hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>::get_dest_ptr()' into 'hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>::read()' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:296:25)
+INFO: [HLS 214-131] Inlining function 'hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>::get_id_ptr()' into 'hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>::read()' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:295:67)
+INFO: [HLS 214-131] Inlining function 'hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>::get_user_ptr()' into 'hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>::read()' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:295:36)
+INFO: [HLS 214-131] Inlining function 'hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>::get_dest_ptr()' into 'hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>::read()' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:294:39)
+INFO: [HLS 214-131] Inlining function 'hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>::get_id_ptr()' into 'hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>::read()' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:294:23)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<1, false>::ap_int_base(int)' into 'ap_int_base<16, false>::operator++(int)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_int_base.h:925:16)
+INFO: [HLS 214-131] Inlining function 'ap_uint<16>::ap_uint<16, false>(ap_int_base<16, false> const&)' into 'ap_int_base<16, false>::operator++(int)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_int_base.h:926:12)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<16, false>& ap_int_base<16, false>::operator+=<1, false>(ap_int_base<1, false> const&)' into 'ap_int_base<16, false>::operator++(int)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_int_base.h:925:5)
+INFO: [HLS 214-131] Inlining function 'ssdm_int<32, true>::ssdm_int(int)' into 'ap_int_base<32, true>::ap_int_base(int)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_int_base.h:260:67)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<32, true>::ap_int_base(int)' into 'bool operator==<16, false>(ap_int_base<16, false> const&, int)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_int_base.h:1834:1853)
+INFO: [HLS 214-131] Inlining function 'bool ap_int_base<16, false>::operator==<32, true>(ap_int_base<32, true> const&) const' into 'bool operator==<16, false>(ap_int_base<16, false> const&, int)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_int_base.h:1834:1850)
+INFO: [HLS 214-131] Inlining function 'hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>::get_user_ptr()' into 'hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>::write(hls::axis<ap_uint<64>, 0ul, 0ul, 0ul> const&)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:304:51)
+INFO: [HLS 214-131] Inlining function 'hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>::get_dest_ptr()' into 'hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>::write(hls::axis<ap_uint<64>, 0ul, 0ul, 0ul> const&)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:307:26)
+INFO: [HLS 214-131] Inlining function 'hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>::get_id_ptr()' into 'hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>::write(hls::axis<ap_uint<64>, 0ul, 0ul, 0ul> const&)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:306:68)
+INFO: [HLS 214-131] Inlining function 'hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>::get_user_ptr()' into 'hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>::write(hls::axis<ap_uint<64>, 0ul, 0ul, 0ul> const&)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:306:37)
+INFO: [HLS 214-131] Inlining function 'hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>::get_dest_ptr()' into 'hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>::write(hls::axis<ap_uint<64>, 0ul, 0ul, 0ul> const&)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:305:40)
+INFO: [HLS 214-131] Inlining function 'hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>::get_id_ptr()' into 'hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>::write(hls::axis<ap_uint<64>, 0ul, 0ul, 0ul> const&)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:305:24)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<1, false>::ap_int_base(int)' into 'ap_int_base<5, false>::operator++(int)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_int_base.h:925:16)
+INFO: [HLS 214-131] Inlining function 'ap_uint<5>::ap_uint<5, false>(ap_int_base<5, false> const&)' into 'ap_int_base<5, false>::operator++(int)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_int_base.h:926:12)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<5, false>& ap_int_base<5, false>::operator+=<1, false>(ap_int_base<1, false> const&)' into 'ap_int_base<5, false>::operator++(int)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_int_base.h:925:5)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<32, true>::ap_int_base(int)' into 'bool operator==<5, false>(ap_int_base<5, false> const&, int)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_int_base.h:1834:1853)
+INFO: [HLS 214-131] Inlining function 'bool ap_int_base<5, false>::operator==<32, true>(ap_int_base<32, true> const&) const' into 'bool operator==<5, false>(ap_int_base<5, false> const&, int)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_int_base.h:1834:1850)
+INFO: [HLS 214-131] Inlining function 'ap_uint<16>::ap_uint(int)' into 'trigger_ip(hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (trigger_ip_project/trigger_ip.cpp:64:32)
+INFO: [HLS 214-131] Inlining function 'ap_uint<1>::ap_uint(int)' into 'trigger_ip(hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (trigger_ip_project/trigger_ip.cpp:128:28)
+INFO: [HLS 214-131] Inlining function 'ap_uint<1>::ap_uint(int)' into 'trigger_ip(hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (trigger_ip_project/trigger_ip.cpp:127:20)
+INFO: [HLS 214-131] Inlining function 'bool operator==<5, false>(ap_int_base<5, false> const&, int)' into 'trigger_ip(hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (trigger_ip_project/trigger_ip.cpp:126:23)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<5, false>::operator++(int)' into 'trigger_ip(hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (trigger_ip_project/trigger_ip.cpp:125:9)
+INFO: [HLS 214-131] Inlining function 'ap_uint<16>::ap_uint(int)' into 'trigger_ip(hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (trigger_ip_project/trigger_ip.cpp:124:20)
+INFO: [HLS 214-131] Inlining function 'hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>::write(hls::axis<ap_uint<64>, 0ul, 0ul, 0ul> const&)' into 'trigger_ip(hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (trigger_ip_project/trigger_ip.cpp:120:16)
+INFO: [HLS 214-131] Inlining function 'ap_uint<1>::ap_uint(int)' into 'trigger_ip(hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (trigger_ip_project/trigger_ip.cpp:118:21)
+INFO: [HLS 214-131] Inlining function 'bool operator==<16, false>(ap_int_base<16, false> const&, int)' into 'trigger_ip(hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (trigger_ip_project/trigger_ip.cpp:117:36)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<16, false>::operator++(int)' into 'trigger_ip(hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (trigger_ip_project/trigger_ip.cpp:114:5)
+INFO: [HLS 214-131] Inlining function 'hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>::read()' into 'trigger_ip(hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (trigger_ip_project/trigger_ip.cpp:102:32)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<1, false>::operator unsigned long long() const' into 'trigger_ip(hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (trigger_ip_project/trigger_ip.cpp:92:9)
+INFO: [HLS 214-131] Inlining function 'ap_uint<1>::ap_uint(int)' into 'trigger_ip(hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (trigger_ip_project/trigger_ip.cpp:77:24)
+INFO: [HLS 214-131] Inlining function 'ap_uint<1>::ap_uint(int)' into 'trigger_ip(hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (trigger_ip_project/trigger_ip.cpp:76:16)
+INFO: [HLS 214-131] Inlining function 'ap_uint<5>::ap_uint(int)' into 'trigger_ip(hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (trigger_ip_project/trigger_ip.cpp:75:21)
+INFO: [HLS 214-131] Inlining function 'ap_uint<16>::ap_uint(int)' into 'trigger_ip(hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (trigger_ip_project/trigger_ip.cpp:74:20)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<1, false>::operator unsigned long long() const' into 'trigger_ip(hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (trigger_ip_project/trigger_ip.cpp:73:9)
+INFO: [HLS 214-131] Inlining function 'ap_uint<1>::ap_uint(int)' into 'trigger_ip(hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (trigger_ip_project/trigger_ip.cpp:66:30)
+INFO: [HLS 214-131] Inlining function 'ap_uint<5>::ap_uint(int)' into 'trigger_ip(hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (trigger_ip_project/trigger_ip.cpp:65:35)
+INFO: [HLS 214-241] Aggregating scalar variable 'trigger_done' with compact=bit mode in 1-bits (trigger_ip_project/trigger_ip.cpp:48:0)
+INFO: [HLS 214-131] Inlining function '_llvm.fpga.unpack.none.s_struct.ap_uint<64>s.i64' into 'trigger_ip(hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:293:5)
+INFO: [HLS 214-131] Inlining function '_llvm.fpga.pack.none.i1.s_struct.ap_uint<1>s' into 'trigger_ip(hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:304:5)
+INFO: [HLS 214-131] Inlining function '_llvm.fpga.pack.none.i8.s_struct.ap_uint<8>s' into 'trigger_ip(hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:304:5)
+INFO: [HLS 214-131] Inlining function '_llvm.fpga.pack.none.i64.s_struct.ap_uint<64>s' into 'trigger_ip(hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:304:5)
+INFO: [HLS 214-131] Inlining function '_llvm.fpga.unpack.none.s_struct.ap_uint<1>s.i1' into 'trigger_ip(hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:293:5)
+INFO: [HLS 214-131] Inlining function '_llvm.fpga.unpack.none.s_struct.ap_uint<8>s.i8' into 'trigger_ip(hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:293:5)
+INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 8.27 seconds; current allocated memory: 1.390 GB.
+INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.006 seconds; current allocated memory: 1.390 GB.
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.194 seconds; current allocated memory: 1.390 GB.
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.182 seconds; current allocated memory: 1.390 GB.
+INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.226 seconds; current allocated memory: 1.390 GB.
+INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.136 seconds; current allocated memory: 1.390 GB.
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'trigger_ip' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'trigger_ip' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.438 seconds; current allocated memory: 1.390 GB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.112 seconds; current allocated memory: 1.390 GB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'trigger_ip' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+WARNING: [RTGEN 206-101] Design contains AXI ports. Reset is fixed to synchronous and active low.
+INFO: [RTGEN 206-500] Setting interface mode on port 'trigger_ip/s_axis_in_V_data_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'trigger_ip/s_axis_in_V_keep_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'trigger_ip/s_axis_in_V_strb_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'trigger_ip/s_axis_in_V_last_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'trigger_ip/m_axis_out_V_data_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'trigger_ip/m_axis_out_V_keep_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'trigger_ip/m_axis_out_V_strb_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'trigger_ip/m_axis_out_V_last_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'trigger_ip/sync_reset' to 'ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'trigger_ip/trigger_done' to 'ap_none'.
+WARNING: [RTGEN 206-101] Port 'trigger_done' with mode 'ap_none' may require an associated data valid signal to correctly communicate with other blocks or a test bench; automatic C/RTL co-simulation may not be able to verify such a port.
+INFO: [RTGEN 206-500] Setting interface mode on function 'trigger_ip' to 'ap_ctrl_none'.
+WARNING: [RTGEN 206-101] Register 'samp_cnt_V' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'batch_cnt_V' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'done_V' is power-on initialization.
+INFO: [RTGEN 206-100] Finished creating RTL model for 'trigger_ip'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.416 seconds; current allocated memory: 1.390 GB.
+INFO: [HLS 200-111] Finished Generating all RTL models: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.952 seconds; current allocated memory: 1.390 GB.
+INFO: [HLS 200-111] Finished Updating report files: CPU user time: 1 seconds. CPU system time: 1 seconds. Elapsed time: 0.803 seconds; current allocated memory: 1.390 GB.
+INFO: [VHDL 208-304] Generating VHDL RTL for trigger_ip.
+INFO: [VLOG 209-307] Generating Verilog RTL for trigger_ip.
+INFO: [HLS 200-789] **** Estimated Fmax: 211.32 MHz
+INFO: [HLS 200-111] Finished Command csynth_design CPU user time: 3 seconds. CPU system time: 1 seconds. Elapsed time: 19.411 seconds; current allocated memory: 0.000 MB.
+INFO: [HLS 200-112] Total CPU user time: 9 seconds. Total CPU system time: 4 seconds. Total elapsed time: 24.918 seconds; peak allocated memory: 1.390 GB.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2022.1 (64-bit)
+Tool Version Limit: 2022.04
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1611] Setting target device to 'xc7z020-clg484-1'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1510] Running: set_part xc7z020clg484-1 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1510] Running: cosim_design 
+ERROR: [COSIM 212-345] Cosim only supports the following 'ap_ctrl_none' designs: (1) combinational designs; (2) pipelined design with II of 1; (3) designs with array streaming or hls_stream or AXI4 stream ports.
+ERROR: [COSIM 212-5] *** C/RTL co-simulation file generation failed. ***
+ERROR: [COSIM 212-4] *** C/RTL co-simulation finished: FAIL ***
+INFO: [HLS 200-111] Finished Command cosim_design CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.542 seconds; current allocated memory: 0.000 MB.
+INFO: [HLS 200-112] Total CPU user time: 6 seconds. Total CPU system time: 3 seconds. Total elapsed time: 6.12 seconds; peak allocated memory: 1.389 GB.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2022.1 (64-bit)
+Tool Version Limit: 2022.04
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1611] Setting target device to 'xc7z020-clg484-1'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1510] Running: set_part xc7z020clg484-1 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1510] Running: export_design -rtl verilog -format ip_catalog 
+INFO: [IMPL 213-8] Exporting RTL as a Vivado IP.
+INFO: [HLS 200-802] Generated output file trigger_ip_project/solution1/impl/export.zip
+INFO: [HLS 200-111] Finished Command export_design CPU user time: 1 seconds. CPU system time: 1 seconds. Elapsed time: 32.471 seconds; current allocated memory: 0.000 MB.
+INFO: [HLS 200-112] Total CPU user time: 7 seconds. Total CPU system time: 4 seconds. Total elapsed time: 38.296 seconds; peak allocated memory: 1.390 GB.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2022.1 (64-bit)
+Tool Version Limit: 2022.04
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1611] Setting target device to 'xc7z020-clg484-1'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1464] Running solution command: config_export -format=ip_catalog
+INFO: [HLS 200-1464] Running solution command: config_export -rtl=verilog
+INFO: [HLS 200-1510] Running: set_part xc7z020clg484-1 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [HLS 200-1510] Running: config_export -format ip_catalog -rtl verilog 
+INFO: [HLS 200-1510] Running: csim_design -quiet 
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+INFO: [SIM 211-1] CSim done with 0 errors.
+INFO: [SIM 211-3] *************** CSIM finish ***************
+INFO: [HLS 200-111] Finished Command csim_design CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 4.565 seconds; current allocated memory: 0.000 MB.
+INFO: [HLS 200-112] Total CPU user time: 5 seconds. Total CPU system time: 3 seconds. Total elapsed time: 10.086 seconds; peak allocated memory: 1.380 GB.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2022.1 (64-bit)
+Tool Version Limit: 2022.04
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1611] Setting target device to 'xc7z020-clg484-1'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1464] Running solution command: config_export -format=ip_catalog
+INFO: [HLS 200-1464] Running solution command: config_export -rtl=verilog
+INFO: [HLS 200-1510] Running: set_part xc7z020clg484-1 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [HLS 200-1510] Running: config_export -format ip_catalog -rtl verilog 
+INFO: [HLS 200-1510] Running: csynth_design 
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.021 seconds; current allocated memory: 1.421 GB.
+INFO: [HLS 200-10] Analyzing design file 'trigger_ip_project/trigger_ip.cpp' ... 
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 3.732 seconds; current allocated memory: 1.421 GB.
+INFO: [HLS 200-777] Using interface defaults for 'Vivado' flow target.
+INFO: [HLS 214-131] Inlining function 'ssdm_int<16, false>::ssdm_int(unsigned short)' into 'ap_int_base<16, false>::ap_int_base(int)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_int_base.h:260:67)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<16, false>::ap_int_base(int)' into 'ap_uint<16>::ap_uint(int)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_int.h:333:58)
+INFO: [HLS 214-131] Inlining function '_ZN8ssdm_intILi5ELb0EEC2EDq5_j' into 'ap_int_base<5, false>::ap_int_base(int)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_int_base.h:260:67)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<5, false>::ap_int_base(int)' into 'ap_uint<5>::ap_uint(int)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_int.h:333:58)
+INFO: [HLS 214-131] Inlining function '_ZN8ssdm_intILi1ELb0EEC2EDq1_j' into 'ap_int_base<1, false>::ap_int_base(int)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_int_base.h:260:67)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<1, false>::ap_int_base(int)' into 'ap_uint<1>::ap_uint(int)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_int.h:333:58)
+INFO: [HLS 214-131] Inlining function 'hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>::get_user_ptr()' into 'hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>::read()' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:293:50)
+INFO: [HLS 214-131] Inlining function 'hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>::get_dest_ptr()' into 'hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>::read()' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:296:25)
+INFO: [HLS 214-131] Inlining function 'hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>::get_id_ptr()' into 'hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>::read()' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:295:67)
+INFO: [HLS 214-131] Inlining function 'hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>::get_user_ptr()' into 'hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>::read()' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:295:36)
+INFO: [HLS 214-131] Inlining function 'hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>::get_dest_ptr()' into 'hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>::read()' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:294:39)
+INFO: [HLS 214-131] Inlining function 'hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>::get_id_ptr()' into 'hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>::read()' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:294:23)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<1, false>::ap_int_base(int)' into 'ap_int_base<16, false>::operator++(int)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_int_base.h:925:16)
+INFO: [HLS 214-131] Inlining function 'ap_uint<16>::ap_uint<16, false>(ap_int_base<16, false> const&)' into 'ap_int_base<16, false>::operator++(int)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_int_base.h:926:12)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<16, false>& ap_int_base<16, false>::operator+=<1, false>(ap_int_base<1, false> const&)' into 'ap_int_base<16, false>::operator++(int)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_int_base.h:925:5)
+INFO: [HLS 214-131] Inlining function 'ssdm_int<32, true>::ssdm_int(int)' into 'ap_int_base<32, true>::ap_int_base(int)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_int_base.h:260:67)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<32, true>::ap_int_base(int)' into 'bool operator==<16, false>(ap_int_base<16, false> const&, int)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_int_base.h:1834:1853)
+INFO: [HLS 214-131] Inlining function 'bool ap_int_base<16, false>::operator==<32, true>(ap_int_base<32, true> const&) const' into 'bool operator==<16, false>(ap_int_base<16, false> const&, int)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_int_base.h:1834:1850)
+INFO: [HLS 214-131] Inlining function 'hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>::get_user_ptr()' into 'hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>::write(hls::axis<ap_uint<64>, 0ul, 0ul, 0ul> const&)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:304:51)
+INFO: [HLS 214-131] Inlining function 'hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>::get_dest_ptr()' into 'hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>::write(hls::axis<ap_uint<64>, 0ul, 0ul, 0ul> const&)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:307:26)
+INFO: [HLS 214-131] Inlining function 'hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>::get_id_ptr()' into 'hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>::write(hls::axis<ap_uint<64>, 0ul, 0ul, 0ul> const&)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:306:68)
+INFO: [HLS 214-131] Inlining function 'hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>::get_user_ptr()' into 'hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>::write(hls::axis<ap_uint<64>, 0ul, 0ul, 0ul> const&)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:306:37)
+INFO: [HLS 214-131] Inlining function 'hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>::get_dest_ptr()' into 'hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>::write(hls::axis<ap_uint<64>, 0ul, 0ul, 0ul> const&)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:305:40)
+INFO: [HLS 214-131] Inlining function 'hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>::get_id_ptr()' into 'hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>::write(hls::axis<ap_uint<64>, 0ul, 0ul, 0ul> const&)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:305:24)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<1, false>::ap_int_base(int)' into 'ap_int_base<5, false>::operator++(int)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_int_base.h:925:16)
+INFO: [HLS 214-131] Inlining function 'ap_uint<5>::ap_uint<5, false>(ap_int_base<5, false> const&)' into 'ap_int_base<5, false>::operator++(int)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_int_base.h:926:12)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<5, false>& ap_int_base<5, false>::operator+=<1, false>(ap_int_base<1, false> const&)' into 'ap_int_base<5, false>::operator++(int)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_int_base.h:925:5)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<32, true>::ap_int_base(int)' into 'bool operator==<5, false>(ap_int_base<5, false> const&, int)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_int_base.h:1834:1853)
+INFO: [HLS 214-131] Inlining function 'bool ap_int_base<5, false>::operator==<32, true>(ap_int_base<32, true> const&) const' into 'bool operator==<5, false>(ap_int_base<5, false> const&, int)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_int_base.h:1834:1850)
+INFO: [HLS 214-131] Inlining function 'ap_uint<16>::ap_uint(int)' into 'trigger_ip(hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (trigger_ip_project/trigger_ip.cpp:64:32)
+INFO: [HLS 214-131] Inlining function 'ap_uint<1>::ap_uint(int)' into 'trigger_ip(hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (trigger_ip_project/trigger_ip.cpp:128:28)
+INFO: [HLS 214-131] Inlining function 'ap_uint<1>::ap_uint(int)' into 'trigger_ip(hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (trigger_ip_project/trigger_ip.cpp:127:20)
+INFO: [HLS 214-131] Inlining function 'bool operator==<5, false>(ap_int_base<5, false> const&, int)' into 'trigger_ip(hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (trigger_ip_project/trigger_ip.cpp:126:23)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<5, false>::operator++(int)' into 'trigger_ip(hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (trigger_ip_project/trigger_ip.cpp:125:9)
+INFO: [HLS 214-131] Inlining function 'ap_uint<16>::ap_uint(int)' into 'trigger_ip(hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (trigger_ip_project/trigger_ip.cpp:124:20)
+INFO: [HLS 214-131] Inlining function 'hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>::write(hls::axis<ap_uint<64>, 0ul, 0ul, 0ul> const&)' into 'trigger_ip(hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (trigger_ip_project/trigger_ip.cpp:120:16)
+INFO: [HLS 214-131] Inlining function 'ap_uint<1>::ap_uint(int)' into 'trigger_ip(hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (trigger_ip_project/trigger_ip.cpp:118:21)
+INFO: [HLS 214-131] Inlining function 'bool operator==<16, false>(ap_int_base<16, false> const&, int)' into 'trigger_ip(hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (trigger_ip_project/trigger_ip.cpp:117:36)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<16, false>::operator++(int)' into 'trigger_ip(hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (trigger_ip_project/trigger_ip.cpp:114:5)
+INFO: [HLS 214-131] Inlining function 'hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>::read()' into 'trigger_ip(hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (trigger_ip_project/trigger_ip.cpp:102:32)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<1, false>::operator unsigned long long() const' into 'trigger_ip(hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (trigger_ip_project/trigger_ip.cpp:92:9)
+INFO: [HLS 214-131] Inlining function 'ap_uint<1>::ap_uint(int)' into 'trigger_ip(hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (trigger_ip_project/trigger_ip.cpp:77:24)
+INFO: [HLS 214-131] Inlining function 'ap_uint<1>::ap_uint(int)' into 'trigger_ip(hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (trigger_ip_project/trigger_ip.cpp:76:16)
+INFO: [HLS 214-131] Inlining function 'ap_uint<5>::ap_uint(int)' into 'trigger_ip(hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (trigger_ip_project/trigger_ip.cpp:75:21)
+INFO: [HLS 214-131] Inlining function 'ap_uint<16>::ap_uint(int)' into 'trigger_ip(hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (trigger_ip_project/trigger_ip.cpp:74:20)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<1, false>::operator unsigned long long() const' into 'trigger_ip(hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (trigger_ip_project/trigger_ip.cpp:73:9)
+INFO: [HLS 214-131] Inlining function 'ap_uint<1>::ap_uint(int)' into 'trigger_ip(hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (trigger_ip_project/trigger_ip.cpp:66:30)
+INFO: [HLS 214-131] Inlining function 'ap_uint<5>::ap_uint(int)' into 'trigger_ip(hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (trigger_ip_project/trigger_ip.cpp:65:35)
+INFO: [HLS 214-131] Inlining function '_llvm.fpga.unpack.none.s_struct.ap_uint<64>s.i64' into 'trigger_ip(hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:293:5)
+INFO: [HLS 214-131] Inlining function '_llvm.fpga.pack.none.i1.s_struct.ap_uint<1>s' into 'trigger_ip(hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:304:5)
+INFO: [HLS 214-131] Inlining function '_llvm.fpga.pack.none.i8.s_struct.ap_uint<8>s' into 'trigger_ip(hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:304:5)
+INFO: [HLS 214-131] Inlining function '_llvm.fpga.pack.none.i64.s_struct.ap_uint<64>s' into 'trigger_ip(hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:304:5)
+INFO: [HLS 214-131] Inlining function '_llvm.fpga.unpack.none.s_struct.ap_uint<1>s.i1' into 'trigger_ip(hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:293:5)
+INFO: [HLS 214-131] Inlining function '_llvm.fpga.unpack.none.s_struct.ap_uint<8>s.i8' into 'trigger_ip(hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:293:5)
+INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 5.239 seconds; current allocated memory: 1.421 GB.
+INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.003 seconds; current allocated memory: 1.421 GB.
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.125 seconds; current allocated memory: 1.421 GB.
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.111 seconds; current allocated memory: 1.421 GB.
+INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.142 seconds; current allocated memory: 1.421 GB.
+INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.086 seconds; current allocated memory: 1.421 GB.
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'trigger_ip' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'trigger_ip' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.235 seconds; current allocated memory: 1.421 GB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.084 seconds; current allocated memory: 1.421 GB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'trigger_ip' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+WARNING: [RTGEN 206-101] Design contains AXI ports. Reset is fixed to synchronous and active low.
+INFO: [RTGEN 206-500] Setting interface mode on port 'trigger_ip/s_axis_in_V_data_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'trigger_ip/s_axis_in_V_keep_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'trigger_ip/s_axis_in_V_strb_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'trigger_ip/s_axis_in_V_last_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'trigger_ip/m_axis_out_V_data_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'trigger_ip/m_axis_out_V_keep_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'trigger_ip/m_axis_out_V_strb_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'trigger_ip/m_axis_out_V_last_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'trigger_ip/sync_reset' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'trigger_ip/trigger_done' to 's_axilite & ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on function 'trigger_ip' to 's_axilite & ap_ctrl_hs'.
+WARNING: [RTGEN 206-101] Register 'samp_cnt_V' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'batch_cnt_V' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'done_V' is power-on initialization.
+INFO: [RTGEN 206-100] Bundling port 'sync_reset', 'trigger_done' and 'return' to AXI-Lite port control.
+INFO: [RTGEN 206-100] Finished creating RTL model for 'trigger_ip'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.324 seconds; current allocated memory: 1.421 GB.
+INFO: [HLS 200-111] Finished Generating all RTL models: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.648 seconds; current allocated memory: 1.421 GB.
+INFO: [HLS 200-111] Finished Updating report files: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.642 seconds; current allocated memory: 1.421 GB.
+INFO: [VHDL 208-304] Generating VHDL RTL for trigger_ip.
+INFO: [VLOG 209-307] Generating Verilog RTL for trigger_ip.
+INFO: [HLS 200-789] **** Estimated Fmax: 211.32 MHz
+INFO: [HLS 200-111] Finished Command csynth_design CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 11.516 seconds; current allocated memory: 0.000 MB.
+INFO: [HLS 200-112] Total CPU user time: 4 seconds. Total CPU system time: 2 seconds. Total elapsed time: 14.377 seconds; peak allocated memory: 1.421 GB.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2022.1 (64-bit)
+Tool Version Limit: 2022.04
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2022.1 (64-bit)
+Tool Version Limit: 2022.04
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1611] Setting target device to 'xc7z020-clg484-1'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1464] Running solution command: config_export -format=ip_catalog
+INFO: [HLS 200-1464] Running solution command: config_export -rtl=verilog
+INFO: [HLS 200-1510] Running: set_part xc7z020clg484-1 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1510] Running: config_export -format ip_catalog -rtl verilog 
+INFO: [HLS 200-1510] Running: export_design -rtl verilog -format ip_catalog 
+INFO: [IMPL 213-8] Exporting RTL as a Vivado IP.
+INFO: [HLS 200-802] Generated output file trigger_ip_project/solution1/impl/export.zip
+INFO: [HLS 200-111] Finished Command export_design CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 12.592 seconds; current allocated memory: 0.000 MB.
+INFO: [HLS 200-112] Total CPU user time: 4 seconds. Total CPU system time: 2 seconds. Total elapsed time: 15.484 seconds; peak allocated memory: 1.425 GB.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2022.1 (64-bit)
+Tool Version Limit: 2022.04
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1611] Setting target device to 'xc7z020-clg484-1'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1464] Running solution command: config_export -format=ip_catalog
+INFO: [HLS 200-1464] Running solution command: config_export -rtl=verilog
+INFO: [HLS 200-1510] Running: set_part xc7z020-clg484-1 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [HLS 200-1510] Running: config_export -format ip_catalog -rtl verilog 
+INFO: [HLS 200-1510] Running: source ./trigger_ip_project/solution1/directives.tcl
+INFO: [HLS 200-1510] Running: set_directive_top -name trigger_ip trigger_ip 
+INFO: [HLS 200-1510] Running: csim_design -quiet 
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+INFO: [SIM 211-1] CSim done with 0 errors.
+INFO: [SIM 211-3] *************** CSIM finish ***************
+INFO: [HLS 200-111] Finished Command csim_design CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 8.425 seconds; current allocated memory: 0.000 MB.
+INFO: [HLS 200-112] Total CPU user time: 5 seconds. Total CPU system time: 3 seconds. Total elapsed time: 13.657 seconds; peak allocated memory: 1.385 GB.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2022.1 (64-bit)
+Tool Version Limit: 2022.04
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1611] Setting target device to 'xc7z020-clg484-1'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1464] Running solution command: config_export -format=ip_catalog
+INFO: [HLS 200-1464] Running solution command: config_export -rtl=verilog
+INFO: [HLS 200-1510] Running: set_part xc7z020-clg484-1 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [HLS 200-1510] Running: config_export -format ip_catalog -rtl verilog 
+INFO: [HLS 200-1510] Running: source ./trigger_ip_project/solution1/directives.tcl
+INFO: [HLS 200-1510] Running: set_directive_top -name trigger_ip trigger_ip 
+INFO: [HLS 200-1510] Running: csynth_design 
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.021 seconds; current allocated memory: 1.417 GB.
+INFO: [HLS 200-10] Analyzing design file 'trigger_ip_project/trigger_ip.cpp' ... 
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 4.236 seconds; current allocated memory: 1.417 GB.
+INFO: [HLS 200-777] Using interface defaults for 'Vivado' flow target.
+INFO: [HLS 214-131] Inlining function 'ssdm_int<16, false>::ssdm_int(unsigned short)' into 'ap_int_base<16, false>::ap_int_base(int)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_int_base.h:260:67)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<16, false>::ap_int_base(int)' into 'ap_uint<16>::ap_uint(int)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_int.h:333:58)
+INFO: [HLS 214-131] Inlining function '_ZN8ssdm_intILi5ELb0EEC2EDq5_j' into 'ap_int_base<5, false>::ap_int_base(int)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_int_base.h:260:67)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<5, false>::ap_int_base(int)' into 'ap_uint<5>::ap_uint(int)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_int.h:333:58)
+INFO: [HLS 214-131] Inlining function '_ZN8ssdm_intILi1ELb0EEC2EDq1_j' into 'ap_int_base<1, false>::ap_int_base(int)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_int_base.h:260:67)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<1, false>::ap_int_base(int)' into 'ap_uint<1>::ap_uint(int)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_int.h:333:58)
+INFO: [HLS 214-131] Inlining function 'hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>::get_user_ptr()' into 'hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>::read()' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:293:50)
+INFO: [HLS 214-131] Inlining function 'hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>::get_dest_ptr()' into 'hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>::read()' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:296:25)
+INFO: [HLS 214-131] Inlining function 'hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>::get_id_ptr()' into 'hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>::read()' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:295:67)
+INFO: [HLS 214-131] Inlining function 'hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>::get_user_ptr()' into 'hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>::read()' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:295:36)
+INFO: [HLS 214-131] Inlining function 'hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>::get_dest_ptr()' into 'hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>::read()' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:294:39)
+INFO: [HLS 214-131] Inlining function 'hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>::get_id_ptr()' into 'hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>::read()' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:294:23)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<1, false>::ap_int_base(int)' into 'ap_int_base<16, false>::operator++(int)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_int_base.h:925:16)
+INFO: [HLS 214-131] Inlining function 'ap_uint<16>::ap_uint<16, false>(ap_int_base<16, false> const&)' into 'ap_int_base<16, false>::operator++(int)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_int_base.h:926:12)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<16, false>& ap_int_base<16, false>::operator+=<1, false>(ap_int_base<1, false> const&)' into 'ap_int_base<16, false>::operator++(int)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_int_base.h:925:5)
+INFO: [HLS 214-131] Inlining function 'ssdm_int<32, true>::ssdm_int(int)' into 'ap_int_base<32, true>::ap_int_base(int)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_int_base.h:260:67)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<32, true>::ap_int_base(int)' into 'bool operator==<16, false>(ap_int_base<16, false> const&, int)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_int_base.h:1834:1853)
+INFO: [HLS 214-131] Inlining function 'bool ap_int_base<16, false>::operator==<32, true>(ap_int_base<32, true> const&) const' into 'bool operator==<16, false>(ap_int_base<16, false> const&, int)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_int_base.h:1834:1850)
+INFO: [HLS 214-131] Inlining function 'hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>::get_user_ptr()' into 'hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>::write(hls::axis<ap_uint<64>, 0ul, 0ul, 0ul> const&)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:304:51)
+INFO: [HLS 214-131] Inlining function 'hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>::get_dest_ptr()' into 'hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>::write(hls::axis<ap_uint<64>, 0ul, 0ul, 0ul> const&)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:307:26)
+INFO: [HLS 214-131] Inlining function 'hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>::get_id_ptr()' into 'hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>::write(hls::axis<ap_uint<64>, 0ul, 0ul, 0ul> const&)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:306:68)
+INFO: [HLS 214-131] Inlining function 'hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>::get_user_ptr()' into 'hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>::write(hls::axis<ap_uint<64>, 0ul, 0ul, 0ul> const&)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:306:37)
+INFO: [HLS 214-131] Inlining function 'hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>::get_dest_ptr()' into 'hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>::write(hls::axis<ap_uint<64>, 0ul, 0ul, 0ul> const&)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:305:40)
+INFO: [HLS 214-131] Inlining function 'hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>::get_id_ptr()' into 'hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>::write(hls::axis<ap_uint<64>, 0ul, 0ul, 0ul> const&)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:305:24)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<1, false>::ap_int_base(int)' into 'ap_int_base<5, false>::operator++(int)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_int_base.h:925:16)
+INFO: [HLS 214-131] Inlining function 'ap_uint<5>::ap_uint<5, false>(ap_int_base<5, false> const&)' into 'ap_int_base<5, false>::operator++(int)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_int_base.h:926:12)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<5, false>& ap_int_base<5, false>::operator+=<1, false>(ap_int_base<1, false> const&)' into 'ap_int_base<5, false>::operator++(int)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_int_base.h:925:5)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<32, true>::ap_int_base(int)' into 'bool operator==<5, false>(ap_int_base<5, false> const&, int)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_int_base.h:1834:1853)
+INFO: [HLS 214-131] Inlining function 'bool ap_int_base<5, false>::operator==<32, true>(ap_int_base<32, true> const&) const' into 'bool operator==<5, false>(ap_int_base<5, false> const&, int)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_int_base.h:1834:1850)
+INFO: [HLS 214-131] Inlining function 'ap_uint<16>::ap_uint(int)' into 'trigger_ip(hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (trigger_ip_project/trigger_ip.cpp:65:32)
+INFO: [HLS 214-131] Inlining function 'ap_uint<1>::ap_uint(int)' into 'trigger_ip(hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (trigger_ip_project/trigger_ip.cpp:129:28)
+INFO: [HLS 214-131] Inlining function 'ap_uint<1>::ap_uint(int)' into 'trigger_ip(hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (trigger_ip_project/trigger_ip.cpp:128:20)
+INFO: [HLS 214-131] Inlining function 'bool operator==<5, false>(ap_int_base<5, false> const&, int)' into 'trigger_ip(hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (trigger_ip_project/trigger_ip.cpp:127:23)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<5, false>::operator++(int)' into 'trigger_ip(hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (trigger_ip_project/trigger_ip.cpp:126:9)
+INFO: [HLS 214-131] Inlining function 'ap_uint<16>::ap_uint(int)' into 'trigger_ip(hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (trigger_ip_project/trigger_ip.cpp:125:20)
+INFO: [HLS 214-131] Inlining function 'hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>::write(hls::axis<ap_uint<64>, 0ul, 0ul, 0ul> const&)' into 'trigger_ip(hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (trigger_ip_project/trigger_ip.cpp:121:16)
+INFO: [HLS 214-131] Inlining function 'ap_uint<1>::ap_uint(int)' into 'trigger_ip(hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (trigger_ip_project/trigger_ip.cpp:119:21)
+INFO: [HLS 214-131] Inlining function 'bool operator==<16, false>(ap_int_base<16, false> const&, int)' into 'trigger_ip(hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (trigger_ip_project/trigger_ip.cpp:118:36)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<16, false>::operator++(int)' into 'trigger_ip(hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (trigger_ip_project/trigger_ip.cpp:115:5)
+INFO: [HLS 214-131] Inlining function 'hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>::read()' into 'trigger_ip(hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (trigger_ip_project/trigger_ip.cpp:103:32)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<1, false>::operator unsigned long long() const' into 'trigger_ip(hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (trigger_ip_project/trigger_ip.cpp:93:9)
+INFO: [HLS 214-131] Inlining function 'ap_uint<1>::ap_uint(int)' into 'trigger_ip(hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (trigger_ip_project/trigger_ip.cpp:78:24)
+INFO: [HLS 214-131] Inlining function 'ap_uint<1>::ap_uint(int)' into 'trigger_ip(hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (trigger_ip_project/trigger_ip.cpp:77:16)
+INFO: [HLS 214-131] Inlining function 'ap_uint<5>::ap_uint(int)' into 'trigger_ip(hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (trigger_ip_project/trigger_ip.cpp:76:21)
+INFO: [HLS 214-131] Inlining function 'ap_uint<16>::ap_uint(int)' into 'trigger_ip(hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (trigger_ip_project/trigger_ip.cpp:75:20)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<1, false>::operator unsigned long long() const' into 'trigger_ip(hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (trigger_ip_project/trigger_ip.cpp:74:9)
+INFO: [HLS 214-131] Inlining function 'ap_uint<1>::ap_uint(int)' into 'trigger_ip(hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (trigger_ip_project/trigger_ip.cpp:67:30)
+INFO: [HLS 214-131] Inlining function 'ap_uint<5>::ap_uint(int)' into 'trigger_ip(hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (trigger_ip_project/trigger_ip.cpp:66:35)
+INFO: [HLS 214-131] Inlining function '_llvm.fpga.unpack.none.s_struct.ap_uint<64>s.i64' into 'trigger_ip(hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:293:5)
+INFO: [HLS 214-131] Inlining function '_llvm.fpga.pack.none.i1.s_struct.ap_uint<1>s' into 'trigger_ip(hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:304:5)
+INFO: [HLS 214-131] Inlining function '_llvm.fpga.pack.none.i8.s_struct.ap_uint<8>s' into 'trigger_ip(hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:304:5)
+INFO: [HLS 214-131] Inlining function '_llvm.fpga.pack.none.i64.s_struct.ap_uint<64>s' into 'trigger_ip(hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:304:5)
+INFO: [HLS 214-131] Inlining function '_llvm.fpga.unpack.none.s_struct.ap_uint<1>s.i1' into 'trigger_ip(hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:293:5)
+INFO: [HLS 214-131] Inlining function '_llvm.fpga.unpack.none.s_struct.ap_uint<8>s.i8' into 'trigger_ip(hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:293:5)
+INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 5.422 seconds; current allocated memory: 1.417 GB.
+INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.003 seconds; current allocated memory: 1.417 GB.
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.133 seconds; current allocated memory: 1.417 GB.
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.118 seconds; current allocated memory: 1.417 GB.
+INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.145 seconds; current allocated memory: 1.417 GB.
+INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.092 seconds; current allocated memory: 1.417 GB.
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'trigger_ip' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'trigger_ip' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining function 'trigger_ip'.
+WARNING: [HLS 200-880] The II Violation in module 'trigger_ip' (function 'trigger_ip'): Unable to enforce a carried dependence constraint (II = 1, distance = 1, offset = 1) between s_axi write operation ('trigger_done_write_ln129', trigger_ip_project/trigger_ip.cpp:129) on port 'trigger_done' (trigger_ip_project/trigger_ip.cpp:129) and s_axi write operation ('trigger_done_write_ln86', trigger_ip_project/trigger_ip.cpp:86) on port 'trigger_done' (trigger_ip_project/trigger_ip.cpp:86).
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 2, Depth = 3, function 'trigger_ip'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.363 seconds; current allocated memory: 1.417 GB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.109 seconds; current allocated memory: 1.417 GB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'trigger_ip' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+WARNING: [RTGEN 206-101] Design contains AXI ports. Reset is fixed to synchronous and active low.
+INFO: [RTGEN 206-500] Setting interface mode on port 'trigger_ip/s_axis_in_V_data_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'trigger_ip/s_axis_in_V_keep_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'trigger_ip/s_axis_in_V_strb_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'trigger_ip/s_axis_in_V_last_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'trigger_ip/m_axis_out_V_data_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'trigger_ip/m_axis_out_V_keep_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'trigger_ip/m_axis_out_V_strb_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'trigger_ip/m_axis_out_V_last_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'trigger_ip/sync_reset' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'trigger_ip/trigger_done' to 's_axilite & ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on function 'trigger_ip' to 's_axilite & ap_ctrl_hs'.
+WARNING: [RTGEN 206-101] Register 'samp_cnt_V' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'batch_cnt_V' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'done_V' is power-on initialization.
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'trigger_ip' pipeline 'trigger_ip' pipeline type 'function pipeline'
+INFO: [RTGEN 206-100] Bundling port 'sync_reset', 'trigger_done' and 'return' to AXI-Lite port control.
+INFO: [RTGEN 206-100] Finished creating RTL model for 'trigger_ip'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.37 seconds; current allocated memory: 1.417 GB.
+INFO: [HLS 200-111] Finished Generating all RTL models: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.728 seconds; current allocated memory: 1.417 GB.
+INFO: [HLS 200-111] Finished Updating report files: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.64 seconds; current allocated memory: 1.417 GB.
+INFO: [VHDL 208-304] Generating VHDL RTL for trigger_ip.
+INFO: [VLOG 209-307] Generating Verilog RTL for trigger_ip.
+INFO: [HLS 200-789] **** Estimated Fmax: 164.10 MHz
+INFO: [HLS 200-111] Finished Command csynth_design CPU user time: 2 seconds. CPU system time: 0 seconds. Elapsed time: 12.506 seconds; current allocated memory: 0.000 MB.
+INFO: [HLS 200-112] Total CPU user time: 6 seconds. Total CPU system time: 2 seconds. Total elapsed time: 15.639 seconds; peak allocated memory: 1.417 GB.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2022.1 (64-bit)
+Tool Version Limit: 2022.04
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1611] Setting target device to 'xc7z020-clg484-1'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1464] Running solution command: config_export -format=ip_catalog
+INFO: [HLS 200-1464] Running solution command: config_export -rtl=verilog
+INFO: [HLS 200-1510] Running: set_part xc7z020-clg484-1 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [HLS 200-1510] Running: config_export -format ip_catalog -rtl verilog 
+INFO: [HLS 200-1510] Running: source ./trigger_ip_project/solution1/directives.tcl
+INFO: [HLS 200-1510] Running: set_directive_top -name trigger_ip trigger_ip 
+INFO: [HLS 200-1510] Running: csim_design -quiet 
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+INFO: [SIM 211-1] CSim done with 0 errors.
+INFO: [SIM 211-3] *************** CSIM finish ***************
+INFO: [HLS 200-111] Finished Command csim_design CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 3.949 seconds; current allocated memory: 0.000 MB.
+INFO: [HLS 200-112] Total CPU user time: 5 seconds. Total CPU system time: 2 seconds. Total elapsed time: 7.903 seconds; peak allocated memory: 1.392 GB.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2022.1 (64-bit)
+Tool Version Limit: 2022.04
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1611] Setting target device to 'xc7z020-clg484-1'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1464] Running solution command: config_export -format=ip_catalog
+INFO: [HLS 200-1464] Running solution command: config_export -rtl=verilog
+INFO: [HLS 200-1510] Running: set_part xc7z020-clg484-1 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [HLS 200-1510] Running: config_export -format ip_catalog -rtl verilog 
+INFO: [HLS 200-1510] Running: source ./trigger_ip_project/solution1/directives.tcl
+INFO: [HLS 200-1510] Running: set_directive_top -name trigger_ip trigger_ip 
+INFO: [HLS 200-1510] Running: csynth_design 
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.023 seconds; current allocated memory: 1.388 GB.
+INFO: [HLS 200-10] Analyzing design file 'trigger_ip_project/trigger_ip.cpp' ... 
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 3.697 seconds; current allocated memory: 1.388 GB.
+INFO: [HLS 200-777] Using interface defaults for 'Vivado' flow target.
+INFO: [HLS 214-131] Inlining function 'ssdm_int<16, false>::ssdm_int(unsigned short)' into 'ap_int_base<16, false>::ap_int_base(int)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_int_base.h:260:67)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<16, false>::ap_int_base(int)' into 'ap_uint<16>::ap_uint(int)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_int.h:333:58)
+INFO: [HLS 214-131] Inlining function '_ZN8ssdm_intILi5ELb0EEC2EDq5_j' into 'ap_int_base<5, false>::ap_int_base(int)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_int_base.h:260:67)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<5, false>::ap_int_base(int)' into 'ap_uint<5>::ap_uint(int)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_int.h:333:58)
+INFO: [HLS 214-131] Inlining function '_ZN8ssdm_intILi1ELb0EEC2EDq1_j' into 'ap_int_base<1, false>::ap_int_base(int)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_int_base.h:260:67)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<1, false>::ap_int_base(int)' into 'ap_uint<1>::ap_uint(int)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_int.h:333:58)
+INFO: [HLS 214-131] Inlining function 'hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>::get_user_ptr()' into 'hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>::read()' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:293:50)
+INFO: [HLS 214-131] Inlining function 'hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>::get_dest_ptr()' into 'hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>::read()' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:296:25)
+INFO: [HLS 214-131] Inlining function 'hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>::get_id_ptr()' into 'hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>::read()' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:295:67)
+INFO: [HLS 214-131] Inlining function 'hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>::get_user_ptr()' into 'hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>::read()' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:295:36)
+INFO: [HLS 214-131] Inlining function 'hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>::get_dest_ptr()' into 'hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>::read()' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:294:39)
+INFO: [HLS 214-131] Inlining function 'hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>::get_id_ptr()' into 'hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>::read()' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:294:23)
+INFO: [HLS 214-131] Inlining function 'ssdm_int<32, true>::ssdm_int(int)' into 'ap_int_base<32, true>::ap_int_base(int)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_int_base.h:260:67)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<32, true>::ap_int_base(int)' into 'bool operator==<16, false>(ap_int_base<16, false> const&, int)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_int_base.h:1834:1853)
+INFO: [HLS 214-131] Inlining function 'bool ap_int_base<16, false>::operator==<32, true>(ap_int_base<32, true> const&) const' into 'bool operator==<16, false>(ap_int_base<16, false> const&, int)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_int_base.h:1834:1850)
+INFO: [HLS 214-131] Inlining function 'hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>::get_user_ptr()' into 'hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>::write(hls::axis<ap_uint<64>, 0ul, 0ul, 0ul> const&)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:304:51)
+INFO: [HLS 214-131] Inlining function 'hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>::get_dest_ptr()' into 'hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>::write(hls::axis<ap_uint<64>, 0ul, 0ul, 0ul> const&)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:307:26)
+INFO: [HLS 214-131] Inlining function 'hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>::get_id_ptr()' into 'hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>::write(hls::axis<ap_uint<64>, 0ul, 0ul, 0ul> const&)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:306:68)
+INFO: [HLS 214-131] Inlining function 'hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>::get_user_ptr()' into 'hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>::write(hls::axis<ap_uint<64>, 0ul, 0ul, 0ul> const&)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:306:37)
+INFO: [HLS 214-131] Inlining function 'hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>::get_dest_ptr()' into 'hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>::write(hls::axis<ap_uint<64>, 0ul, 0ul, 0ul> const&)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:305:40)
+INFO: [HLS 214-131] Inlining function 'hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>::get_id_ptr()' into 'hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>::write(hls::axis<ap_uint<64>, 0ul, 0ul, 0ul> const&)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:305:24)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<32, true>::ap_int_base(int)' into 'bool operator==<5, false>(ap_int_base<5, false> const&, int)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_int_base.h:1834:1853)
+INFO: [HLS 214-131] Inlining function 'bool ap_int_base<5, false>::operator==<32, true>(ap_int_base<32, true> const&) const' into 'bool operator==<5, false>(ap_int_base<5, false> const&, int)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_int_base.h:1834:1850)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<1, false>::ap_int_base(int)' into 'ap_int_base<5, false>::operator++(int)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_int_base.h:925:16)
+INFO: [HLS 214-131] Inlining function 'ap_uint<5>::ap_uint<5, false>(ap_int_base<5, false> const&)' into 'ap_int_base<5, false>::operator++(int)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_int_base.h:926:12)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<5, false>& ap_int_base<5, false>::operator+=<1, false>(ap_int_base<1, false> const&)' into 'ap_int_base<5, false>::operator++(int)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_int_base.h:925:5)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<1, false>::ap_int_base(int)' into 'ap_int_base<16, false>::operator++(int)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_int_base.h:925:16)
+INFO: [HLS 214-131] Inlining function 'ap_uint<16>::ap_uint<16, false>(ap_int_base<16, false> const&)' into 'ap_int_base<16, false>::operator++(int)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_int_base.h:926:12)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<16, false>& ap_int_base<16, false>::operator+=<1, false>(ap_int_base<1, false> const&)' into 'ap_int_base<16, false>::operator++(int)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_int_base.h:925:5)
+INFO: [HLS 214-131] Inlining function 'ap_uint<16>::ap_uint(int)' into 'trigger_ip(hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (trigger_ip_project/trigger_ip.cpp:18:32)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<16, false>::operator++(int)' into 'trigger_ip(hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (trigger_ip_project/trigger_ip.cpp:66:9)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<5, false>::operator++(int)' into 'trigger_ip(hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (trigger_ip_project/trigger_ip.cpp:63:13)
+INFO: [HLS 214-131] Inlining function 'ap_uint<1>::ap_uint(int)' into 'trigger_ip(hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (trigger_ip_project/trigger_ip.cpp:61:28)
+INFO: [HLS 214-131] Inlining function 'ap_uint<1>::ap_uint(int)' into 'trigger_ip(hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (trigger_ip_project/trigger_ip.cpp:60:20)
+INFO: [HLS 214-131] Inlining function 'bool operator==<5, false>(ap_int_base<5, false> const&, int)' into 'trigger_ip(hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (trigger_ip_project/trigger_ip.cpp:59:23)
+INFO: [HLS 214-131] Inlining function 'ap_uint<16>::ap_uint(int)' into 'trigger_ip(hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (trigger_ip_project/trigger_ip.cpp:57:20)
+INFO: [HLS 214-131] Inlining function 'hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>::write(hls::axis<ap_uint<64>, 0ul, 0ul, 0ul> const&)' into 'trigger_ip(hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (trigger_ip_project/trigger_ip.cpp:53:16)
+INFO: [HLS 214-131] Inlining function 'ap_uint<1>::ap_uint(int)' into 'trigger_ip(hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (trigger_ip_project/trigger_ip.cpp:50:21)
+INFO: [HLS 214-131] Inlining function 'bool operator==<16, false>(ap_int_base<16, false> const&, int)' into 'trigger_ip(hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (trigger_ip_project/trigger_ip.cpp:49:36)
+INFO: [HLS 214-131] Inlining function 'hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>::read()' into 'trigger_ip(hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (trigger_ip_project/trigger_ip.cpp:37:32)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<1, false>::operator unsigned long long() const' into 'trigger_ip(hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (trigger_ip_project/trigger_ip.cpp:32:9)
+INFO: [HLS 214-131] Inlining function 'ap_uint<1>::ap_uint(int)' into 'trigger_ip(hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (trigger_ip_project/trigger_ip.cpp:27:24)
+INFO: [HLS 214-131] Inlining function 'ap_uint<1>::ap_uint(int)' into 'trigger_ip(hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (trigger_ip_project/trigger_ip.cpp:26:16)
+INFO: [HLS 214-131] Inlining function 'ap_uint<5>::ap_uint(int)' into 'trigger_ip(hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (trigger_ip_project/trigger_ip.cpp:25:21)
+INFO: [HLS 214-131] Inlining function 'ap_uint<16>::ap_uint(int)' into 'trigger_ip(hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (trigger_ip_project/trigger_ip.cpp:24:20)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<1, false>::operator unsigned long long() const' into 'trigger_ip(hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (trigger_ip_project/trigger_ip.cpp:23:9)
+INFO: [HLS 214-131] Inlining function 'ap_uint<1>::ap_uint(int)' into 'trigger_ip(hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (trigger_ip_project/trigger_ip.cpp:20:30)
+INFO: [HLS 214-131] Inlining function 'ap_uint<5>::ap_uint(int)' into 'trigger_ip(hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (trigger_ip_project/trigger_ip.cpp:19:35)
+INFO: [HLS 214-131] Inlining function '_llvm.fpga.unpack.none.s_struct.ap_uint<64>s.i64' into 'trigger_ip(hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:293:5)
+INFO: [HLS 214-131] Inlining function '_llvm.fpga.pack.none.i1.s_struct.ap_uint<1>s' into 'trigger_ip(hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:304:5)
+INFO: [HLS 214-131] Inlining function '_llvm.fpga.pack.none.i8.s_struct.ap_uint<8>s' into 'trigger_ip(hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:304:5)
+INFO: [HLS 214-131] Inlining function '_llvm.fpga.pack.none.i64.s_struct.ap_uint<64>s' into 'trigger_ip(hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:304:5)
+INFO: [HLS 214-131] Inlining function '_llvm.fpga.unpack.none.s_struct.ap_uint<1>s.i1' into 'trigger_ip(hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:293:5)
+INFO: [HLS 214-131] Inlining function '_llvm.fpga.unpack.none.s_struct.ap_uint<8>s.i8' into 'trigger_ip(hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<ap_uint<64>, 0ul, 0ul, 0ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:293:5)
+INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 5.297 seconds; current allocated memory: 1.388 GB.
+INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.004 seconds; current allocated memory: 1.388 GB.
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.075 seconds; current allocated memory: 1.388 GB.
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.108 seconds; current allocated memory: 1.388 GB.
+INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.127 seconds; current allocated memory: 1.388 GB.
+INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.074 seconds; current allocated memory: 1.388 GB.
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'trigger_ip' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'trigger_ip' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining function 'trigger_ip'.
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 3, function 'trigger_ip'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.237 seconds; current allocated memory: 1.388 GB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.089 seconds; current allocated memory: 1.388 GB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'trigger_ip' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+WARNING: [RTGEN 206-101] Design contains AXI ports. Reset is fixed to synchronous and active low.
+INFO: [RTGEN 206-500] Setting interface mode on port 'trigger_ip/s_axis_in_V_data_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'trigger_ip/s_axis_in_V_keep_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'trigger_ip/s_axis_in_V_strb_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'trigger_ip/s_axis_in_V_last_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'trigger_ip/m_axis_out_V_data_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'trigger_ip/m_axis_out_V_keep_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'trigger_ip/m_axis_out_V_strb_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'trigger_ip/m_axis_out_V_last_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'trigger_ip/sync_reset' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'trigger_ip/trigger_done' to 's_axilite & ap_ovld' (last_write_notify).
+INFO: [RTGEN 206-500] Setting interface mode on function 'trigger_ip' to 's_axilite & ap_ctrl_hs'.
+WARNING: [RTGEN 206-101] Register 'samp_cnt_V' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'batch_cnt_V' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'done_V' is power-on initialization.
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'trigger_ip' pipeline 'trigger_ip' pipeline type 'function pipeline'
+INFO: [RTGEN 206-100] Bundling port 'sync_reset', 'trigger_done' and 'return' to AXI-Lite port control.
+INFO: [RTGEN 206-100] Finished creating RTL model for 'trigger_ip'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.391 seconds; current allocated memory: 1.388 GB.
+INFO: [HLS 200-111] Finished Generating all RTL models: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.745 seconds; current allocated memory: 1.388 GB.
+INFO: [HLS 200-111] Finished Updating report files: CPU user time: 1 seconds. CPU system time: 1 seconds. Elapsed time: 0.593 seconds; current allocated memory: 1.388 GB.
+INFO: [VHDL 208-304] Generating VHDL RTL for trigger_ip.
+INFO: [VLOG 209-307] Generating Verilog RTL for trigger_ip.
+INFO: [HLS 200-789] **** Estimated Fmax: 200.20 MHz
+INFO: [HLS 200-111] Finished Command csynth_design CPU user time: 2 seconds. CPU system time: 1 seconds. Elapsed time: 11.586 seconds; current allocated memory: 0.000 MB.
+INFO: [HLS 200-112] Total CPU user time: 6 seconds. Total CPU system time: 3 seconds. Total elapsed time: 15.156 seconds; peak allocated memory: 1.388 GB.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2022.1 (64-bit)
+Tool Version Limit: 2022.04
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1611] Setting target device to 'xc7z020-clg484-1'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1464] Running solution command: config_export -format=ip_catalog
+INFO: [HLS 200-1464] Running solution command: config_export -rtl=verilog
+INFO: [HLS 200-1510] Running: set_part xc7z020-clg484-1 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [HLS 200-1510] Running: config_export -format ip_catalog -rtl verilog 
+INFO: [HLS 200-1510] Running: source ./trigger_ip_project/solution1/directives.tcl
+INFO: [HLS 200-1510] Running: set_directive_top -name trigger_ip trigger_ip 
+INFO: [HLS 200-1510] Running: csim_design -quiet 
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+INFO: [SIM 211-1] CSim done with 0 errors.
+INFO: [SIM 211-3] *************** CSIM finish ***************
+INFO: [HLS 200-111] Finished Command csim_design CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 10.765 seconds; current allocated memory: 0.000 MB.
+INFO: [HLS 200-112] Total CPU user time: 5 seconds. Total CPU system time: 3 seconds. Total elapsed time: 16.136 seconds; peak allocated memory: 1.381 GB.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2022.1 (64-bit)
+Tool Version Limit: 2022.04
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1611] Setting target device to 'xc7z020-clg484-1'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1464] Running solution command: config_export -format=ip_catalog
+INFO: [HLS 200-1464] Running solution command: config_export -rtl=verilog
+INFO: [HLS 200-1510] Running: set_part xc7z020-clg484-1 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [HLS 200-1510] Running: config_export -format ip_catalog -rtl verilog 
+INFO: [HLS 200-1510] Running: source ./trigger_ip_project/solution1/directives.tcl
+INFO: [HLS 200-1510] Running: set_directive_top -name trigger_ip trigger_ip 
+INFO: [HLS 200-1510] Running: csynth_design 
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.029 seconds; current allocated memory: 1.389 GB.
+INFO: [HLS 200-10] Analyzing design file 'trigger_ip_project/trigger_ip.cpp' ... 
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 8.694 seconds; current allocated memory: 1.389 GB.
+INFO: [HLS 200-777] Using interface defaults for 'Vivado' flow target.
+INFO: [HLS 214-131] Inlining function 'ssdm_int<16, false>::ssdm_int(unsigned short)' into 'ap_int_base<16, false>::ap_int_base(int)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_int_base.h:260:67)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<16, false>::ap_int_base(int)' into 'ap_uint<16>::ap_uint(int)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_int.h:333:58)
+INFO: [HLS 214-131] Inlining function '_ZN8ssdm_intILi5ELb0EEC2EDq5_j' into 'ap_int_base<5, false>::ap_int_base(int)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_int_base.h:260:67)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<5, false>::ap_int_base(int)' into 'ap_uint<5>::ap_uint(int)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_int.h:333:58)
+INFO: [HLS 214-131] Inlining function '_ZN8ssdm_intILi1ELb0EEC2EDq1_j' into 'ap_int_base<1, false>::ap_int_base(int)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_int_base.h:260:67)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<1, false>::ap_int_base(int)' into 'ap_uint<1>::ap_uint(int)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_int.h:333:58)
+INFO: [HLS 214-131] Inlining function 'hls::axis<std::complex<float>, 0ul, 0ul, 0ul>::get_user_ptr()' into 'hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>::read()' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:293:50)
+INFO: [HLS 214-131] Inlining function 'hls::axis<std::complex<float>, 0ul, 0ul, 0ul>::get_dest_ptr()' into 'hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>::read()' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:296:25)
+INFO: [HLS 214-131] Inlining function 'hls::axis<std::complex<float>, 0ul, 0ul, 0ul>::get_id_ptr()' into 'hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>::read()' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:295:67)
+INFO: [HLS 214-131] Inlining function 'hls::axis<std::complex<float>, 0ul, 0ul, 0ul>::get_user_ptr()' into 'hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>::read()' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:295:36)
+INFO: [HLS 214-131] Inlining function 'hls::axis<std::complex<float>, 0ul, 0ul, 0ul>::get_dest_ptr()' into 'hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>::read()' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:294:39)
+INFO: [HLS 214-131] Inlining function 'hls::axis<std::complex<float>, 0ul, 0ul, 0ul>::get_id_ptr()' into 'hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>::read()' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:294:23)
+INFO: [HLS 214-131] Inlining function 'ssdm_int<32, true>::ssdm_int(int)' into 'ap_int_base<32, true>::ap_int_base(int)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_int_base.h:260:67)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<32, true>::ap_int_base(int)' into 'bool operator==<16, false>(ap_int_base<16, false> const&, int)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_int_base.h:1834:1853)
+INFO: [HLS 214-131] Inlining function 'bool ap_int_base<16, false>::operator==<32, true>(ap_int_base<32, true> const&) const' into 'bool operator==<16, false>(ap_int_base<16, false> const&, int)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_int_base.h:1834:1850)
+INFO: [HLS 214-131] Inlining function 'hls::axis<std::complex<float>, 0ul, 0ul, 0ul>::get_user_ptr()' into 'hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>::write(hls::axis<std::complex<float>, 0ul, 0ul, 0ul> const&)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:304:51)
+INFO: [HLS 214-131] Inlining function 'hls::axis<std::complex<float>, 0ul, 0ul, 0ul>::get_dest_ptr()' into 'hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>::write(hls::axis<std::complex<float>, 0ul, 0ul, 0ul> const&)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:307:26)
+INFO: [HLS 214-131] Inlining function 'hls::axis<std::complex<float>, 0ul, 0ul, 0ul>::get_id_ptr()' into 'hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>::write(hls::axis<std::complex<float>, 0ul, 0ul, 0ul> const&)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:306:68)
+INFO: [HLS 214-131] Inlining function 'hls::axis<std::complex<float>, 0ul, 0ul, 0ul>::get_user_ptr()' into 'hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>::write(hls::axis<std::complex<float>, 0ul, 0ul, 0ul> const&)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:306:37)
+INFO: [HLS 214-131] Inlining function 'hls::axis<std::complex<float>, 0ul, 0ul, 0ul>::get_dest_ptr()' into 'hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>::write(hls::axis<std::complex<float>, 0ul, 0ul, 0ul> const&)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:305:40)
+INFO: [HLS 214-131] Inlining function 'hls::axis<std::complex<float>, 0ul, 0ul, 0ul>::get_id_ptr()' into 'hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>::write(hls::axis<std::complex<float>, 0ul, 0ul, 0ul> const&)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:305:24)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<32, true>::ap_int_base(int)' into 'bool operator==<5, false>(ap_int_base<5, false> const&, int)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_int_base.h:1834:1853)
+INFO: [HLS 214-131] Inlining function 'bool ap_int_base<5, false>::operator==<32, true>(ap_int_base<32, true> const&) const' into 'bool operator==<5, false>(ap_int_base<5, false> const&, int)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_int_base.h:1834:1850)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<1, false>::ap_int_base(int)' into 'ap_int_base<5, false>::operator++(int)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_int_base.h:925:16)
+INFO: [HLS 214-131] Inlining function 'ap_uint<5>::ap_uint<5, false>(ap_int_base<5, false> const&)' into 'ap_int_base<5, false>::operator++(int)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_int_base.h:926:12)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<5, false>& ap_int_base<5, false>::operator+=<1, false>(ap_int_base<1, false> const&)' into 'ap_int_base<5, false>::operator++(int)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_int_base.h:925:5)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<1, false>::ap_int_base(int)' into 'ap_int_base<16, false>::operator++(int)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_int_base.h:925:16)
+INFO: [HLS 214-131] Inlining function 'ap_uint<16>::ap_uint<16, false>(ap_int_base<16, false> const&)' into 'ap_int_base<16, false>::operator++(int)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_int_base.h:926:12)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<16, false>& ap_int_base<16, false>::operator+=<1, false>(ap_int_base<1, false> const&)' into 'ap_int_base<16, false>::operator++(int)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_int_base.h:925:5)
+INFO: [HLS 214-131] Inlining function 'ap_uint<16>::ap_uint(int)' into 'trigger_ip(hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (trigger_ip_project/trigger_ip.cpp:16:32)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<16, false>::operator++(int)' into 'trigger_ip(hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (trigger_ip_project/trigger_ip.cpp:57:9)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<5, false>::operator++(int)' into 'trigger_ip(hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (trigger_ip_project/trigger_ip.cpp:54:13)
+INFO: [HLS 214-131] Inlining function 'ap_uint<1>::ap_uint(int)' into 'trigger_ip(hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (trigger_ip_project/trigger_ip.cpp:52:28)
+INFO: [HLS 214-131] Inlining function 'ap_uint<1>::ap_uint(int)' into 'trigger_ip(hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (trigger_ip_project/trigger_ip.cpp:51:20)
+INFO: [HLS 214-131] Inlining function 'bool operator==<5, false>(ap_int_base<5, false> const&, int)' into 'trigger_ip(hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (trigger_ip_project/trigger_ip.cpp:50:23)
+INFO: [HLS 214-131] Inlining function 'ap_uint<16>::ap_uint(int)' into 'trigger_ip(hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (trigger_ip_project/trigger_ip.cpp:48:20)
+INFO: [HLS 214-131] Inlining function 'hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>::write(hls::axis<std::complex<float>, 0ul, 0ul, 0ul> const&)' into 'trigger_ip(hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (trigger_ip_project/trigger_ip.cpp:45:16)
+INFO: [HLS 214-131] Inlining function 'ap_uint<1>::ap_uint(int)' into 'trigger_ip(hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (trigger_ip_project/trigger_ip.cpp:43:21)
+INFO: [HLS 214-131] Inlining function 'bool operator==<16, false>(ap_int_base<16, false> const&, int)' into 'trigger_ip(hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (trigger_ip_project/trigger_ip.cpp:42:36)
+INFO: [HLS 214-131] Inlining function 'ap_uint<5>::ap_uint(int)' into 'trigger_ip(hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (trigger_ip_project/trigger_ip.cpp:17:35)
+INFO: [HLS 214-131] Inlining function 'hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>::read()' into 'trigger_ip(hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (trigger_ip_project/trigger_ip.cpp:32:32)
+INFO: [HLS 214-131] Inlining function 'ap_uint<1>::ap_uint(int)' into 'trigger_ip(hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (trigger_ip_project/trigger_ip.cpp:18:30)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<1, false>::operator unsigned long long() const' into 'trigger_ip(hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (trigger_ip_project/trigger_ip.cpp:28:9)
+INFO: [HLS 214-131] Inlining function 'ap_uint<1>::ap_uint(int)' into 'trigger_ip(hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (trigger_ip_project/trigger_ip.cpp:24:24)
+INFO: [HLS 214-131] Inlining function 'ap_uint<1>::ap_uint(int)' into 'trigger_ip(hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (trigger_ip_project/trigger_ip.cpp:23:16)
+INFO: [HLS 214-131] Inlining function 'ap_uint<5>::ap_uint(int)' into 'trigger_ip(hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (trigger_ip_project/trigger_ip.cpp:22:21)
+INFO: [HLS 214-131] Inlining function 'ap_uint<16>::ap_uint(int)' into 'trigger_ip(hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (trigger_ip_project/trigger_ip.cpp:21:20)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<1, false>::operator unsigned long long() const' into 'trigger_ip(hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (trigger_ip_project/trigger_ip.cpp:20:9)
+INFO: [HLS 214-178] Inlining function 'std::complex<float>::complex(float, float)' into 'hls::axis<std::complex<float>, 0ul, 0ul, 0ul>::axis()' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:109:0)
+INFO: [HLS 214-178] Inlining function 'std::complex<float>::complex(float, float) (.63.69)' into 'hls::axis<std::complex<float>, 0ul, 0ul, 0ul>::axis() (.3)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:109:0)
+INFO: [HLS 214-178] Inlining function 'hls::axis<std::complex<float>, 0ul, 0ul, 0ul>::axis()' into 'trigger_ip(hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (trigger_ip_project/trigger_ip.cpp:9:0)
+INFO: [HLS 214-178] Inlining function 'hls::axis<std::complex<float>, 0ul, 0ul, 0ul>::axis() (.3)' into 'trigger_ip(hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (trigger_ip_project/trigger_ip.cpp:9:0)
+INFO: [HLS 214-131] Inlining function '_llvm.fpga.unpack.none.s_struct.std::complex<float>s.i64' into 'trigger_ip(hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:293:5)
+INFO: [HLS 214-131] Inlining function '_llvm.fpga.pack.none.i1.s_struct.ap_uint<1>s' into 'trigger_ip(hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:304:5)
+INFO: [HLS 214-131] Inlining function '_llvm.fpga.pack.none.i8.s_struct.ap_uint<8>s' into 'trigger_ip(hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:304:5)
+INFO: [HLS 214-131] Inlining function '_llvm.fpga.pack.none.i64.s_struct.std::complex<float>s' into 'trigger_ip(hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:304:5)
+INFO: [HLS 214-131] Inlining function '_llvm.fpga.unpack.none.s_struct.ap_uint<1>s.i1' into 'trigger_ip(hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:293:5)
+INFO: [HLS 214-131] Inlining function '_llvm.fpga.unpack.none.s_struct.ap_uint<8>s.i8' into 'trigger_ip(hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:293:5)
+INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 0 seconds. CPU system time: 1 seconds. Elapsed time: 7.135 seconds; current allocated memory: 1.389 GB.
+INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.003 seconds; current allocated memory: 1.389 GB.
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.15 seconds; current allocated memory: 1.389 GB.
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.138 seconds; current allocated memory: 1.389 GB.
+INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.163 seconds; current allocated memory: 1.389 GB.
+INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 0.106 seconds; current allocated memory: 1.389 GB.
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'trigger_ip' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'trigger_ip' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.369 seconds; current allocated memory: 1.389 GB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.094 seconds; current allocated memory: 1.389 GB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'trigger_ip' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+WARNING: [RTGEN 206-101] Design contains AXI ports. Reset is fixed to synchronous and active low.
+INFO: [RTGEN 206-500] Setting interface mode on port 'trigger_ip/s_axis_in_V_data_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'trigger_ip/s_axis_in_V_keep_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'trigger_ip/s_axis_in_V_strb_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'trigger_ip/s_axis_in_V_last_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'trigger_ip/m_axis_out_V_data_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'trigger_ip/m_axis_out_V_keep_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'trigger_ip/m_axis_out_V_strb_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'trigger_ip/m_axis_out_V_last_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'trigger_ip/sync_reset' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'trigger_ip/trigger_done' to 's_axilite & ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on function 'trigger_ip' to 's_axilite & ap_ctrl_hs'.
+WARNING: [RTGEN 206-101] Register 'samp_cnt_V' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'batch_cnt_V' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'done_V' is power-on initialization.
+INFO: [RTGEN 206-100] Bundling port 'sync_reset', 'trigger_done' and 'return' to AXI-Lite port control.
+INFO: [RTGEN 206-100] Finished creating RTL model for 'trigger_ip'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.355 seconds; current allocated memory: 1.389 GB.
+INFO: [HLS 200-111] Finished Generating all RTL models: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.848 seconds; current allocated memory: 1.389 GB.
+INFO: [HLS 200-111] Finished Updating report files: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.862 seconds; current allocated memory: 1.389 GB.
+INFO: [VHDL 208-304] Generating VHDL RTL for trigger_ip.
+INFO: [VLOG 209-307] Generating Verilog RTL for trigger_ip.
+INFO: [HLS 200-789] **** Estimated Fmax: 272.85 MHz
+INFO: [HLS 200-111] Finished Command csynth_design CPU user time: 2 seconds. CPU system time: 1 seconds. Elapsed time: 19.077 seconds; current allocated memory: 0.000 MB.
+INFO: [HLS 200-112] Total CPU user time: 6 seconds. Total CPU system time: 3 seconds. Total elapsed time: 23.015 seconds; peak allocated memory: 1.389 GB.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2022.1 (64-bit)
+Tool Version Limit: 2022.04
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1611] Setting target device to 'xc7z020-clg484-1'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1464] Running solution command: config_export -format=ip_catalog
+INFO: [HLS 200-1464] Running solution command: config_export -rtl=verilog
+INFO: [HLS 200-1510] Running: set_part xc7z020-clg484-1 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [HLS 200-1510] Running: config_export -format ip_catalog -rtl verilog 
+INFO: [HLS 200-1510] Running: source ./trigger_ip_project/solution1/directives.tcl
+INFO: [HLS 200-1510] Running: set_directive_top -name trigger_ip trigger_ip 
+INFO: [HLS 200-1510] Running: csim_design -quiet 
+INFO: [SIM 211-2] *************** CSIM start ***************
+INFO: [SIM 211-4] CSIM will launch GCC as the compiler.
+INFO: [SIM 211-1] CSim done with 0 errors.
+INFO: [SIM 211-3] *************** CSIM finish ***************
+INFO: [HLS 200-111] Finished Command csim_design CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 6.797 seconds; current allocated memory: 0.000 MB.
+INFO: [HLS 200-112] Total CPU user time: 7 seconds. Total CPU system time: 4 seconds. Total elapsed time: 13.782 seconds; peak allocated memory: 1.378 GB.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2022.1 (64-bit)
+Tool Version Limit: 2022.04
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1611] Setting target device to 'xc7z020-clg484-1'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1464] Running solution command: config_export -format=ip_catalog
+INFO: [HLS 200-1464] Running solution command: config_export -rtl=verilog
+INFO: [HLS 200-1510] Running: set_part xc7z020-clg484-1 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [HLS 200-1510] Running: config_export -format ip_catalog -rtl verilog 
+INFO: [HLS 200-1510] Running: source ./trigger_ip_project/solution1/directives.tcl
+INFO: [HLS 200-1510] Running: set_directive_top -name trigger_ip trigger_ip 
+INFO: [HLS 200-1510] Running: csynth_design 
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.044 seconds; current allocated memory: 1.379 GB.
+INFO: [HLS 200-10] Analyzing design file 'trigger_ip_project/trigger_ip.cpp' ... 
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 10.31 seconds; current allocated memory: 1.379 GB.
+INFO: [HLS 200-777] Using interface defaults for 'Vivado' flow target.
+INFO: [HLS 214-131] Inlining function 'ssdm_int<16, false>::ssdm_int(unsigned short)' into 'ap_int_base<16, false>::ap_int_base(int)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_int_base.h:260:67)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<16, false>::ap_int_base(int)' into 'ap_uint<16>::ap_uint(int)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_int.h:333:58)
+INFO: [HLS 214-131] Inlining function '_ZN8ssdm_intILi5ELb0EEC2EDq5_j' into 'ap_int_base<5, false>::ap_int_base(int)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_int_base.h:260:67)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<5, false>::ap_int_base(int)' into 'ap_uint<5>::ap_uint(int)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_int.h:333:58)
+INFO: [HLS 214-131] Inlining function '_ZN8ssdm_intILi1ELb0EEC2EDq1_j' into 'ap_int_base<1, false>::ap_int_base(int)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_int_base.h:260:67)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<1, false>::ap_int_base(int)' into 'ap_uint<1>::ap_uint(int)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_int.h:333:58)
+INFO: [HLS 214-131] Inlining function 'hls::axis<std::complex<float>, 0ul, 0ul, 0ul>::get_user_ptr()' into 'hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>::read()' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:293:50)
+INFO: [HLS 214-131] Inlining function 'hls::axis<std::complex<float>, 0ul, 0ul, 0ul>::get_dest_ptr()' into 'hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>::read()' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:296:25)
+INFO: [HLS 214-131] Inlining function 'hls::axis<std::complex<float>, 0ul, 0ul, 0ul>::get_id_ptr()' into 'hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>::read()' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:295:67)
+INFO: [HLS 214-131] Inlining function 'hls::axis<std::complex<float>, 0ul, 0ul, 0ul>::get_user_ptr()' into 'hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>::read()' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:295:36)
+INFO: [HLS 214-131] Inlining function 'hls::axis<std::complex<float>, 0ul, 0ul, 0ul>::get_dest_ptr()' into 'hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>::read()' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:294:39)
+INFO: [HLS 214-131] Inlining function 'hls::axis<std::complex<float>, 0ul, 0ul, 0ul>::get_id_ptr()' into 'hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>::read()' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:294:23)
+INFO: [HLS 214-131] Inlining function 'ssdm_int<32, true>::ssdm_int(int)' into 'ap_int_base<32, true>::ap_int_base(int)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_int_base.h:260:67)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<32, true>::ap_int_base(int)' into 'bool operator==<16, false>(ap_int_base<16, false> const&, int)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_int_base.h:1834:1853)
+INFO: [HLS 214-131] Inlining function 'bool ap_int_base<16, false>::operator==<32, true>(ap_int_base<32, true> const&) const' into 'bool operator==<16, false>(ap_int_base<16, false> const&, int)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_int_base.h:1834:1850)
+INFO: [HLS 214-131] Inlining function 'hls::axis<std::complex<float>, 0ul, 0ul, 0ul>::get_user_ptr()' into 'hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>::write(hls::axis<std::complex<float>, 0ul, 0ul, 0ul> const&)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:304:51)
+INFO: [HLS 214-131] Inlining function 'hls::axis<std::complex<float>, 0ul, 0ul, 0ul>::get_dest_ptr()' into 'hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>::write(hls::axis<std::complex<float>, 0ul, 0ul, 0ul> const&)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:307:26)
+INFO: [HLS 214-131] Inlining function 'hls::axis<std::complex<float>, 0ul, 0ul, 0ul>::get_id_ptr()' into 'hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>::write(hls::axis<std::complex<float>, 0ul, 0ul, 0ul> const&)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:306:68)
+INFO: [HLS 214-131] Inlining function 'hls::axis<std::complex<float>, 0ul, 0ul, 0ul>::get_user_ptr()' into 'hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>::write(hls::axis<std::complex<float>, 0ul, 0ul, 0ul> const&)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:306:37)
+INFO: [HLS 214-131] Inlining function 'hls::axis<std::complex<float>, 0ul, 0ul, 0ul>::get_dest_ptr()' into 'hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>::write(hls::axis<std::complex<float>, 0ul, 0ul, 0ul> const&)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:305:40)
+INFO: [HLS 214-131] Inlining function 'hls::axis<std::complex<float>, 0ul, 0ul, 0ul>::get_id_ptr()' into 'hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>::write(hls::axis<std::complex<float>, 0ul, 0ul, 0ul> const&)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:305:24)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<32, true>::ap_int_base(int)' into 'bool operator==<5, false>(ap_int_base<5, false> const&, int)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_int_base.h:1834:1853)
+INFO: [HLS 214-131] Inlining function 'bool ap_int_base<5, false>::operator==<32, true>(ap_int_base<32, true> const&) const' into 'bool operator==<5, false>(ap_int_base<5, false> const&, int)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_int_base.h:1834:1850)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<1, false>::ap_int_base(int)' into 'ap_int_base<5, false>::operator++(int)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_int_base.h:925:16)
+INFO: [HLS 214-131] Inlining function 'ap_uint<5>::ap_uint<5, false>(ap_int_base<5, false> const&)' into 'ap_int_base<5, false>::operator++(int)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_int_base.h:926:12)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<5, false>& ap_int_base<5, false>::operator+=<1, false>(ap_int_base<1, false> const&)' into 'ap_int_base<5, false>::operator++(int)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_int_base.h:925:5)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<1, false>::ap_int_base(int)' into 'ap_int_base<16, false>::operator++(int)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_int_base.h:925:16)
+INFO: [HLS 214-131] Inlining function 'ap_uint<16>::ap_uint<16, false>(ap_int_base<16, false> const&)' into 'ap_int_base<16, false>::operator++(int)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_int_base.h:926:12)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<16, false>& ap_int_base<16, false>::operator+=<1, false>(ap_int_base<1, false> const&)' into 'ap_int_base<16, false>::operator++(int)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_int_base.h:925:5)
+INFO: [HLS 214-131] Inlining function 'ap_uint<16>::ap_uint(int)' into 'trigger_ip(hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (trigger_ip_project/trigger_ip.cpp:18:32)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<16, false>::operator++(int)' into 'trigger_ip(hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (trigger_ip_project/trigger_ip.cpp:53:9)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<5, false>::operator++(int)' into 'trigger_ip(hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (trigger_ip_project/trigger_ip.cpp:50:13)
+INFO: [HLS 214-131] Inlining function 'ap_uint<1>::ap_uint(int)' into 'trigger_ip(hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (trigger_ip_project/trigger_ip.cpp:48:28)
+INFO: [HLS 214-131] Inlining function 'ap_uint<1>::ap_uint(int)' into 'trigger_ip(hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (trigger_ip_project/trigger_ip.cpp:47:20)
+INFO: [HLS 214-131] Inlining function 'bool operator==<5, false>(ap_int_base<5, false> const&, int)' into 'trigger_ip(hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (trigger_ip_project/trigger_ip.cpp:46:23)
+INFO: [HLS 214-131] Inlining function 'ap_uint<16>::ap_uint(int)' into 'trigger_ip(hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (trigger_ip_project/trigger_ip.cpp:44:20)
+INFO: [HLS 214-131] Inlining function 'hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>::write(hls::axis<std::complex<float>, 0ul, 0ul, 0ul> const&)' into 'trigger_ip(hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (trigger_ip_project/trigger_ip.cpp:41:16)
+INFO: [HLS 214-131] Inlining function 'ap_uint<1>::ap_uint(int)' into 'trigger_ip(hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (trigger_ip_project/trigger_ip.cpp:39:21)
+INFO: [HLS 214-131] Inlining function 'bool operator==<16, false>(ap_int_base<16, false> const&, int)' into 'trigger_ip(hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (trigger_ip_project/trigger_ip.cpp:38:36)
+INFO: [HLS 214-131] Inlining function 'hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>::read()' into 'trigger_ip(hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (trigger_ip_project/trigger_ip.cpp:34:32)
+INFO: [HLS 214-131] Inlining function 'ap_uint<5>::ap_uint(int)' into 'trigger_ip(hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (trigger_ip_project/trigger_ip.cpp:19:35)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<1, false>::operator unsigned long long() const' into 'trigger_ip(hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (trigger_ip_project/trigger_ip.cpp:30:9)
+INFO: [HLS 214-131] Inlining function 'ap_uint<1>::ap_uint(int)' into 'trigger_ip(hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (trigger_ip_project/trigger_ip.cpp:26:24)
+INFO: [HLS 214-131] Inlining function 'ap_uint<1>::ap_uint(int)' into 'trigger_ip(hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (trigger_ip_project/trigger_ip.cpp:25:16)
+INFO: [HLS 214-131] Inlining function 'ap_uint<5>::ap_uint(int)' into 'trigger_ip(hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (trigger_ip_project/trigger_ip.cpp:24:21)
+INFO: [HLS 214-131] Inlining function 'ap_uint<16>::ap_uint(int)' into 'trigger_ip(hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (trigger_ip_project/trigger_ip.cpp:23:20)
+INFO: [HLS 214-131] Inlining function 'ap_int_base<1, false>::operator unsigned long long() const' into 'trigger_ip(hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (trigger_ip_project/trigger_ip.cpp:22:9)
+INFO: [HLS 214-131] Inlining function 'ap_uint<1>::ap_uint(int)' into 'trigger_ip(hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (trigger_ip_project/trigger_ip.cpp:20:30)
+INFO: [HLS 214-178] Inlining function 'std::complex<float>::complex(float, float)' into 'hls::axis<std::complex<float>, 0ul, 0ul, 0ul>::axis()' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:109:0)
+INFO: [HLS 214-178] Inlining function 'hls::axis<std::complex<float>, 0ul, 0ul, 0ul>::axis()' into 'trigger_ip(hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (trigger_ip_project/trigger_ip.cpp:9:0)
+INFO: [HLS 214-131] Inlining function '_llvm.fpga.unpack.none.s_struct.std::complex<float>s.i64' into 'trigger_ip(hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:293:5)
+INFO: [HLS 214-131] Inlining function '_llvm.fpga.pack.none.i1.s_struct.ap_uint<1>s' into 'trigger_ip(hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:304:5)
+INFO: [HLS 214-131] Inlining function '_llvm.fpga.pack.none.i8.s_struct.ap_uint<8>s' into 'trigger_ip(hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:304:5)
+INFO: [HLS 214-131] Inlining function '_llvm.fpga.pack.none.i64.s_struct.std::complex<float>s' into 'trigger_ip(hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:304:5)
+INFO: [HLS 214-131] Inlining function '_llvm.fpga.unpack.none.s_struct.ap_uint<1>s.i1' into 'trigger_ip(hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:293:5)
+INFO: [HLS 214-131] Inlining function '_llvm.fpga.unpack.none.s_struct.ap_uint<8>s.i8' into 'trigger_ip(hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>&, ap_uint<1>, ap_uint<1>&)' (C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:293:5)
+INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 8.973 seconds; current allocated memory: 1.379 GB.
+INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.008 seconds; current allocated memory: 1.379 GB.
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.136 seconds; current allocated memory: 1.379 GB.
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.195 seconds; current allocated memory: 1.379 GB.
+INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.249 seconds; current allocated memory: 1.379 GB.
+INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.137 seconds; current allocated memory: 1.379 GB.
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'trigger_ip' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'trigger_ip' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining function 'trigger_ip'.
+INFO: [HLS 200-1470] Pipelining result : Target II = 1, Final II = 1, Depth = 3, function 'trigger_ip'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.34 seconds; current allocated memory: 1.379 GB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.122 seconds; current allocated memory: 1.379 GB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'trigger_ip' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+WARNING: [RTGEN 206-101] Design contains AXI ports. Reset is fixed to synchronous and active low.
+INFO: [RTGEN 206-500] Setting interface mode on port 'trigger_ip/s_axis_in_V_data_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'trigger_ip/s_axis_in_V_keep_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'trigger_ip/s_axis_in_V_strb_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'trigger_ip/s_axis_in_V_last_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'trigger_ip/m_axis_out_V_data_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'trigger_ip/m_axis_out_V_keep_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'trigger_ip/m_axis_out_V_strb_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'trigger_ip/m_axis_out_V_last_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'trigger_ip/sync_reset' to 's_axilite & ap_none'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'trigger_ip/trigger_done' to 's_axilite & ap_ovld' (last_write_notify).
+INFO: [RTGEN 206-500] Setting interface mode on function 'trigger_ip' to 's_axilite & ap_ctrl_hs'.
+WARNING: [RTGEN 206-101] Register 'samp_cnt_V' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'batch_cnt_V' is power-on initialization.
+WARNING: [RTGEN 206-101] Register 'done_V' is power-on initialization.
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'trigger_ip' pipeline 'trigger_ip' pipeline type 'function pipeline'
+INFO: [RTGEN 206-100] Bundling port 'sync_reset', 'trigger_done' and 'return' to AXI-Lite port control.
+INFO: [RTGEN 206-100] Finished creating RTL model for 'trigger_ip'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.498 seconds; current allocated memory: 1.379 GB.
+INFO: [HLS 200-111] Finished Generating all RTL models: CPU user time: 1 seconds. CPU system time: 1 seconds. Elapsed time: 1.365 seconds; current allocated memory: 1.379 GB.
+INFO: [HLS 200-111] Finished Updating report files: CPU user time: 1 seconds. CPU system time: 0 seconds. Elapsed time: 1.261 seconds; current allocated memory: 1.379 GB.
+INFO: [VHDL 208-304] Generating VHDL RTL for trigger_ip.
+INFO: [VLOG 209-307] Generating Verilog RTL for trigger_ip.
+INFO: [HLS 200-789] **** Estimated Fmax: 200.20 MHz
+INFO: [HLS 200-111] Finished Command csynth_design CPU user time: 4 seconds. CPU system time: 1 seconds. Elapsed time: 23.782 seconds; current allocated memory: 0.000 MB.
+INFO: [HLS 200-112] Total CPU user time: 10 seconds. Total CPU system time: 4 seconds. Total elapsed time: 29.928 seconds; peak allocated memory: 1.379 GB.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2022.1 (64-bit)
+Tool Version Limit: 2022.04
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2022.1 (64-bit)
+Tool Version Limit: 2022.04
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1611] Setting target device to 'xc7z020-clg484-1'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1464] Running solution command: config_export -format=ip_catalog
+INFO: [HLS 200-1464] Running solution command: config_export -rtl=verilog
+INFO: [HLS 200-1510] Running: set_part xc7z020-clg484-1 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [HLS 200-1510] Running: config_export -format ip_catalog -rtl verilog 
+INFO: [HLS 200-1510] Running: source ./trigger_ip_project/solution1/directives.tcl
+INFO: [HLS 200-1510] Running: set_directive_top -name trigger_ip trigger_ip 
+INFO: [HLS 200-1510] Running: export_design -rtl verilog -format ip_catalog 
+INFO: [IMPL 213-8] Exporting RTL as a Vivado IP.
+INFO: [HLS 200-802] Generated output file trigger_ip_project/solution1/impl/export.zip
+INFO: [HLS 200-111] Finished Command export_design CPU user time: 1 seconds. CPU system time: 1 seconds. Elapsed time: 22.504 seconds; current allocated memory: 0.000 MB.
+INFO: [HLS 200-112] Total CPU user time: 8 seconds. Total CPU system time: 4 seconds. Total elapsed time: 28.906 seconds; peak allocated memory: 1.384 GB.

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="tw.h" path="/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/fft_1024/tw.h"/>
+    <originFiles name="tw.cpp" path="/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/fft_1024/tw.cpp"/>
+    <originFiles name="fft.h" path="/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/fft_1024/fft.h"/>
+    <originFiles name="fft.cpp" path="/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/fft_1024/fft.cpp"/>
+  </source>
+  <testbench>
+    <originFiles name="fft_tb.cpp" path="/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/fft_1024/fft_tb.cpp"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>

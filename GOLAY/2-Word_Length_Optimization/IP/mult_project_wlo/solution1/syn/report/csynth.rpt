@@ -1,0 +1,180 @@
+
+
+================================================================
+== Synthesis Summary Report of 'corr_multiplication'
+================================================================
++ General Information: 
+    * Date:           Tue May  5 17:05:10 2026
+    * Version:        2022.1 (Build 3526262 on Mon Apr 18 15:48:16 MDT 2022)
+    * Project:        mult_project_wlo
+    * Solution:       solution1 (Vivado IP Flow Target)
+    * Product family: zynq
+    * Target device:  xc7z020-clg484-1
+    
+
++ Performance & Resource Estimates: 
+    
+    PS: '+' for module; 'o' for loop; '*' for dataflow
+    +-------------------------------------------------+------+------+---------+-----------+----------+---------+------+----------+--------+----------+-----------+------------+-----+
+    |                     Modules                     | Issue|      | Latency |  Latency  | Iteration|         | Trip |          |        |          |           |            |     |
+    |                     & Loops                     | Type | Slack| (cycles)|    (ns)   |  Latency | Interval| Count| Pipelined|  BRAM  |    DSP   |     FF    |     LUT    | URAM|
+    +-------------------------------------------------+------+------+---------+-----------+----------+---------+------+----------+--------+----------+-----------+------------+-----+
+    |+ corr_multiplication                            |     -|  0.08|     2094|  2.094e+04|         -|     2095|     -|        no|  8 (2%)|  28 (12%)|  5295 (4%)|  9616 (18%)|    -|
+    | + corr_multiplication_Pipeline_VITIS_LOOP_17_1  |     -|  0.08|     1044|  1.044e+04|         -|     1044|     -|        no|  4 (1%)|    8 (3%)|  2357 (2%)|   3989 (7%)|    -|
+    |  o VITIS_LOOP_17_1                              |     -|  7.30|     1042|  1.042e+04|        20|        1|  1024|       yes|       -|         -|          -|           -|    -|
+    | + corr_multiplication_Pipeline_VITIS_LOOP_48_2  |     -|  0.08|     1044|  1.044e+04|         -|     1044|     -|        no|  4 (1%)|    8 (3%)|  2357 (2%)|   3989 (7%)|    -|
+    |  o VITIS_LOOP_48_2                              |     -|  7.30|     1042|  1.042e+04|        20|        1|  1024|       yes|       -|         -|          -|           -|    -|
+    +-------------------------------------------------+------+------+---------+-----------+----------+---------+------+----------+--------+----------+-----------+------------+-----+
+
+
+================================================================
+== HW Interfaces
+================================================================
+* AXIS
++-----------+---------------+-------+-------+-------+--------+-------+--------+
+| Interface | Register Mode | TDATA | TKEEP | TLAST | TREADY | TSTRB | TVALID |
++-----------+---------------+-------+-------+-------+--------+-------+--------+
+| input_r   | both          | 64    | 8     | 1     | 1      | 8     | 1      |
+| output_r  | both          | 64    | 8     | 1     | 1      | 8     | 1      |
++-----------+---------------+-------+-------+-------+--------+-------+--------+
+
+* TOP LEVEL CONTROL
++-----------+--------------+----------+
+| Interface | Type         | Ports    |
++-----------+--------------+----------+
+| ap_clk    | clock        | ap_clk   |
+| ap_rst_n  | reset        | ap_rst_n |
+| ap_ctrl   | ap_ctrl_none |          |
++-----------+--------------+----------+
+
+
+================================================================
+== SW I/O Information
+================================================================
+* Top Function Arguments
++----------+-----------+-----------------------------------------------------+
+| Argument | Direction | Datatype                                            |
++----------+-----------+-----------------------------------------------------+
+| input    | in        | stream<hls::axis<std::complex<float>, 0, 0, 0>, 0>& |
+| output   | out       | stream<hls::axis<std::complex<float>, 0, 0, 0>, 0>& |
++----------+-----------+-----------------------------------------------------+
+
+* SW-to-HW Mapping
++----------+--------------+-----------+
+| Argument | HW Interface | HW Type   |
++----------+--------------+-----------+
+| input    | input_r      | interface |
+| output   | output_r     | interface |
++----------+--------------+-----------+
+
+
+================================================================
+== M_AXI Burst Information
+================================================================
+ Note: All burst requests might be further partitioned into multiple requests during RTL generation based on max_read_burst_length or max_write_burst_length settings.
+
+  No burst in design
+
+================================================================
+== Bind Op Report
+================================================================
++-------------------------------------------------+-----+--------+--------------+-----+--------+---------+
+| Name                                            | DSP | Pragma | Variable     | Op  | Impl   | Latency |
++-------------------------------------------------+-----+--------+--------------+-----+--------+---------+
+| + corr_multiplication                           | 28  |        |              |     |        |         |
+|  + corr_multiplication_Pipeline_VITIS_LOOP_17_1 | 8   |        |              |     |        |         |
+|    add_ln17_fu_268_p2                           | -   |        | add_ln17     | add | fabric | 0       |
+|    man_V_6_fu_391_p2                            | -   |        | man_V_6      | sub | fabric | 0       |
+|    F2_fu_404_p2                                 | -   |        | F2           | sub | fabric | 0       |
+|    add_ln616_fu_416_p2                          | -   |        | add_ln616    | add | fabric | 0       |
+|    sub_ln616_fu_422_p2                          | -   |        | sub_ln616    | sub | fabric | 0       |
+|    man_V_9_fu_477_p2                            | -   |        | man_V_9      | sub | fabric | 0       |
+|    F2_2_fu_490_p2                               | -   |        | F2_2         | sub | fabric | 0       |
+|    add_ln616_2_fu_502_p2                        | -   |        | add_ln616_2  | add | fabric | 0       |
+|    sub_ln616_2_fu_508_p2                        | -   |        | sub_ln616_2  | sub | fabric | 0       |
+|    mul_25s_27s_45_1_1_U7                        | 2   |        | mul_ln859    | mul | auto   | 0       |
+|    mul_24s_27s_45_1_1_U8                        | 2   |        | mul_ln1394   | mul | auto   | 0       |
+|    ret_V_fu_807_p2                              | -   |        | ret_V        | sub | fabric | 0       |
+|    mul_24s_27s_45_1_1_U9                        | 2   |        | mul_ln859_1  | mul | auto   | 0       |
+|    mul_25s_27s_45_1_1_U10                       | 2   |        | mul_ln1393   | mul | auto   | 0       |
+|    ret_V_2_fu_821_p2                            | -   |        | ret_V_2      | add | fabric | 0       |
+|    tmp_V_fu_856_p2                              | -   |        | tmp_V        | sub | fabric | 0       |
+|    sub_ln1145_fu_897_p2                         | -   |        | sub_ln1145   | sub | fabric | 0       |
+|    lsb_index_fu_979_p2                          | -   |        | lsb_index    | add | fabric | 0       |
+|    sub_ln1148_fu_1000_p2                        | -   |        | sub_ln1148   | sub | fabric | 0       |
+|    add_ln1150_fu_1046_p2                        | -   |        | add_ln1150   | add | fabric | 0       |
+|    add_ln1159_fu_1192_p2                        | -   |        | add_ln1159   | add | fabric | 0       |
+|    sub_ln1160_fu_1207_p2                        | -   |        | sub_ln1160   | sub | fabric | 0       |
+|    m_13_fu_1232_p2                              | -   |        | m_13         | add | fabric | 0       |
+|    tmp_V_7_fu_920_p2                            | -   |        | tmp_V_7      | sub | fabric | 0       |
+|    sub_ln1145_2_fu_961_p2                       | -   |        | sub_ln1145_2 | sub | fabric | 0       |
+|    lsb_index_2_fu_1084_p2                       | -   |        | lsb_index_2  | add | fabric | 0       |
+|    sub_ln1148_2_fu_1105_p2                      | -   |        | sub_ln1148_2 | sub | fabric | 0       |
+|    add_ln1150_2_fu_1151_p2                      | -   |        | add_ln1150_2 | add | fabric | 0       |
+|    add_ln1159_2_fu_1259_p2                      | -   |        | add_ln1159_2 | add | fabric | 0       |
+|    sub_ln1160_2_fu_1274_p2                      | -   |        | sub_ln1160_2 | sub | fabric | 0       |
+|    m_16_fu_1299_p2                              | -   |        | m_16         | add | fabric | 0       |
+|  + corr_multiplication_Pipeline_VITIS_LOOP_48_2 | 8   |        |              |     |        |         |
+|    add_ln48_fu_268_p2                           | -   |        | add_ln48     | add | fabric | 0       |
+|    man_V_1_fu_391_p2                            | -   |        | man_V_1      | sub | fabric | 0       |
+|    F2_fu_404_p2                                 | -   |        | F2           | sub | fabric | 0       |
+|    add_ln616_fu_416_p2                          | -   |        | add_ln616    | add | fabric | 0       |
+|    sub_ln616_fu_422_p2                          | -   |        | sub_ln616    | sub | fabric | 0       |
+|    man_V_4_fu_477_p2                            | -   |        | man_V_4      | sub | fabric | 0       |
+|    F2_1_fu_490_p2                               | -   |        | F2_1         | sub | fabric | 0       |
+|    add_ln616_1_fu_502_p2                        | -   |        | add_ln616_1  | add | fabric | 0       |
+|    sub_ln616_1_fu_508_p2                        | -   |        | sub_ln616_1  | sub | fabric | 0       |
+|    mul_25s_27s_45_1_1_U29                       | 2   |        | mul_ln859    | mul | auto   | 0       |
+|    mul_24s_27s_45_1_1_U30                       | 2   |        | mul_ln1394   | mul | auto   | 0       |
+|    ret_V_fu_807_p2                              | -   |        | ret_V        | sub | fabric | 0       |
+|    mul_24s_27s_45_1_1_U31                       | 2   |        | mul_ln859_1  | mul | auto   | 0       |
+|    mul_25s_27s_45_1_1_U32                       | 2   |        | mul_ln1393   | mul | auto   | 0       |
+|    ret_V_1_fu_821_p2                            | -   |        | ret_V_1      | add | fabric | 0       |
+|    tmp_V_fu_856_p2                              | -   |        | tmp_V        | sub | fabric | 0       |
+|    sub_ln1145_fu_897_p2                         | -   |        | sub_ln1145   | sub | fabric | 0       |
+|    lsb_index_fu_979_p2                          | -   |        | lsb_index    | add | fabric | 0       |
+|    sub_ln1148_fu_1000_p2                        | -   |        | sub_ln1148   | sub | fabric | 0       |
+|    add_ln1150_fu_1046_p2                        | -   |        | add_ln1150   | add | fabric | 0       |
+|    add_ln1159_fu_1192_p2                        | -   |        | add_ln1159   | add | fabric | 0       |
+|    sub_ln1160_fu_1207_p2                        | -   |        | sub_ln1160   | sub | fabric | 0       |
+|    m_2_fu_1232_p2                               | -   |        | m_2          | add | fabric | 0       |
+|    tmp_V_2_fu_920_p2                            | -   |        | tmp_V_2      | sub | fabric | 0       |
+|    sub_ln1145_1_fu_961_p2                       | -   |        | sub_ln1145_1 | sub | fabric | 0       |
+|    lsb_index_1_fu_1084_p2                       | -   |        | lsb_index_1  | add | fabric | 0       |
+|    sub_ln1148_1_fu_1105_p2                      | -   |        | sub_ln1148_1 | sub | fabric | 0       |
+|    add_ln1150_1_fu_1151_p2                      | -   |        | add_ln1150_1 | add | fabric | 0       |
+|    add_ln1159_1_fu_1259_p2                      | -   |        | add_ln1159_1 | add | fabric | 0       |
+|    sub_ln1160_1_fu_1274_p2                      | -   |        | sub_ln1160_1 | sub | fabric | 0       |
+|    m_7_fu_1299_p2                               | -   |        | m_7          | add | fabric | 0       |
++-------------------------------------------------+-----+--------+--------------+-----+--------+---------+
+
+
+================================================================
+== Bind Storage Report
+================================================================
++-------------------------------------------------+------+------+--------+------------------+---------+------+---------+
+| Name                                            | BRAM | URAM | Pragma | Variable         | Storage | Impl | Latency |
++-------------------------------------------------+------+------+--------+------------------+---------+------+---------+
+| + corr_multiplication                           | 8    | 0    |        |                  |         |      |         |
+|  + corr_multiplication_Pipeline_VITIS_LOOP_17_1 | 4    | 0    |        |                  |         |      |         |
+|    ga_conj_M_real_V_U                           | 2    | -    |        | ga_conj_M_real_V | rom_1p  | auto | 1       |
+|    ga_conj_M_imag_V_U                           | 2    | -    |        | ga_conj_M_imag_V | rom_1p  | auto | 1       |
+|  + corr_multiplication_Pipeline_VITIS_LOOP_48_2 | 4    | 0    |        |                  |         |      |         |
+|    gb_conj_M_real_V_U                           | 2    | -    |        | gb_conj_M_real_V | rom_1p  | auto | 1       |
+|    gb_conj_M_imag_V_U                           | 2    | -    |        | gb_conj_M_imag_V | rom_1p  | auto | 1       |
++-------------------------------------------------+------+------+--------+------------------+---------+------+---------+
+
+
+================================================================
+== Pragma Report
+================================================================
+* Valid Pragma Syntax
++-----------+--------------------------------+------------------------------------------------------------+
+| Type      | Options                        | Location                                                   |
++-----------+--------------------------------+------------------------------------------------------------+
+| interface | ap_ctrl_none port=return       | mult_project_wlo/mul.cpp:8 in corr_multiplication, return  |
+| interface | axis register both port=input  | mult_project_wlo/mul.cpp:9 in corr_multiplication, input   |
+| interface | axis register both port=output | mult_project_wlo/mul.cpp:10 in corr_multiplication, output |
++-----------+--------------------------------+------------------------------------------------------------+
+
+

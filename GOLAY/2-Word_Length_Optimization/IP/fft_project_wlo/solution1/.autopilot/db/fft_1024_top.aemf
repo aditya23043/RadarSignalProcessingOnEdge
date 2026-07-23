@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cdfg:DBCdfg xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cdfg="http://www.autoesl.com/DBCdfg" timeStamp="1777980770646">
+  <ports id="1" name="input_r_V_data_V" type="PortType" originalName="input" coreId="1953391988" bitwidth="64">
+    <dataOutputObjs>call</dataOutputObjs>
+    <dataOutputObjs>call</dataOutputObjs>
+  </ports>
+  <ports id="2" name="input_r_V_keep_V" type="PortType" originalName="input" coreId="1953391988" bitwidth="8">
+    <dataOutputObjs>call</dataOutputObjs>
+    <dataOutputObjs>call</dataOutputObjs>
+  </ports>
+  <ports id="3" name="input_r_V_strb_V" type="PortType" originalName="input" coreId="0" bitwidth="8">
+    <dataOutputObjs>call</dataOutputObjs>
+    <dataOutputObjs>call</dataOutputObjs>
+  </ports>
+  <ports id="4" name="input_r_V_last_V" type="PortType" originalName="input" coreId="1953391988" bitwidth="1">
+    <dataOutputObjs>call</dataOutputObjs>
+    <dataOutputObjs>call</dataOutputObjs>
+  </ports>
+  <ports id="5" name="output_r_V_data_V" type="PortType" originalName="output" coreId="4294967295" bitwidth="64" direction="DirOut">
+    <dataInputObjs>call</dataInputObjs>
+    <dataInputObjs>call</dataInputObjs>
+  </ports>
+  <ports id="6" name="output_r_V_keep_V" type="PortType" originalName="output" coreId="825438509" bitwidth="8" direction="DirOut">
+    <dataInputObjs>call</dataInputObjs>
+    <dataInputObjs>call</dataInputObjs>
+  </ports>
+  <ports id="7" name="output_r_V_strb_V" type="PortType" originalName="output" coreId="1160864332" bitwidth="8" direction="DirOut">
+    <dataInputObjs>call</dataInputObjs>
+    <dataInputObjs>call</dataInputObjs>
+  </ports>
+  <ports id="8" name="output_r_V_last_V" type="PortType" originalName="output" coreId="1769169253" bitwidth="1" direction="DirOut">
+    <dataInputObjs>call</dataInputObjs>
+    <dataInputObjs>call</dataInputObjs>
+  </ports>
+  <edges id="52" source_obj="//@ports.0" sink_obj="//@blocks.0/@node_objs.5"/>
+  <edges id="53" source_obj="//@ports.1" sink_obj="//@blocks.0/@node_objs.5"/>
+  <edges id="54" source_obj="//@ports.2" sink_obj="//@blocks.0/@node_objs.5"/>
+  <edges id="55" source_obj="//@ports.3" sink_obj="//@blocks.0/@node_objs.5"/>
+  <edges id="56" source_obj="//@blocks.0/@node_objs.0" sink_obj="//@blocks.0/@node_objs.5"/>
+  <edges id="57" source_obj="//@blocks.0/@node_objs.1" sink_obj="//@blocks.0/@node_objs.5"/>
+  <edges id="62" source_obj="//@ports.0" sink_obj="//@blocks.0/@node_objs.8"/>
+  <edges id="63" source_obj="//@ports.1" sink_obj="//@blocks.0/@node_objs.8"/>
+  <edges id="64" source_obj="//@ports.2" sink_obj="//@blocks.0/@node_objs.8"/>
+  <edges id="65" source_obj="//@ports.3" sink_obj="//@blocks.0/@node_objs.8"/>
+  <edges id="66" source_obj="//@blocks.0/@node_objs.2" sink_obj="//@blocks.0/@node_objs.8"/>
+  <edges id="67" source_obj="//@blocks.0/@node_objs.3" sink_obj="//@blocks.0/@node_objs.8"/>
+  <edges id="71" source_obj="//@blocks.0/@node_objs.0" sink_obj="//@blocks.0/@node_objs.10"/>
+  <edges id="72" source_obj="//@blocks.0/@node_objs.1" sink_obj="//@blocks.0/@node_objs.10"/>
+  <edges id="74" source_obj="//@blocks.0/@node_objs.2" sink_obj="//@blocks.0/@node_objs.11"/>
+  <edges id="75" source_obj="//@blocks.0/@node_objs.3" sink_obj="//@blocks.0/@node_objs.11"/>
+  <edges id="79" source_obj="//@blocks.0/@node_objs.0" sink_obj="//@blocks.0/@node_objs.13"/>
+  <edges id="80" source_obj="//@blocks.0/@node_objs.1" sink_obj="//@blocks.0/@node_objs.13"/>
+  <edges id="81" source_obj="//@blocks.0/@node_objs.13" sink_obj="//@ports.4"/>
+  <edges id="82" source_obj="//@blocks.0/@node_objs.13" sink_obj="//@ports.5"/>
+  <edges id="83" source_obj="//@blocks.0/@node_objs.13" sink_obj="//@ports.6"/>
+  <edges id="84" source_obj="//@blocks.0/@node_objs.13" sink_obj="//@ports.7"/>
+  <edges id="89" source_obj="//@blocks.0/@node_objs.2" sink_obj="//@blocks.0/@node_objs.16"/>
+  <edges id="90" source_obj="//@blocks.0/@node_objs.3" sink_obj="//@blocks.0/@node_objs.16"/>
+  <edges id="91" source_obj="//@blocks.0/@node_objs.16" sink_obj="//@ports.4"/>
+  <edges id="92" source_obj="//@blocks.0/@node_objs.16" sink_obj="//@ports.5"/>
+  <edges id="93" source_obj="//@blocks.0/@node_objs.16" sink_obj="//@ports.6"/>
+  <edges id="94" source_obj="//@blocks.0/@node_objs.16" sink_obj="//@ports.7"/>
+  <edges id="95" sink_obj="//@blocks.0/@node_objs.10"/>
+  <edges id="96" sink_obj="//@blocks.0/@node_objs.10"/>
+  <edges id="97" sink_obj="//@blocks.0/@node_objs.10"/>
+  <edges id="98" sink_obj="//@blocks.0/@node_objs.11"/>
+  <edges id="99" sink_obj="//@blocks.0/@node_objs.11"/>
+  <edges id="100" sink_obj="//@blocks.0/@node_objs.11"/>
+  <edges id="193" edge_type="VirtEdge" source_obj="//@blocks.0/@node_objs.13" sink_obj="//@blocks.0/@node_objs.16"/>
+  <edges id="194" edge_type="VirtEdge" source_obj="//@blocks.0/@node_objs.11" sink_obj="//@blocks.0/@node_objs.16"/>
+  <edges id="195" edge_type="VirtEdge" source_obj="//@blocks.0/@node_objs.10" sink_obj="//@blocks.0/@node_objs.13"/>
+  <edges id="196" edge_type="VirtEdge" source_obj="//@blocks.0/@node_objs.8" sink_obj="//@blocks.0/@node_objs.11"/>
+  <edges id="197" edge_type="VirtEdge" source_obj="//@blocks.0/@node_objs.5" sink_obj="//@blocks.0/@node_objs.10"/>
+  <edges id="198" edge_type="VirtEdge" source_obj="//@blocks.0/@node_objs.4" sink_obj="//@blocks.0/@node_objs.6"/>
+  <edges id="199" edge_type="VirtEdge" source_obj="//@blocks.0/@node_objs.6" sink_obj="//@blocks.0/@node_objs.7"/>
+  <edges id="200" edge_type="VirtEdge" source_obj="//@blocks.0/@node_objs.7" sink_obj="//@blocks.0/@node_objs.9"/>
+  <edges id="201" edge_type="VirtEdge" source_obj="//@blocks.0/@node_objs.9" sink_obj="//@blocks.0/@node_objs.12"/>
+  <edges id="202" edge_type="VirtEdge" source_obj="//@blocks.0/@node_objs.12" sink_obj="//@blocks.0/@node_objs.14"/>
+  <edges id="203" edge_type="VirtEdge" source_obj="//@blocks.0/@node_objs.14" sink_obj="//@blocks.0/@node_objs.15"/>
+  <edges id="204" edge_type="VirtEdge" source_obj="//@blocks.0/@node_objs.4" sink_obj="//@blocks.0/@node_objs.5"/>
+  <edges id="205" edge_type="VirtEdge" source_obj="//@blocks.0/@node_objs.5" sink_obj="//@blocks.0/@node_objs.6"/>
+  <edges id="206" edge_type="VirtEdge" source_obj="//@blocks.0/@node_objs.7" sink_obj="//@blocks.0/@node_objs.8"/>
+  <edges id="207" edge_type="VirtEdge" source_obj="//@blocks.0/@node_objs.8" sink_obj="//@blocks.0/@node_objs.9"/>
+  <edges id="208" edge_type="VirtEdge" source_obj="//@blocks.0/@node_objs.9" sink_obj="//@blocks.0/@node_objs.10"/>
+  <edges id="209" edge_type="VirtEdge" source_obj="//@blocks.0/@node_objs.9" sink_obj="//@blocks.0/@node_objs.11"/>
+  <edges id="210" edge_type="VirtEdge" source_obj="//@blocks.0/@node_objs.10" sink_obj="//@blocks.0/@node_objs.12"/>
+  <edges id="211" edge_type="VirtEdge" source_obj="//@blocks.0/@node_objs.11" sink_obj="//@blocks.0/@node_objs.12"/>
+  <edges id="212" edge_type="VirtEdge" source_obj="//@blocks.0/@node_objs.12" sink_obj="//@blocks.0/@node_objs.13"/>
+  <edges id="213" edge_type="VirtEdge" source_obj="//@blocks.0/@node_objs.13" sink_obj="//@blocks.0/@node_objs.14"/>
+  <edges id="214" edge_type="VirtEdge" source_obj="//@blocks.0/@node_objs.15" sink_obj="//@blocks.0/@node_objs.16"/>
+  <edges id="215" edge_type="VirtEdge" source_obj="//@blocks.0/@node_objs.13" sink_obj="//@blocks.0/@node_objs.16"/>
+  <edges id="216" edge_type="VirtEdge" source_obj="//@blocks.0/@node_objs.5" sink_obj="//@blocks.0/@node_objs.8"/>
+  <edges id="217" edge_type="VirtEdge" source_obj="//@blocks.0/@node_objs.5" sink_obj="//@blocks.0/@node_objs.8"/>
+  <edges id="218" edge_type="VirtEdge" source_obj="//@blocks.0/@node_objs.8" sink_obj="//@blocks.0/@node_objs.11"/>
+  <edges id="219" edge_type="VirtEdge" source_obj="//@blocks.0/@node_objs.11" sink_obj="//@blocks.0/@node_objs.16"/>
+  <blocks id="42" name="fft_1024_top" type="BlockType">
+    <node_objs xsi:type="cdfg:CdfgNode" id="24" name="ga_M_real_V" lineNumber="44" originalName="ga._M_real.V" fileName="fft_project_wlo/fft.cpp" fileDirectory=".." rtlName="ga_M_real_V_U" coreName="RAM" implIndex="auto" control="no" opType="ram_t2p" coreId="82" contextFuncName="fft_1024_top" bitwidth="26" opcode="alloca" m_display="0" m_topoIndex="1" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="fft_project_wlo/fft.cpp" linenumber="44" fileDirectory="C:\Users\nadis\AppData\Roaming\Xilinx\Vitis" functionName="fft_1024_top"/>
+      <dataOutputObjs>call</dataOutputObjs>
+      <dataOutputObjs>call</dataOutputObjs>
+      <dataOutputObjs>call</dataOutputObjs>
+      <constName>empty</constName>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="25" name="ga_M_imag_V" lineNumber="44" originalName="ga._M_imag.V" fileName="fft_project_wlo/fft.cpp" fileDirectory=".." rtlName="ga_M_imag_V_U" coreName="RAM" implIndex="auto" control="no" opType="ram_t2p" coreId="82" contextFuncName="fft_1024_top" bitwidth="26" opcode="alloca" m_display="0" m_topoIndex="2" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="fft_project_wlo/fft.cpp" linenumber="44" fileDirectory="C:\Users\nadis\AppData\Roaming\Xilinx\Vitis" functionName="fft_1024_top"/>
+      <dataOutputObjs>call</dataOutputObjs>
+      <dataOutputObjs>call</dataOutputObjs>
+      <dataOutputObjs>call</dataOutputObjs>
+      <constName>empty</constName>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="26" name="gb_M_real_V" lineNumber="45" originalName="gb._M_real.V" fileName="fft_project_wlo/fft.cpp" fileDirectory=".." rtlName="gb_M_real_V_U" coreName="RAM" implIndex="auto" control="no" opType="ram_t2p" coreId="82" contextFuncName="fft_1024_top" bitwidth="26" opcode="alloca" m_display="0" m_topoIndex="3" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="fft_project_wlo/fft.cpp" linenumber="45" fileDirectory="C:\Users\nadis\AppData\Roaming\Xilinx\Vitis" functionName="fft_1024_top"/>
+      <dataOutputObjs>call</dataOutputObjs>
+      <dataOutputObjs>call</dataOutputObjs>
+      <dataOutputObjs>call</dataOutputObjs>
+      <constName>empty</constName>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="27" name="gb_M_imag_V" lineNumber="45" originalName="gb._M_imag.V" fileName="fft_project_wlo/fft.cpp" fileDirectory=".." rtlName="gb_M_imag_V_U" coreName="RAM" implIndex="auto" control="no" opType="ram_t2p" coreId="82" contextFuncName="fft_1024_top" bitwidth="26" opcode="alloca" m_display="0" m_topoIndex="4" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="fft_project_wlo/fft.cpp" linenumber="45" fileDirectory="C:\Users\nadis\AppData\Roaming\Xilinx\Vitis" functionName="fft_1024_top"/>
+      <dataOutputObjs>call</dataOutputObjs>
+      <dataOutputObjs>call</dataOutputObjs>
+      <dataOutputObjs>call</dataOutputObjs>
+      <constName>empty</constName>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="28" name="empty" coreId="539767593" bitwidth="32" opcode="wait" m_display="0" m_topoIndex="5" m_clusterGroupNumber="-1"/>
+    <node_objs xsi:type="cdfg:CdfgNode" id="29" name="_ln0" rtlName="grp_fft_1024_top_Pipeline_VITIS_LOOP_47_1_fu_74" coreId="1013281633" opcode="call" nodeLabel="1.0" nodeLatency="1" m_display="0" m_topoIndex="6" m_clusterGroupNumber="-1">
+      <dataInputObjs>input_r_V_data_V</dataInputObjs>
+      <dataInputObjs>input_r_V_keep_V</dataInputObjs>
+      <dataInputObjs>input_r_V_strb_V</dataInputObjs>
+      <dataInputObjs>input_r_V_last_V</dataInputObjs>
+      <dataInputObjs>alloca</dataInputObjs>
+      <dataInputObjs>alloca</dataInputObjs>
+      <constName>fft_1024_top_Pipeline_VITIS_LOOP_47_1</constName>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="30" name="empty_31" rtlName="fmul_32ns_32ns_32_4_max_dsp_1_U54" coreId="1013281633" bitwidth="32" opcode="wait" nodeLabel="3.0" m_display="0" m_topoIndex="7" m_clusterGroupNumber="-1"/>
+    <node_objs xsi:type="cdfg:CdfgNode" id="31" name="empty_32" rtlName="fpext_32ns_64_2_no_dsp_1_U56" coreId="1013281633" bitwidth="32" opcode="wait" nodeLabel="4.0" m_display="0" m_topoIndex="8" m_clusterGroupNumber="-1"/>
+    <node_objs xsi:type="cdfg:CdfgNode" id="32" name="_ln0" rtlName="grp_fft_1024_top_Pipeline_VITIS_LOOP_54_2_fu_88" coreId="1852403314" opcode="call" nodeLabel="4.0" nodeLatency="1" m_display="0" m_topoIndex="9" m_clusterGroupNumber="-1">
+      <dataInputObjs>input_r_V_data_V</dataInputObjs>
+      <dataInputObjs>input_r_V_keep_V</dataInputObjs>
+      <dataInputObjs>input_r_V_strb_V</dataInputObjs>
+      <dataInputObjs>input_r_V_last_V</dataInputObjs>
+      <dataInputObjs>alloca</dataInputObjs>
+      <dataInputObjs>alloca</dataInputObjs>
+      <constName>fft_1024_top_Pipeline_VITIS_LOOP_54_2</constName>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="33" name="empty_33" coreId="1013281633" bitwidth="32" opcode="wait" nodeLabel="6.0" m_display="0" m_topoIndex="10" m_clusterGroupNumber="-1"/>
+    <node_objs xsi:type="cdfg:CdfgNode" id="34" name="_ln60" lineNumber="60" fileName="fft_project_wlo/fft.cpp" fileDirectory=".." rtlName="grp_fft_fast_fu_102" coreId="1013281633" contextFuncName="fft_1024_top" opcode="call" nodeLabel="6.0" nodeLatency="1" m_display="0" m_topoIndex="11" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="fft_project_wlo/fft.cpp" linenumber="60" fileDirectory="C:\Users\nadis\AppData\Roaming\Xilinx\Vitis" functionName="fft_1024_top"/>
+      <dataInputObjs>alloca</dataInputObjs>
+      <dataInputObjs>alloca</dataInputObjs>
+      <constName>fft_fast</constName>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="35" name="_ln61" lineNumber="61" fileName="fft_project_wlo/fft.cpp" fileDirectory=".." rtlName="grp_fft_fast_fu_114" coreId="997420912" contextFuncName="fft_1024_top" opcode="call" nodeLabel="6.0" nodeLatency="1" m_display="0" m_topoIndex="12" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="fft_project_wlo/fft.cpp" linenumber="61" fileDirectory="C:\Users\nadis\AppData\Roaming\Xilinx\Vitis" functionName="fft_1024_top"/>
+      <dataInputObjs>alloca</dataInputObjs>
+      <dataInputObjs>alloca</dataInputObjs>
+      <constName>fft_fast</constName>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="36" name="empty_34" coreId="1013281633" bitwidth="32" opcode="wait" nodeLabel="8.0" m_display="0" m_topoIndex="13" m_clusterGroupNumber="-1"/>
+    <node_objs xsi:type="cdfg:CdfgNode" id="37" name="_ln0" rtlName="grp_fft_1024_top_Pipeline_VITIS_LOOP_63_3_fu_126" coreId="1380927064" opcode="call" nodeLabel="8.0" nodeLatency="1" m_display="0" m_topoIndex="14" m_clusterGroupNumber="-1">
+      <dataInputObjs>alloca</dataInputObjs>
+      <dataInputObjs>alloca</dataInputObjs>
+      <dataOutputObjs>output_r_V_data_V</dataOutputObjs>
+      <dataOutputObjs>output_r_V_keep_V</dataOutputObjs>
+      <dataOutputObjs>output_r_V_strb_V</dataOutputObjs>
+      <dataOutputObjs>output_r_V_last_V</dataOutputObjs>
+      <constName>fft_1024_top_Pipeline_VITIS_LOOP_63_3</constName>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="38" name="empty_35" coreId="1013281633" bitwidth="32" opcode="wait" nodeLabel="10.0" m_display="0" m_topoIndex="15" m_clusterGroupNumber="-1"/>
+    <node_objs xsi:type="cdfg:CdfgNode" id="39" name="empty_36" coreId="1013281633" bitwidth="32" opcode="wait" nodeLabel="11.0" m_display="0" m_topoIndex="16" m_clusterGroupNumber="-1"/>
+    <node_objs xsi:type="cdfg:CdfgNode" id="40" name="_ln0" rtlName="grp_fft_1024_top_Pipeline_VITIS_LOOP_72_4_fu_140" coreId="1769104758" opcode="call" nodeLabel="11.0" nodeLatency="1" m_display="0" m_topoIndex="17" m_clusterGroupNumber="-1">
+      <dataInputObjs>alloca</dataInputObjs>
+      <dataInputObjs>alloca</dataInputObjs>
+      <dataOutputObjs>output_r_V_data_V</dataOutputObjs>
+      <dataOutputObjs>output_r_V_keep_V</dataOutputObjs>
+      <dataOutputObjs>output_r_V_strb_V</dataOutputObjs>
+      <dataOutputObjs>output_r_V_last_V</dataOutputObjs>
+      <constName>fft_1024_top_Pipeline_VITIS_LOOP_72_4</constName>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="41" name="_ln80" lineNumber="80" fileName="fft_project_wlo/fft.cpp" fileDirectory=".." coreId="691614010" contextFuncName="fft_1024_top" opcode="ret" nodeLabel="13.0" m_display="0" m_topoIndex="18" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="fft_project_wlo/fft.cpp" linenumber="80" fileDirectory="C:\Users\nadis\AppData\Roaming\Xilinx\Vitis" functionName="fft_1024_top"/>
+    </node_objs>
+    <fileValidLineNumbers fileName="fft_project_wlo/fft.cpp">
+      <validLinenumbers>44</validLinenumbers>
+      <validLinenumbers>45</validLinenumbers>
+      <validLinenumbers>60</validLinenumbers>
+      <validLinenumbers>61</validLinenumbers>
+      <validLinenumbers>80</validLinenumbers>
+    </fileValidLineNumbers>
+  </blocks>
+  <ScheduleInfo time="0"/>
+  <ScheduleInfo time="1"/>
+  <ScheduleInfo time="2"/>
+  <ScheduleInfo time="3"/>
+  <ScheduleInfo time="4"/>
+  <ScheduleInfo time="5"/>
+  <ScheduleInfo time="6"/>
+  <ScheduleInfo time="7"/>
+  <ScheduleInfo time="8"/>
+  <ScheduleInfo time="9"/>
+  <ScheduleInfo time="10"/>
+  <ScheduleInfo time="11"/>
+  <ScheduleInfo time="12"/>
+  <ScheduleInfo time="13"/>
+  <expressionNodes realName="ga_M_real_V_alloca_fu_58">
+    <nodeIds>24</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="gb_M_imag_V_alloca_fu_70">
+    <nodeIds>27</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="gb_M_real_V_alloca_fu_66">
+    <nodeIds>26</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="ga_M_imag_V_alloca_fu_62">
+    <nodeIds>25</nodeIds>
+  </expressionNodes>
+  <moduleNodes realName="grp_fft_fast_fu_102">
+    <nodeIds>34</nodeIds>
+  </moduleNodes>
+  <moduleNodes realName="grp_fft_fast_fu_114">
+    <nodeIds>35</nodeIds>
+  </moduleNodes>
+  <moduleNodes realName="grp_fft_1024_top_Pipeline_VITIS_LOOP_72_4_fu_140">
+    <nodeIds>40</nodeIds>
+  </moduleNodes>
+  <moduleNodes realName="grp_fft_1024_top_Pipeline_VITIS_LOOP_47_1_fu_74">
+    <nodeIds>29</nodeIds>
+  </moduleNodes>
+  <moduleNodes realName="grp_fft_1024_top_Pipeline_VITIS_LOOP_54_2_fu_88">
+    <nodeIds>32</nodeIds>
+  </moduleNodes>
+  <moduleNodes realName="grp_fft_1024_top_Pipeline_VITIS_LOOP_63_3_fu_126">
+    <nodeIds>37</nodeIds>
+  </moduleNodes>
+  <memoryPorts dataString="br_lut" portID="100">
+    <nodeIds>34</nodeIds>
+    <nodeIds>35</nodeIds>
+  </memoryPorts>
+  <memoryPorts dataString="tw_M_imag_V" portID="100">
+    <nodeIds>34</nodeIds>
+    <nodeIds>35</nodeIds>
+  </memoryPorts>
+  <memoryPorts dataString="tw_M_real_V" portID="100">
+    <nodeIds>34</nodeIds>
+    <nodeIds>35</nodeIds>
+  </memoryPorts>
+  <ioPorts name="input_r_V_data_V">
+    <contents name="call">
+      <nodeIds>29</nodeIds>
+      <nodeIds>32</nodeIds>
+    </contents>
+  </ioPorts>
+  <ioPorts name="input_r_V_keep_V">
+    <contents name="call">
+      <nodeIds>29</nodeIds>
+      <nodeIds>32</nodeIds>
+    </contents>
+  </ioPorts>
+  <ioPorts name="input_r_V_last_V">
+    <contents name="call">
+      <nodeIds>29</nodeIds>
+      <nodeIds>32</nodeIds>
+    </contents>
+  </ioPorts>
+  <ioPorts name="input_r_V_strb_V">
+    <contents name="call">
+      <nodeIds>29</nodeIds>
+      <nodeIds>32</nodeIds>
+    </contents>
+  </ioPorts>
+  <ioPorts name="output_r_V_data_V">
+    <contents name="call">
+      <nodeIds>37</nodeIds>
+      <nodeIds>40</nodeIds>
+    </contents>
+  </ioPorts>
+  <ioPorts name="output_r_V_keep_V">
+    <contents name="call">
+      <nodeIds>37</nodeIds>
+      <nodeIds>40</nodeIds>
+    </contents>
+  </ioPorts>
+  <ioPorts name="output_r_V_last_V">
+    <contents name="call">
+      <nodeIds>37</nodeIds>
+      <nodeIds>40</nodeIds>
+    </contents>
+  </ioPorts>
+  <ioPorts name="output_r_V_strb_V">
+    <contents name="call">
+      <nodeIds>37</nodeIds>
+      <nodeIds>40</nodeIds>
+    </contents>
+  </ioPorts>
+  <fsm>
+    <states id="1">
+      <operations id="24" stage="1" latency="1"/>
+      <operations id="25" stage="1" latency="1"/>
+      <operations id="26" stage="1" latency="1"/>
+      <operations id="27" stage="1" latency="1"/>
+      <operations id="28" stage="1" latency="1"/>
+    </states>
+    <states id="2">
+      <operations id="29" stage="2" latency="2"/>
+    </states>
+    <states id="3">
+      <operations id="29" stage="1" latency="2"/>
+    </states>
+    <states id="4">
+      <operations id="30" stage="1" latency="1"/>
+    </states>
+    <states id="5">
+      <operations id="31" stage="1" latency="1"/>
+      <operations id="32" stage="2" latency="2"/>
+    </states>
+    <states id="6">
+      <operations id="32" stage="1" latency="2"/>
+    </states>
+    <states id="7">
+      <operations id="33" stage="1" latency="1"/>
+      <operations id="34" stage="2" latency="2"/>
+      <operations id="35" stage="2" latency="2"/>
+    </states>
+    <states id="8">
+      <operations id="34" stage="1" latency="2"/>
+      <operations id="35" stage="1" latency="2"/>
+    </states>
+    <states id="9">
+      <operations id="36" stage="1" latency="1"/>
+      <operations id="37" stage="2" latency="2"/>
+    </states>
+    <states id="10">
+      <operations id="37" stage="1" latency="2"/>
+    </states>
+    <states id="11">
+      <operations id="38" stage="1" latency="1"/>
+    </states>
+    <states id="12">
+      <operations id="39" stage="1" latency="1"/>
+      <operations id="40" stage="2" latency="2"/>
+    </states>
+    <states id="13">
+      <operations id="40" stage="1" latency="2"/>
+    </states>
+    <states id="14">
+      <operations id="12" stage="1" latency="1"/>
+      <operations id="13" stage="1" latency="1"/>
+      <operations id="14" stage="1" latency="1"/>
+      <operations id="15" stage="1" latency="1"/>
+      <operations id="16" stage="1" latency="1"/>
+      <operations id="17" stage="1" latency="1"/>
+      <operations id="18" stage="1" latency="1"/>
+      <operations id="19" stage="1" latency="1"/>
+      <operations id="20" stage="1" latency="1"/>
+      <operations id="21" stage="1" latency="1"/>
+      <operations id="22" stage="1" latency="1"/>
+      <operations id="23" stage="1" latency="1"/>
+      <operations id="41" stage="1" latency="1"/>
+    </states>
+    <transitions inState="1" outState="2">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="2" outState="3">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="3" outState="4">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="4" outState="5">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="5" outState="6">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="6" outState="7">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="7" outState="8">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="8" outState="9">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="9" outState="10">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="10" outState="11">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="11" outState="12">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="12" outState="13">
+      <condition id="-1"/>
+    </transitions>
+    <transitions inState="13" outState="14">
+      <condition id="-1"/>
+    </transitions>
+  </fsm>
+  <CFGRegionsRoot>
+    <cfgRegions mId="1" mTag="fft_1024_top" mII="-1" mDepth="-1" mMinTripCount="-1" mMaxTripCount="-1" mMinLatency="-1" mMaxLatency="-1">
+      <basicBlocks>42</basicBlocks>
+      <mDfPipe/>
+    </cfgRegions>
+  </CFGRegionsRoot>
+</cdfg:DBCdfg>

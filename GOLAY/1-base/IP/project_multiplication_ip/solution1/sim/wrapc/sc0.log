@@ -1,0 +1,8 @@
+   Build using "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/bin/g++"
+   Compiling mul.cpp_pre.cpp.tb.cpp
+   Compiling apatb_corr_multiplication_util.cpp
+   Compiling conj_values.cpp_pre.cpp.tb.cpp
+   Compiling apatb_corr_multiplication.cpp
+   Compiling mul_tb.cpp_pre.cpp.tb.cpp
+   Compiling apatb_corr_multiplication_ir.ll
+   Generating cosim.tv.exe

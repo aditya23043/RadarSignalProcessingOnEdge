@@ -1,0 +1,13 @@
+INFO: [SIM 2] *************** CSIM start ***************
+INFO: [SIM 4] CSIM will launch GCC as the compiler.
+   Compiling ../../../ifft_tb.cpp in debug mode
+   Generating csim.exe
+ref[0] = -1446.3699 + 466.8534j
+out[0] = -1446.6875 + 466.5000j
+ref[1] = -9990.3203 + -7009.0811j
+out[1] = -9990.7500 + -7009.7500j
+RMSE: 0.108373
+PASS
+Written: doppler_input.h
+INFO: [SIM 1] CSim done with 0 errors.
+INFO: [SIM 3] *************** CSIM finish ***************

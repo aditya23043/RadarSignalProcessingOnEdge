@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cdfg:DBCdfg xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cdfg="http://www.autoesl.com/DBCdfg" timeStamp="1777482660259">
+  <ports id="1" name="gb_M_value" type="PortType" coreName="RAM" coreId="1952867899" bitwidth="32" iftype="IfTypeRegister" arraysize="1024">
+    <dataOutputObjs>getelementptr</dataOutputObjs>
+  </ports>
+  <ports id="2" name="gb_M_value_1" type="PortType" coreName="RAM" coreId="0" bitwidth="32" iftype="IfTypeRegister" arraysize="1024">
+    <dataOutputObjs>getelementptr</dataOutputObjs>
+  </ports>
+  <ports id="3" name="output_r_V_data_V" type="PortType" originalName="this" coreId="0" bitwidth="64" direction="DirOut">
+    <dataInputObjs>write</dataInputObjs>
+  </ports>
+  <ports id="4" name="output_r_V_keep_V" type="PortType" originalName="this" coreId="3621216858" bitwidth="8" direction="DirOut">
+    <dataInputObjs>write</dataInputObjs>
+  </ports>
+  <ports id="5" name="output_r_V_strb_V" type="PortType" originalName="this" coreId="279623424" bitwidth="8" direction="DirOut">
+    <dataInputObjs>write</dataInputObjs>
+  </ports>
+  <ports id="6" name="output_r_V_last_V" type="PortType" originalName="this" coreId="0" bitwidth="1" direction="DirOut">
+    <dataInputObjs>write</dataInputObjs>
+  </ports>
+  <edges id="42" source_obj="//@blocks.0/@node_objs.0" sink_obj="//@blocks.0/@node_objs.1"/>
+  <edges id="43" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.0" sink_obj="//@blocks.0/@node_objs.2"/>
+  <edges id="44" source_obj="//@blocks.0/@node_objs.0" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.0"/>
+  <edges id="45" source_obj="//@regions.0/@basic_blocks.0/@node_objs.0" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.1"/>
+  <edges id="48" source_obj="//@regions.0/@basic_blocks.0/@node_objs.0" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.2"/>
+  <edges id="51" source_obj="//@regions.0/@basic_blocks.0/@node_objs.1" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.3"/>
+  <edges id="52" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.1" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.3"/>
+  <edges id="53" edge_type="CtrlEdge" source_obj="//@blocks.1" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.3"/>
+  <edges id="54" source_obj="//@regions.0/@basic_blocks.0/@node_objs.0" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.0"/>
+  <edges id="55" source_obj="//@ports.0" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.1"/>
+  <edges id="58" source_obj="//@regions.0/@basic_blocks.1/@node_objs.0" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.1"/>
+  <edges id="59" source_obj="//@regions.0/@basic_blocks.1/@node_objs.1" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.2"/>
+  <edges id="60" source_obj="//@ports.1" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.3"/>
+  <edges id="62" source_obj="//@regions.0/@basic_blocks.1/@node_objs.0" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.3"/>
+  <edges id="63" source_obj="//@regions.0/@basic_blocks.1/@node_objs.3" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.4"/>
+  <edges id="64" source_obj="//@regions.0/@basic_blocks.0/@node_objs.0" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.5"/>
+  <edges id="67" source_obj="//@regions.0/@basic_blocks.1/@node_objs.2" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.6"/>
+  <edges id="68" source_obj="//@regions.0/@basic_blocks.1/@node_objs.4" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.7"/>
+  <edges id="71" source_obj="//@regions.0/@basic_blocks.1/@node_objs.7" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.8"/>
+  <edges id="72" source_obj="//@regions.0/@basic_blocks.1/@node_objs.6" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.8"/>
+  <edges id="75" source_obj="//@regions.0/@basic_blocks.1/@node_objs.9" sink_obj="//@ports.2"/>
+  <edges id="76" source_obj="//@regions.0/@basic_blocks.1/@node_objs.9" sink_obj="//@ports.3"/>
+  <edges id="77" source_obj="//@regions.0/@basic_blocks.1/@node_objs.9" sink_obj="//@ports.4"/>
+  <edges id="78" source_obj="//@regions.0/@basic_blocks.1/@node_objs.9" sink_obj="//@ports.5"/>
+  <edges id="79" source_obj="//@regions.0/@basic_blocks.1/@node_objs.8" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.9"/>
+  <edges id="84" source_obj="//@regions.0/@basic_blocks.1/@node_objs.5" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.9"/>
+  <edges id="85" source_obj="//@regions.0/@basic_blocks.0/@node_objs.2" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.10"/>
+  <edges id="86" source_obj="//@blocks.0/@node_objs.0" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.10"/>
+  <edges id="87" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.0" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.11"/>
+  <edges id="188" edge_type="CtrlEdge" source_obj="//@blocks.0" sink_obj="//@regions.0/@basic_blocks.0"/>
+  <edges id="189" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.0" sink_obj="//@blocks.1"/>
+  <edges id="190" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.0" sink_obj="//@regions.0/@basic_blocks.1"/>
+  <edges id="191" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.1" sink_obj="//@regions.0/@basic_blocks.0" is_back_edge="1"/>
+  <edges id="192" edge_type="VirtEdge" source_obj="//@blocks.0/@node_objs.1" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.0"/>
+  <edges id="193" edge_type="VirtEdge" source_obj="//@blocks.0/@node_objs.1" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.10"/>
+  <edges id="194" edge_type="VirtEdge" source_obj="//@regions.0/@basic_blocks.0/@node_objs.0" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.10"/>
+  <blocks id="14" name="newFuncRoot" type="BlockType">
+    <controlOutputObjs>for.body39</controlOutputObjs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="7" name="i" originalName="i" coreId="280978176" bitwidth="11" opcode="alloca" m_display="0" m_topoIndex="1" m_clusterGroupNumber="-1">
+      <dataOutputObjs>store</dataOutputObjs>
+      <dataOutputObjs>load</dataOutputObjs>
+      <dataOutputObjs>store</dataOutputObjs>
+      <constName>empty</constName>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="12" name="i_write_ln0" coreId="281540528" opcode="store" m_display="0" m_delay="1.58" m_topoIndex="2" m_clusterGroupNumber="-1">
+      <dataInputObjs>alloca</dataInputObjs>
+      <constName>empty</constName>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="13" name="br_ln0" coreId="281188288" opcode="br" m_display="0" m_topoIndex="3" m_clusterGroupNumber="-1">
+      <controlInputObjs>for.body39</controlInputObjs>
+    </node_objs>
+  </blocks>
+  <blocks id="37" name="for.cond.cleanup38.exitStub" type="BlockType">
+    <controlInputObjs>for.body39</controlInputObjs>
+    <controlOutputObjs>br</controlOutputObjs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="36" name="_ln0" coreId="280554528" opcode="ret" m_display="0" m_topoIndex="15" m_clusterGroupNumber="-1"/>
+  </blocks>
+  <regions anchor_node="-1" region_type="8" interval="1" typeName="Pipeline" iiViolation="" id="122" pipe_depth="2" RegionName="VITIS_LOOP_65_4">
+    <basic_blocks id="21" name="for.body39" type="BlockType">
+      <controlInputObjs>newFuncRoot</controlInputObjs>
+      <controlInputObjs>for.body39.split</controlInputObjs>
+      <controlOutputObjs>br</controlOutputObjs>
+      <controlOutputObjs>br</controlOutputObjs>
+      <controlOutputObjs>for.cond.cleanup38.exitStub</controlOutputObjs>
+      <controlOutputObjs>for.body39.split</controlOutputObjs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="15" name="i_2" lineNumber="65" originalName="i" fileName="fft_1024/fft.cpp" fileDirectory=".." coreId="278147344" contextFuncName="fft_1024_top" bitwidth="11" opcode="load" m_display="0" m_topoIndex="4" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="fft_1024/fft.cpp" linenumber="65" fileDirectory="/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem" functionName="fft_1024_top"/>
+        <dataInputObjs>alloca</dataInputObjs>
+        <dataOutputObjs>icmp</dataOutputObjs>
+        <dataOutputObjs>add</dataOutputObjs>
+        <dataOutputObjs>zext</dataOutputObjs>
+        <dataOutputObjs>icmp</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="17" name="icmp_ln65" lineNumber="65" fileName="fft_1024/fft.cpp" fileDirectory=".." rtlName="icmp_ln65_fu_112_p2" coreName="Cmp" implIndex="auto" control="no" opType="icmp" coreId="9" contextFuncName="fft_1024_top" bitwidth="1" opcode="icmp" m_display="0" m_delay="1.88" m_topoIndex="5" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="fft_1024/fft.cpp" linenumber="65" fileDirectory="/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem" functionName="fft_1024_top"/>
+        <dataInputObjs>load</dataInputObjs>
+        <dataOutputObjs>br</dataOutputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="19" name="add_ln65" lineNumber="65" fileName="fft_1024/fft.cpp" fileDirectory=".." rtlName="add_ln65_fu_118_p2" coreName="Adder" implIndex="fabric" control="no" opType="add" coreId="1" contextFuncName="fft_1024_top" bitwidth="11" opcode="add" m_display="0" m_delay="1.63" m_topoIndex="6" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="fft_1024/fft.cpp" linenumber="65" fileDirectory="/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem" functionName="fft_1024_top"/>
+        <dataInputObjs>load</dataInputObjs>
+        <dataOutputObjs>store</dataOutputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="20" name="br_ln65" lineNumber="65" fileName="fft_1024/fft.cpp" fileDirectory=".." coreId="280789360" contextFuncName="fft_1024_top" opcode="br" m_display="0" m_topoIndex="7" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="fft_1024/fft.cpp" linenumber="65" fileDirectory="/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem" functionName="fft_1024_top"/>
+        <dataInputObjs>icmp</dataInputObjs>
+        <controlInputObjs>for.body39.split</controlInputObjs>
+        <controlInputObjs>for.cond.cleanup38.exitStub</controlInputObjs>
+      </node_objs>
+      <fileValidLineNumbers fileName="fft_1024/fft.cpp">
+        <validLinenumbers>65</validLinenumbers>
+      </fileValidLineNumbers>
+    </basic_blocks>
+    <basic_blocks id="35" name="for.body39.split" type="BlockType">
+      <controlInputObjs>for.body39</controlInputObjs>
+      <controlOutputObjs>br</controlOutputObjs>
+      <controlOutputObjs>for.body39</controlOutputObjs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="22" name="i_3_cast" lineNumber="65" fileName="fft_1024/fft.cpp" fileDirectory=".." rtlName="i_3_cast_fu_124_p1" coreId="1145391171" contextFuncName="fft_1024_top" bitwidth="64" opcode="zext" m_display="0" m_topoIndex="8" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="fft_1024/fft.cpp" linenumber="65" fileDirectory="/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem" functionName="fft_1024_top"/>
+        <dataInputObjs>load</dataInputObjs>
+        <dataOutputObjs>getelementptr</dataOutputObjs>
+        <dataOutputObjs>getelementptr</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="24" name="gb_M_value_addr" lineNumber="67" fileName="fft_1024/fft.cpp" fileDirectory=".." coreId="280230592" contextFuncName="fft_1024_top" bitwidth="10" opcode="getelementptr" m_display="0" m_topoIndex="9" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="fft_1024/fft.cpp" linenumber="67" fileDirectory="/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem" functionName="fft_1024_top"/>
+        <dataInputObjs>gb_M_value</dataInputObjs>
+        <dataInputObjs>zext</dataInputObjs>
+        <dataOutputObjs>load</dataOutputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="25" name="tmp_data_M_value" lineNumber="67" originalName="tmp.data._M_value" fileName="fft_1024/fft.cpp" fileDirectory=".." coreName="RAM" implIndex="auto" control="no" opType="ram" coreId="82" contextFuncName="fft_1024_top" bitwidth="32" opcode="load" nodeLatency="1" m_display="0" m_delay="3.25" m_topoIndex="10" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="fft_1024/fft.cpp" linenumber="67" fileDirectory="/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem" functionName="fft_1024_top"/>
+        <dataInputObjs>getelementptr</dataInputObjs>
+        <dataOutputObjs>bitcast</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="26" name="gb_M_value_1_addr" lineNumber="67" fileName="fft_1024/fft.cpp" fileDirectory=".." coreId="280673952" contextFuncName="fft_1024_top" bitwidth="10" opcode="getelementptr" m_display="0" m_topoIndex="11" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="fft_1024/fft.cpp" linenumber="67" fileDirectory="/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem" functionName="fft_1024_top"/>
+        <dataInputObjs>gb_M_value_1</dataInputObjs>
+        <dataInputObjs>zext</dataInputObjs>
+        <dataOutputObjs>load</dataOutputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="27" name="tmp_data_M_value_1" lineNumber="67" originalName="tmp.data._M_value" fileName="fft_1024/fft.cpp" fileDirectory=".." coreName="RAM" implIndex="auto" control="no" opType="ram" coreId="82" contextFuncName="fft_1024_top" bitwidth="32" opcode="load" nodeLatency="1" m_display="0" m_delay="3.25" m_topoIndex="12" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="fft_1024/fft.cpp" linenumber="67" fileDirectory="/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem" functionName="fft_1024_top"/>
+        <dataInputObjs>getelementptr</dataInputObjs>
+        <dataOutputObjs>bitcast</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="28" name="tmp_last_V" lineNumber="69" originalName="tmp.last.V" fileName="fft_1024/fft.cpp" fileDirectory=".." rtlName="tmp_last_V_fu_130_p2" coreName="Cmp" implIndex="auto" control="no" opType="icmp" coreId="9" contextFuncName="fft_1024_top" bitwidth="1" opcode="icmp" m_display="0" m_delay="1.88" m_topoIndex="13" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="fft_1024/fft.cpp" linenumber="69" fileDirectory="/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem" functionName="fft_1024_top"/>
+        <dataInputObjs>load</dataInputObjs>
+        <dataOutputObjs>write</dataOutputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="29" name="bitcast_ln304" lineNumber="304" fileName="/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_axi_sdata.h" fileDirectory=".." rtlName="bitcast_ln304_fu_141_p1" coreId="1414419794" contextFuncName="write" bitwidth="32" opcode="bitcast" nodeLabel="1.0" m_display="0" m_topoIndex="16" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_axi_sdata.h" linenumber="304" fileDirectory="/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem" functionName="write"/>
+        <dataInputObjs>load</dataInputObjs>
+        <dataOutputObjs>bitconcatenate</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="30" name="bitcast_ln304_1" lineNumber="304" fileName="/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_axi_sdata.h" fileDirectory=".." rtlName="bitcast_ln304_1_fu_145_p1" coreId="280952976" contextFuncName="write" bitwidth="32" opcode="bitcast" nodeLabel="1.0" m_display="0" m_topoIndex="17" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_axi_sdata.h" linenumber="304" fileDirectory="/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem" functionName="write"/>
+        <dataInputObjs>load</dataInputObjs>
+        <dataOutputObjs>bitconcatenate</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="31" name="p_0" lineNumber="304" fileName="/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_axi_sdata.h" fileDirectory=".." rtlName="output_r_TDATA" coreId="281089024" contextFuncName="write" bitwidth="64" opcode="bitconcatenate" nodeLabel="1.0" m_display="0" m_topoIndex="18" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_axi_sdata.h" linenumber="304" fileDirectory="/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem" functionName="write"/>
+        <dataInputObjs>bitcast</dataInputObjs>
+        <dataInputObjs>bitcast</dataInputObjs>
+        <dataOutputObjs>write</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="32" name="output_r_V_data_V_write_ln304" lineNumber="304" fileName="/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_axi_sdata.h" fileDirectory=".." coreName="axis" implIndex="axi4stream" control="no" opType="adapter" coreId="115" contextFuncName="write" opcode="write" nodeLabel="1.0" m_display="0" m_topoIndex="19" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_axi_sdata.h" linenumber="304" fileDirectory="/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem" functionName="write"/>
+        <dataInputObjs>bitconcatenate</dataInputObjs>
+        <dataInputObjs>icmp</dataInputObjs>
+        <dataOutputObjs>output_r_V_data_V</dataOutputObjs>
+        <dataOutputObjs>output_r_V_keep_V</dataOutputObjs>
+        <dataOutputObjs>output_r_V_strb_V</dataOutputObjs>
+        <dataOutputObjs>output_r_V_last_V</dataOutputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="33" name="i_write_ln65" lineNumber="65" fileName="fft_1024/fft.cpp" fileDirectory=".." coreId="542329928" contextFuncName="fft_1024_top" opcode="store" m_display="0" m_delay="1.58" m_topoIndex="14" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="fft_1024/fft.cpp" linenumber="65" fileDirectory="/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem" functionName="fft_1024_top"/>
+        <dataInputObjs>add</dataInputObjs>
+        <dataInputObjs>alloca</dataInputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="34" name="br_ln65" lineNumber="65" fileName="fft_1024/fft.cpp" fileDirectory=".." coreId="280179904" contextFuncName="fft_1024_top" opcode="br" nodeLabel="1.0" m_display="0" m_topoIndex="20" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="fft_1024/fft.cpp" linenumber="65" fileDirectory="/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem" functionName="fft_1024_top"/>
+        <controlInputObjs>for.body39</controlInputObjs>
+      </node_objs>
+      <fileValidLineNumbers fileName="fft_1024/fft.cpp">
+        <validLinenumbers>65</validLinenumbers>
+        <validLinenumbers>67</validLinenumbers>
+        <validLinenumbers>69</validLinenumbers>
+      </fileValidLineNumbers>
+      <fileValidLineNumbers fileName="/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_axi_sdata.h">
+        <validLinenumbers>304</validLinenumbers>
+      </fileValidLineNumbers>
+    </basic_blocks>
+  </regions>
+  <ScheduleInfo time="0"/>
+  <ScheduleInfo time="1"/>
+  <regnodes realName="gb_M_value_1_addr_reg_173">
+    <nodeIds>26</nodeIds>
+  </regnodes>
+  <regnodes realName="tmp_last_V_reg_178">
+    <nodeIds>28</nodeIds>
+  </regnodes>
+  <regnodes realName="i_reg_158">
+    <nodeIds>7</nodeIds>
+  </regnodes>
+  <regnodes realName="gb_M_value_addr_reg_168">
+    <nodeIds>24</nodeIds>
+  </regnodes>
+  <expressionNodes realName="bitcast_ln304_fu_141">
+    <nodeIds>29</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="icmp_ln65_fu_112">
+    <nodeIds>17</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="gb_M_value_addr_gep_fu_78">
+    <nodeIds>24</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="bitcast_ln304_1_fu_145">
+    <nodeIds>30</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="i_fu_56">
+    <nodeIds>7</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="gb_M_value_1_addr_gep_fu_91">
+    <nodeIds>26</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="tmp_last_V_fu_130">
+    <nodeIds>28</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="i_3_cast_fu_124">
+    <nodeIds>22</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="add_ln65_fu_118">
+    <nodeIds>19</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="p_0_fu_149">
+    <nodeIds>31</nodeIds>
+  </expressionNodes>
+  <ioNodes realName="i_2_load_fu_109">
+    <nodeIds>15</nodeIds>
+  </ioNodes>
+  <ioNodes realName="store_ln65_store_fu_136">
+    <nodeIds>33</nodeIds>
+  </ioNodes>
+  <ioNodes realName="write_ln304_write_fu_60">
+    <nodeIds>32</nodeIds>
+  </ioNodes>
+  <ioNodes realName="store_ln0_store_fu_104">
+    <nodeIds>12</nodeIds>
+  </ioNodes>
+  <memoryPorts dataString="gb_M_value">
+    <nodeIds>25</nodeIds>
+  </memoryPorts>
+  <memoryPorts dataString="gb_M_value_1">
+    <nodeIds>27</nodeIds>
+  </memoryPorts>
+  <ioPorts name="gb_M_value(p0)">
+    <contents name="load">
+      <nodeIds>25</nodeIds>
+    </contents>
+  </ioPorts>
+  <ioPorts name="gb_M_value_1(p0)">
+    <contents name="load">
+      <nodeIds>27</nodeIds>
+    </contents>
+  </ioPorts>
+  <ioPorts name="output_r_V_data_V">
+    <contents name="write">
+      <nodeIds>32</nodeIds>
+    </contents>
+  </ioPorts>
+  <ioPorts name="output_r_V_keep_V">
+    <contents name="write">
+      <nodeIds>32</nodeIds>
+    </contents>
+  </ioPorts>
+  <ioPorts name="output_r_V_last_V">
+    <contents name="write">
+      <nodeIds>32</nodeIds>
+    </contents>
+  </ioPorts>
+  <ioPorts name="output_r_V_strb_V">
+    <contents name="write">
+      <nodeIds>32</nodeIds>
+    </contents>
+  </ioPorts>
+  <fsm>
+    <states id="1">
+      <operations id="7" stage="1" latency="1"/>
+      <operations id="8" stage="1" latency="1"/>
+      <operations id="9" stage="1" latency="1"/>
+      <operations id="10" stage="1" latency="1"/>
+      <operations id="11" stage="1" latency="1"/>
+      <operations id="12" stage="1" latency="1"/>
+      <operations id="13" stage="1" latency="1"/>
+      <operations id="15" stage="1" latency="1"/>
+      <operations id="16" stage="1" latency="1"/>
+      <operations id="17" stage="1" latency="1"/>
+      <operations id="18" stage="1" latency="1"/>
+      <operations id="19" stage="1" latency="1"/>
+      <operations id="20" stage="1" latency="1"/>
+      <operations id="22" stage="1" latency="1"/>
+      <operations id="24" stage="1" latency="1"/>
+      <operations id="25" stage="2" latency="2"/>
+      <operations id="26" stage="1" latency="1"/>
+      <operations id="27" stage="2" latency="2"/>
+      <operations id="28" stage="1" latency="1"/>
+      <operations id="33" stage="1" latency="1"/>
+      <operations id="36" stage="1" latency="1"/>
+    </states>
+    <states id="2">
+      <operations id="23" stage="1" latency="1"/>
+      <operations id="25" stage="1" latency="2"/>
+      <operations id="27" stage="1" latency="2"/>
+      <operations id="29" stage="1" latency="1"/>
+      <operations id="30" stage="1" latency="1"/>
+      <operations id="31" stage="1" latency="1"/>
+      <operations id="32" stage="1" latency="1"/>
+      <operations id="34" stage="1" latency="1"/>
+    </states>
+    <transitions inState="1" outState="2">
+      <condition id="-1"/>
+    </transitions>
+  </fsm>
+  <CFGRegionsRoot>
+    <cfgRegions mId="1" mTag="fft_1024_top_Pipeline_VITIS_LOOP_65_4" mII="-1" mDepth="-1" mMinTripCount="-1" mMaxTripCount="-1" mMinLatency="1026" mMaxLatency="1026">
+      <subRegions>2</subRegions>
+      <subRegions>3</subRegions>
+      <subRegions>4</subRegions>
+      <mDfPipe/>
+    </cfgRegions>
+    <cfgRegions mId="2" mTag="Entry" mII="-1" mDepth="-1" mMinTripCount="-1" mMaxTripCount="-1">
+      <basicBlocks>14</basicBlocks>
+      <mDfPipe/>
+    </cfgRegions>
+    <cfgRegions mId="3" mTag="VITIS_LOOP_65_4" mII="1" mDepth="2" mMinTripCount="1024" mMaxTripCount="1024" mMinLatency="1024" mMaxLatency="1024" mType="1">
+      <basicBlocks>21</basicBlocks>
+      <basicBlocks>35</basicBlocks>
+      <mDfPipe/>
+    </cfgRegions>
+    <cfgRegions mId="4" mTag="Return" mII="-1" mDepth="-1" mMinTripCount="-1" mMaxTripCount="-1">
+      <basicBlocks>37</basicBlocks>
+      <mDfPipe/>
+    </cfgRegions>
+  </CFGRegionsRoot>
+</cdfg:DBCdfg>

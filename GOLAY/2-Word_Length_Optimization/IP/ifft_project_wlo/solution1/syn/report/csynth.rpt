@@ -1,0 +1,222 @@
+
+
+================================================================
+== Synthesis Summary Report of 'ifft_1024_top'
+================================================================
++ General Information: 
+    * Date:           Tue May  5 17:01:07 2026
+    * Version:        2022.1 (Build 3526262 on Mon Apr 18 15:48:16 MDT 2022)
+    * Project:        ifft_project_wlo
+    * Solution:       solution1 (Vivado IP Flow Target)
+    * Product family: zynq
+    * Target device:  xc7z020-clg484-1
+    
+
++ Performance & Resource Estimates: 
+    
+    PS: '+' for module; 'o' for loop; '*' for dataflow
+    +-------------------------------------------+------+------+---------+-----------+----------+---------+------+----------+---------+---------+-----------+------------+-----+
+    |                  Modules                  | Issue|      | Latency |  Latency  | Iteration|         | Trip |          |         |         |           |            |     |
+    |                  & Loops                  | Type | Slack| (cycles)|    (ns)   |  Latency | Interval| Count| Pipelined|  BRAM   |   DSP   |     FF    |     LUT    | URAM|
+    +-------------------------------------------+------+------+---------+-----------+----------+---------+------+----------+---------+---------+-----------+------------+-----+
+    |+ ifft_1024_top                            |     -|  0.08|        -|          -|         -|        -|     -|        no|  18 (6%)|  14 (6%)|  5243 (4%)|  8727 (16%)|    -|
+    | + ifft_1024_top_Pipeline_VITIS_LOOP_57_1  |     -|  0.08|     1035|  1.035e+04|         -|     1035|     -|        no|        -|        -|  1077 (1%)|   1433 (2%)|    -|
+    |  o VITIS_LOOP_57_1                        |     -|  7.30|     1033|  1.033e+04|        11|        1|  1024|       yes|        -|        -|          -|           -|    -|
+    | + ifft_1024_top_Pipeline_VITIS_LOOP_63_2  |     -|  0.08|     1035|  1.035e+04|         -|     1035|     -|        no|        -|        -|  1077 (1%)|   1433 (2%)|    -|
+    |  o VITIS_LOOP_63_2                        |     -|  7.30|     1033|  1.033e+04|        11|        1|  1024|       yes|        -|        -|          -|           -|    -|
+    | + ifft_fast                               |     -|  0.58|        -|          -|         -|        -|     -|        no|   5 (1%)|   4 (1%)|  813 (~0%)|   1180 (2%)|    -|
+    |  + ifft_fast_Pipeline_VITIS_LOOP_12_1     |     -|  0.79|     3075|  3.075e+04|         -|     3075|     -|        no|  1 (~0%)|        -|  129 (~0%)|   167 (~0%)|    -|
+    |   o VITIS_LOOP_12_1                       |    II|  7.30|     3073|  3.073e+04|         4|        3|  1024|       yes|        -|        -|          -|           -|    -|
+    |  o VITIS_LOOP_22_2                        |     -|  7.30|        -|          -|         -|        -|     -|        no|        -|        -|          -|           -|    -|
+    |   o VITIS_LOOP_25_3                       |     -|  7.30|        -|          -|      3077|        -|     -|        no|        -|        -|          -|           -|    -|
+    |    + ifft_fast_Pipeline_VITIS_LOOP_26_4   |     -|  0.58|     3074|  3.074e+04|         -|     3074|     -|        no|   4 (1%)|   4 (1%)|  480 (~0%)|    569 (1%)|    -|
+    |     o VITIS_LOOP_26_4                     |    II|  7.30|     3072|  3.072e+04|         6|        6|   512|       yes|        -|        -|          -|           -|    -|
+    | + ifft_fast                               |     -|  0.58|        -|          -|         -|        -|     -|        no|   5 (1%)|   4 (1%)|  813 (~0%)|   1180 (2%)|    -|
+    |  + ifft_fast_Pipeline_VITIS_LOOP_12_1     |     -|  0.79|     3075|  3.075e+04|         -|     3075|     -|        no|  1 (~0%)|        -|  129 (~0%)|   167 (~0%)|    -|
+    |   o VITIS_LOOP_12_1                       |    II|  7.30|     3073|  3.073e+04|         4|        3|  1024|       yes|        -|        -|          -|           -|    -|
+    |  o VITIS_LOOP_22_2                        |     -|  7.30|        -|          -|         -|        -|     -|        no|        -|        -|          -|           -|    -|
+    |   o VITIS_LOOP_25_3                       |     -|  7.30|        -|          -|      3077|        -|     -|        no|        -|        -|          -|           -|    -|
+    |    + ifft_fast_Pipeline_VITIS_LOOP_26_4   |     -|  0.58|     3074|  3.074e+04|         -|     3074|     -|        no|   4 (1%)|   4 (1%)|  480 (~0%)|    569 (1%)|    -|
+    |     o VITIS_LOOP_26_4                     |    II|  7.30|     3072|  3.072e+04|         6|        6|   512|       yes|        -|        -|          -|           -|    -|
+    | + ifft_1024_top_Pipeline_VITIS_LOOP_72_3  |     -|  0.33|     1034|  1.034e+04|         -|     1034|     -|        no|        -|        -|  1161 (1%)|   2256 (4%)|    -|
+    |  o VITIS_LOOP_72_3                        |     -|  7.30|     1032|  1.032e+04|        10|        1|  1024|       yes|        -|        -|          -|           -|    -|
+    +-------------------------------------------+------+------+---------+-----------+----------+---------+------+----------+---------+---------+-----------+------------+-----+
+
+
+================================================================
+== HW Interfaces
+================================================================
+* AXIS
++-----------+---------------+-------+-------+-------+--------+-------+--------+
+| Interface | Register Mode | TDATA | TKEEP | TLAST | TREADY | TSTRB | TVALID |
++-----------+---------------+-------+-------+-------+--------+-------+--------+
+| input_r   | both          | 64    | 8     | 1     | 1      | 8     | 1      |
+| output_r  | both          | 64    | 8     | 1     | 1      | 8     | 1      |
++-----------+---------------+-------+-------+-------+--------+-------+--------+
+
+* TOP LEVEL CONTROL
++-----------+--------------+----------+
+| Interface | Type         | Ports    |
++-----------+--------------+----------+
+| ap_clk    | clock        | ap_clk   |
+| ap_rst_n  | reset        | ap_rst_n |
+| ap_ctrl   | ap_ctrl_none |          |
++-----------+--------------+----------+
+
+
+================================================================
+== SW I/O Information
+================================================================
+* Top Function Arguments
++----------+-----------+-----------------------------------------------------+
+| Argument | Direction | Datatype                                            |
++----------+-----------+-----------------------------------------------------+
+| input    | in        | stream<hls::axis<std::complex<float>, 0, 0, 0>, 0>& |
+| output   | out       | stream<hls::axis<std::complex<float>, 0, 0, 0>, 0>& |
++----------+-----------+-----------------------------------------------------+
+
+* SW-to-HW Mapping
++----------+--------------+-----------+
+| Argument | HW Interface | HW Type   |
++----------+--------------+-----------+
+| input    | input_r      | interface |
+| output   | output_r     | interface |
++----------+--------------+-----------+
+
+
+================================================================
+== M_AXI Burst Information
+================================================================
+ Note: All burst requests might be further partitioned into multiple requests during RTL generation based on max_read_burst_length or max_write_burst_length settings.
+
+  No burst in design
+
+================================================================
+== Bind Op Report
+================================================================
++---------------------------------------------------------------------------------------+-----+--------+--------------+-----+--------+---------+
+| Name                                                                                  | DSP | Pragma | Variable     | Op  | Impl   | Latency |
++---------------------------------------------------------------------------------------+-----+--------+--------------+-----+--------+---------+
+| + ifft_1024_top                                                                       | 14  |        |              |     |        |         |
+|  + ifft_1024_top_Pipeline_VITIS_LOOP_57_1                                             | 0   |        |              |     |        |         |
+|    add_ln57_fu_162_p2                                                                 | -   |        | add_ln57     | add | fabric | 0       |
+|    man_V_6_fu_285_p2                                                                  | -   |        | man_V_6      | sub | fabric | 0       |
+|    F2_fu_298_p2                                                                       | -   |        | F2           | sub | fabric | 0       |
+|    add_ln616_fu_310_p2                                                                | -   |        | add_ln616    | add | fabric | 0       |
+|    sub_ln616_fu_316_p2                                                                | -   |        | sub_ln616    | sub | fabric | 0       |
+|    man_V_9_fu_371_p2                                                                  | -   |        | man_V_9      | sub | fabric | 0       |
+|    F2_2_fu_384_p2                                                                     | -   |        | F2_2         | sub | fabric | 0       |
+|    add_ln616_2_fu_396_p2                                                              | -   |        | add_ln616_2  | add | fabric | 0       |
+|    sub_ln616_2_fu_402_p2                                                              | -   |        | sub_ln616_2  | sub | fabric | 0       |
+|  + ifft_1024_top_Pipeline_VITIS_LOOP_63_2                                             | 0   |        |              |     |        |         |
+|    add_ln63_fu_162_p2                                                                 | -   |        | add_ln63     | add | fabric | 0       |
+|    man_V_1_fu_285_p2                                                                  | -   |        | man_V_1      | sub | fabric | 0       |
+|    F2_fu_298_p2                                                                       | -   |        | F2           | sub | fabric | 0       |
+|    add_ln616_fu_310_p2                                                                | -   |        | add_ln616    | add | fabric | 0       |
+|    sub_ln616_fu_316_p2                                                                | -   |        | sub_ln616    | sub | fabric | 0       |
+|    man_V_4_fu_371_p2                                                                  | -   |        | man_V_4      | sub | fabric | 0       |
+|    F2_1_fu_384_p2                                                                     | -   |        | F2_1         | sub | fabric | 0       |
+|    add_ln616_1_fu_396_p2                                                              | -   |        | add_ln616_1  | add | fabric | 0       |
+|    sub_ln616_1_fu_402_p2                                                              | -   |        | sub_ln616_1  | sub | fabric | 0       |
+|  + ifft_fast (grp_ifft_fast_fu_100)                                                   | 4   |        |              |     |        |         |
+|    add_ln25_fu_164_p2                                                                 | -   |        | add_ln25     | add | fabric | 0       |
+|    ti_1_fu_169_p2                                                                     | -   |        | ti_1         | add | fabric | 0       |
+|    s_3_fu_174_p2                                                                      | -   |        | s_3          | add | fabric | 0       |
+|   + ifft_fast_Pipeline_VITIS_LOOP_12_1 (grp_ifft_fast_Pipeline_VITIS_LOOP_12_1_fu_65) | 0   |        |              |     |        |         |
+|     add_ln12_fu_120_p2                                                                | -   |        | add_ln12     | add | fabric | 0       |
+|   + ifft_fast_Pipeline_VITIS_LOOP_26_4 (grp_ifft_fast_Pipeline_VITIS_LOOP_26_4_fu_75) | 4   |        |              |     |        |         |
+|     add_ln26_fu_164_p2                                                                | -   |        | add_ln26     | add | fabric | 0       |
+|     add_ln27_fu_170_p2                                                                | -   |        | add_ln27     | add | fabric | 0       |
+|     add_ln29_fu_182_p2                                                                | -   |        | add_ln29     | add | fabric | 0       |
+|     add_ln29_1_fu_194_p2                                                              | -   |        | add_ln29_1   | add | fabric | 0       |
+|     mul_24s_24s_46_1_1_U24                                                            | 1   |        | mul_ln859    | mul | auto   | 0       |
+|     mul_24s_23ns_46_1_1_U25                                                           | 1   |        | mul_ln1394   | mul | auto   | 0       |
+|     ret_V_fu_247_p2                                                                   | -   |        | ret_V        | sub | fabric | 0       |
+|     mul_24s_24s_46_1_1_U26                                                            | 1   |        | mul_ln859_1  | mul | auto   | 0       |
+|     mul_24s_23ns_46_1_1_U27                                                           | 1   |        | mul_ln1393   | mul | auto   | 0       |
+|     ret_V_1_fu_261_p2                                                                 | -   |        | ret_V_1      | add | fabric | 0       |
+|     ret_V_2_fu_281_p2                                                                 | -   |        | ret_V_2      | add | fabric | 0       |
+|     ret_V_3_fu_304_p2                                                                 | -   |        | ret_V_3      | add | fabric | 0       |
+|     ret_V_4_fu_321_p2                                                                 | -   |        | ret_V_4      | sub | fabric | 0       |
+|     ret_V_5_fu_337_p2                                                                 | -   |        | ret_V_5      | sub | fabric | 0       |
+|  + ifft_fast (grp_ifft_fast_fu_112)                                                   | 4   |        |              |     |        |         |
+|    add_ln25_fu_164_p2                                                                 | -   |        | add_ln25     | add | fabric | 0       |
+|    ti_1_fu_169_p2                                                                     | -   |        | ti_1         | add | fabric | 0       |
+|    s_3_fu_174_p2                                                                      | -   |        | s_3          | add | fabric | 0       |
+|   + ifft_fast_Pipeline_VITIS_LOOP_12_1 (grp_ifft_fast_Pipeline_VITIS_LOOP_12_1_fu_65) | 0   |        |              |     |        |         |
+|     add_ln12_fu_120_p2                                                                | -   |        | add_ln12     | add | fabric | 0       |
+|   + ifft_fast_Pipeline_VITIS_LOOP_26_4 (grp_ifft_fast_Pipeline_VITIS_LOOP_26_4_fu_75) | 4   |        |              |     |        |         |
+|     add_ln26_fu_164_p2                                                                | -   |        | add_ln26     | add | fabric | 0       |
+|     add_ln27_fu_170_p2                                                                | -   |        | add_ln27     | add | fabric | 0       |
+|     add_ln29_fu_182_p2                                                                | -   |        | add_ln29     | add | fabric | 0       |
+|     add_ln29_1_fu_194_p2                                                              | -   |        | add_ln29_1   | add | fabric | 0       |
+|     mul_24s_24s_46_1_1_U24                                                            | 1   |        | mul_ln859    | mul | auto   | 0       |
+|     mul_24s_23ns_46_1_1_U25                                                           | 1   |        | mul_ln1394   | mul | auto   | 0       |
+|     ret_V_fu_247_p2                                                                   | -   |        | ret_V        | sub | fabric | 0       |
+|     mul_24s_24s_46_1_1_U26                                                            | 1   |        | mul_ln859_1  | mul | auto   | 0       |
+|     mul_24s_23ns_46_1_1_U27                                                           | 1   |        | mul_ln1393   | mul | auto   | 0       |
+|     ret_V_1_fu_261_p2                                                                 | -   |        | ret_V_1      | add | fabric | 0       |
+|     ret_V_2_fu_281_p2                                                                 | -   |        | ret_V_2      | add | fabric | 0       |
+|     ret_V_3_fu_304_p2                                                                 | -   |        | ret_V_3      | add | fabric | 0       |
+|     ret_V_4_fu_321_p2                                                                 | -   |        | ret_V_4      | sub | fabric | 0       |
+|     ret_V_5_fu_337_p2                                                                 | -   |        | ret_V_5      | sub | fabric | 0       |
+|  + ifft_1024_top_Pipeline_VITIS_LOOP_72_3                                             | 0   |        |              |     |        |         |
+|    add_ln72_fu_218_p2                                                                 | -   |        | add_ln72     | add | fabric | 0       |
+|    ret_V_fu_251_p2                                                                    | -   |        | ret_V        | add | fabric | 0       |
+|    tmp_V_fu_292_p2                                                                    | -   |        | tmp_V        | sub | fabric | 0       |
+|    sub_ln1145_fu_333_p2                                                               | -   |        | sub_ln1145   | sub | fabric | 0       |
+|    lsb_index_fu_415_p2                                                                | -   |        | lsb_index    | add | fabric | 0       |
+|    sub_ln1148_fu_436_p2                                                               | -   |        | sub_ln1148   | sub | fabric | 0       |
+|    add_ln1150_fu_482_p2                                                               | -   |        | add_ln1150   | add | fabric | 0       |
+|    add_ln1159_fu_628_p2                                                               | -   |        | add_ln1159   | add | fabric | 0       |
+|    m_3_fu_662_p2                                                                      | -   |        | m_3          | add | fabric | 0       |
+|    ret_V_6_fu_273_p2                                                                  | -   |        | ret_V_6      | add | fabric | 0       |
+|    tmp_V_2_fu_356_p2                                                                  | -   |        | tmp_V_2      | sub | fabric | 0       |
+|    sub_ln1145_1_fu_397_p2                                                             | -   |        | sub_ln1145_1 | sub | fabric | 0       |
+|    lsb_index_1_fu_520_p2                                                              | -   |        | lsb_index_1  | add | fabric | 0       |
+|    sub_ln1148_1_fu_541_p2                                                             | -   |        | sub_ln1148_1 | sub | fabric | 0       |
+|    add_ln1150_1_fu_587_p2                                                             | -   |        | add_ln1150_1 | add | fabric | 0       |
+|    add_ln1159_1_fu_689_p2                                                             | -   |        | add_ln1159_1 | add | fabric | 0       |
+|    m_6_fu_723_p2                                                                      | -   |        | m_6          | add | fabric | 0       |
++---------------------------------------------------------------------------------------+-----+--------+--------------+-----+--------+---------+
+
+
+================================================================
+== Bind Storage Report
+================================================================
++---------------------------------------------------------------------------------------+------+------+--------+-------------+---------+------+---------+
+| Name                                                                                  | BRAM | URAM | Pragma | Variable    | Storage | Impl | Latency |
++---------------------------------------------------------------------------------------+------+------+--------+-------------+---------+------+---------+
+| + ifft_1024_top                                                                       | 18   | 0    |        |             |         |      |         |
+|   ga_M_real_V_U                                                                       | 2    | -    |        | ga_M_real_V | ram_t2p | auto | 1       |
+|   ga_M_imag_V_U                                                                       | 2    | -    |        | ga_M_imag_V | ram_t2p | auto | 1       |
+|   gb_M_real_V_U                                                                       | 2    | -    |        | gb_M_real_V | ram_t2p | auto | 1       |
+|   gb_M_imag_V_U                                                                       | 2    | -    |        | gb_M_imag_V | ram_t2p | auto | 1       |
+|  + ifft_fast (grp_ifft_fast_fu_100)                                                   | 5    | 0    |        |             |         |      |         |
+|   + ifft_fast_Pipeline_VITIS_LOOP_12_1 (grp_ifft_fast_Pipeline_VITIS_LOOP_12_1_fu_65) | 1    | 0    |        |             |         |      |         |
+|     br_lut_U                                                                          | 1    | -    |        | br_lut      | rom_1p  | auto | 1       |
+|   + ifft_fast_Pipeline_VITIS_LOOP_26_4 (grp_ifft_fast_Pipeline_VITIS_LOOP_26_4_fu_75) | 4    | 0    |        |             |         |      |         |
+|     tw_M_real_V_U                                                                     | 2    | -    |        | tw_M_real_V | rom_1p  | auto | 1       |
+|     tw_M_imag_V_U                                                                     | 2    | -    |        | tw_M_imag_V | rom_1p  | auto | 1       |
+|  + ifft_fast (grp_ifft_fast_fu_112)                                                   | 5    | 0    |        |             |         |      |         |
+|   + ifft_fast_Pipeline_VITIS_LOOP_12_1 (grp_ifft_fast_Pipeline_VITIS_LOOP_12_1_fu_65) | 1    | 0    |        |             |         |      |         |
+|     br_lut_U                                                                          | 1    | -    |        | br_lut      | rom_1p  | auto | 1       |
+|   + ifft_fast_Pipeline_VITIS_LOOP_26_4 (grp_ifft_fast_Pipeline_VITIS_LOOP_26_4_fu_75) | 4    | 0    |        |             |         |      |         |
+|     tw_M_real_V_U                                                                     | 2    | -    |        | tw_M_real_V | rom_1p  | auto | 1       |
+|     tw_M_imag_V_U                                                                     | 2    | -    |        | tw_M_imag_V | rom_1p  | auto | 1       |
++---------------------------------------------------------------------------------------+------+------+--------+-------------+---------+------+---------+
+
+
+================================================================
+== Pragma Report
+================================================================
+* Valid Pragma Syntax
++-----------+--------------------------------+-------------------------------------------------------+
+| Type      | Options                        | Location                                              |
++-----------+--------------------------------+-------------------------------------------------------+
+| interface | ap_ctrl_none port=return       | ifft_project_wlo/ifft.cpp:50 in ifft_1024_top, return |
+| interface | axis register both port=input  | ifft_project_wlo/ifft.cpp:51 in ifft_1024_top, input  |
+| interface | axis register both port=output | ifft_project_wlo/ifft.cpp:52 in ifft_1024_top, output |
++-----------+--------------------------------+-------------------------------------------------------+
+
+

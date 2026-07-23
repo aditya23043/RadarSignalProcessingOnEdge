@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:47:01 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Sun Apr 26 23:40:29 2026
+# Process ID: 301095
+# Current directory: /mnt/arch/home/adi/repo/AELD_Lab_2026/project_multiplication_ip/solution1/impl/ip
+# Command line: vivado -notrace -mode batch -source run_ippack.tcl
+# Log file: /mnt/arch/home/adi/repo/AELD_Lab_2026/project_multiplication_ip/solution1/impl/ip/vivado.log
+# Journal file: /mnt/arch/home/adi/repo/AELD_Lab_2026/project_multiplication_ip/solution1/impl/ip/vivado.jou
+# Running On: adi-ubuntu, OS: Linux, CPU Frequency: 1996.425 MHz, CPU Physical cores: 16, Host memory: 16131 MB
+#-----------------------------------------------------------
+source run_ippack.tcl -notrace

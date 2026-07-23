@@ -1,0 +1,489 @@
+16:46:06 DEBUG : Logs will be stored at '/mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/IDE.log'.
+16:46:07 INFO  : Launching XSCT server: xsct -n  -interactive /mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/temp_xsdb_launch_script.tcl
+16:46:07 INFO  : Registering command handlers for Vitis TCF services
+16:46:08 INFO  : Platform repository initialization has completed.
+16:46:09 INFO  : XSCT server has started successfully.
+16:46:09 INFO  : Successfully done setting XSCT server connection channel  
+16:46:10 INFO  : plnx-install-location is set to ''
+16:46:10 INFO  : Successfully done setting workspace for the tool. 
+16:46:10 INFO  : Successfully done query RDI_DATADIR 
+16:46:49 INFO  : Result from executing command 'getProjects': design_1_wrapper
+16:46:49 INFO  : Result from executing command 'getPlatforms': xilinx_vck190_base_202210_1|/tools/Xilinx/Vitis/2022.1/base_platforms/xilinx_vck190_base_202210_1/xilinx_vck190_base_202210_1.xpfm;xilinx_vck190_base_dfx_202210_1|/tools/Xilinx/Vitis/2022.1/base_platforms/xilinx_vck190_base_dfx_202210_1/xilinx_vck190_base_dfx_202210_1.xpfm;xilinx_vmk180_base_202210_1|/tools/Xilinx/Vitis/2022.1/base_platforms/xilinx_vmk180_base_202210_1/xilinx_vmk180_base_202210_1.xpfm;xilinx_zcu102_base_202210_1|/tools/Xilinx/Vitis/2022.1/base_platforms/xilinx_zcu102_base_202210_1/xilinx_zcu102_base_202210_1.xpfm;xilinx_zcu102_base_dfx_202210_1|/tools/Xilinx/Vitis/2022.1/base_platforms/xilinx_zcu102_base_dfx_202210_1/xilinx_zcu102_base_dfx_202210_1.xpfm;xilinx_zcu104_base_202210_1|/tools/Xilinx/Vitis/2022.1/base_platforms/xilinx_zcu104_base_202210_1/xilinx_zcu104_base_202210_1.xpfm
+16:46:49 WARN  : An unexpected exception occurred in the module 'platform project logging'
+16:46:50 INFO  : Platform 'design_1_wrapper' is added to custom repositories.
+16:46:55 INFO  : Platform 'design_1_wrapper' is added to custom repositories.
+16:49:51 INFO  : Result from executing command 'getProjects': design_1_wrapper
+16:49:51 INFO  : Result from executing command 'getPlatforms': design_1_wrapper|/mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm;xilinx_vck190_base_202210_1|/tools/Xilinx/Vitis/2022.1/base_platforms/xilinx_vck190_base_202210_1/xilinx_vck190_base_202210_1.xpfm;xilinx_vck190_base_dfx_202210_1|/tools/Xilinx/Vitis/2022.1/base_platforms/xilinx_vck190_base_dfx_202210_1/xilinx_vck190_base_dfx_202210_1.xpfm;xilinx_vmk180_base_202210_1|/tools/Xilinx/Vitis/2022.1/base_platforms/xilinx_vmk180_base_202210_1/xilinx_vmk180_base_202210_1.xpfm;xilinx_zcu102_base_202210_1|/tools/Xilinx/Vitis/2022.1/base_platforms/xilinx_zcu102_base_202210_1/xilinx_zcu102_base_202210_1.xpfm;xilinx_zcu102_base_dfx_202210_1|/tools/Xilinx/Vitis/2022.1/base_platforms/xilinx_zcu102_base_dfx_202210_1/xilinx_zcu102_base_dfx_202210_1.xpfm;xilinx_zcu104_base_202210_1|/tools/Xilinx/Vitis/2022.1/base_platforms/xilinx_zcu104_base_202210_1/xilinx_zcu104_base_202210_1.xpfm
+16:49:55 INFO  : Checking for BSP changes to sync application flags for project 'golay_wlo_corr_full'...
+16:49:56 INFO  : Updating application flags with new BSP settings...
+16:49:56 INFO  : Successfully updated application flags for project golay_wlo_corr_full.
+16:50:13 INFO  : Checking for BSP changes to sync application flags for project 'golay_wlo_corr_full'...
+16:50:24 INFO  : Checking for BSP changes to sync application flags for project 'golay_wlo_corr_full'...
+17:06:13 INFO  : Checking for BSP changes to sync application flags for project 'golay_wlo_corr_full'...
+17:07:52 INFO  : Checking for BSP changes to sync application flags for project 'golay_wlo_corr_full'...
+17:08:07 INFO  : Connected through redirection to target on host '192.168.224.251' and port '50281'.
+17:08:07 WARN  : IDE version '2022.1.0' doesn't match hw_server version '2024.1.0'. Some debug features may not work.
+17:08:08 INFO  : Jtag cable 'Digilent Zed 210248722265' is selected.
+17:08:08 INFO  : 'jtag frequency' command is executed.
+17:08:09 INFO  : Context for 'APU' is selected.
+17:08:09 INFO  : System reset is completed.
+17:08:12 INFO  : 'after 3000' command is executed.
+17:08:12 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248722265" && level==0 && jtag_device_ctx=="jsn-Zed-210248722265-23727093-0"}' command is executed.
+17:08:14 INFO  : Device configured successfully with "/mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/golay_wlo_corr_full/_ide/bitstream/design_1_wrapper.bit"
+17:08:14 INFO  : Context for 'APU' is selected.
+17:08:14 INFO  : Hardware design and registers information is loaded from '/mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+17:08:14 INFO  : 'configparams force-mem-access 1' command is executed.
+17:08:14 INFO  : Context for 'APU' is selected.
+17:08:14 INFO  : Sourcing of '/mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/golay_wlo_corr_full/_ide/psinit/ps7_init.tcl' is done.
+17:08:16 INFO  : 'ps7_init' command is executed.
+17:08:17 INFO  : 'ps7_post_config' command is executed.
+17:08:17 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+17:08:17 INFO  : The application '/mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/golay_wlo_corr_full/Debug/golay_wlo_corr_full.elf' is downloaded to processor 'ps7_cortexa9_0'.
+17:08:17 INFO  : 'configparams force-mem-access 0' command is executed.
+17:08:17 INFO  : ----------------XSDB Script----------------
+connect -path [list tcp::1534 tcp:192.168.224.251:50281]
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248722265" && level==0 && jtag_device_ctx=="jsn-Zed-210248722265-23727093-0"}
+fpga -file /mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/golay_wlo_corr_full/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/golay_wlo_corr_full/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/golay_wlo_corr_full/Debug/golay_wlo_corr_full.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+17:08:17 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+17:08:17 INFO  : 'con' command is executed.
+17:08:17 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+17:08:17 INFO  : Launch script is exported to file '/mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/golay_wlo_corr_full_system/_ide/scripts/debugger_golay_wlo_corr_full-default.tcl'
+17:09:21 INFO  : Checking for BSP changes to sync application flags for project 'golay_wlo_corr_full'...
+17:09:32 INFO  : Disconnected from the channel tcfchan#3.
+17:09:34 INFO  : Connected through redirection to target on host '192.168.224.251' and port '50281'.
+17:09:34 WARN  : IDE version '2022.1.0' doesn't match hw_server version '2024.1.0'. Some debug features may not work.
+17:09:35 INFO  : Jtag cable 'Digilent Zed 210248722265' is selected.
+17:09:35 INFO  : 'jtag frequency' command is executed.
+17:09:35 INFO  : Context for 'APU' is selected.
+17:09:35 INFO  : System reset is completed.
+17:09:38 INFO  : 'after 3000' command is executed.
+17:09:38 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248722265" && level==0 && jtag_device_ctx=="jsn-Zed-210248722265-23727093-0"}' command is executed.
+17:09:41 INFO  : Device configured successfully with "/mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/golay_wlo_corr_full/_ide/bitstream/design_1_wrapper.bit"
+17:09:41 INFO  : Context for 'APU' is selected.
+17:09:41 INFO  : Hardware design and registers information is loaded from '/mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+17:09:41 INFO  : 'configparams force-mem-access 1' command is executed.
+17:09:41 INFO  : Context for 'APU' is selected.
+17:09:41 INFO  : Sourcing of '/mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/golay_wlo_corr_full/_ide/psinit/ps7_init.tcl' is done.
+17:09:43 INFO  : 'ps7_init' command is executed.
+17:09:44 INFO  : 'ps7_post_config' command is executed.
+17:09:44 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+17:09:44 INFO  : The application '/mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/golay_wlo_corr_full/Debug/golay_wlo_corr_full.elf' is downloaded to processor 'ps7_cortexa9_0'.
+17:09:44 INFO  : 'configparams force-mem-access 0' command is executed.
+17:09:44 INFO  : ----------------XSDB Script----------------
+connect -path [list tcp::1534 tcp:192.168.224.251:50281]
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248722265" && level==0 && jtag_device_ctx=="jsn-Zed-210248722265-23727093-0"}
+fpga -file /mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/golay_wlo_corr_full/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/golay_wlo_corr_full/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/golay_wlo_corr_full/Debug/golay_wlo_corr_full.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+17:09:44 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+17:09:44 INFO  : 'con' command is executed.
+17:09:44 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+17:09:44 INFO  : Launch script is exported to file '/mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/golay_wlo_corr_full_system/_ide/scripts/debugger_golay_wlo_corr_full-default.tcl'
+17:15:01 WARN  : channel "tcfchan#4" closed
+17:29:31 INFO  : Checking for BSP changes to sync application flags for project 'golay_wlo_corr_full'...
+17:30:31 INFO  : Connected through redirection to target on host '192.168.224.251' and port '54362'.
+17:30:33 WARN  : IDE version '2022.1.0' doesn't match hw_server version '2024.1.0'. Some debug features may not work.
+17:30:34 INFO  : Jtag cable 'Digilent Zed 210248722265' is selected.
+17:30:34 INFO  : 'jtag frequency' command is executed.
+17:30:34 INFO  : Context for 'APU' is selected.
+17:30:34 INFO  : System reset is completed.
+17:30:37 INFO  : 'after 3000' command is executed.
+17:30:38 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248722265" && level==0 && jtag_device_ctx=="jsn-Zed-210248722265-23727093-0"}' command is executed.
+17:30:40 INFO  : Device configured successfully with "/mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/golay_wlo_corr_full/_ide/bitstream/design_1_wrapper.bit"
+17:30:40 INFO  : Context for 'APU' is selected.
+17:30:40 INFO  : Hardware design and registers information is loaded from '/mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+17:30:40 INFO  : 'configparams force-mem-access 1' command is executed.
+17:30:40 INFO  : Context for 'APU' is selected.
+17:30:40 INFO  : Sourcing of '/mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/golay_wlo_corr_full/_ide/psinit/ps7_init.tcl' is done.
+17:30:44 INFO  : 'ps7_init' command is executed.
+17:30:44 INFO  : 'ps7_post_config' command is executed.
+17:30:44 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+17:30:44 INFO  : The application '/mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/golay_wlo_corr_full/Debug/golay_wlo_corr_full.elf' is downloaded to processor 'ps7_cortexa9_0'.
+17:30:45 INFO  : 'configparams force-mem-access 0' command is executed.
+17:30:45 INFO  : ----------------XSDB Script----------------
+connect -path [list tcp::1534 tcp:192.168.224.251:54362]
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248722265" && level==0 && jtag_device_ctx=="jsn-Zed-210248722265-23727093-0"}
+fpga -file /mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/golay_wlo_corr_full/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/golay_wlo_corr_full/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/golay_wlo_corr_full/Debug/golay_wlo_corr_full.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+17:30:45 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+17:30:45 INFO  : 'con' command is executed.
+17:30:45 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+17:30:45 INFO  : Launch script is exported to file '/mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/golay_wlo_corr_full_system/_ide/scripts/debugger_golay_wlo_corr_full-default.tcl'
+17:36:33 INFO  : Checking for BSP changes to sync application flags for project 'golay_wlo_corr_full'...
+17:36:37 INFO  : Disconnected from the channel tcfchan#5.
+17:36:38 INFO  : Connected through redirection to target on host '192.168.224.251' and port '54362'.
+17:36:38 WARN  : IDE version '2022.1.0' doesn't match hw_server version '2024.1.0'. Some debug features may not work.
+17:36:47 INFO  : Jtag cable 'Digilent Zed 210248722265' is selected.
+17:36:47 INFO  : 'jtag frequency' command is executed.
+17:36:47 INFO  : Context for 'APU' is selected.
+17:36:48 INFO  : System reset is completed.
+17:36:51 INFO  : 'after 3000' command is executed.
+17:36:51 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248722265" && level==0 && jtag_device_ctx=="jsn-Zed-210248722265-23727093-0"}' command is executed.
+17:36:53 INFO  : Device configured successfully with "/mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/golay_wlo_corr_full/_ide/bitstream/design_1_wrapper.bit"
+17:36:53 INFO  : Context for 'APU' is selected.
+17:36:53 INFO  : Hardware design and registers information is loaded from '/mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+17:36:53 INFO  : 'configparams force-mem-access 1' command is executed.
+17:36:53 INFO  : Context for 'APU' is selected.
+17:36:53 INFO  : Sourcing of '/mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/golay_wlo_corr_full/_ide/psinit/ps7_init.tcl' is done.
+17:36:55 INFO  : 'ps7_init' command is executed.
+17:36:55 INFO  : 'ps7_post_config' command is executed.
+17:36:55 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+17:36:56 INFO  : The application '/mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/golay_wlo_corr_full/Debug/golay_wlo_corr_full.elf' is downloaded to processor 'ps7_cortexa9_0'.
+17:36:56 INFO  : 'configparams force-mem-access 0' command is executed.
+17:36:56 INFO  : ----------------XSDB Script----------------
+connect -path [list tcp::1534 tcp:192.168.224.251:54362]
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248722265" && level==0 && jtag_device_ctx=="jsn-Zed-210248722265-23727093-0"}
+fpga -file /mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/golay_wlo_corr_full/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/golay_wlo_corr_full/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/golay_wlo_corr_full/Debug/golay_wlo_corr_full.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+17:36:56 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+17:36:56 INFO  : 'con' command is executed.
+17:36:56 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+17:36:56 INFO  : Launch script is exported to file '/mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/golay_wlo_corr_full_system/_ide/scripts/debugger_golay_wlo_corr_full-default.tcl'
+17:41:13 INFO  : Disconnected from the channel tcfchan#6.
+18:04:30 DEBUG : Logs will be stored at '/mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/IDE.log'.
+18:04:30 INFO  : Launching XSCT server: xsct -n  -interactive /mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/temp_xsdb_launch_script.tcl
+18:04:32 INFO  : Registering command handlers for Vitis TCF services
+18:04:32 INFO  : XSCT server has started successfully.
+18:04:32 INFO  : Successfully done setting XSCT server connection channel  
+18:04:32 INFO  : plnx-install-location is set to ''
+18:04:32 INFO  : Platform repository initialization has completed.
+18:04:33 INFO  : Successfully done setting workspace for the tool. 
+18:04:33 INFO  : Successfully done query RDI_DATADIR 
+18:07:35 INFO  : Result from executing command 'getProjects': design_1_wrapper;design_1_wrapper_wlo1
+18:07:35 INFO  : Result from executing command 'getPlatforms': design_1_wrapper|/mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm;xilinx_vck190_base_202210_1|/tools/Xilinx/Vitis/2022.1/base_platforms/xilinx_vck190_base_202210_1/xilinx_vck190_base_202210_1.xpfm;xilinx_vck190_base_dfx_202210_1|/tools/Xilinx/Vitis/2022.1/base_platforms/xilinx_vck190_base_dfx_202210_1/xilinx_vck190_base_dfx_202210_1.xpfm;xilinx_vmk180_base_202210_1|/tools/Xilinx/Vitis/2022.1/base_platforms/xilinx_vmk180_base_202210_1/xilinx_vmk180_base_202210_1.xpfm;xilinx_zcu102_base_202210_1|/tools/Xilinx/Vitis/2022.1/base_platforms/xilinx_zcu102_base_202210_1/xilinx_zcu102_base_202210_1.xpfm;xilinx_zcu102_base_dfx_202210_1|/tools/Xilinx/Vitis/2022.1/base_platforms/xilinx_zcu102_base_dfx_202210_1/xilinx_zcu102_base_dfx_202210_1.xpfm;xilinx_zcu104_base_202210_1|/tools/Xilinx/Vitis/2022.1/base_platforms/xilinx_zcu104_base_202210_1/xilinx_zcu104_base_202210_1.xpfm
+18:07:35 WARN  : An unexpected exception occurred in the module 'platform project logging'
+18:07:36 INFO  : Platform 'design_1_wrapper_wlo1' is added to custom repositories.
+18:07:41 INFO  : Platform 'design_1_wrapper_wlo1' is added to custom repositories.
+18:11:49 INFO  : Result from executing command 'getProjects': design_1_wrapper;design_1_wrapper_wlo1
+18:11:49 INFO  : Result from executing command 'getPlatforms': design_1_wrapper_wlo1|/mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/design_1_wrapper_wlo1/export/design_1_wrapper_wlo1/design_1_wrapper_wlo1.xpfm;design_1_wrapper|/mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm;xilinx_vck190_base_202210_1|/tools/Xilinx/Vitis/2022.1/base_platforms/xilinx_vck190_base_202210_1/xilinx_vck190_base_202210_1.xpfm;xilinx_vck190_base_dfx_202210_1|/tools/Xilinx/Vitis/2022.1/base_platforms/xilinx_vck190_base_dfx_202210_1/xilinx_vck190_base_dfx_202210_1.xpfm;xilinx_vmk180_base_202210_1|/tools/Xilinx/Vitis/2022.1/base_platforms/xilinx_vmk180_base_202210_1/xilinx_vmk180_base_202210_1.xpfm;xilinx_zcu102_base_202210_1|/tools/Xilinx/Vitis/2022.1/base_platforms/xilinx_zcu102_base_202210_1/xilinx_zcu102_base_202210_1.xpfm;xilinx_zcu102_base_dfx_202210_1|/tools/Xilinx/Vitis/2022.1/base_platforms/xilinx_zcu102_base_dfx_202210_1/xilinx_zcu102_base_dfx_202210_1.xpfm;xilinx_zcu104_base_202210_1|/tools/Xilinx/Vitis/2022.1/base_platforms/xilinx_zcu104_base_202210_1/xilinx_zcu104_base_202210_1.xpfm
+18:11:53 INFO  : Checking for BSP changes to sync application flags for project 'golay_wlo1_full'...
+18:11:54 INFO  : Updating application flags with new BSP settings...
+18:11:54 INFO  : Successfully updated application flags for project golay_wlo1_full.
+18:16:18 INFO  : Connected through redirection to target on host '192.168.224.251' and port '50206'.
+18:16:19 WARN  : IDE version '2022.1.0' doesn't match hw_server version '2024.1.0'. Some debug features may not work.
+18:16:22 INFO  : Jtag cable 'Digilent Zed 210248722265' is selected.
+18:16:22 INFO  : 'jtag frequency' command is executed.
+18:16:22 INFO  : Context for 'APU' is selected.
+18:16:22 INFO  : System reset is completed.
+18:16:25 INFO  : 'after 3000' command is executed.
+18:16:25 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248722265" && level==0 && jtag_device_ctx=="jsn-Zed-210248722265-23727093-0"}' command is executed.
+18:16:27 INFO  : Device configured successfully with "/mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/golay_wlo_corr_full/_ide/bitstream/design_1_wrapper.bit"
+18:16:27 INFO  : Context for 'APU' is selected.
+18:16:28 INFO  : Hardware design and registers information is loaded from '/mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+18:16:28 INFO  : 'configparams force-mem-access 1' command is executed.
+18:16:28 INFO  : Context for 'APU' is selected.
+18:16:28 INFO  : Sourcing of '/mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/golay_wlo_corr_full/_ide/psinit/ps7_init.tcl' is done.
+18:16:30 INFO  : 'ps7_init' command is executed.
+18:16:30 INFO  : 'ps7_post_config' command is executed.
+18:16:30 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+18:16:30 INFO  : The application '/mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/golay_wlo_corr_full/Debug/golay_wlo_corr_full.elf' is downloaded to processor 'ps7_cortexa9_0'.
+18:16:30 INFO  : 'configparams force-mem-access 0' command is executed.
+18:16:30 INFO  : ----------------XSDB Script----------------
+connect -path [list tcp::1534 tcp:192.168.224.251:50206]
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248722265" && level==0 && jtag_device_ctx=="jsn-Zed-210248722265-23727093-0"}
+fpga -file /mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/golay_wlo_corr_full/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/golay_wlo_corr_full/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/golay_wlo_corr_full/Debug/golay_wlo_corr_full.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+18:16:40 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+18:16:40 INFO  : 'con' command is executed.
+18:16:40 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+18:16:40 INFO  : Launch script is exported to file '/mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/golay_wlo_corr_full_system/_ide/scripts/debugger_golay_wlo_corr_full-default.tcl'
+18:20:42 WARN  : channel "tcfchan#2" closed
+18:21:45 ERROR : (XSDB Server)channel "tcfchan#2" closed
+
+18:21:51 ERROR : Failed to redirect connection to hardware server on host '192.168.224.251' and port '50206'.
+Reason: Connection refused
+18:21:51 INFO  : ----------------XSDB Script----------------
+connect -path [list tcp::1534 tcp:192.168.224.251:50206]
+----------------End of Script----------------
+
+18:21:51 ERROR : Failed to redirect connection to hardware server on host '192.168.224.251' and port '50206'.
+Reason: Connection refused
+18:24:15 DEBUG : Logs will be stored at '/mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/IDE.log'.
+18:24:16 INFO  : Launching XSCT server: xsct -n  -interactive /mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/temp_xsdb_launch_script.tcl
+18:24:18 INFO  : XSCT server has started successfully.
+18:24:18 INFO  : Successfully done setting XSCT server connection channel  
+18:24:18 INFO  : Registering command handlers for Vitis TCF services
+18:24:18 INFO  : plnx-install-location is set to ''
+18:24:18 INFO  : Successfully done setting workspace for the tool. 
+18:24:18 INFO  : Successfully done query RDI_DATADIR 
+18:24:18 INFO  : Platform repository initialization has completed.
+18:28:55 ERROR : Failed to redirect connection to hardware server on host '192.168.224.251' and port '50206'.
+Reason: Connection refused
+18:28:55 INFO  : ----------------XSDB Script----------------
+connect -path [list tcp::1534 tcp:192.168.224.251:50206]
+----------------End of Script----------------
+
+18:28:55 ERROR : Failed to redirect connection to hardware server on host '192.168.224.251' and port '50206'.
+Reason: Connection refused
+18:31:25 INFO  : Connected through redirection to target on host '192.168.224.251' and port '58078'.
+18:31:26 WARN  : IDE version '2022.1.0' doesn't match hw_server version '2024.1.0'. Some debug features may not work.
+18:31:31 INFO  : Jtag cable 'Digilent Zed 210248722265' is selected.
+18:31:31 INFO  : 'jtag frequency' command is executed.
+18:31:31 INFO  : Context for 'APU' is selected.
+18:31:31 INFO  : System reset is completed.
+18:31:34 INFO  : 'after 3000' command is executed.
+18:31:34 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248722265" && level==0 && jtag_device_ctx=="jsn-Zed-210248722265-23727093-0"}' command is executed.
+18:31:36 INFO  : Device configured successfully with "/mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/golay_wlo_corr_full/_ide/bitstream/design_1_wrapper.bit"
+18:31:36 INFO  : Context for 'APU' is selected.
+18:31:37 INFO  : Hardware design and registers information is loaded from '/mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+18:31:37 INFO  : 'configparams force-mem-access 1' command is executed.
+18:31:37 INFO  : Context for 'APU' is selected.
+18:31:37 INFO  : Sourcing of '/mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/golay_wlo_corr_full/_ide/psinit/ps7_init.tcl' is done.
+18:31:39 INFO  : 'ps7_init' command is executed.
+18:31:39 INFO  : 'ps7_post_config' command is executed.
+18:31:39 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+18:31:39 INFO  : The application '/mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/golay_wlo_corr_full/Debug/golay_wlo_corr_full.elf' is downloaded to processor 'ps7_cortexa9_0'.
+18:31:39 INFO  : 'configparams force-mem-access 0' command is executed.
+18:31:39 INFO  : ----------------XSDB Script----------------
+connect -path [list tcp::1534 tcp:192.168.224.251:58078]
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248722265" && level==0 && jtag_device_ctx=="jsn-Zed-210248722265-23727093-0"}
+fpga -file /mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/golay_wlo_corr_full/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/golay_wlo_corr_full/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/golay_wlo_corr_full/Debug/golay_wlo_corr_full.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+18:31:39 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+18:31:39 INFO  : 'con' command is executed.
+18:31:39 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+18:31:39 INFO  : Launch script is exported to file '/mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/golay_wlo_corr_full_system/_ide/scripts/debugger_golay_wlo_corr_full-default.tcl'
+18:32:14 INFO  : Checking for BSP changes to sync application flags for project 'golay_wlo1_full'...
+18:32:29 INFO  : Disconnected from the channel tcfchan#2.
+18:32:30 INFO  : Connected through redirection to target on host '192.168.224.251' and port '58078'.
+18:32:30 WARN  : IDE version '2022.1.0' doesn't match hw_server version '2024.1.0'. Some debug features may not work.
+18:32:41 INFO  : ----------------XSDB Script----------------
+connect -path [list tcp::1534 tcp:192.168.224.251:58078]
+----------------End of Script----------------
+
+18:32:41 ERROR : Could not find ARM device on the board for connection 'rem'.
+Check if the target is in:
+1. Split JTAG - No operations are possible with ARM DAP.
+2. Non JTAG bootmode - Bootrom may need time to enable DAP.
+Please try again.
+
+
+Troubleshooting hints:
+1. Check whether board is connected to system properly.
+2. In case of zynq board, check whether Digilent/Xilinx cable switch settings are correct.
+3. If you are using Xilinx Platform Cable USB, ensure that status LED is green.
+18:32:51 INFO  : Connected through redirection to target on host '192.168.224.251' and port '58078'.
+18:32:51 WARN  : IDE version '2022.1.0' doesn't match hw_server version '2024.1.0'. Some debug features may not work.
+18:32:52 INFO  : Jtag cable 'Digilent Zed 210248722265' is selected.
+18:32:52 INFO  : 'jtag frequency' command is executed.
+18:32:52 INFO  : Context for 'APU' is selected.
+18:32:52 INFO  : System reset is completed.
+18:32:55 INFO  : 'after 3000' command is executed.
+18:32:56 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248722265" && level==0 && jtag_device_ctx=="jsn-Zed-210248722265-23727093-0"}' command is executed.
+18:32:58 INFO  : Device configured successfully with "/mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/golay_wlo1_full/_ide/bitstream/design_1_wrapper_wlo1.bit"
+18:32:58 INFO  : Context for 'APU' is selected.
+18:32:58 INFO  : Hardware design and registers information is loaded from '/mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/design_1_wrapper_wlo1/export/design_1_wrapper_wlo1/hw/design_1_wrapper_wlo1.xsa'.
+18:32:58 INFO  : 'configparams force-mem-access 1' command is executed.
+18:32:58 INFO  : Context for 'APU' is selected.
+18:32:58 INFO  : Sourcing of '/mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/golay_wlo1_full/_ide/psinit/ps7_init.tcl' is done.
+18:33:00 INFO  : 'ps7_init' command is executed.
+18:33:00 INFO  : 'ps7_post_config' command is executed.
+18:33:00 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+18:33:01 INFO  : The application '/mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/golay_wlo1_full/Debug/golay_wlo1_full.elf' is downloaded to processor 'ps7_cortexa9_0'.
+18:33:01 INFO  : 'configparams force-mem-access 0' command is executed.
+18:33:01 INFO  : ----------------XSDB Script----------------
+connect -path [list tcp::1534 tcp:192.168.224.251:58078]
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248722265" && level==0 && jtag_device_ctx=="jsn-Zed-210248722265-23727093-0"}
+fpga -file /mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/golay_wlo1_full/_ide/bitstream/design_1_wrapper_wlo1.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/design_1_wrapper_wlo1/export/design_1_wrapper_wlo1/hw/design_1_wrapper_wlo1.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/golay_wlo1_full/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/golay_wlo1_full/Debug/golay_wlo1_full.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+18:33:01 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+18:33:01 INFO  : 'con' command is executed.
+18:33:01 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+18:33:01 INFO  : Launch script is exported to file '/mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/golay_wlo1_full_system/_ide/scripts/debugger_golay_wlo_corr_full-default.tcl'
+18:39:42 INFO  : Disconnected from the channel tcfchan#3.
+23:41:47 DEBUG : Logs will be stored at '/mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/IDE.log'.
+23:41:47 INFO  : Launching XSCT server: xsct -n  -interactive /mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/temp_xsdb_launch_script.tcl
+23:41:49 INFO  : Registering command handlers for Vitis TCF services
+23:41:49 INFO  : XSCT server has started successfully.
+23:41:49 INFO  : Successfully done setting XSCT server connection channel  
+23:41:49 INFO  : Platform repository initialization has completed.
+23:41:50 INFO  : plnx-install-location is set to ''
+23:41:50 INFO  : Successfully done setting workspace for the tool. 
+23:41:50 INFO  : Successfully done query RDI_DATADIR 
+23:42:23 INFO  : Result from executing command 'getProjects': design_1_wrapper;design_1_wrapper_dopp;design_1_wrapper_wlo1
+23:42:23 INFO  : Result from executing command 'getPlatforms': design_1_wrapper_wlo1|/mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/design_1_wrapper_wlo1/export/design_1_wrapper_wlo1/design_1_wrapper_wlo1.xpfm;design_1_wrapper|/mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm;xilinx_vck190_base_202210_1|/tools/Xilinx/Vitis/2022.1/base_platforms/xilinx_vck190_base_202210_1/xilinx_vck190_base_202210_1.xpfm;xilinx_vck190_base_dfx_202210_1|/tools/Xilinx/Vitis/2022.1/base_platforms/xilinx_vck190_base_dfx_202210_1/xilinx_vck190_base_dfx_202210_1.xpfm;xilinx_vmk180_base_202210_1|/tools/Xilinx/Vitis/2022.1/base_platforms/xilinx_vmk180_base_202210_1/xilinx_vmk180_base_202210_1.xpfm;xilinx_zcu102_base_202210_1|/tools/Xilinx/Vitis/2022.1/base_platforms/xilinx_zcu102_base_202210_1/xilinx_zcu102_base_202210_1.xpfm;xilinx_zcu102_base_dfx_202210_1|/tools/Xilinx/Vitis/2022.1/base_platforms/xilinx_zcu102_base_dfx_202210_1/xilinx_zcu102_base_dfx_202210_1.xpfm;xilinx_zcu104_base_202210_1|/tools/Xilinx/Vitis/2022.1/base_platforms/xilinx_zcu104_base_202210_1/xilinx_zcu104_base_202210_1.xpfm
+23:42:24 WARN  : An unexpected exception occurred in the module 'platform project logging'
+23:42:24 INFO  : Platform 'design_1_wrapper_dopp' is added to custom repositories.
+23:42:29 INFO  : Platform 'design_1_wrapper_dopp' is added to custom repositories.
+00:03:32 INFO  : Result from executing command 'getProjects': design_1_wrapper;design_1_wrapper_dopp;design_1_wrapper_dopp_1;design_1_wrapper_wlo1
+00:03:32 INFO  : Result from executing command 'getPlatforms': design_1_wrapper_dopp|/mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/design_1_wrapper_dopp/export/design_1_wrapper_dopp/design_1_wrapper_dopp.xpfm;design_1_wrapper_wlo1|/mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/design_1_wrapper_wlo1/export/design_1_wrapper_wlo1/design_1_wrapper_wlo1.xpfm;design_1_wrapper|/mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm;xilinx_vck190_base_202210_1|/tools/Xilinx/Vitis/2022.1/base_platforms/xilinx_vck190_base_202210_1/xilinx_vck190_base_202210_1.xpfm;xilinx_vck190_base_dfx_202210_1|/tools/Xilinx/Vitis/2022.1/base_platforms/xilinx_vck190_base_dfx_202210_1/xilinx_vck190_base_dfx_202210_1.xpfm;xilinx_vmk180_base_202210_1|/tools/Xilinx/Vitis/2022.1/base_platforms/xilinx_vmk180_base_202210_1/xilinx_vmk180_base_202210_1.xpfm;xilinx_zcu102_base_202210_1|/tools/Xilinx/Vitis/2022.1/base_platforms/xilinx_zcu102_base_202210_1/xilinx_zcu102_base_202210_1.xpfm;xilinx_zcu102_base_dfx_202210_1|/tools/Xilinx/Vitis/2022.1/base_platforms/xilinx_zcu102_base_dfx_202210_1/xilinx_zcu102_base_dfx_202210_1.xpfm;xilinx_zcu104_base_202210_1|/tools/Xilinx/Vitis/2022.1/base_platforms/xilinx_zcu104_base_202210_1/xilinx_zcu104_base_202210_1.xpfm
+00:03:33 INFO  : Platform 'design_1_wrapper_dopp_1' is added to custom repositories.
+00:03:38 INFO  : Platform 'design_1_wrapper_dopp_1' is added to custom repositories.
+00:05:40 INFO  : Result from executing command 'getProjects': design_1_wrapper;design_1_wrapper_dopp;design_1_wrapper_dopp_1;design_1_wrapper_wlo1
+00:05:40 INFO  : Result from executing command 'getPlatforms': design_1_wrapper_dopp_1|/mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/design_1_wrapper_dopp_1/export/design_1_wrapper_dopp_1/design_1_wrapper_dopp_1.xpfm;design_1_wrapper_dopp|/mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/design_1_wrapper_dopp/export/design_1_wrapper_dopp/design_1_wrapper_dopp.xpfm;design_1_wrapper_wlo1|/mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/design_1_wrapper_wlo1/export/design_1_wrapper_wlo1/design_1_wrapper_wlo1.xpfm;design_1_wrapper|/mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm;xilinx_vck190_base_202210_1|/tools/Xilinx/Vitis/2022.1/base_platforms/xilinx_vck190_base_202210_1/xilinx_vck190_base_202210_1.xpfm;xilinx_vck190_base_dfx_202210_1|/tools/Xilinx/Vitis/2022.1/base_platforms/xilinx_vck190_base_dfx_202210_1/xilinx_vck190_base_dfx_202210_1.xpfm;xilinx_vmk180_base_202210_1|/tools/Xilinx/Vitis/2022.1/base_platforms/xilinx_vmk180_base_202210_1/xilinx_vmk180_base_202210_1.xpfm;xilinx_zcu102_base_202210_1|/tools/Xilinx/Vitis/2022.1/base_platforms/xilinx_zcu102_base_202210_1/xilinx_zcu102_base_202210_1.xpfm;xilinx_zcu102_base_dfx_202210_1|/tools/Xilinx/Vitis/2022.1/base_platforms/xilinx_zcu102_base_dfx_202210_1/xilinx_zcu102_base_dfx_202210_1.xpfm;xilinx_zcu104_base_202210_1|/tools/Xilinx/Vitis/2022.1/base_platforms/xilinx_zcu104_base_202210_1/xilinx_zcu104_base_202210_1.xpfm
+00:05:44 INFO  : Checking for BSP changes to sync application flags for project 'dopp_2'...
+00:05:45 INFO  : Updating application flags with new BSP settings...
+00:05:45 INFO  : Successfully updated application flags for project dopp_2.
+00:07:20 INFO  : Checking for BSP changes to sync application flags for project 'dopp_2'...
+00:07:33 INFO  : Connected through redirection to target on host '192.168.224.251' and port '50184'.
+00:07:34 WARN  : IDE version '2022.1.0' doesn't match hw_server version '2024.1.0'. Some debug features may not work.
+00:07:35 INFO  : Jtag cable 'Digilent Zed 210248722265' is selected.
+00:07:35 INFO  : 'jtag frequency' command is executed.
+00:07:35 INFO  : Context for 'APU' is selected.
+00:07:35 INFO  : System reset is completed.
+00:07:38 INFO  : 'after 3000' command is executed.
+00:07:38 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248722265" && level==0 && jtag_device_ctx=="jsn-Zed-210248722265-23727093-0"}' command is executed.
+00:07:41 INFO  : Device configured successfully with "/mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/dopp_2/_ide/bitstream/design_1_wrapper_dopp.bit"
+00:07:41 INFO  : Context for 'APU' is selected.
+00:07:41 INFO  : Hardware design and registers information is loaded from '/mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/design_1_wrapper_dopp_1/export/design_1_wrapper_dopp_1/hw/design_1_wrapper_dopp.xsa'.
+00:07:41 INFO  : 'configparams force-mem-access 1' command is executed.
+00:07:41 INFO  : Context for 'APU' is selected.
+00:07:41 INFO  : Sourcing of '/mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/dopp_2/_ide/psinit/ps7_init.tcl' is done.
+00:07:56 INFO  : 'ps7_init' command is executed.
+00:07:56 INFO  : 'ps7_post_config' command is executed.
+00:07:56 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+00:07:57 INFO  : The application '/mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/dopp_2/Debug/dopp_2.elf' is downloaded to processor 'ps7_cortexa9_0'.
+00:07:58 INFO  : 'configparams force-mem-access 0' command is executed.
+00:07:58 INFO  : ----------------XSDB Script----------------
+connect -path [list tcp::1534 tcp:192.168.224.251:50184]
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248722265" && level==0 && jtag_device_ctx=="jsn-Zed-210248722265-23727093-0"}
+fpga -file /mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/dopp_2/_ide/bitstream/design_1_wrapper_dopp.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/design_1_wrapper_dopp_1/export/design_1_wrapper_dopp_1/hw/design_1_wrapper_dopp.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/dopp_2/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/dopp_2/Debug/dopp_2.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+00:07:58 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+00:07:58 INFO  : 'con' command is executed.
+00:07:58 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+00:07:58 INFO  : Launch script is exported to file '/mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/dopp_2_system/_ide/scripts/debugger_golay_wlo_corr_full-default.tcl'

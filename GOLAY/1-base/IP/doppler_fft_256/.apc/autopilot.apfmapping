@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="tw.h" path="/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/doppler_fft_256/tw.h"/>
+    <originFiles name="tw.cpp" path="/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/doppler_fft_256/tw.cpp"/>
+    <originFiles name="input.h" path="/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/doppler_fft_256/input.h"/>
+    <originFiles name="input.cpp" path="/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/doppler_fft_256/input.cpp"/>
+    <originFiles name="doppler.h" path="/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/doppler_fft_256/doppler.h"/>
+    <originFiles name="doppler.cpp" path="/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/doppler_fft_256/doppler.cpp"/>
+  </source>
+  <testbench>
+    <originFiles name="doppler_tb.cpp" path="/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/doppler_fft_256/doppler_tb.cpp"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>

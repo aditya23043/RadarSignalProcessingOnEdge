@@ -1,0 +1,306 @@
+<xilinx:hls_fe_msgs>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_int_ref.h:724:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="and_reduce" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_int_ref.h:738:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="or_reduce" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_int_ref.h:752:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="xor_reduce" ARG_PragmaIsValid="1" ARG_PragmaType="unroll" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:122:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="get_user_ptr" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:126:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="get_id_ptr" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:130:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="get_dest_ptr" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:160:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="get_strb_ptr" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:164:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="get_user_ptr" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:168:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="get_id_ptr" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:172:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="get_dest_ptr" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:178:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="get_data" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:182:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="get_keep" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:186:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="get_last" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:191:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="set_data" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:195:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="set_keep" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:199:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="set_last" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:203:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="keep_all" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:209:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="qdma_axis&lt;WData, 0, 0, 0&gt;" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:213:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="qdma_axis&lt;WData, 0, 0, 0&gt;" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:217:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="qdma_axis&lt;WData, 0, 0, 0&gt;" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:222:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="qdma_axis&lt;WData, 0, 0, 0&gt;" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:227:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="qdma_axis&lt;WData, 0, 0, 0&gt;" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:231:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="operator=" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:266:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="empty" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:273:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="full" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:281:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="read" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:291:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="read" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:302:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="write" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:312:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="read_nb" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:327:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="write_nb" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:363:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="empty" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:370:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="full" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:378:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="read" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:388:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="read" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:399:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="write" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:409:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="read_nb" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:425:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="write_nb" ARG_PragmaIsValid="1" ARG_PragmaType="inline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/Users/nadis/AppData/Roaming/Xilinx/Vitis/trigger_ip_project/solution1/csynth.tcl:16:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="trigger_ip" ARG_PragmaIsValid="1" ARG_PragmaOptions="name=trigger_ip" ARG_PragmaType="top" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="C:/Users/nadis/AppData/Roaming/Xilinx/Vitis/trigger_ip_project/solution1/directives.tcl:6:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaContext="directive" ARG_PragmaFunction="trigger_ip" ARG_PragmaIsValid="1" ARG_PragmaOptions="name=trigger_ip" ARG_PragmaType="top" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="trigger_ip_project/trigger_ip.cpp:10:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="trigger_ip" ARG_PragmaIsValid="1" ARG_PragmaOptions="axis port=s_axis_in" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="trigger_ip_project/trigger_ip.cpp:11:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="trigger_ip" ARG_PragmaIsValid="1" ARG_PragmaOptions="axis port=m_axis_out" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="trigger_ip_project/trigger_ip.cpp:12:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="trigger_ip" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite port=sync_reset" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="trigger_ip_project/trigger_ip.cpp:13:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="trigger_ip" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite port=trigger_done" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="trigger_ip_project/trigger_ip.cpp:14:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="trigger_ip" ARG_PragmaIsValid="1" ARG_PragmaOptions="s_axilite port=return" ARG_PragmaType="interface" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="PRAGMA_VERBOSE_DUMP" msg_id="207-5471" msg_severity="WARNING" msg_loc="trigger_ip_project/trigger_ip.cpp:16:9" msg_body="HLS pragma dump">
+        <args ARG_PragmaFunction="trigger_ip" ARG_PragmaIsValid="1" ARG_PragmaOptions="II=1" ARG_PragmaType="pipeline" ClangWarningOption="dump-hls-pragmas"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_int_base.h:260:67" msg_body="Inlining function 'ssdm_int&lt;16, false&gt;::ssdm_int(unsigned short)' into 'ap_int_base&lt;16, false&gt;::ap_int_base(int)'">
+        <args Callee="ssdm_int&lt;16, false&gt;::ssdm_int(unsigned short)" Caller="ap_int_base&lt;16, false&gt;::ap_int_base(int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_int.h:333:58" msg_body="Inlining function 'ap_int_base&lt;16, false&gt;::ap_int_base(int)' into 'ap_uint&lt;16&gt;::ap_uint(int)'">
+        <args Callee="ap_int_base&lt;16, false&gt;::ap_int_base(int)" Caller="ap_uint&lt;16&gt;::ap_uint(int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_int_base.h:260:67" msg_body="Inlining function '_ZN8ssdm_intILi5ELb0EEC2EDq5_j' into 'ap_int_base&lt;5, false&gt;::ap_int_base(int)'">
+        <args Callee="_ZN8ssdm_intILi5ELb0EEC2EDq5_j" Caller="ap_int_base&lt;5, false&gt;::ap_int_base(int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_int.h:333:58" msg_body="Inlining function 'ap_int_base&lt;5, false&gt;::ap_int_base(int)' into 'ap_uint&lt;5&gt;::ap_uint(int)'">
+        <args Callee="ap_int_base&lt;5, false&gt;::ap_int_base(int)" Caller="ap_uint&lt;5&gt;::ap_uint(int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_int_base.h:260:67" msg_body="Inlining function '_ZN8ssdm_intILi1ELb0EEC2EDq1_j' into 'ap_int_base&lt;1, false&gt;::ap_int_base(int)'">
+        <args Callee="_ZN8ssdm_intILi1ELb0EEC2EDq1_j" Caller="ap_int_base&lt;1, false&gt;::ap_int_base(int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_int.h:333:58" msg_body="Inlining function 'ap_int_base&lt;1, false&gt;::ap_int_base(int)' into 'ap_uint&lt;1&gt;::ap_uint(int)'">
+        <args Callee="ap_int_base&lt;1, false&gt;::ap_int_base(int)" Caller="ap_uint&lt;1&gt;::ap_uint(int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:293:50" msg_body="Inlining function 'hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;::get_user_ptr()' into 'hls::stream&lt;hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;, 0&gt;::read()'">
+        <args Callee="hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;::get_user_ptr()" Caller="hls::stream&lt;hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;, 0&gt;::read()"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:296:25" msg_body="Inlining function 'hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;::get_dest_ptr()' into 'hls::stream&lt;hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;, 0&gt;::read()'">
+        <args Callee="hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;::get_dest_ptr()" Caller="hls::stream&lt;hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;, 0&gt;::read()"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:295:67" msg_body="Inlining function 'hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;::get_id_ptr()' into 'hls::stream&lt;hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;, 0&gt;::read()'">
+        <args Callee="hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;::get_id_ptr()" Caller="hls::stream&lt;hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;, 0&gt;::read()"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:295:36" msg_body="Inlining function 'hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;::get_user_ptr()' into 'hls::stream&lt;hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;, 0&gt;::read()'">
+        <args Callee="hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;::get_user_ptr()" Caller="hls::stream&lt;hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;, 0&gt;::read()"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:294:39" msg_body="Inlining function 'hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;::get_dest_ptr()' into 'hls::stream&lt;hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;, 0&gt;::read()'">
+        <args Callee="hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;::get_dest_ptr()" Caller="hls::stream&lt;hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;, 0&gt;::read()"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:294:23" msg_body="Inlining function 'hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;::get_id_ptr()' into 'hls::stream&lt;hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;, 0&gt;::read()'">
+        <args Callee="hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;::get_id_ptr()" Caller="hls::stream&lt;hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;, 0&gt;::read()"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_int_base.h:260:67" msg_body="Inlining function 'ssdm_int&lt;32, true&gt;::ssdm_int(int)' into 'ap_int_base&lt;32, true&gt;::ap_int_base(int)'">
+        <args Callee="ssdm_int&lt;32, true&gt;::ssdm_int(int)" Caller="ap_int_base&lt;32, true&gt;::ap_int_base(int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_int_base.h:1834:1853" msg_body="Inlining function 'ap_int_base&lt;32, true&gt;::ap_int_base(int)' into 'bool operator==&lt;16, false&gt;(ap_int_base&lt;16, false&gt; const&amp;, int)'">
+        <args Callee="ap_int_base&lt;32, true&gt;::ap_int_base(int)" Caller="bool operator==&lt;16, false&gt;(ap_int_base&lt;16, false&gt; const&amp;, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_int_base.h:1834:1850" msg_body="Inlining function 'bool ap_int_base&lt;16, false&gt;::operator==&lt;32, true&gt;(ap_int_base&lt;32, true&gt; const&amp;) const' into 'bool operator==&lt;16, false&gt;(ap_int_base&lt;16, false&gt; const&amp;, int)'">
+        <args Callee="bool ap_int_base&lt;16, false&gt;::operator==&lt;32, true&gt;(ap_int_base&lt;32, true&gt; const&amp;) const" Caller="bool operator==&lt;16, false&gt;(ap_int_base&lt;16, false&gt; const&amp;, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:304:51" msg_body="Inlining function 'hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;::get_user_ptr()' into 'hls::stream&lt;hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;, 0&gt;::write(hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt; const&amp;)'">
+        <args Callee="hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;::get_user_ptr()" Caller="hls::stream&lt;hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;, 0&gt;::write(hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt; const&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:307:26" msg_body="Inlining function 'hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;::get_dest_ptr()' into 'hls::stream&lt;hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;, 0&gt;::write(hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt; const&amp;)'">
+        <args Callee="hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;::get_dest_ptr()" Caller="hls::stream&lt;hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;, 0&gt;::write(hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt; const&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:306:68" msg_body="Inlining function 'hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;::get_id_ptr()' into 'hls::stream&lt;hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;, 0&gt;::write(hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt; const&amp;)'">
+        <args Callee="hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;::get_id_ptr()" Caller="hls::stream&lt;hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;, 0&gt;::write(hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt; const&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:306:37" msg_body="Inlining function 'hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;::get_user_ptr()' into 'hls::stream&lt;hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;, 0&gt;::write(hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt; const&amp;)'">
+        <args Callee="hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;::get_user_ptr()" Caller="hls::stream&lt;hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;, 0&gt;::write(hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt; const&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:305:40" msg_body="Inlining function 'hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;::get_dest_ptr()' into 'hls::stream&lt;hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;, 0&gt;::write(hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt; const&amp;)'">
+        <args Callee="hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;::get_dest_ptr()" Caller="hls::stream&lt;hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;, 0&gt;::write(hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt; const&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:305:24" msg_body="Inlining function 'hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;::get_id_ptr()' into 'hls::stream&lt;hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;, 0&gt;::write(hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt; const&amp;)'">
+        <args Callee="hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;::get_id_ptr()" Caller="hls::stream&lt;hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;, 0&gt;::write(hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt; const&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_int_base.h:1834:1853" msg_body="Inlining function 'ap_int_base&lt;32, true&gt;::ap_int_base(int)' into 'bool operator==&lt;5, false&gt;(ap_int_base&lt;5, false&gt; const&amp;, int)'">
+        <args Callee="ap_int_base&lt;32, true&gt;::ap_int_base(int)" Caller="bool operator==&lt;5, false&gt;(ap_int_base&lt;5, false&gt; const&amp;, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_int_base.h:1834:1850" msg_body="Inlining function 'bool ap_int_base&lt;5, false&gt;::operator==&lt;32, true&gt;(ap_int_base&lt;32, true&gt; const&amp;) const' into 'bool operator==&lt;5, false&gt;(ap_int_base&lt;5, false&gt; const&amp;, int)'">
+        <args Callee="bool ap_int_base&lt;5, false&gt;::operator==&lt;32, true&gt;(ap_int_base&lt;32, true&gt; const&amp;) const" Caller="bool operator==&lt;5, false&gt;(ap_int_base&lt;5, false&gt; const&amp;, int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_int_base.h:925:16" msg_body="Inlining function 'ap_int_base&lt;1, false&gt;::ap_int_base(int)' into 'ap_int_base&lt;5, false&gt;::operator++(int)'">
+        <args Callee="ap_int_base&lt;1, false&gt;::ap_int_base(int)" Caller="ap_int_base&lt;5, false&gt;::operator++(int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_int_base.h:926:12" msg_body="Inlining function 'ap_uint&lt;5&gt;::ap_uint&lt;5, false&gt;(ap_int_base&lt;5, false&gt; const&amp;)' into 'ap_int_base&lt;5, false&gt;::operator++(int)'">
+        <args Callee="ap_uint&lt;5&gt;::ap_uint&lt;5, false&gt;(ap_int_base&lt;5, false&gt; const&amp;)" Caller="ap_int_base&lt;5, false&gt;::operator++(int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_int_base.h:925:5" msg_body="Inlining function 'ap_int_base&lt;5, false&gt;&amp; ap_int_base&lt;5, false&gt;::operator+=&lt;1, false&gt;(ap_int_base&lt;1, false&gt; const&amp;)' into 'ap_int_base&lt;5, false&gt;::operator++(int)'">
+        <args Callee="ap_int_base&lt;5, false&gt;&amp; ap_int_base&lt;5, false&gt;::operator+=&lt;1, false&gt;(ap_int_base&lt;1, false&gt; const&amp;)" Caller="ap_int_base&lt;5, false&gt;::operator++(int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_int_base.h:925:16" msg_body="Inlining function 'ap_int_base&lt;1, false&gt;::ap_int_base(int)' into 'ap_int_base&lt;16, false&gt;::operator++(int)'">
+        <args Callee="ap_int_base&lt;1, false&gt;::ap_int_base(int)" Caller="ap_int_base&lt;16, false&gt;::operator++(int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_int_base.h:926:12" msg_body="Inlining function 'ap_uint&lt;16&gt;::ap_uint&lt;16, false&gt;(ap_int_base&lt;16, false&gt; const&amp;)' into 'ap_int_base&lt;16, false&gt;::operator++(int)'">
+        <args Callee="ap_uint&lt;16&gt;::ap_uint&lt;16, false&gt;(ap_int_base&lt;16, false&gt; const&amp;)" Caller="ap_int_base&lt;16, false&gt;::operator++(int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_int_base.h:925:5" msg_body="Inlining function 'ap_int_base&lt;16, false&gt;&amp; ap_int_base&lt;16, false&gt;::operator+=&lt;1, false&gt;(ap_int_base&lt;1, false&gt; const&amp;)' into 'ap_int_base&lt;16, false&gt;::operator++(int)'">
+        <args Callee="ap_int_base&lt;16, false&gt;&amp; ap_int_base&lt;16, false&gt;::operator+=&lt;1, false&gt;(ap_int_base&lt;1, false&gt; const&amp;)" Caller="ap_int_base&lt;16, false&gt;::operator++(int)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="trigger_ip_project/trigger_ip.cpp:18:32" msg_body="Inlining function 'ap_uint&lt;16&gt;::ap_uint(int)' into 'trigger_ip(hls::stream&lt;hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;, 0&gt;&amp;, hls::stream&lt;hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;, 0&gt;&amp;, ap_uint&lt;1&gt;, ap_uint&lt;1&gt;&amp;)'">
+        <args Callee="ap_uint&lt;16&gt;::ap_uint(int)" Caller="trigger_ip(hls::stream&lt;hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;, 0&gt;&amp;, hls::stream&lt;hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;, 0&gt;&amp;, ap_uint&lt;1&gt;, ap_uint&lt;1&gt;&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="trigger_ip_project/trigger_ip.cpp:53:9" msg_body="Inlining function 'ap_int_base&lt;16, false&gt;::operator++(int)' into 'trigger_ip(hls::stream&lt;hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;, 0&gt;&amp;, hls::stream&lt;hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;, 0&gt;&amp;, ap_uint&lt;1&gt;, ap_uint&lt;1&gt;&amp;)'">
+        <args Callee="ap_int_base&lt;16, false&gt;::operator++(int)" Caller="trigger_ip(hls::stream&lt;hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;, 0&gt;&amp;, hls::stream&lt;hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;, 0&gt;&amp;, ap_uint&lt;1&gt;, ap_uint&lt;1&gt;&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="trigger_ip_project/trigger_ip.cpp:50:13" msg_body="Inlining function 'ap_int_base&lt;5, false&gt;::operator++(int)' into 'trigger_ip(hls::stream&lt;hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;, 0&gt;&amp;, hls::stream&lt;hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;, 0&gt;&amp;, ap_uint&lt;1&gt;, ap_uint&lt;1&gt;&amp;)'">
+        <args Callee="ap_int_base&lt;5, false&gt;::operator++(int)" Caller="trigger_ip(hls::stream&lt;hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;, 0&gt;&amp;, hls::stream&lt;hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;, 0&gt;&amp;, ap_uint&lt;1&gt;, ap_uint&lt;1&gt;&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="trigger_ip_project/trigger_ip.cpp:48:28" msg_body="Inlining function 'ap_uint&lt;1&gt;::ap_uint(int)' into 'trigger_ip(hls::stream&lt;hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;, 0&gt;&amp;, hls::stream&lt;hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;, 0&gt;&amp;, ap_uint&lt;1&gt;, ap_uint&lt;1&gt;&amp;)'">
+        <args Callee="ap_uint&lt;1&gt;::ap_uint(int)" Caller="trigger_ip(hls::stream&lt;hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;, 0&gt;&amp;, hls::stream&lt;hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;, 0&gt;&amp;, ap_uint&lt;1&gt;, ap_uint&lt;1&gt;&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="trigger_ip_project/trigger_ip.cpp:47:20" msg_body="Inlining function 'ap_uint&lt;1&gt;::ap_uint(int)' into 'trigger_ip(hls::stream&lt;hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;, 0&gt;&amp;, hls::stream&lt;hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;, 0&gt;&amp;, ap_uint&lt;1&gt;, ap_uint&lt;1&gt;&amp;)'">
+        <args Callee="ap_uint&lt;1&gt;::ap_uint(int)" Caller="trigger_ip(hls::stream&lt;hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;, 0&gt;&amp;, hls::stream&lt;hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;, 0&gt;&amp;, ap_uint&lt;1&gt;, ap_uint&lt;1&gt;&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="trigger_ip_project/trigger_ip.cpp:46:23" msg_body="Inlining function 'bool operator==&lt;5, false&gt;(ap_int_base&lt;5, false&gt; const&amp;, int)' into 'trigger_ip(hls::stream&lt;hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;, 0&gt;&amp;, hls::stream&lt;hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;, 0&gt;&amp;, ap_uint&lt;1&gt;, ap_uint&lt;1&gt;&amp;)'">
+        <args Callee="bool operator==&lt;5, false&gt;(ap_int_base&lt;5, false&gt; const&amp;, int)" Caller="trigger_ip(hls::stream&lt;hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;, 0&gt;&amp;, hls::stream&lt;hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;, 0&gt;&amp;, ap_uint&lt;1&gt;, ap_uint&lt;1&gt;&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="trigger_ip_project/trigger_ip.cpp:44:20" msg_body="Inlining function 'ap_uint&lt;16&gt;::ap_uint(int)' into 'trigger_ip(hls::stream&lt;hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;, 0&gt;&amp;, hls::stream&lt;hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;, 0&gt;&amp;, ap_uint&lt;1&gt;, ap_uint&lt;1&gt;&amp;)'">
+        <args Callee="ap_uint&lt;16&gt;::ap_uint(int)" Caller="trigger_ip(hls::stream&lt;hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;, 0&gt;&amp;, hls::stream&lt;hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;, 0&gt;&amp;, ap_uint&lt;1&gt;, ap_uint&lt;1&gt;&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="trigger_ip_project/trigger_ip.cpp:41:16" msg_body="Inlining function 'hls::stream&lt;hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;, 0&gt;::write(hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt; const&amp;)' into 'trigger_ip(hls::stream&lt;hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;, 0&gt;&amp;, hls::stream&lt;hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;, 0&gt;&amp;, ap_uint&lt;1&gt;, ap_uint&lt;1&gt;&amp;)'">
+        <args Callee="hls::stream&lt;hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;, 0&gt;::write(hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt; const&amp;)" Caller="trigger_ip(hls::stream&lt;hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;, 0&gt;&amp;, hls::stream&lt;hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;, 0&gt;&amp;, ap_uint&lt;1&gt;, ap_uint&lt;1&gt;&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="trigger_ip_project/trigger_ip.cpp:39:21" msg_body="Inlining function 'ap_uint&lt;1&gt;::ap_uint(int)' into 'trigger_ip(hls::stream&lt;hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;, 0&gt;&amp;, hls::stream&lt;hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;, 0&gt;&amp;, ap_uint&lt;1&gt;, ap_uint&lt;1&gt;&amp;)'">
+        <args Callee="ap_uint&lt;1&gt;::ap_uint(int)" Caller="trigger_ip(hls::stream&lt;hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;, 0&gt;&amp;, hls::stream&lt;hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;, 0&gt;&amp;, ap_uint&lt;1&gt;, ap_uint&lt;1&gt;&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="trigger_ip_project/trigger_ip.cpp:38:36" msg_body="Inlining function 'bool operator==&lt;16, false&gt;(ap_int_base&lt;16, false&gt; const&amp;, int)' into 'trigger_ip(hls::stream&lt;hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;, 0&gt;&amp;, hls::stream&lt;hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;, 0&gt;&amp;, ap_uint&lt;1&gt;, ap_uint&lt;1&gt;&amp;)'">
+        <args Callee="bool operator==&lt;16, false&gt;(ap_int_base&lt;16, false&gt; const&amp;, int)" Caller="trigger_ip(hls::stream&lt;hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;, 0&gt;&amp;, hls::stream&lt;hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;, 0&gt;&amp;, ap_uint&lt;1&gt;, ap_uint&lt;1&gt;&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="trigger_ip_project/trigger_ip.cpp:34:32" msg_body="Inlining function 'hls::stream&lt;hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;, 0&gt;::read()' into 'trigger_ip(hls::stream&lt;hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;, 0&gt;&amp;, hls::stream&lt;hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;, 0&gt;&amp;, ap_uint&lt;1&gt;, ap_uint&lt;1&gt;&amp;)'">
+        <args Callee="hls::stream&lt;hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;, 0&gt;::read()" Caller="trigger_ip(hls::stream&lt;hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;, 0&gt;&amp;, hls::stream&lt;hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;, 0&gt;&amp;, ap_uint&lt;1&gt;, ap_uint&lt;1&gt;&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="trigger_ip_project/trigger_ip.cpp:19:35" msg_body="Inlining function 'ap_uint&lt;5&gt;::ap_uint(int)' into 'trigger_ip(hls::stream&lt;hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;, 0&gt;&amp;, hls::stream&lt;hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;, 0&gt;&amp;, ap_uint&lt;1&gt;, ap_uint&lt;1&gt;&amp;)'">
+        <args Callee="ap_uint&lt;5&gt;::ap_uint(int)" Caller="trigger_ip(hls::stream&lt;hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;, 0&gt;&amp;, hls::stream&lt;hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;, 0&gt;&amp;, ap_uint&lt;1&gt;, ap_uint&lt;1&gt;&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="trigger_ip_project/trigger_ip.cpp:30:9" msg_body="Inlining function 'ap_int_base&lt;1, false&gt;::operator unsigned long long() const' into 'trigger_ip(hls::stream&lt;hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;, 0&gt;&amp;, hls::stream&lt;hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;, 0&gt;&amp;, ap_uint&lt;1&gt;, ap_uint&lt;1&gt;&amp;)'">
+        <args Callee="ap_int_base&lt;1, false&gt;::operator unsigned long long() const" Caller="trigger_ip(hls::stream&lt;hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;, 0&gt;&amp;, hls::stream&lt;hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;, 0&gt;&amp;, ap_uint&lt;1&gt;, ap_uint&lt;1&gt;&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="trigger_ip_project/trigger_ip.cpp:26:24" msg_body="Inlining function 'ap_uint&lt;1&gt;::ap_uint(int)' into 'trigger_ip(hls::stream&lt;hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;, 0&gt;&amp;, hls::stream&lt;hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;, 0&gt;&amp;, ap_uint&lt;1&gt;, ap_uint&lt;1&gt;&amp;)'">
+        <args Callee="ap_uint&lt;1&gt;::ap_uint(int)" Caller="trigger_ip(hls::stream&lt;hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;, 0&gt;&amp;, hls::stream&lt;hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;, 0&gt;&amp;, ap_uint&lt;1&gt;, ap_uint&lt;1&gt;&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="trigger_ip_project/trigger_ip.cpp:25:16" msg_body="Inlining function 'ap_uint&lt;1&gt;::ap_uint(int)' into 'trigger_ip(hls::stream&lt;hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;, 0&gt;&amp;, hls::stream&lt;hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;, 0&gt;&amp;, ap_uint&lt;1&gt;, ap_uint&lt;1&gt;&amp;)'">
+        <args Callee="ap_uint&lt;1&gt;::ap_uint(int)" Caller="trigger_ip(hls::stream&lt;hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;, 0&gt;&amp;, hls::stream&lt;hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;, 0&gt;&amp;, ap_uint&lt;1&gt;, ap_uint&lt;1&gt;&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="trigger_ip_project/trigger_ip.cpp:24:21" msg_body="Inlining function 'ap_uint&lt;5&gt;::ap_uint(int)' into 'trigger_ip(hls::stream&lt;hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;, 0&gt;&amp;, hls::stream&lt;hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;, 0&gt;&amp;, ap_uint&lt;1&gt;, ap_uint&lt;1&gt;&amp;)'">
+        <args Callee="ap_uint&lt;5&gt;::ap_uint(int)" Caller="trigger_ip(hls::stream&lt;hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;, 0&gt;&amp;, hls::stream&lt;hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;, 0&gt;&amp;, ap_uint&lt;1&gt;, ap_uint&lt;1&gt;&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="trigger_ip_project/trigger_ip.cpp:23:20" msg_body="Inlining function 'ap_uint&lt;16&gt;::ap_uint(int)' into 'trigger_ip(hls::stream&lt;hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;, 0&gt;&amp;, hls::stream&lt;hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;, 0&gt;&amp;, ap_uint&lt;1&gt;, ap_uint&lt;1&gt;&amp;)'">
+        <args Callee="ap_uint&lt;16&gt;::ap_uint(int)" Caller="trigger_ip(hls::stream&lt;hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;, 0&gt;&amp;, hls::stream&lt;hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;, 0&gt;&amp;, ap_uint&lt;1&gt;, ap_uint&lt;1&gt;&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="trigger_ip_project/trigger_ip.cpp:22:9" msg_body="Inlining function 'ap_int_base&lt;1, false&gt;::operator unsigned long long() const' into 'trigger_ip(hls::stream&lt;hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;, 0&gt;&amp;, hls::stream&lt;hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;, 0&gt;&amp;, ap_uint&lt;1&gt;, ap_uint&lt;1&gt;&amp;)'">
+        <args Callee="ap_int_base&lt;1, false&gt;::operator unsigned long long() const" Caller="trigger_ip(hls::stream&lt;hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;, 0&gt;&amp;, hls::stream&lt;hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;, 0&gt;&amp;, ap_uint&lt;1&gt;, ap_uint&lt;1&gt;&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="trigger_ip_project/trigger_ip.cpp:20:30" msg_body="Inlining function 'ap_uint&lt;1&gt;::ap_uint(int)' into 'trigger_ip(hls::stream&lt;hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;, 0&gt;&amp;, hls::stream&lt;hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;, 0&gt;&amp;, ap_uint&lt;1&gt;, ap_uint&lt;1&gt;&amp;)'">
+        <args Callee="ap_uint&lt;1&gt;::ap_uint(int)" Caller="trigger_ip(hls::stream&lt;hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;, 0&gt;&amp;, hls::stream&lt;hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;, 0&gt;&amp;, ap_uint&lt;1&gt;, ap_uint&lt;1&gt;&amp;)"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:109:0" msg_body="Inlining function 'std::complex&lt;float&gt;::complex(float, float)' into 'hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;::axis()'">
+        <args Callee="std::complex&lt;float&gt;::complex(float, float)" Caller="hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;::axis()"/>
+    </msg>
+    <msg msg_groups="PRAGMA_INLINE" msg_id="214-178" msg_severity="INFO" msg_loc="trigger_ip_project/trigger_ip.cpp:9:0" msg_body="Inlining function 'hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;::axis()' into 'trigger_ip(hls::stream&lt;hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;, 0&gt;&amp;, hls::stream&lt;hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;, 0&gt;&amp;, ap_uint&lt;1&gt;, ap_uint&lt;1&gt;&amp;)'">
+        <args Callee="hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;::axis()" Caller="trigger_ip(hls::stream&lt;hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;, 0&gt;&amp;, hls::stream&lt;hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;, 0&gt;&amp;, ap_uint&lt;1&gt;, ap_uint&lt;1&gt;&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:293:5" msg_body="Inlining function '_llvm.fpga.unpack.none.s_struct.std::complex&lt;float&gt;s.i64' into 'trigger_ip(hls::stream&lt;hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;, 0&gt;&amp;, hls::stream&lt;hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;, 0&gt;&amp;, ap_uint&lt;1&gt;, ap_uint&lt;1&gt;&amp;)'">
+        <args Callee="_llvm.fpga.unpack.none.s_struct.std::complex&lt;float&gt;s.i64" Caller="trigger_ip(hls::stream&lt;hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;, 0&gt;&amp;, hls::stream&lt;hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;, 0&gt;&amp;, ap_uint&lt;1&gt;, ap_uint&lt;1&gt;&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:304:5" msg_body="Inlining function '_llvm.fpga.pack.none.i1.s_struct.ap_uint&lt;1&gt;s' into 'trigger_ip(hls::stream&lt;hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;, 0&gt;&amp;, hls::stream&lt;hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;, 0&gt;&amp;, ap_uint&lt;1&gt;, ap_uint&lt;1&gt;&amp;)'">
+        <args Callee="_llvm.fpga.pack.none.i1.s_struct.ap_uint&lt;1&gt;s" Caller="trigger_ip(hls::stream&lt;hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;, 0&gt;&amp;, hls::stream&lt;hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;, 0&gt;&amp;, ap_uint&lt;1&gt;, ap_uint&lt;1&gt;&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:304:5" msg_body="Inlining function '_llvm.fpga.pack.none.i8.s_struct.ap_uint&lt;8&gt;s' into 'trigger_ip(hls::stream&lt;hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;, 0&gt;&amp;, hls::stream&lt;hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;, 0&gt;&amp;, ap_uint&lt;1&gt;, ap_uint&lt;1&gt;&amp;)'">
+        <args Callee="_llvm.fpga.pack.none.i8.s_struct.ap_uint&lt;8&gt;s" Caller="trigger_ip(hls::stream&lt;hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;, 0&gt;&amp;, hls::stream&lt;hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;, 0&gt;&amp;, ap_uint&lt;1&gt;, ap_uint&lt;1&gt;&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:304:5" msg_body="Inlining function '_llvm.fpga.pack.none.i64.s_struct.std::complex&lt;float&gt;s' into 'trigger_ip(hls::stream&lt;hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;, 0&gt;&amp;, hls::stream&lt;hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;, 0&gt;&amp;, ap_uint&lt;1&gt;, ap_uint&lt;1&gt;&amp;)'">
+        <args Callee="_llvm.fpga.pack.none.i64.s_struct.std::complex&lt;float&gt;s" Caller="trigger_ip(hls::stream&lt;hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;, 0&gt;&amp;, hls::stream&lt;hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;, 0&gt;&amp;, ap_uint&lt;1&gt;, ap_uint&lt;1&gt;&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:293:5" msg_body="Inlining function '_llvm.fpga.unpack.none.s_struct.ap_uint&lt;1&gt;s.i1' into 'trigger_ip(hls::stream&lt;hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;, 0&gt;&amp;, hls::stream&lt;hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;, 0&gt;&amp;, ap_uint&lt;1&gt;, ap_uint&lt;1&gt;&amp;)'">
+        <args Callee="_llvm.fpga.unpack.none.s_struct.ap_uint&lt;1&gt;s.i1" Caller="trigger_ip(hls::stream&lt;hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;, 0&gt;&amp;, hls::stream&lt;hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;, 0&gt;&amp;, ap_uint&lt;1&gt;, ap_uint&lt;1&gt;&amp;)"/>
+    </msg>
+    <msg msg_groups="CODE_UNSUPPORTED" msg_id="214-131" msg_severity="INFO" msg_loc="C:/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot\ap_axi_sdata.h:293:5" msg_body="Inlining function '_llvm.fpga.unpack.none.s_struct.ap_uint&lt;8&gt;s.i8' into 'trigger_ip(hls::stream&lt;hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;, 0&gt;&amp;, hls::stream&lt;hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;, 0&gt;&amp;, ap_uint&lt;1&gt;, ap_uint&lt;1&gt;&amp;)'">
+        <args Callee="_llvm.fpga.unpack.none.s_struct.ap_uint&lt;8&gt;s.i8" Caller="trigger_ip(hls::stream&lt;hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;, 0&gt;&amp;, hls::stream&lt;hls::axis&lt;std::complex&lt;float&gt;, 0ul, 0ul, 0ul&gt;, 0&gt;&amp;, ap_uint&lt;1&gt;, ap_uint&lt;1&gt;&amp;)"/>
+    </msg>
+</xilinx:hls_fe_msgs>
+

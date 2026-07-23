@@ -1,0 +1,424 @@
+
+*** Running vivado
+    with args -log design_1_corr_multiplication_0_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_corr_multiplication_0_0.tcl
+
+
+****** Vivado v2022.1 (64-bit)
+  **** SW Build 3526262 on Mon Apr 18 15:47:01 MDT 2022
+  **** IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+source design_1_corr_multiplication_0_0.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/doppler_fft_256'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/mnt/arch/home/adi/repo/AELD_Lab_2026/project_trigger_ip'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO_1_CRAZY_DROP/fft_project_wlo'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO_1_CRAZY_DROP/ifft_project_wlo'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO_1_CRAZY_DROP/mult_project_wlo'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/Vivado/2022.1/data/ip'.
+Command: synth_design -top design_1_corr_multiplication_0_0 -part xc7z020clg484-1 -incremental_mode off -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 95010
+WARNING: [Synth 8-9501] generate block is allowed only inside loop and conditional generate in SystemVerilog mode [/tools/Xilinx/Vivado/2022.1/data/ip/xpm/xpm_fifo/hdl/xpm_fifo.sv:4023]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 3121.273 ; gain = 7.926 ; free physical = 3070 ; free virtual = 3669
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'design_1_corr_multiplication_0_0' [/mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/Vivado_golay_WLO_corr_full.gen/sources_1/bd/design_1/ip/design_1_corr_multiplication_0_0/synth/design_1_corr_multiplication_0_0.v:53]
+INFO: [Synth 8-6157] synthesizing module 'corr_multiplication' [/mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/Vivado_golay_WLO_corr_full.gen/sources_1/bd/design_1/ipshared/0f03/hdl/verilog/corr_multiplication.v:10]
+INFO: [Synth 8-6157] synthesizing module 'corr_multiplication_corr_multiplication_Pipeline_VITIS_LOOP_17_1' [/mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/Vivado_golay_WLO_corr_full.gen/sources_1/bd/design_1/ipshared/0f03/hdl/verilog/corr_multiplication_corr_multiplication_Pipeline_VITIS_LOOP_17_1.v:10]
+INFO: [Synth 8-6157] synthesizing module 'corr_multiplication_corr_multiplication_Pipeline_VITIS_LOOP_17_1_ga_conj_M_real_V_ROM_AUTO_1R' [/mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/Vivado_golay_WLO_corr_full.gen/sources_1/bd/design_1/ipshared/0f03/hdl/verilog/corr_multiplication_corr_multiplication_Pipeline_VITIS_LOOP_17_1_ga_conj_M_real_V_ROM_AUTO_1R.v:7]
+INFO: [Synth 8-3876] $readmem data file './corr_multiplication_corr_multiplication_Pipeline_VITIS_LOOP_17_1_ga_conj_M_real_V_ROM_AUTO_1R.dat' is read successfully [/mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/Vivado_golay_WLO_corr_full.gen/sources_1/bd/design_1/ipshared/0f03/hdl/verilog/corr_multiplication_corr_multiplication_Pipeline_VITIS_LOOP_17_1_ga_conj_M_real_V_ROM_AUTO_1R.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'corr_multiplication_corr_multiplication_Pipeline_VITIS_LOOP_17_1_ga_conj_M_real_V_ROM_AUTO_1R' (0#1) [/mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/Vivado_golay_WLO_corr_full.gen/sources_1/bd/design_1/ipshared/0f03/hdl/verilog/corr_multiplication_corr_multiplication_Pipeline_VITIS_LOOP_17_1_ga_conj_M_real_V_ROM_AUTO_1R.v:7]
+INFO: [Synth 8-6157] synthesizing module 'corr_multiplication_corr_multiplication_Pipeline_VITIS_LOOP_17_1_ga_conj_M_imag_V_ROM_AUTO_1R' [/mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/Vivado_golay_WLO_corr_full.gen/sources_1/bd/design_1/ipshared/0f03/hdl/verilog/corr_multiplication_corr_multiplication_Pipeline_VITIS_LOOP_17_1_ga_conj_M_imag_V_ROM_AUTO_1R.v:7]
+INFO: [Synth 8-3876] $readmem data file './corr_multiplication_corr_multiplication_Pipeline_VITIS_LOOP_17_1_ga_conj_M_imag_V_ROM_AUTO_1R.dat' is read successfully [/mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/Vivado_golay_WLO_corr_full.gen/sources_1/bd/design_1/ipshared/0f03/hdl/verilog/corr_multiplication_corr_multiplication_Pipeline_VITIS_LOOP_17_1_ga_conj_M_imag_V_ROM_AUTO_1R.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'corr_multiplication_corr_multiplication_Pipeline_VITIS_LOOP_17_1_ga_conj_M_imag_V_ROM_AUTO_1R' (0#1) [/mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/Vivado_golay_WLO_corr_full.gen/sources_1/bd/design_1/ipshared/0f03/hdl/verilog/corr_multiplication_corr_multiplication_Pipeline_VITIS_LOOP_17_1_ga_conj_M_imag_V_ROM_AUTO_1R.v:7]
+INFO: [Synth 8-6157] synthesizing module 'corr_multiplication_mul_25s_27s_45_1_1' [/mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/Vivado_golay_WLO_corr_full.gen/sources_1/bd/design_1/ipshared/0f03/hdl/verilog/corr_multiplication_mul_25s_27s_45_1_1.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'corr_multiplication_mul_25s_27s_45_1_1' (0#1) [/mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/Vivado_golay_WLO_corr_full.gen/sources_1/bd/design_1/ipshared/0f03/hdl/verilog/corr_multiplication_mul_25s_27s_45_1_1.v:9]
+INFO: [Synth 8-6157] synthesizing module 'corr_multiplication_mul_24s_27s_45_1_1' [/mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/Vivado_golay_WLO_corr_full.gen/sources_1/bd/design_1/ipshared/0f03/hdl/verilog/corr_multiplication_mul_24s_27s_45_1_1.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'corr_multiplication_mul_24s_27s_45_1_1' (0#1) [/mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/Vivado_golay_WLO_corr_full.gen/sources_1/bd/design_1/ipshared/0f03/hdl/verilog/corr_multiplication_mul_24s_27s_45_1_1.v:9]
+INFO: [Synth 8-6157] synthesizing module 'corr_multiplication_flow_control_loop_pipe_sequential_init' [/mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/Vivado_golay_WLO_corr_full.gen/sources_1/bd/design_1/ipshared/0f03/hdl/verilog/corr_multiplication_flow_control_loop_pipe_sequential_init.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'corr_multiplication_flow_control_loop_pipe_sequential_init' (0#1) [/mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/Vivado_golay_WLO_corr_full.gen/sources_1/bd/design_1/ipshared/0f03/hdl/verilog/corr_multiplication_flow_control_loop_pipe_sequential_init.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'corr_multiplication_corr_multiplication_Pipeline_VITIS_LOOP_17_1' (0#1) [/mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/Vivado_golay_WLO_corr_full.gen/sources_1/bd/design_1/ipshared/0f03/hdl/verilog/corr_multiplication_corr_multiplication_Pipeline_VITIS_LOOP_17_1.v:10]
+INFO: [Synth 8-6157] synthesizing module 'corr_multiplication_corr_multiplication_Pipeline_VITIS_LOOP_48_2' [/mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/Vivado_golay_WLO_corr_full.gen/sources_1/bd/design_1/ipshared/0f03/hdl/verilog/corr_multiplication_corr_multiplication_Pipeline_VITIS_LOOP_48_2.v:10]
+INFO: [Synth 8-6157] synthesizing module 'corr_multiplication_corr_multiplication_Pipeline_VITIS_LOOP_48_2_gb_conj_M_real_V_ROM_AUTO_1R' [/mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/Vivado_golay_WLO_corr_full.gen/sources_1/bd/design_1/ipshared/0f03/hdl/verilog/corr_multiplication_corr_multiplication_Pipeline_VITIS_LOOP_48_2_gb_conj_M_real_V_ROM_AUTO_1R.v:7]
+INFO: [Synth 8-3876] $readmem data file './corr_multiplication_corr_multiplication_Pipeline_VITIS_LOOP_48_2_gb_conj_M_real_V_ROM_AUTO_1R.dat' is read successfully [/mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/Vivado_golay_WLO_corr_full.gen/sources_1/bd/design_1/ipshared/0f03/hdl/verilog/corr_multiplication_corr_multiplication_Pipeline_VITIS_LOOP_48_2_gb_conj_M_real_V_ROM_AUTO_1R.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'corr_multiplication_corr_multiplication_Pipeline_VITIS_LOOP_48_2_gb_conj_M_real_V_ROM_AUTO_1R' (0#1) [/mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/Vivado_golay_WLO_corr_full.gen/sources_1/bd/design_1/ipshared/0f03/hdl/verilog/corr_multiplication_corr_multiplication_Pipeline_VITIS_LOOP_48_2_gb_conj_M_real_V_ROM_AUTO_1R.v:7]
+INFO: [Synth 8-6157] synthesizing module 'corr_multiplication_corr_multiplication_Pipeline_VITIS_LOOP_48_2_gb_conj_M_imag_V_ROM_AUTO_1R' [/mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/Vivado_golay_WLO_corr_full.gen/sources_1/bd/design_1/ipshared/0f03/hdl/verilog/corr_multiplication_corr_multiplication_Pipeline_VITIS_LOOP_48_2_gb_conj_M_imag_V_ROM_AUTO_1R.v:7]
+INFO: [Synth 8-3876] $readmem data file './corr_multiplication_corr_multiplication_Pipeline_VITIS_LOOP_48_2_gb_conj_M_imag_V_ROM_AUTO_1R.dat' is read successfully [/mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/Vivado_golay_WLO_corr_full.gen/sources_1/bd/design_1/ipshared/0f03/hdl/verilog/corr_multiplication_corr_multiplication_Pipeline_VITIS_LOOP_48_2_gb_conj_M_imag_V_ROM_AUTO_1R.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'corr_multiplication_corr_multiplication_Pipeline_VITIS_LOOP_48_2_gb_conj_M_imag_V_ROM_AUTO_1R' (0#1) [/mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/Vivado_golay_WLO_corr_full.gen/sources_1/bd/design_1/ipshared/0f03/hdl/verilog/corr_multiplication_corr_multiplication_Pipeline_VITIS_LOOP_48_2_gb_conj_M_imag_V_ROM_AUTO_1R.v:7]
+INFO: [Synth 8-6155] done synthesizing module 'corr_multiplication_corr_multiplication_Pipeline_VITIS_LOOP_48_2' (0#1) [/mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/Vivado_golay_WLO_corr_full.gen/sources_1/bd/design_1/ipshared/0f03/hdl/verilog/corr_multiplication_corr_multiplication_Pipeline_VITIS_LOOP_48_2.v:10]
+INFO: [Synth 8-6157] synthesizing module 'corr_multiplication_fmul_32ns_32ns_32_4_max_dsp_1' [/mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/Vivado_golay_WLO_corr_full.gen/sources_1/bd/design_1/ipshared/0f03/hdl/verilog/corr_multiplication_fmul_32ns_32ns_32_4_max_dsp_1.v:9]
+INFO: [Synth 8-6157] synthesizing module 'corr_multiplication_fmul_32ns_32ns_32_4_max_dsp_1_ip' [/mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/Vivado_golay_WLO_corr_full.gen/sources_1/bd/design_1/ipshared/0f03/hdl/ip/corr_multiplication_fmul_32ns_32ns_32_4_max_dsp_1_ip.v:53]
+INFO: [Synth 8-6157] synthesizing module 'LUT1' [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62648]
+INFO: [Synth 8-6155] done synthesizing module 'LUT1' (0#1) [/tools/Xilinx/Vivado/2022.1/scripts/rt/data/unisim_comp.v:62648]
+INFO: [Synth 8-6155] done synthesizing module 'corr_multiplication_fmul_32ns_32ns_32_4_max_dsp_1_ip' (0#1) [/mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/Vivado_golay_WLO_corr_full.gen/sources_1/bd/design_1/ipshared/0f03/hdl/ip/corr_multiplication_fmul_32ns_32ns_32_4_max_dsp_1_ip.v:53]
+INFO: [Synth 8-6155] done synthesizing module 'corr_multiplication_fmul_32ns_32ns_32_4_max_dsp_1' (0#1) [/mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/Vivado_golay_WLO_corr_full.gen/sources_1/bd/design_1/ipshared/0f03/hdl/verilog/corr_multiplication_fmul_32ns_32ns_32_4_max_dsp_1.v:9]
+INFO: [Synth 8-6157] synthesizing module 'corr_multiplication_fpext_32ns_64_2_no_dsp_1' [/mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/Vivado_golay_WLO_corr_full.gen/sources_1/bd/design_1/ipshared/0f03/hdl/verilog/corr_multiplication_fpext_32ns_64_2_no_dsp_1.v:9]
+INFO: [Synth 8-6157] synthesizing module 'corr_multiplication_fpext_32ns_64_2_no_dsp_1_ip' [/mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/Vivado_golay_WLO_corr_full.gen/sources_1/bd/design_1/ipshared/0f03/hdl/ip/corr_multiplication_fpext_32ns_64_2_no_dsp_1_ip.v:53]
+INFO: [Synth 8-6155] done synthesizing module 'corr_multiplication_fpext_32ns_64_2_no_dsp_1_ip' (0#1) [/mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/Vivado_golay_WLO_corr_full.gen/sources_1/bd/design_1/ipshared/0f03/hdl/ip/corr_multiplication_fpext_32ns_64_2_no_dsp_1_ip.v:53]
+INFO: [Synth 8-6155] done synthesizing module 'corr_multiplication_fpext_32ns_64_2_no_dsp_1' (0#1) [/mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/Vivado_golay_WLO_corr_full.gen/sources_1/bd/design_1/ipshared/0f03/hdl/verilog/corr_multiplication_fpext_32ns_64_2_no_dsp_1.v:9]
+INFO: [Synth 8-6157] synthesizing module 'corr_multiplication_regslice_both' [/mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/Vivado_golay_WLO_corr_full.gen/sources_1/bd/design_1/ipshared/0f03/hdl/verilog/corr_multiplication_regslice_both.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'corr_multiplication_regslice_both' (0#1) [/mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/Vivado_golay_WLO_corr_full.gen/sources_1/bd/design_1/ipshared/0f03/hdl/verilog/corr_multiplication_regslice_both.v:9]
+INFO: [Synth 8-6157] synthesizing module 'corr_multiplication_regslice_both__parameterized0' [/mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/Vivado_golay_WLO_corr_full.gen/sources_1/bd/design_1/ipshared/0f03/hdl/verilog/corr_multiplication_regslice_both.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'corr_multiplication_regslice_both__parameterized0' (0#1) [/mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/Vivado_golay_WLO_corr_full.gen/sources_1/bd/design_1/ipshared/0f03/hdl/verilog/corr_multiplication_regslice_both.v:9]
+INFO: [Synth 8-6157] synthesizing module 'corr_multiplication_regslice_both__parameterized1' [/mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/Vivado_golay_WLO_corr_full.gen/sources_1/bd/design_1/ipshared/0f03/hdl/verilog/corr_multiplication_regslice_both.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'corr_multiplication_regslice_both__parameterized1' (0#1) [/mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/Vivado_golay_WLO_corr_full.gen/sources_1/bd/design_1/ipshared/0f03/hdl/verilog/corr_multiplication_regslice_both.v:9]
+INFO: [Synth 8-6155] done synthesizing module 'corr_multiplication' (0#1) [/mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/Vivado_golay_WLO_corr_full.gen/sources_1/bd/design_1/ipshared/0f03/hdl/verilog/corr_multiplication.v:10]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_corr_multiplication_0_0' (0#1) [/mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/Vivado_golay_WLO_corr_full.gen/sources_1/bd/design_1/ip/design_1_corr_multiplication_0_0/synth/design_1_corr_multiplication_0_0.v:53]
+WARNING: [Synth 8-7129] Port CLK in module xbip_pipe_v3_0_6_viv__parameterized5 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CE in module xbip_pipe_v3_0_6_viv__parameterized5 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SCLR in module xbip_pipe_v3_0_6_viv__parameterized5 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SSET in module xbip_pipe_v3_0_6_viv__parameterized5 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SINIT in module xbip_pipe_v3_0_6_viv__parameterized5 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CLK in module xbip_pipe_v3_0_6_viv__parameterized50 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CE in module xbip_pipe_v3_0_6_viv__parameterized50 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SCLR in module xbip_pipe_v3_0_6_viv__parameterized50 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SSET in module xbip_pipe_v3_0_6_viv__parameterized50 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SINIT in module xbip_pipe_v3_0_6_viv__parameterized50 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DEC_OP_STATE[11] in module flt_dec_op is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DEC_OP_STATE[10] in module flt_dec_op is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DEC_OP_STATE[9] in module flt_dec_op is either unconnected or has no load
+WARNING: [Synth 8-7129] Port DEC_OP_STATE[8] in module flt_dec_op is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CLK in module flt_dec_op is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CE in module flt_dec_op is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CLK in module xbip_pipe_v3_0_6_viv__parameterized48 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CE in module xbip_pipe_v3_0_6_viv__parameterized48 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SCLR in module xbip_pipe_v3_0_6_viv__parameterized48 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SSET in module xbip_pipe_v3_0_6_viv__parameterized48 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SINIT in module xbip_pipe_v3_0_6_viv__parameterized48 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CLK in module xbip_pipe_v3_0_6_viv__parameterized21 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CE in module xbip_pipe_v3_0_6_viv__parameterized21 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SCLR in module xbip_pipe_v3_0_6_viv__parameterized21 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SSET in module xbip_pipe_v3_0_6_viv__parameterized21 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SINIT in module xbip_pipe_v3_0_6_viv__parameterized21 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CLK in module xbip_pipe_v3_0_6_viv__parameterized35 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CE in module xbip_pipe_v3_0_6_viv__parameterized35 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SCLR in module xbip_pipe_v3_0_6_viv__parameterized35 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SSET in module xbip_pipe_v3_0_6_viv__parameterized35 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SINIT in module xbip_pipe_v3_0_6_viv__parameterized35 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CLK in module xbip_pipe_v3_0_6_viv__parameterized46 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CE in module xbip_pipe_v3_0_6_viv__parameterized46 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SCLR in module xbip_pipe_v3_0_6_viv__parameterized46 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SSET in module xbip_pipe_v3_0_6_viv__parameterized46 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SINIT in module xbip_pipe_v3_0_6_viv__parameterized46 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CLK in module xbip_pipe_v3_0_6_viv__parameterized44 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CE in module xbip_pipe_v3_0_6_viv__parameterized44 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SCLR in module xbip_pipe_v3_0_6_viv__parameterized44 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SSET in module xbip_pipe_v3_0_6_viv__parameterized44 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SINIT in module xbip_pipe_v3_0_6_viv__parameterized44 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CLK in module xbip_pipe_v3_0_6_viv__parameterized3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CE in module xbip_pipe_v3_0_6_viv__parameterized3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SCLR in module xbip_pipe_v3_0_6_viv__parameterized3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SSET in module xbip_pipe_v3_0_6_viv__parameterized3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SINIT in module xbip_pipe_v3_0_6_viv__parameterized3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CARRYS_OUT[0] in module compare_eq_im__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port A[31] in module special_detect__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CLK in module xbip_pipe_v3_0_6_viv__parameterized42 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CE in module xbip_pipe_v3_0_6_viv__parameterized42 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SCLR in module xbip_pipe_v3_0_6_viv__parameterized42 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SSET in module xbip_pipe_v3_0_6_viv__parameterized42 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SINIT in module xbip_pipe_v3_0_6_viv__parameterized42 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axis_result_tuser[0] in module floating_point_v7_1_14_viv__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port m_axis_result_tlast in module floating_point_v7_1_14_viv__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aclken in module floating_point_v7_1_14_viv__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aresetn in module floating_point_v7_1_14_viv__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_a_tuser[0] in module floating_point_v7_1_14_viv__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_a_tlast in module floating_point_v7_1_14_viv__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_b_tvalid in module floating_point_v7_1_14_viv__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_b_tdata[31] in module floating_point_v7_1_14_viv__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_b_tdata[30] in module floating_point_v7_1_14_viv__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_b_tdata[29] in module floating_point_v7_1_14_viv__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_b_tdata[28] in module floating_point_v7_1_14_viv__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_b_tdata[27] in module floating_point_v7_1_14_viv__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_b_tdata[26] in module floating_point_v7_1_14_viv__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_b_tdata[25] in module floating_point_v7_1_14_viv__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_b_tdata[24] in module floating_point_v7_1_14_viv__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_b_tdata[23] in module floating_point_v7_1_14_viv__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_b_tdata[22] in module floating_point_v7_1_14_viv__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_b_tdata[21] in module floating_point_v7_1_14_viv__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_b_tdata[20] in module floating_point_v7_1_14_viv__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_b_tdata[19] in module floating_point_v7_1_14_viv__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_b_tdata[18] in module floating_point_v7_1_14_viv__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_b_tdata[17] in module floating_point_v7_1_14_viv__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_b_tdata[16] in module floating_point_v7_1_14_viv__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_b_tdata[15] in module floating_point_v7_1_14_viv__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_b_tdata[14] in module floating_point_v7_1_14_viv__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_b_tdata[13] in module floating_point_v7_1_14_viv__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_b_tdata[12] in module floating_point_v7_1_14_viv__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_b_tdata[11] in module floating_point_v7_1_14_viv__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_b_tdata[10] in module floating_point_v7_1_14_viv__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_b_tdata[9] in module floating_point_v7_1_14_viv__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_b_tdata[8] in module floating_point_v7_1_14_viv__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_b_tdata[7] in module floating_point_v7_1_14_viv__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_b_tdata[6] in module floating_point_v7_1_14_viv__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_b_tdata[5] in module floating_point_v7_1_14_viv__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_b_tdata[4] in module floating_point_v7_1_14_viv__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_b_tdata[3] in module floating_point_v7_1_14_viv__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_b_tdata[2] in module floating_point_v7_1_14_viv__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_b_tdata[1] in module floating_point_v7_1_14_viv__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_b_tdata[0] in module floating_point_v7_1_14_viv__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_b_tuser[0] in module floating_point_v7_1_14_viv__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_b_tlast in module floating_point_v7_1_14_viv__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_c_tvalid in module floating_point_v7_1_14_viv__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_c_tdata[31] in module floating_point_v7_1_14_viv__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_c_tdata[30] in module floating_point_v7_1_14_viv__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_c_tdata[29] in module floating_point_v7_1_14_viv__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_c_tdata[28] in module floating_point_v7_1_14_viv__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s_axis_c_tdata[27] in module floating_point_v7_1_14_viv__parameterized1 is either unconnected or has no load
+INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 3121.273 ; gain = 7.926 ; free physical = 3183 ; free virtual = 3824
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:07 ; elapsed = 00:00:10 . Memory (MB): peak = 3121.273 ; gain = 7.926 ; free physical = 3152 ; free virtual = 3800
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:10 . Memory (MB): peak = 3121.273 ; gain = 7.926 ; free physical = 3152 ; free virtual = 3800
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00.08 ; elapsed = 00:00:00.08 . Memory (MB): peak = 3121.273 ; gain = 0.000 ; free physical = 3133 ; free virtual = 3798
+INFO: [Netlist 29-17] Analyzing 116 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/Vivado_golay_WLO_corr_full.gen/sources_1/bd/design_1/ip/design_1_corr_multiplication_0_0/constraints/corr_multiplication_ooc.xdc] for cell 'inst'
+Finished Parsing XDC File [/mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/Vivado_golay_WLO_corr_full.gen/sources_1/bd/design_1/ip/design_1_corr_multiplication_0_0/constraints/corr_multiplication_ooc.xdc] for cell 'inst'
+Parsing XDC File [/mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/Vivado_golay_WLO_corr_full.runs/design_1_corr_multiplication_0_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [/mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/Vivado_golay_WLO_corr_full.runs/design_1_corr_multiplication_0_0_synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3209.117 ; gain = 0.000 ; free physical = 2748 ; free virtual = 3508
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.16 ; elapsed = 00:00:00.06 . Memory (MB): peak = 3209.117 ; gain = 0.000 ; free physical = 2775 ; free virtual = 3537
+INFO: [Designutils 20-5008] Incremental synthesis strategy off
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:13 ; elapsed = 00:00:16 . Memory (MB): peak = 3209.117 ; gain = 95.770 ; free physical = 3011 ; free virtual = 3792
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg484-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:13 ; elapsed = 00:00:16 . Memory (MB): peak = 3209.117 ; gain = 95.770 ; free physical = 3009 ; free virtual = 3791
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property KEEP_HIERARCHY = SOFT for inst. (constraint file  /mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/Vivado_golay_WLO_corr_full.runs/design_1_corr_multiplication_0_0_synth_1/dont_touch.xdc, line 9).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:13 ; elapsed = 00:00:16 . Memory (MB): peak = 3209.117 ; gain = 95.770 ; free physical = 3009 ; free virtual = 3791
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3936] Found unconnected internal register 'm_reg_1808_reg' and it is trimmed from '63' to '23' bits. [/mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/Vivado_golay_WLO_corr_full.gen/sources_1/bd/design_1/ipshared/0f03/hdl/verilog/corr_multiplication_corr_multiplication_Pipeline_VITIS_LOOP_17_1.v:1037]
+WARNING: [Synth 8-3936] Found unconnected internal register 'trunc_ln1145_2_reg_1763_reg' and it is trimmed from '27' to '5' bits. [/mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/Vivado_golay_WLO_corr_full.gen/sources_1/bd/design_1/ipshared/0f03/hdl/verilog/corr_multiplication_corr_multiplication_Pipeline_VITIS_LOOP_17_1.v:964]
+WARNING: [Synth 8-3936] Found unconnected internal register 'm_19_reg_1798_reg' and it is trimmed from '63' to '23' bits. [/mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/Vivado_golay_WLO_corr_full.gen/sources_1/bd/design_1/ipshared/0f03/hdl/verilog/corr_multiplication_corr_multiplication_Pipeline_VITIS_LOOP_17_1.v:1030]
+WARNING: [Synth 8-3936] Found unconnected internal register 'trunc_ln1145_reg_1729_reg' and it is trimmed from '27' to '5' bits. [/mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/Vivado_golay_WLO_corr_full.gen/sources_1/bd/design_1/ipshared/0f03/hdl/verilog/corr_multiplication_corr_multiplication_Pipeline_VITIS_LOOP_17_1.v:965]
+WARNING: [Synth 8-3936] Found unconnected internal register 'm_10_reg_1808_reg' and it is trimmed from '63' to '23' bits. [/mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/Vivado_golay_WLO_corr_full.gen/sources_1/bd/design_1/ipshared/0f03/hdl/verilog/corr_multiplication_corr_multiplication_Pipeline_VITIS_LOOP_48_2.v:1030]
+WARNING: [Synth 8-3936] Found unconnected internal register 'trunc_ln1145_1_reg_1763_reg' and it is trimmed from '27' to '5' bits. [/mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/Vivado_golay_WLO_corr_full.gen/sources_1/bd/design_1/ipshared/0f03/hdl/verilog/corr_multiplication_corr_multiplication_Pipeline_VITIS_LOOP_48_2.v:964]
+WARNING: [Synth 8-3936] Found unconnected internal register 'm_reg_1798_reg' and it is trimmed from '63' to '23' bits. [/mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/Vivado_golay_WLO_corr_full.gen/sources_1/bd/design_1/ipshared/0f03/hdl/verilog/corr_multiplication_corr_multiplication_Pipeline_VITIS_LOOP_48_2.v:1037]
+WARNING: [Synth 8-3936] Found unconnected internal register 'trunc_ln1145_reg_1729_reg' and it is trimmed from '27' to '5' bits. [/mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/Vivado_golay_WLO_corr_full.gen/sources_1/bd/design_1/ipshared/0f03/hdl/verilog/corr_multiplication_corr_multiplication_Pipeline_VITIS_LOOP_48_2.v:965]
+INFO: [Synth 8-4490] FSM extraction disabled for register 'ap_CS_fsm_reg' through user attribute
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:14 ; elapsed = 00:00:17 . Memory (MB): peak = 3209.117 ; gain = 95.770 ; free physical = 2984 ; free virtual = 3778
+---------------------------------------------------------------------------------
+INFO: [Synth 8-223] decloning instance 'corr_multiplication_fmul_32ns_32ns_32_4_max_dsp_1:/corr_multiplication_fmul_32ns_32ns_32_4_max_dsp_1_ip_u/inst/i_synth/DELAY_DIVIDE_BY_ZERO' (delay__parameterized1) to 'corr_multiplication_fmul_32ns_32ns_32_4_max_dsp_1:/corr_multiplication_fmul_32ns_32ns_32_4_max_dsp_1_ip_u/inst/i_synth/DELAY_ACCUM_OVERFLOW'
+INFO: [Synth 8-223] decloning instance 'corr_multiplication_fmul_32ns_32ns_32_4_max_dsp_1:/corr_multiplication_fmul_32ns_32ns_32_4_max_dsp_1_ip_u/inst/i_synth/DELAY_DIVIDE_BY_ZERO' (delay__parameterized1) to 'corr_multiplication_fmul_32ns_32ns_32_4_max_dsp_1:/corr_multiplication_fmul_32ns_32ns_32_4_max_dsp_1_ip_u/inst/i_synth/DELAY_ACCUM_INPUT_OVERFLOW'
+INFO: [Synth 8-223] decloning instance 'corr_multiplication_fpext_32ns_64_2_no_dsp_1:/corr_multiplication_fpext_32ns_64_2_no_dsp_1_ip_u/inst/i_synth/DELAY_INVALID_OP' (delay__parameterized1) to 'corr_multiplication_fpext_32ns_64_2_no_dsp_1:/corr_multiplication_fpext_32ns_64_2_no_dsp_1_ip_u/inst/i_synth/DELAY_DIVIDE_BY_ZERO'
+INFO: [Synth 8-223] decloning instance 'corr_multiplication_fpext_32ns_64_2_no_dsp_1:/corr_multiplication_fpext_32ns_64_2_no_dsp_1_ip_u/inst/i_synth/DELAY_INVALID_OP' (delay__parameterized1) to 'corr_multiplication_fpext_32ns_64_2_no_dsp_1:/corr_multiplication_fpext_32ns_64_2_no_dsp_1_ip_u/inst/i_synth/DELAY_ACCUM_OVERFLOW'
+INFO: [Synth 8-223] decloning instance 'corr_multiplication_fpext_32ns_64_2_no_dsp_1:/corr_multiplication_fpext_32ns_64_2_no_dsp_1_ip_u/inst/i_synth/DELAY_INVALID_OP' (delay__parameterized1) to 'corr_multiplication_fpext_32ns_64_2_no_dsp_1:/corr_multiplication_fpext_32ns_64_2_no_dsp_1_ip_u/inst/i_synth/DELAY_ACCUM_INPUT_OVERFLOW'
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:25 ; elapsed = 00:00:29 . Memory (MB): peak = 3209.117 ; gain = 95.770 ; free physical = 2657 ; free virtual = 3535
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:29 ; elapsed = 00:00:34 . Memory (MB): peak = 3209.117 ; gain = 95.770 ; free physical = 2276 ; free virtual = 3168
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:31 ; elapsed = 00:00:35 . Memory (MB): peak = 3209.117 ; gain = 95.770 ; free physical = 2161 ; free virtual = 3057
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-7052] The timing for the instance inst/grp_corr_multiplication_Pipeline_VITIS_LOOP_17_1_fu_52/i_2_reg_1457_pp0_iter7_reg_reg_rep (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/grp_corr_multiplication_Pipeline_VITIS_LOOP_17_1_fu_52/i_2_reg_1457_pp0_iter7_reg_reg_rep__0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/grp_corr_multiplication_Pipeline_VITIS_LOOP_48_2_fu_76/i_1_reg_1457_pp0_iter7_reg_reg_rep (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance inst/grp_corr_multiplication_Pipeline_VITIS_LOOP_48_2_fu_76/i_1_reg_1457_pp0_iter7_reg_reg_rep__0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:33 ; elapsed = 00:00:37 . Memory (MB): peak = 3209.117 ; gain = 95.770 ; free physical = 2105 ; free virtual = 3012
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:36 ; elapsed = 00:00:40 . Memory (MB): peak = 3209.117 ; gain = 95.770 ; free physical = 2139 ; free virtual = 3124
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:36 ; elapsed = 00:00:40 . Memory (MB): peak = 3209.117 ; gain = 95.770 ; free physical = 2139 ; free virtual = 3124
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:36 ; elapsed = 00:00:41 . Memory (MB): peak = 3209.117 ; gain = 95.770 ; free physical = 2330 ; free virtual = 3317
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:36 ; elapsed = 00:00:41 . Memory (MB): peak = 3209.117 ; gain = 95.770 ; free physical = 2365 ; free virtual = 3352
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:36 ; elapsed = 00:00:41 . Memory (MB): peak = 3209.117 ; gain = 95.770 ; free physical = 2357 ; free virtual = 3346
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:36 ; elapsed = 00:00:41 . Memory (MB): peak = 3209.117 ; gain = 95.770 ; free physical = 2355 ; free virtual = 3345
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+DSP Final Report (the ' indicates corresponding REG is set)
++-----------------------------------------------------------------+--------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name                                                      | DSP Mapping        | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++-----------------------------------------------------------------+--------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|dsp48e1_wrapper_83                                               | (A*B)'             | 24     | 0      | -      | -      | 41     | 0    | 0    | -    | -    | -     | 0    | 1    | 
+|dsp48e1_wrapper__parameterized0_84                               | PCIN>>17+(A*B)'    | 0      | 7      | -      | -      | 31     | 0    | 0    | -    | -    | -     | 1    | 0    | 
+|dsp48e1_wrapper__parameterized1_81                               | PCIN+A:B+C         | 22     | 0      | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|dsp48e1_wrapper_57                                               | (A*B)'             | 24     | 0      | -      | -      | 41     | 0    | 0    | -    | -    | -     | 0    | 1    | 
+|dsp48e1_wrapper__parameterized0_58                               | PCIN>>17+(A*B)'    | 0      | 7      | -      | -      | 31     | 0    | 0    | -    | -    | -     | 1    | 0    | 
+|dsp48e1_wrapper__parameterized1_55                               | PCIN+A:B+C         | 22     | 0      | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|dsp48e1_wrapper_31                                               | (A*B)'             | 24     | 0      | -      | -      | 41     | 0    | 0    | -    | -    | -     | 0    | 1    | 
+|dsp48e1_wrapper__parameterized0_32                               | PCIN>>17+(A*B)'    | 0      | 7      | -      | -      | 31     | 0    | 0    | -    | -    | -     | 1    | 0    | 
+|dsp48e1_wrapper__parameterized1_29                               | PCIN+A:B+C         | 22     | 0      | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|dsp48e1_wrapper                                                  | (A*B)'             | 24     | 0      | -      | -      | 41     | 0    | 0    | -    | -    | -     | 0    | 1    | 
+|dsp48e1_wrapper__parameterized0                                  | PCIN>>17+(A*B)'    | 0      | 7      | -      | -      | 31     | 0    | 0    | -    | -    | -     | 1    | 0    | 
+|dsp48e1_wrapper__parameterized1                                  | PCIN+A:B+C         | 22     | 0      | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|corr_multiplication_corr_multiplication_Pipeline_VITIS_LOOP_17_1 | A''*B'             | 30     | 17     | -      | -      | 48     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|corr_multiplication_corr_multiplication_Pipeline_VITIS_LOOP_17_1 | (PCIN>>17+A''*B')' | 30     | 18     | -      | -      | 28     | 2    | 1    | -    | -    | -     | 0    | 1    | 
+|corr_multiplication_corr_multiplication_Pipeline_VITIS_LOOP_17_1 | A''*B'             | 30     | 17     | -      | -      | 48     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|corr_multiplication_corr_multiplication_Pipeline_VITIS_LOOP_17_1 | (PCIN>>17+A''*B')' | 30     | 18     | -      | -      | 28     | 2    | 1    | -    | -    | -     | 0    | 1    | 
+|corr_multiplication_corr_multiplication_Pipeline_VITIS_LOOP_17_1 | A''*B'             | 30     | 17     | -      | -      | 48     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|corr_multiplication_corr_multiplication_Pipeline_VITIS_LOOP_17_1 | (PCIN>>17+A''*B')' | 30     | 18     | -      | -      | 28     | 2    | 1    | -    | -    | -     | 0    | 1    | 
+|corr_multiplication_corr_multiplication_Pipeline_VITIS_LOOP_17_1 | A''*B'             | 30     | 17     | -      | -      | 48     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|corr_multiplication_corr_multiplication_Pipeline_VITIS_LOOP_17_1 | (PCIN>>17+A''*B')' | 30     | 18     | -      | -      | 28     | 2    | 1    | -    | -    | -     | 0    | 1    | 
+|corr_multiplication_corr_multiplication_Pipeline_VITIS_LOOP_48_2 | A''*B'             | 30     | 17     | -      | -      | 48     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|corr_multiplication_corr_multiplication_Pipeline_VITIS_LOOP_48_2 | (PCIN>>17+A''*B')' | 30     | 18     | -      | -      | 28     | 2    | 1    | -    | -    | -     | 0    | 1    | 
+|corr_multiplication_corr_multiplication_Pipeline_VITIS_LOOP_48_2 | A''*B'             | 30     | 17     | -      | -      | 48     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|corr_multiplication_corr_multiplication_Pipeline_VITIS_LOOP_48_2 | (PCIN>>17+A''*B')' | 30     | 18     | -      | -      | 28     | 2    | 1    | -    | -    | -     | 0    | 1    | 
+|corr_multiplication_corr_multiplication_Pipeline_VITIS_LOOP_48_2 | A''*B'             | 30     | 17     | -      | -      | 48     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|corr_multiplication_corr_multiplication_Pipeline_VITIS_LOOP_48_2 | (PCIN>>17+A''*B')' | 30     | 18     | -      | -      | 28     | 2    | 1    | -    | -    | -     | 0    | 1    | 
+|corr_multiplication_corr_multiplication_Pipeline_VITIS_LOOP_48_2 | A''*B'             | 30     | 17     | -      | -      | 48     | 2    | 1    | -    | -    | -     | 0    | 0    | 
+|corr_multiplication_corr_multiplication_Pipeline_VITIS_LOOP_48_2 | (PCIN>>17+A''*B')' | 30     | 18     | -      | -      | 28     | 2    | 1    | -    | -    | -     | 0    | 1    | 
++-----------------------------------------------------------------+--------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+---------+------+
+|      |Cell     |Count |
++------+---------+------+
+|1     |CARRY4   |   228|
+|2     |DSP48E1  |    28|
+|7     |LUT1     |   535|
+|8     |LUT2     |   334|
+|9     |LUT3     |  1154|
+|10    |LUT4     |   216|
+|11    |LUT5     |   885|
+|12    |LUT6     |  1217|
+|13    |MUXCY    |    56|
+|14    |MUXF7    |    12|
+|15    |MUXF8    |     4|
+|16    |RAMB36E1 |     4|
+|20    |SRL16E   |    56|
+|21    |SRLC32E  |     2|
+|22    |XORCY    |    32|
+|23    |FDRE     |  2969|
++------+---------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:36 ; elapsed = 00:00:41 . Memory (MB): peak = 3209.117 ; gain = 95.770 ; free physical = 2355 ; free virtual = 3345
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 425 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:34 ; elapsed = 00:00:39 . Memory (MB): peak = 3209.117 ; gain = 7.926 ; free physical = 2432 ; free virtual = 3423
+Synthesis Optimization Complete : Time (s): cpu = 00:00:36 ; elapsed = 00:00:41 . Memory (MB): peak = 3209.117 ; gain = 95.770 ; free physical = 2432 ; free virtual = 3423
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00.07 ; elapsed = 00:00:00.07 . Memory (MB): peak = 3209.117 ; gain = 0.000 ; free physical = 2504 ; free virtual = 3508
+INFO: [Netlist 29-17] Analyzing 364 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3209.117 ; gain = 0.000 ; free physical = 2444 ; free virtual = 3452
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 14 instances were transformed.
+  (MUXCY,XORCY) => CARRY4: 14 instances
+
+Synth Design complete, checksum: 42925f2e
+INFO: [Common 17-83] Releasing license: Synthesis
+77 Infos, 110 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:44 ; elapsed = 00:00:46 . Memory (MB): peak = 3209.117 ; gain = 96.008 ; free physical = 2676 ; free virtual = 3686
+INFO: [Common 17-1381] The checkpoint '/mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/Vivado_golay_WLO_corr_full.runs/design_1_corr_multiplication_0_0_synth_1/design_1_corr_multiplication_0_0.dcp' has been generated.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP design_1_corr_multiplication_0_0, cache-ID = c59bdcbb8108cac8
+INFO: [Coretcl 2-1174] Renamed 152 cell refs.
+INFO: [Common 17-1381] The checkpoint '/mnt/arch/home/adi/repo/AELD_Lab_2026/HLS_WLO/Vivado_golay_WLO_corr_full/Vivado_golay_WLO_corr_full.runs/design_1_corr_multiplication_0_0_synth_1/design_1_corr_multiplication_0_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file design_1_corr_multiplication_0_0_utilization_synth.rpt -pb design_1_corr_multiplication_0_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Tue May  5 17:52:17 2026...
