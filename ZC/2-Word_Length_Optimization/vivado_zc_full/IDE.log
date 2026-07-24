@@ -1,0 +1,2178 @@
+15:36:18 DEBUG : Logs will be stored at '/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/IDE.log'.
+15:36:19 INFO  : Launching XSCT server: xsct -n  -interactive /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/temp_xsdb_launch_script.tcl
+15:36:19 INFO  : Registering command handlers for Vitis TCF services
+15:36:19 INFO  : Platform repository initialization has completed.
+15:36:21 INFO  : XSCT server has started successfully.
+15:36:21 INFO  : Successfully done setting XSCT server connection channel  
+15:36:21 INFO  : plnx-install-location is set to ''
+15:36:21 INFO  : Successfully done query RDI_DATADIR 
+15:36:21 INFO  : Successfully done setting workspace for the tool. 
+15:36:53 INFO  : Result from executing command 'getProjects': design_1_wrapper
+15:36:53 INFO  : Result from executing command 'getPlatforms': xilinx_vck190_base_202210_1|/tools/Xilinx/Vitis/2022.1/base_platforms/xilinx_vck190_base_202210_1/xilinx_vck190_base_202210_1.xpfm;xilinx_vck190_base_dfx_202210_1|/tools/Xilinx/Vitis/2022.1/base_platforms/xilinx_vck190_base_dfx_202210_1/xilinx_vck190_base_dfx_202210_1.xpfm;xilinx_vmk180_base_202210_1|/tools/Xilinx/Vitis/2022.1/base_platforms/xilinx_vmk180_base_202210_1/xilinx_vmk180_base_202210_1.xpfm;xilinx_zcu102_base_202210_1|/tools/Xilinx/Vitis/2022.1/base_platforms/xilinx_zcu102_base_202210_1/xilinx_zcu102_base_202210_1.xpfm;xilinx_zcu102_base_dfx_202210_1|/tools/Xilinx/Vitis/2022.1/base_platforms/xilinx_zcu102_base_dfx_202210_1/xilinx_zcu102_base_dfx_202210_1.xpfm;xilinx_zcu104_base_202210_1|/tools/Xilinx/Vitis/2022.1/base_platforms/xilinx_zcu104_base_202210_1/xilinx_zcu104_base_202210_1.xpfm
+15:36:53 WARN  : An unexpected exception occurred in the module 'platform project logging'
+15:36:54 INFO  : Platform 'design_1_wrapper' is added to custom repositories.
+15:36:59 INFO  : Platform 'design_1_wrapper' is added to custom repositories.
+15:55:48 INFO  : Result from executing command 'getProjects': design_1_wrapper
+15:55:48 INFO  : Result from executing command 'getPlatforms': design_1_wrapper|/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm;xilinx_vck190_base_202210_1|/tools/Xilinx/Vitis/2022.1/base_platforms/xilinx_vck190_base_202210_1/xilinx_vck190_base_202210_1.xpfm;xilinx_vck190_base_dfx_202210_1|/tools/Xilinx/Vitis/2022.1/base_platforms/xilinx_vck190_base_dfx_202210_1/xilinx_vck190_base_dfx_202210_1.xpfm;xilinx_vmk180_base_202210_1|/tools/Xilinx/Vitis/2022.1/base_platforms/xilinx_vmk180_base_202210_1/xilinx_vmk180_base_202210_1.xpfm;xilinx_zcu102_base_202210_1|/tools/Xilinx/Vitis/2022.1/base_platforms/xilinx_zcu102_base_202210_1/xilinx_zcu102_base_202210_1.xpfm;xilinx_zcu102_base_dfx_202210_1|/tools/Xilinx/Vitis/2022.1/base_platforms/xilinx_zcu102_base_dfx_202210_1/xilinx_zcu102_base_dfx_202210_1.xpfm;xilinx_zcu104_base_202210_1|/tools/Xilinx/Vitis/2022.1/base_platforms/xilinx_zcu104_base_202210_1/xilinx_zcu104_base_202210_1.xpfm
+15:55:51 INFO  : Checking for BSP changes to sync application flags for project 'zc_full'...
+15:55:53 INFO  : Updating application flags with new BSP settings...
+15:55:53 INFO  : Successfully updated application flags for project zc_full.
+15:57:33 INFO  : Checking for BSP changes to sync application flags for project 'zc_full'...
+15:57:51 INFO  : Checking for BSP changes to sync application flags for project 'zc_full'...
+15:58:03 INFO  : Checking for BSP changes to sync application flags for project 'zc_full'...
+15:58:18 INFO  : Checking for BSP changes to sync application flags for project 'zc_full'...
+15:58:48 INFO  : Checking for BSP changes to sync application flags for project 'zc_full'...
+15:59:21 INFO  : Checking for BSP changes to sync application flags for project 'zc_full'...
+16:00:42 INFO  : Connected through redirection to target on host '192.168.224.251' and port '51653'.
+16:00:51 WARN  : IDE version '2022.1.0' doesn't match hw_server version '2024.1.0'. Some debug features may not work.
+16:01:01 INFO  : ----------------XSDB Script----------------
+connect -path [list tcp::1534 tcp:192.168.224.251:51653]
+----------------End of Script----------------
+
+16:01:01 ERROR : Could not find ARM device on the board for connection 'rem'.
+Check if the target is in:
+1. Split JTAG - No operations are possible with ARM DAP.
+2. Non JTAG bootmode - Bootrom may need time to enable DAP.
+Please try again.
+
+
+Troubleshooting hints:
+1. Check whether board is connected to system properly.
+2. In case of zynq board, check whether Digilent/Xilinx cable switch settings are correct.
+3. If you are using Xilinx Platform Cable USB, ensure that status LED is green.
+16:01:12 INFO  : Connected through redirection to target on host '192.168.224.251' and port '51653'.
+16:01:21 WARN  : IDE version '2022.1.0' doesn't match hw_server version '2024.1.0'. Some debug features may not work.
+16:01:31 INFO  : ----------------XSDB Script----------------
+connect -path [list tcp::1534 tcp:192.168.224.251:51653]
+----------------End of Script----------------
+
+16:01:31 ERROR : Could not find ARM device on the board for connection 'rem'.
+Check if the target is in:
+1. Split JTAG - No operations are possible with ARM DAP.
+2. Non JTAG bootmode - Bootrom may need time to enable DAP.
+Please try again.
+
+
+Troubleshooting hints:
+1. Check whether board is connected to system properly.
+2. In case of zynq board, check whether Digilent/Xilinx cable switch settings are correct.
+3. If you are using Xilinx Platform Cable USB, ensure that status LED is green.
+16:01:53 INFO  : Connected through redirection to target on host '192.168.224.251' and port '51653'.
+16:01:53 WARN  : IDE version '2022.1.0' doesn't match hw_server version '2024.1.0'. Some debug features may not work.
+16:01:56 INFO  : Jtag cable 'Digilent Zed 210248722265' is selected.
+16:01:56 INFO  : 'jtag frequency' command is executed.
+16:01:56 INFO  : Context for 'APU' is selected.
+16:01:56 INFO  : System reset is completed.
+16:01:59 INFO  : 'after 3000' command is executed.
+16:01:59 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248722265" && level==0 && jtag_device_ctx=="jsn-Zed-210248722265-23727093-0"}' command is executed.
+16:02:01 INFO  : Device configured successfully with "/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full/_ide/bitstream/design_1_wrapper.bit"
+16:02:01 INFO  : Context for 'APU' is selected.
+16:02:01 INFO  : Hardware design and registers information is loaded from '/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+16:02:01 INFO  : 'configparams force-mem-access 1' command is executed.
+16:02:02 INFO  : Context for 'APU' is selected.
+16:02:02 INFO  : Sourcing of '/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full/_ide/psinit/ps7_init.tcl' is done.
+16:02:03 INFO  : 'ps7_init' command is executed.
+16:02:03 INFO  : 'ps7_post_config' command is executed.
+16:02:03 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+16:02:03 INFO  : The application '/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full/Debug/zc_full.elf' is downloaded to processor 'ps7_cortexa9_0'.
+16:02:03 INFO  : 'configparams force-mem-access 0' command is executed.
+16:02:03 INFO  : ----------------XSDB Script----------------
+connect -path [list tcp::1534 tcp:192.168.224.251:51653]
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248722265" && level==0 && jtag_device_ctx=="jsn-Zed-210248722265-23727093-0"}
+fpga -file /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full/Debug/zc_full.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+16:02:04 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+16:02:04 INFO  : 'con' command is executed.
+16:02:04 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+16:02:04 INFO  : Launch script is exported to file '/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_system/_ide/scripts/debugger_zc_full-default_1.tcl'
+18:36:18 INFO  : Disconnected from the channel tcfchan#3.
+19:30:36 INFO  : Result from executing command 'getProjects': design_1_wrapper;design_1_wrapper_1
+19:30:36 INFO  : Result from executing command 'getPlatforms': design_1_wrapper|/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm;xilinx_vck190_base_202210_1|/tools/Xilinx/Vitis/2022.1/base_platforms/xilinx_vck190_base_202210_1/xilinx_vck190_base_202210_1.xpfm;xilinx_vck190_base_dfx_202210_1|/tools/Xilinx/Vitis/2022.1/base_platforms/xilinx_vck190_base_dfx_202210_1/xilinx_vck190_base_dfx_202210_1.xpfm;xilinx_vmk180_base_202210_1|/tools/Xilinx/Vitis/2022.1/base_platforms/xilinx_vmk180_base_202210_1/xilinx_vmk180_base_202210_1.xpfm;xilinx_zcu102_base_202210_1|/tools/Xilinx/Vitis/2022.1/base_platforms/xilinx_zcu102_base_202210_1/xilinx_zcu102_base_202210_1.xpfm;xilinx_zcu102_base_dfx_202210_1|/tools/Xilinx/Vitis/2022.1/base_platforms/xilinx_zcu102_base_dfx_202210_1/xilinx_zcu102_base_dfx_202210_1.xpfm;xilinx_zcu104_base_202210_1|/tools/Xilinx/Vitis/2022.1/base_platforms/xilinx_zcu104_base_202210_1/xilinx_zcu104_base_202210_1.xpfm
+19:30:37 INFO  : Platform 'design_1_wrapper_1' is added to custom repositories.
+19:30:42 INFO  : Platform 'design_1_wrapper_1' is added to custom repositories.
+19:42:20 INFO  : Result from executing command 'getProjects': design_1_wrapper;design_1_wrapper_1
+19:42:20 INFO  : Result from executing command 'getPlatforms': design_1_wrapper_1|/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/design_1_wrapper_1/export/design_1_wrapper_1/design_1_wrapper_1.xpfm;design_1_wrapper|/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm;xilinx_vck190_base_202210_1|/tools/Xilinx/Vitis/2022.1/base_platforms/xilinx_vck190_base_202210_1/xilinx_vck190_base_202210_1.xpfm;xilinx_vck190_base_dfx_202210_1|/tools/Xilinx/Vitis/2022.1/base_platforms/xilinx_vck190_base_dfx_202210_1/xilinx_vck190_base_dfx_202210_1.xpfm;xilinx_vmk180_base_202210_1|/tools/Xilinx/Vitis/2022.1/base_platforms/xilinx_vmk180_base_202210_1/xilinx_vmk180_base_202210_1.xpfm;xilinx_zcu102_base_202210_1|/tools/Xilinx/Vitis/2022.1/base_platforms/xilinx_zcu102_base_202210_1/xilinx_zcu102_base_202210_1.xpfm;xilinx_zcu102_base_dfx_202210_1|/tools/Xilinx/Vitis/2022.1/base_platforms/xilinx_zcu102_base_dfx_202210_1/xilinx_zcu102_base_dfx_202210_1.xpfm;xilinx_zcu104_base_202210_1|/tools/Xilinx/Vitis/2022.1/base_platforms/xilinx_zcu104_base_202210_1/xilinx_zcu104_base_202210_1.xpfm
+19:42:23 INFO  : Checking for BSP changes to sync application flags for project 'zc_full_fifo_fix'...
+19:42:24 INFO  : Updating application flags with new BSP settings...
+19:42:25 INFO  : Successfully updated application flags for project zc_full_fifo_fix.
+19:47:39 INFO  : Checking for BSP changes to sync application flags for project 'zc_full_fifo_fix'...
+19:50:07 INFO  : Connected through redirection to target on host '192.168.224.251' and port '59578'.
+19:50:09 WARN  : IDE version '2022.1.0' doesn't match hw_server version '2024.1.0'. Some debug features may not work.
+19:50:11 INFO  : Jtag cable 'Digilent Zed 210248722265' is selected.
+19:50:11 INFO  : 'jtag frequency' command is executed.
+19:50:11 INFO  : Context for 'APU' is selected.
+19:50:11 INFO  : System reset is completed.
+19:50:14 INFO  : 'after 3000' command is executed.
+19:50:14 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248722265" && level==0 && jtag_device_ctx=="jsn-Zed-210248722265-4ba00477-0"}' command is executed.
+19:50:17 INFO  : Device configured successfully with "/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_fifo_fix/_ide/bitstream/design_1_wrapper.bit"
+19:50:17 INFO  : Context for 'APU' is selected.
+19:50:18 INFO  : Hardware design and registers information is loaded from '/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/design_1_wrapper_1/export/design_1_wrapper_1/hw/design_1_wrapper.xsa'.
+19:50:18 INFO  : 'configparams force-mem-access 1' command is executed.
+19:50:18 INFO  : Context for 'APU' is selected.
+19:50:18 INFO  : Sourcing of '/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_fifo_fix/_ide/psinit/ps7_init.tcl' is done.
+19:50:33 INFO  : 'ps7_init' command is executed.
+19:50:34 INFO  : 'ps7_post_config' command is executed.
+19:50:34 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+19:50:35 INFO  : The application '/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_fifo_fix/Debug/zc_full_fifo_fix.elf' is downloaded to processor 'ps7_cortexa9_0'.
+19:50:35 INFO  : 'configparams force-mem-access 0' command is executed.
+19:50:35 INFO  : ----------------XSDB Script----------------
+connect -path [list tcp::1534 tcp:192.168.224.251:59578]
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248722265" && level==0 && jtag_device_ctx=="jsn-Zed-210248722265-4ba00477-0"}
+fpga -file /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_fifo_fix/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/design_1_wrapper_1/export/design_1_wrapper_1/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_fifo_fix/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_fifo_fix/Debug/zc_full_fifo_fix.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+19:50:36 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+19:50:36 INFO  : 'con' command is executed.
+19:50:36 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+19:50:36 INFO  : Launch script is exported to file '/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_fifo_fix_system/_ide/scripts/debugger_zc_full-default_1.tcl'
+20:00:02 WARN  : channel "tcfchan#5" closed
+21:07:59 INFO  : Checking for BSP changes to sync application flags for project 'zc_full_fifo_fix'...
+21:08:28 INFO  : Checking for BSP changes to sync application flags for project 'zc_full_fifo_fix'...
+21:16:12 INFO  : Connected through redirection to target on host '192.168.224.251' and port '61106'.
+21:16:13 WARN  : IDE version '2022.1.0' doesn't match hw_server version '2024.1.0'. Some debug features may not work.
+21:16:16 INFO  : Jtag cable 'Digilent Zed 210248722265' is selected.
+21:16:16 INFO  : 'jtag frequency' command is executed.
+21:16:17 INFO  : Context for 'APU' is selected.
+21:16:17 INFO  : System reset is completed.
+21:16:20 INFO  : 'after 3000' command is executed.
+21:16:20 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248722265" && level==0 && jtag_device_ctx=="jsn-Zed-210248722265-4ba00477-0"}' command is executed.
+21:16:23 INFO  : Device configured successfully with "/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_fifo_fix/_ide/bitstream/design_1_wrapper.bit"
+21:16:23 INFO  : Context for 'APU' is selected.
+21:16:23 INFO  : Hardware design and registers information is loaded from '/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/design_1_wrapper_1/export/design_1_wrapper_1/hw/design_1_wrapper.xsa'.
+21:16:23 INFO  : 'configparams force-mem-access 1' command is executed.
+21:16:23 INFO  : Context for 'APU' is selected.
+21:16:23 INFO  : Sourcing of '/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_fifo_fix/_ide/psinit/ps7_init.tcl' is done.
+21:16:37 INFO  : 'ps7_init' command is executed.
+21:16:38 INFO  : 'ps7_post_config' command is executed.
+21:16:38 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+21:16:39 INFO  : The application '/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_fifo_fix/Debug/zc_full_fifo_fix.elf' is downloaded to processor 'ps7_cortexa9_0'.
+21:16:39 INFO  : 'configparams force-mem-access 0' command is executed.
+21:16:39 INFO  : ----------------XSDB Script----------------
+connect -path [list tcp::1534 tcp:192.168.224.251:61106]
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248722265" && level==0 && jtag_device_ctx=="jsn-Zed-210248722265-4ba00477-0"}
+fpga -file /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_fifo_fix/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/design_1_wrapper_1/export/design_1_wrapper_1/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_fifo_fix/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_fifo_fix/Debug/zc_full_fifo_fix.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+21:16:40 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+21:16:40 INFO  : 'con' command is executed.
+21:16:40 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+21:16:40 INFO  : Launch script is exported to file '/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_fifo_fix_system/_ide/scripts/debugger_zc_full-default_1.tcl'
+21:44:20 INFO  : Disconnected from the channel tcfchan#6.
+22:59:34 INFO  : Checking for BSP changes to sync application flags for project 'zc_full_fifo_fix'...
+23:00:32 INFO  : Connected through redirection to target on host '192.168.224.251' and port '55907'.
+23:00:34 WARN  : IDE version '2022.1.0' doesn't match hw_server version '2024.1.0'. Some debug features may not work.
+23:00:35 INFO  : Jtag cable 'Digilent Zed 210248722265' is selected.
+23:00:35 INFO  : 'jtag frequency' command is executed.
+23:00:35 INFO  : Context for 'APU' is selected.
+23:00:35 INFO  : System reset is completed.
+23:00:38 INFO  : 'after 3000' command is executed.
+23:00:39 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248722265" && level==0 && jtag_device_ctx=="jsn-Zed-210248722265-4ba00477-0"}' command is executed.
+23:00:42 INFO  : Device configured successfully with "/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_fifo_fix/_ide/bitstream/design_1_wrapper.bit"
+23:00:42 INFO  : Context for 'APU' is selected.
+23:00:43 INFO  : Hardware design and registers information is loaded from '/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/design_1_wrapper_1/export/design_1_wrapper_1/hw/design_1_wrapper.xsa'.
+23:00:43 INFO  : 'configparams force-mem-access 1' command is executed.
+23:00:43 INFO  : Context for 'APU' is selected.
+23:00:43 INFO  : Sourcing of '/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_fifo_fix/_ide/psinit/ps7_init.tcl' is done.
+23:00:56 INFO  : 'ps7_init' command is executed.
+23:00:56 INFO  : 'ps7_post_config' command is executed.
+23:00:56 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+23:00:57 INFO  : The application '/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_fifo_fix/Debug/zc_full_fifo_fix.elf' is downloaded to processor 'ps7_cortexa9_0'.
+23:00:57 INFO  : 'configparams force-mem-access 0' command is executed.
+23:00:57 INFO  : ----------------XSDB Script----------------
+connect -path [list tcp::1534 tcp:192.168.224.251:55907]
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248722265" && level==0 && jtag_device_ctx=="jsn-Zed-210248722265-4ba00477-0"}
+fpga -file /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_fifo_fix/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/design_1_wrapper_1/export/design_1_wrapper_1/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_fifo_fix/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_fifo_fix/Debug/zc_full_fifo_fix.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+23:00:58 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+23:00:58 INFO  : 'con' command is executed.
+23:00:58 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+23:00:58 INFO  : Launch script is exported to file '/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_fifo_fix_system/_ide/scripts/debugger_zc_full-default_1.tcl'
+23:15:11 WARN  : channel "tcfchan#7" closed
+23:20:11 INFO  : Checking for BSP changes to sync application flags for project 'zc_full_fifo_fix'...
+23:21:29 INFO  : Connected through redirection to target on host '192.168.224.251' and port '58994'.
+23:21:30 WARN  : IDE version '2022.1.0' doesn't match hw_server version '2024.1.0'. Some debug features may not work.
+23:21:31 INFO  : Jtag cable 'Digilent Zed 210248722265' is selected.
+23:21:31 INFO  : 'jtag frequency' command is executed.
+23:21:32 INFO  : Context for 'APU' is selected.
+23:21:32 INFO  : System reset is completed.
+23:21:35 INFO  : 'after 3000' command is executed.
+23:21:35 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248722265" && level==0 && jtag_device_ctx=="jsn-Zed-210248722265-4ba00477-0"}' command is executed.
+23:21:37 INFO  : Device configured successfully with "/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_fifo_fix/_ide/bitstream/design_1_wrapper.bit"
+23:21:38 INFO  : Context for 'APU' is selected.
+23:21:38 INFO  : Hardware design and registers information is loaded from '/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/design_1_wrapper_1/export/design_1_wrapper_1/hw/design_1_wrapper.xsa'.
+23:21:38 INFO  : 'configparams force-mem-access 1' command is executed.
+23:21:38 INFO  : Context for 'APU' is selected.
+23:21:38 INFO  : Sourcing of '/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_fifo_fix/_ide/psinit/ps7_init.tcl' is done.
+23:21:52 INFO  : 'ps7_init' command is executed.
+23:21:53 INFO  : 'ps7_post_config' command is executed.
+23:21:53 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+23:21:54 INFO  : The application '/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_fifo_fix/Debug/zc_full_fifo_fix.elf' is downloaded to processor 'ps7_cortexa9_0'.
+23:21:54 INFO  : 'configparams force-mem-access 0' command is executed.
+23:21:54 INFO  : ----------------XSDB Script----------------
+connect -path [list tcp::1534 tcp:192.168.224.251:58994]
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248722265" && level==0 && jtag_device_ctx=="jsn-Zed-210248722265-4ba00477-0"}
+fpga -file /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_fifo_fix/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/design_1_wrapper_1/export/design_1_wrapper_1/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_fifo_fix/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_fifo_fix/Debug/zc_full_fifo_fix.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+23:21:55 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+23:21:55 INFO  : 'con' command is executed.
+23:21:55 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+23:21:55 INFO  : Launch script is exported to file '/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_fifo_fix_system/_ide/scripts/debugger_zc_full-default_1.tcl'
+23:25:37 INFO  : Checking for BSP changes to sync application flags for project 'zc_full_fifo_fix'...
+23:25:41 INFO  : Disconnected from the channel tcfchan#8.
+23:25:42 INFO  : Connected through redirection to target on host '192.168.224.251' and port '58994'.
+23:25:43 WARN  : IDE version '2022.1.0' doesn't match hw_server version '2024.1.0'. Some debug features may not work.
+23:25:44 INFO  : Jtag cable 'Digilent Zed 210248722265' is selected.
+23:25:44 INFO  : 'jtag frequency' command is executed.
+23:25:44 INFO  : Context for 'APU' is selected.
+23:25:44 INFO  : System reset is completed.
+23:25:47 INFO  : 'after 3000' command is executed.
+23:25:48 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248722265" && level==0 && jtag_device_ctx=="jsn-Zed-210248722265-4ba00477-0"}' command is executed.
+23:25:51 INFO  : Device configured successfully with "/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_fifo_fix/_ide/bitstream/design_1_wrapper.bit"
+23:25:51 INFO  : Context for 'APU' is selected.
+23:25:52 INFO  : Hardware design and registers information is loaded from '/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/design_1_wrapper_1/export/design_1_wrapper_1/hw/design_1_wrapper.xsa'.
+23:25:52 INFO  : 'configparams force-mem-access 1' command is executed.
+23:25:52 INFO  : Context for 'APU' is selected.
+23:25:52 INFO  : Sourcing of '/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_fifo_fix/_ide/psinit/ps7_init.tcl' is done.
+23:26:05 INFO  : 'ps7_init' command is executed.
+23:26:06 INFO  : 'ps7_post_config' command is executed.
+23:26:06 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+23:26:06 INFO  : The application '/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_fifo_fix/Debug/zc_full_fifo_fix.elf' is downloaded to processor 'ps7_cortexa9_0'.
+23:26:07 INFO  : 'configparams force-mem-access 0' command is executed.
+23:26:07 INFO  : ----------------XSDB Script----------------
+connect -path [list tcp::1534 tcp:192.168.224.251:58994]
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248722265" && level==0 && jtag_device_ctx=="jsn-Zed-210248722265-4ba00477-0"}
+fpga -file /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_fifo_fix/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/design_1_wrapper_1/export/design_1_wrapper_1/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_fifo_fix/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_fifo_fix/Debug/zc_full_fifo_fix.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+23:26:09 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+23:26:09 INFO  : 'con' command is executed.
+23:26:09 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+23:26:09 INFO  : Launch script is exported to file '/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_fifo_fix_system/_ide/scripts/debugger_zc_full-default_1.tcl'
+00:55:39 DEBUG : Logs will be stored at '/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/IDE.log'.
+00:55:40 INFO  : Launching XSCT server: xsct -n  -interactive /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/temp_xsdb_launch_script.tcl
+00:55:42 INFO  : Registering command handlers for Vitis TCF services
+00:55:42 INFO  : Platform repository initialization has completed.
+00:55:42 INFO  : XSCT server has started successfully.
+00:55:42 INFO  : Successfully done setting XSCT server connection channel  
+00:55:42 INFO  : Successfully done setting workspace for the tool. 
+00:55:42 INFO  : plnx-install-location is set to ''
+00:55:42 INFO  : Successfully done query RDI_DATADIR 
+00:56:36 INFO  : Result from executing command 'getProjects': design_1_wrapper;design_1_wrapper_1;design_1_wrapper_2
+00:56:36 INFO  : Result from executing command 'getPlatforms': design_1_wrapper_1|/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/design_1_wrapper_1/export/design_1_wrapper_1/design_1_wrapper_1.xpfm;design_1_wrapper|/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm;xilinx_vck190_base_202210_1|/tools/Xilinx/Vitis/2022.1/base_platforms/xilinx_vck190_base_202210_1/xilinx_vck190_base_202210_1.xpfm;xilinx_vck190_base_dfx_202210_1|/tools/Xilinx/Vitis/2022.1/base_platforms/xilinx_vck190_base_dfx_202210_1/xilinx_vck190_base_dfx_202210_1.xpfm;xilinx_vmk180_base_202210_1|/tools/Xilinx/Vitis/2022.1/base_platforms/xilinx_vmk180_base_202210_1/xilinx_vmk180_base_202210_1.xpfm;xilinx_zcu102_base_202210_1|/tools/Xilinx/Vitis/2022.1/base_platforms/xilinx_zcu102_base_202210_1/xilinx_zcu102_base_202210_1.xpfm;xilinx_zcu102_base_dfx_202210_1|/tools/Xilinx/Vitis/2022.1/base_platforms/xilinx_zcu102_base_dfx_202210_1/xilinx_zcu102_base_dfx_202210_1.xpfm;xilinx_zcu104_base_202210_1|/tools/Xilinx/Vitis/2022.1/base_platforms/xilinx_zcu104_base_202210_1/xilinx_zcu104_base_202210_1.xpfm
+00:56:37 WARN  : An unexpected exception occurred in the module 'platform project logging'
+00:56:37 INFO  : Platform 'design_1_wrapper_2' is added to custom repositories.
+00:56:42 INFO  : Platform 'design_1_wrapper_2' is added to custom repositories.
+01:01:30 INFO  : Result from executing command 'getProjects': design_1_wrapper;design_1_wrapper_1;design_1_wrapper_2
+01:01:30 INFO  : Result from executing command 'getPlatforms': design_1_wrapper_1|/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/design_1_wrapper_1/export/design_1_wrapper_1/design_1_wrapper_1.xpfm;design_1_wrapper_2|/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/design_1_wrapper_2/export/design_1_wrapper_2/design_1_wrapper_2.xpfm;design_1_wrapper|/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm;xilinx_vck190_base_202210_1|/tools/Xilinx/Vitis/2022.1/base_platforms/xilinx_vck190_base_202210_1/xilinx_vck190_base_202210_1.xpfm;xilinx_vck190_base_dfx_202210_1|/tools/Xilinx/Vitis/2022.1/base_platforms/xilinx_vck190_base_dfx_202210_1/xilinx_vck190_base_dfx_202210_1.xpfm;xilinx_vmk180_base_202210_1|/tools/Xilinx/Vitis/2022.1/base_platforms/xilinx_vmk180_base_202210_1/xilinx_vmk180_base_202210_1.xpfm;xilinx_zcu102_base_202210_1|/tools/Xilinx/Vitis/2022.1/base_platforms/xilinx_zcu102_base_202210_1/xilinx_zcu102_base_202210_1.xpfm;xilinx_zcu102_base_dfx_202210_1|/tools/Xilinx/Vitis/2022.1/base_platforms/xilinx_zcu102_base_dfx_202210_1/xilinx_zcu102_base_dfx_202210_1.xpfm;xilinx_zcu104_base_202210_1|/tools/Xilinx/Vitis/2022.1/base_platforms/xilinx_zcu104_base_202210_1/xilinx_zcu104_base_202210_1.xpfm
+01:01:34 INFO  : Checking for BSP changes to sync application flags for project 'zc_full_2'...
+01:01:35 INFO  : Updating application flags with new BSP settings...
+01:01:35 INFO  : Successfully updated application flags for project zc_full_2.
+01:01:54 INFO  : Checking for BSP changes to sync application flags for project 'zc_full_2'...
+01:04:13 INFO  : Connected through redirection to target on host '192.168.224.251' and port '51864'.
+01:04:14 WARN  : IDE version '2022.1.0' doesn't match hw_server version '2024.1.0'. Some debug features may not work.
+01:04:16 INFO  : Jtag cable 'Digilent Zed 210248722265' is selected.
+01:04:16 INFO  : 'jtag frequency' command is executed.
+01:04:16 INFO  : Context for 'APU' is selected.
+01:04:16 INFO  : System reset is completed.
+01:04:19 INFO  : 'after 3000' command is executed.
+01:04:19 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248722265" && level==0 && jtag_device_ctx=="jsn-Zed-210248722265-4ba00477-0"}' command is executed.
+01:04:22 INFO  : Device configured successfully with "/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_2/_ide/bitstream/design_1_wrapper.bit"
+01:04:22 INFO  : Context for 'APU' is selected.
+01:04:22 INFO  : Hardware design and registers information is loaded from '/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/design_1_wrapper_2/export/design_1_wrapper_2/hw/design_1_wrapper.xsa'.
+01:04:22 INFO  : 'configparams force-mem-access 1' command is executed.
+01:04:23 INFO  : Context for 'APU' is selected.
+01:04:23 INFO  : Sourcing of '/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_2/_ide/psinit/ps7_init.tcl' is done.
+01:04:40 INFO  : 'ps7_init' command is executed.
+01:04:40 INFO  : 'ps7_post_config' command is executed.
+01:04:41 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+01:04:41 INFO  : The application '/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_2/Debug/zc_full_2.elf' is downloaded to processor 'ps7_cortexa9_0'.
+01:04:42 INFO  : 'configparams force-mem-access 0' command is executed.
+01:04:42 INFO  : ----------------XSDB Script----------------
+connect -path [list tcp::1534 tcp:192.168.224.251:51864]
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248722265" && level==0 && jtag_device_ctx=="jsn-Zed-210248722265-4ba00477-0"}
+fpga -file /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_2/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/design_1_wrapper_2/export/design_1_wrapper_2/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_2/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_2/Debug/zc_full_2.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+01:04:43 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+01:04:43 INFO  : 'con' command is executed.
+01:04:43 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+01:04:43 INFO  : Launch script is exported to file '/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_2_system/_ide/scripts/debugger_zc_full-default_1.tcl'
+01:05:33 INFO  : Checking for BSP changes to sync application flags for project 'zc_full_2'...
+01:05:37 INFO  : Disconnected from the channel tcfchan#2.
+01:05:39 INFO  : Connected through redirection to target on host '192.168.224.251' and port '51864'.
+01:05:39 WARN  : IDE version '2022.1.0' doesn't match hw_server version '2024.1.0'. Some debug features may not work.
+01:05:41 INFO  : Jtag cable 'Digilent Zed 210248722265' is selected.
+01:05:41 INFO  : 'jtag frequency' command is executed.
+01:05:41 INFO  : Context for 'APU' is selected.
+01:05:41 INFO  : System reset is completed.
+01:05:44 INFO  : 'after 3000' command is executed.
+01:05:45 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248722265" && level==0 && jtag_device_ctx=="jsn-Zed-210248722265-4ba00477-0"}' command is executed.
+01:05:51 INFO  : Device configured successfully with "/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_2/_ide/bitstream/design_1_wrapper.bit"
+01:05:52 INFO  : Context for 'APU' is selected.
+01:05:52 INFO  : Hardware design and registers information is loaded from '/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/design_1_wrapper_2/export/design_1_wrapper_2/hw/design_1_wrapper.xsa'.
+01:05:52 INFO  : 'configparams force-mem-access 1' command is executed.
+01:05:52 INFO  : Context for 'APU' is selected.
+01:05:52 INFO  : Sourcing of '/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_2/_ide/psinit/ps7_init.tcl' is done.
+01:06:09 INFO  : 'ps7_init' command is executed.
+01:06:10 INFO  : 'ps7_post_config' command is executed.
+01:06:10 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+01:06:10 INFO  : The application '/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_2/Debug/zc_full_2.elf' is downloaded to processor 'ps7_cortexa9_0'.
+01:06:11 INFO  : 'configparams force-mem-access 0' command is executed.
+01:06:11 INFO  : ----------------XSDB Script----------------
+connect -path [list tcp::1534 tcp:192.168.224.251:51864]
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248722265" && level==0 && jtag_device_ctx=="jsn-Zed-210248722265-4ba00477-0"}
+fpga -file /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_2/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/design_1_wrapper_2/export/design_1_wrapper_2/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_2/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_2/Debug/zc_full_2.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+01:06:12 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+01:06:12 INFO  : 'con' command is executed.
+01:06:12 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+01:06:12 INFO  : Launch script is exported to file '/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_2_system/_ide/scripts/debugger_zc_full-default_1.tcl'
+01:08:33 INFO  : Checking for BSP changes to sync application flags for project 'zc_full_2'...
+01:08:37 INFO  : Disconnected from the channel tcfchan#3.
+01:08:38 INFO  : Connected through redirection to target on host '192.168.224.251' and port '51864'.
+01:08:39 WARN  : IDE version '2022.1.0' doesn't match hw_server version '2024.1.0'. Some debug features may not work.
+01:08:49 INFO  : ----------------XSDB Script----------------
+connect -path [list tcp::1534 tcp:192.168.224.251:51864]
+----------------End of Script----------------
+
+01:08:49 ERROR : Could not find ARM device on the board for connection 'rem'.
+Check if the target is in:
+1. Split JTAG - No operations are possible with ARM DAP.
+2. Non JTAG bootmode - Bootrom may need time to enable DAP.
+Please try again.
+
+
+Troubleshooting hints:
+1. Check whether board is connected to system properly.
+2. In case of zynq board, check whether Digilent/Xilinx cable switch settings are correct.
+3. If you are using Xilinx Platform Cable USB, ensure that status LED is green.
+01:08:51 INFO  : Connected through redirection to target on host '192.168.224.251' and port '51864'.
+01:08:51 WARN  : IDE version '2022.1.0' doesn't match hw_server version '2024.1.0'. Some debug features may not work.
+01:08:52 INFO  : Jtag cable 'Digilent Zed 210248722265' is selected.
+01:08:52 INFO  : 'jtag frequency' command is executed.
+01:08:53 INFO  : Context for 'APU' is selected.
+01:08:53 INFO  : System reset is completed.
+01:08:56 INFO  : 'after 3000' command is executed.
+01:08:56 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248722265" && level==0 && jtag_device_ctx=="jsn-Zed-210248722265-4ba00477-0"}' command is executed.
+01:08:59 INFO  : Device configured successfully with "/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_2/_ide/bitstream/design_1_wrapper.bit"
+01:08:59 INFO  : Context for 'APU' is selected.
+01:08:59 INFO  : Hardware design and registers information is loaded from '/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/design_1_wrapper_2/export/design_1_wrapper_2/hw/design_1_wrapper.xsa'.
+01:08:59 INFO  : 'configparams force-mem-access 1' command is executed.
+01:08:59 INFO  : Context for 'APU' is selected.
+01:08:59 INFO  : Sourcing of '/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_2/_ide/psinit/ps7_init.tcl' is done.
+01:09:16 INFO  : 'ps7_init' command is executed.
+01:09:16 ERROR : (XSDB Server)Target doesn't support Jtag Uart
+
+01:09:17 INFO  : 'ps7_post_config' command is executed.
+01:09:17 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+01:09:18 INFO  : The application '/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_2/Debug/zc_full_2.elf' is downloaded to processor 'ps7_cortexa9_0'.
+01:09:19 INFO  : 'configparams force-mem-access 0' command is executed.
+01:09:19 INFO  : ----------------XSDB Script----------------
+connect -path [list tcp::1534 tcp:192.168.224.251:51864]
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248722265" && level==0 && jtag_device_ctx=="jsn-Zed-210248722265-4ba00477-0"}
+fpga -file /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_2/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/design_1_wrapper_2/export/design_1_wrapper_2/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_2/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_2/Debug/zc_full_2.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+01:09:20 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+01:09:20 INFO  : 'con' command is executed.
+01:09:20 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+01:09:20 INFO  : Launch script is exported to file '/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_2_system/_ide/scripts/debugger_zc_full-default_1.tcl'
+01:10:15 INFO  : Checking for BSP changes to sync application flags for project 'zc_full_2'...
+01:10:20 INFO  : Disconnected from the channel tcfchan#4.
+01:10:21 INFO  : Connected through redirection to target on host '192.168.224.251' and port '51864'.
+01:10:22 WARN  : IDE version '2022.1.0' doesn't match hw_server version '2024.1.0'. Some debug features may not work.
+01:10:23 INFO  : Jtag cable 'Digilent Zed 210248722265' is selected.
+01:10:23 INFO  : 'jtag frequency' command is executed.
+01:10:24 INFO  : Context for 'APU' is selected.
+01:10:24 INFO  : System reset is completed.
+01:10:27 INFO  : 'after 3000' command is executed.
+01:10:27 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248722265" && level==0 && jtag_device_ctx=="jsn-Zed-210248722265-4ba00477-0"}' command is executed.
+01:10:30 INFO  : Device configured successfully with "/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_2/_ide/bitstream/design_1_wrapper.bit"
+01:10:30 INFO  : Context for 'APU' is selected.
+01:10:30 INFO  : Hardware design and registers information is loaded from '/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/design_1_wrapper_2/export/design_1_wrapper_2/hw/design_1_wrapper.xsa'.
+01:10:30 INFO  : 'configparams force-mem-access 1' command is executed.
+01:10:30 INFO  : Context for 'APU' is selected.
+01:10:30 INFO  : Sourcing of '/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_2/_ide/psinit/ps7_init.tcl' is done.
+01:10:48 INFO  : 'ps7_init' command is executed.
+01:10:49 INFO  : 'ps7_post_config' command is executed.
+01:10:49 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+01:10:50 INFO  : The application '/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_2/Debug/zc_full_2.elf' is downloaded to processor 'ps7_cortexa9_0'.
+01:10:51 INFO  : 'configparams force-mem-access 0' command is executed.
+01:10:51 INFO  : ----------------XSDB Script----------------
+connect -path [list tcp::1534 tcp:192.168.224.251:51864]
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248722265" && level==0 && jtag_device_ctx=="jsn-Zed-210248722265-4ba00477-0"}
+fpga -file /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_2/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/design_1_wrapper_2/export/design_1_wrapper_2/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_2/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_2/Debug/zc_full_2.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+01:10:51 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+01:10:51 INFO  : 'con' command is executed.
+01:10:51 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+01:10:51 INFO  : Launch script is exported to file '/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_2_system/_ide/scripts/debugger_zc_full-default_1.tcl'
+01:13:03 INFO  : Checking for BSP changes to sync application flags for project 'zc_full_2'...
+01:13:08 INFO  : Checking for BSP changes to sync application flags for project 'zc_full_2'...
+01:13:12 INFO  : Disconnected from the channel tcfchan#5.
+01:13:13 INFO  : Connected through redirection to target on host '192.168.224.251' and port '51864'.
+01:13:14 WARN  : IDE version '2022.1.0' doesn't match hw_server version '2024.1.0'. Some debug features may not work.
+01:13:15 INFO  : Jtag cable 'Digilent Zed 210248722265' is selected.
+01:13:15 INFO  : 'jtag frequency' command is executed.
+01:13:15 INFO  : Context for 'APU' is selected.
+01:13:16 INFO  : System reset is completed.
+01:13:19 INFO  : 'after 3000' command is executed.
+01:13:19 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248722265" && level==0 && jtag_device_ctx=="jsn-Zed-210248722265-4ba00477-0"}' command is executed.
+01:13:25 INFO  : Device configured successfully with "/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_2/_ide/bitstream/design_1_wrapper.bit"
+01:13:25 INFO  : Context for 'APU' is selected.
+01:13:25 INFO  : Hardware design and registers information is loaded from '/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/design_1_wrapper_2/export/design_1_wrapper_2/hw/design_1_wrapper.xsa'.
+01:13:25 INFO  : 'configparams force-mem-access 1' command is executed.
+01:13:26 INFO  : Context for 'APU' is selected.
+01:13:26 INFO  : Sourcing of '/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_2/_ide/psinit/ps7_init.tcl' is done.
+01:13:43 INFO  : 'ps7_init' command is executed.
+01:13:44 INFO  : 'ps7_post_config' command is executed.
+01:13:44 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+01:13:45 INFO  : The application '/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_2/Debug/zc_full_2.elf' is downloaded to processor 'ps7_cortexa9_0'.
+01:13:46 INFO  : 'configparams force-mem-access 0' command is executed.
+01:13:46 INFO  : ----------------XSDB Script----------------
+connect -path [list tcp::1534 tcp:192.168.224.251:51864]
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248722265" && level==0 && jtag_device_ctx=="jsn-Zed-210248722265-4ba00477-0"}
+fpga -file /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_2/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/design_1_wrapper_2/export/design_1_wrapper_2/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_2/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_2/Debug/zc_full_2.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+01:13:46 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+01:13:46 INFO  : 'con' command is executed.
+01:13:46 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+01:13:46 INFO  : Launch script is exported to file '/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_2_system/_ide/scripts/debugger_zc_full-default_1.tcl'
+01:15:01 WARN  : channel "tcfchan#6" closed
+01:18:05 INFO  : Checking for BSP changes to sync application flags for project 'zc_full_2'...
+01:19:36 INFO  : Connected through redirection to target on host '192.168.224.251' and port '56918'.
+01:19:37 WARN  : IDE version '2022.1.0' doesn't match hw_server version '2024.1.0'. Some debug features may not work.
+01:19:38 INFO  : Jtag cable 'Digilent Zed 210248722265' is selected.
+01:19:38 INFO  : 'jtag frequency' command is executed.
+01:19:39 INFO  : Context for 'APU' is selected.
+01:19:39 INFO  : System reset is completed.
+01:19:42 INFO  : 'after 3000' command is executed.
+01:19:42 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248722265" && level==0 && jtag_device_ctx=="jsn-Zed-210248722265-4ba00477-0"}' command is executed.
+01:19:47 INFO  : Device configured successfully with "/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_2/_ide/bitstream/design_1_wrapper.bit"
+01:19:47 INFO  : Context for 'APU' is selected.
+01:19:47 INFO  : Hardware design and registers information is loaded from '/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/design_1_wrapper_2/export/design_1_wrapper_2/hw/design_1_wrapper.xsa'.
+01:19:47 INFO  : 'configparams force-mem-access 1' command is executed.
+01:19:47 INFO  : Context for 'APU' is selected.
+01:19:47 INFO  : Sourcing of '/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_2/_ide/psinit/ps7_init.tcl' is done.
+01:20:03 INFO  : 'ps7_init' command is executed.
+01:20:04 INFO  : 'ps7_post_config' command is executed.
+01:20:04 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+01:20:05 INFO  : The application '/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_2/Debug/zc_full_2.elf' is downloaded to processor 'ps7_cortexa9_0'.
+01:20:05 INFO  : 'configparams force-mem-access 0' command is executed.
+01:20:05 INFO  : ----------------XSDB Script----------------
+connect -path [list tcp::1534 tcp:192.168.224.251:56918]
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248722265" && level==0 && jtag_device_ctx=="jsn-Zed-210248722265-4ba00477-0"}
+fpga -file /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_2/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/design_1_wrapper_2/export/design_1_wrapper_2/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_2/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_2/Debug/zc_full_2.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+01:20:06 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+01:20:06 INFO  : 'con' command is executed.
+01:20:06 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+01:20:06 INFO  : Launch script is exported to file '/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_2_system/_ide/scripts/debugger_zc_full-default_1.tcl'
+01:21:56 INFO  : Checking for BSP changes to sync application flags for project 'zc_full_2'...
+01:21:59 INFO  : Disconnected from the channel tcfchan#7.
+01:22:00 INFO  : Connected through redirection to target on host '192.168.224.251' and port '56918'.
+01:22:02 WARN  : IDE version '2022.1.0' doesn't match hw_server version '2024.1.0'. Some debug features may not work.
+01:22:03 INFO  : Jtag cable 'Digilent Zed 210248722265' is selected.
+01:22:03 INFO  : 'jtag frequency' command is executed.
+01:22:03 INFO  : Context for 'APU' is selected.
+01:22:04 INFO  : System reset is completed.
+01:22:07 INFO  : 'after 3000' command is executed.
+01:22:07 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248722265" && level==0 && jtag_device_ctx=="jsn-Zed-210248722265-4ba00477-0"}' command is executed.
+01:22:12 INFO  : Device configured successfully with "/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_2/_ide/bitstream/design_1_wrapper.bit"
+01:22:12 INFO  : Context for 'APU' is selected.
+01:22:12 INFO  : Hardware design and registers information is loaded from '/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/design_1_wrapper_2/export/design_1_wrapper_2/hw/design_1_wrapper.xsa'.
+01:22:12 INFO  : 'configparams force-mem-access 1' command is executed.
+01:22:13 INFO  : Context for 'APU' is selected.
+01:22:13 INFO  : Sourcing of '/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_2/_ide/psinit/ps7_init.tcl' is done.
+01:22:29 INFO  : 'ps7_init' command is executed.
+01:22:30 INFO  : 'ps7_post_config' command is executed.
+01:22:30 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+01:22:31 INFO  : The application '/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_2/Debug/zc_full_2.elf' is downloaded to processor 'ps7_cortexa9_0'.
+01:22:31 INFO  : 'configparams force-mem-access 0' command is executed.
+01:22:31 INFO  : ----------------XSDB Script----------------
+connect -path [list tcp::1534 tcp:192.168.224.251:56918]
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248722265" && level==0 && jtag_device_ctx=="jsn-Zed-210248722265-4ba00477-0"}
+fpga -file /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_2/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/design_1_wrapper_2/export/design_1_wrapper_2/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_2/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_2/Debug/zc_full_2.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+01:22:32 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+01:22:32 INFO  : 'con' command is executed.
+01:22:32 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+01:22:32 INFO  : Launch script is exported to file '/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_2_system/_ide/scripts/debugger_zc_full-default_1.tcl'
+01:23:36 INFO  : Checking for BSP changes to sync application flags for project 'zc_full_2'...
+01:23:40 INFO  : Disconnected from the channel tcfchan#8.
+01:23:41 INFO  : Connected through redirection to target on host '192.168.224.251' and port '56918'.
+01:23:42 WARN  : IDE version '2022.1.0' doesn't match hw_server version '2024.1.0'. Some debug features may not work.
+01:23:52 INFO  : ----------------XSDB Script----------------
+connect -path [list tcp::1534 tcp:192.168.224.251:56918]
+----------------End of Script----------------
+
+01:23:52 ERROR : Could not find ARM device on the board for connection 'rem'.
+Check if the target is in:
+1. Split JTAG - No operations are possible with ARM DAP.
+2. Non JTAG bootmode - Bootrom may need time to enable DAP.
+Please try again.
+
+
+Troubleshooting hints:
+1. Check whether board is connected to system properly.
+2. In case of zynq board, check whether Digilent/Xilinx cable switch settings are correct.
+3. If you are using Xilinx Platform Cable USB, ensure that status LED is green.
+01:23:57 INFO  : Connected through redirection to target on host '192.168.224.251' and port '56918'.
+01:23:57 WARN  : IDE version '2022.1.0' doesn't match hw_server version '2024.1.0'. Some debug features may not work.
+01:23:58 INFO  : Jtag cable 'Digilent Zed 210248722265' is selected.
+01:23:58 INFO  : 'jtag frequency' command is executed.
+01:23:58 INFO  : Context for 'APU' is selected.
+01:23:58 INFO  : System reset is completed.
+01:24:01 INFO  : 'after 3000' command is executed.
+01:24:02 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248722265" && level==0 && jtag_device_ctx=="jsn-Zed-210248722265-4ba00477-0"}' command is executed.
+01:24:04 INFO  : Device configured successfully with "/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_2/_ide/bitstream/design_1_wrapper.bit"
+01:24:04 INFO  : Context for 'APU' is selected.
+01:24:05 INFO  : Hardware design and registers information is loaded from '/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/design_1_wrapper_2/export/design_1_wrapper_2/hw/design_1_wrapper.xsa'.
+01:24:05 INFO  : 'configparams force-mem-access 1' command is executed.
+01:24:05 INFO  : Context for 'APU' is selected.
+01:24:05 INFO  : Sourcing of '/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_2/_ide/psinit/ps7_init.tcl' is done.
+01:24:22 INFO  : 'ps7_init' command is executed.
+01:24:22 INFO  : 'ps7_post_config' command is executed.
+01:24:23 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+01:24:23 INFO  : The application '/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_2/Debug/zc_full_2.elf' is downloaded to processor 'ps7_cortexa9_0'.
+01:24:24 INFO  : 'configparams force-mem-access 0' command is executed.
+01:24:24 INFO  : ----------------XSDB Script----------------
+connect -path [list tcp::1534 tcp:192.168.224.251:56918]
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248722265" && level==0 && jtag_device_ctx=="jsn-Zed-210248722265-4ba00477-0"}
+fpga -file /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_2/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/design_1_wrapper_2/export/design_1_wrapper_2/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_2/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_2/Debug/zc_full_2.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+01:24:25 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+01:24:25 INFO  : 'con' command is executed.
+01:24:25 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+01:24:25 INFO  : Launch script is exported to file '/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_2_system/_ide/scripts/debugger_zc_full-default_1.tcl'
+01:24:49 INFO  : Checking for BSP changes to sync application flags for project 'zc_full_2'...
+01:24:57 INFO  : Checking for BSP changes to sync application flags for project 'zc_full_2'...
+01:25:02 INFO  : Disconnected from the channel tcfchan#9.
+01:25:04 INFO  : Connected through redirection to target on host '192.168.224.251' and port '56918'.
+01:25:04 WARN  : IDE version '2022.1.0' doesn't match hw_server version '2024.1.0'. Some debug features may not work.
+01:25:06 INFO  : Jtag cable 'Digilent Zed 210248722265' is selected.
+01:25:06 INFO  : 'jtag frequency' command is executed.
+01:25:06 INFO  : Context for 'APU' is selected.
+01:25:06 INFO  : System reset is completed.
+01:25:09 INFO  : 'after 3000' command is executed.
+01:25:10 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248722265" && level==0 && jtag_device_ctx=="jsn-Zed-210248722265-4ba00477-0"}' command is executed.
+01:25:12 INFO  : Device configured successfully with "/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_2/_ide/bitstream/design_1_wrapper.bit"
+01:25:12 INFO  : Context for 'APU' is selected.
+01:25:13 INFO  : Hardware design and registers information is loaded from '/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/design_1_wrapper_2/export/design_1_wrapper_2/hw/design_1_wrapper.xsa'.
+01:25:13 INFO  : 'configparams force-mem-access 1' command is executed.
+01:25:13 INFO  : Context for 'APU' is selected.
+01:25:13 INFO  : Sourcing of '/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_2/_ide/psinit/ps7_init.tcl' is done.
+01:25:30 INFO  : 'ps7_init' command is executed.
+01:25:31 INFO  : 'ps7_post_config' command is executed.
+01:25:31 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+01:25:31 INFO  : The application '/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_2/Debug/zc_full_2.elf' is downloaded to processor 'ps7_cortexa9_0'.
+01:25:32 INFO  : 'configparams force-mem-access 0' command is executed.
+01:25:32 INFO  : ----------------XSDB Script----------------
+connect -path [list tcp::1534 tcp:192.168.224.251:56918]
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248722265" && level==0 && jtag_device_ctx=="jsn-Zed-210248722265-4ba00477-0"}
+fpga -file /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_2/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/design_1_wrapper_2/export/design_1_wrapper_2/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_2/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_2/Debug/zc_full_2.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+01:25:33 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+01:25:33 INFO  : 'con' command is executed.
+01:25:33 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+01:25:33 INFO  : Launch script is exported to file '/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_2_system/_ide/scripts/debugger_zc_full-default_1.tcl'
+01:26:14 INFO  : Checking for BSP changes to sync application flags for project 'zc_full_2'...
+01:26:17 INFO  : Disconnected from the channel tcfchan#10.
+01:26:19 INFO  : Connected through redirection to target on host '192.168.224.251' and port '56918'.
+01:26:19 WARN  : IDE version '2022.1.0' doesn't match hw_server version '2024.1.0'. Some debug features may not work.
+01:26:29 INFO  : ----------------XSDB Script----------------
+connect -path [list tcp::1534 tcp:192.168.224.251:56918]
+----------------End of Script----------------
+
+01:26:29 ERROR : Could not find ARM device on the board for connection 'rem'.
+Check if the target is in:
+1. Split JTAG - No operations are possible with ARM DAP.
+2. Non JTAG bootmode - Bootrom may need time to enable DAP.
+Please try again.
+
+
+Troubleshooting hints:
+1. Check whether board is connected to system properly.
+2. In case of zynq board, check whether Digilent/Xilinx cable switch settings are correct.
+3. If you are using Xilinx Platform Cable USB, ensure that status LED is green.
+01:26:37 INFO  : Connected through redirection to target on host '192.168.224.251' and port '56918'.
+01:26:37 WARN  : IDE version '2022.1.0' doesn't match hw_server version '2024.1.0'. Some debug features may not work.
+01:26:39 INFO  : Jtag cable 'Digilent Zed 210248722265' is selected.
+01:26:39 INFO  : 'jtag frequency' command is executed.
+01:26:39 INFO  : Context for 'APU' is selected.
+01:26:39 INFO  : System reset is completed.
+01:26:42 INFO  : 'after 3000' command is executed.
+01:26:42 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248722265" && level==0 && jtag_device_ctx=="jsn-Zed-210248722265-4ba00477-0"}' command is executed.
+01:26:45 INFO  : Device configured successfully with "/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_2/_ide/bitstream/design_1_wrapper.bit"
+01:26:45 INFO  : Context for 'APU' is selected.
+01:26:45 INFO  : Hardware design and registers information is loaded from '/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/design_1_wrapper_2/export/design_1_wrapper_2/hw/design_1_wrapper.xsa'.
+01:26:45 INFO  : 'configparams force-mem-access 1' command is executed.
+01:26:46 INFO  : Context for 'APU' is selected.
+01:26:46 INFO  : Sourcing of '/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_2/_ide/psinit/ps7_init.tcl' is done.
+01:27:03 INFO  : 'ps7_init' command is executed.
+01:27:03 INFO  : 'ps7_post_config' command is executed.
+01:27:03 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+01:27:04 INFO  : The application '/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_2/Debug/zc_full_2.elf' is downloaded to processor 'ps7_cortexa9_0'.
+01:27:05 INFO  : 'configparams force-mem-access 0' command is executed.
+01:27:05 INFO  : ----------------XSDB Script----------------
+connect -path [list tcp::1534 tcp:192.168.224.251:56918]
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248722265" && level==0 && jtag_device_ctx=="jsn-Zed-210248722265-4ba00477-0"}
+fpga -file /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_2/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/design_1_wrapper_2/export/design_1_wrapper_2/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_2/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_2/Debug/zc_full_2.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+01:27:05 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+01:27:05 INFO  : 'con' command is executed.
+01:27:05 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+01:27:05 INFO  : Launch script is exported to file '/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_2_system/_ide/scripts/debugger_zc_full-default_1.tcl'
+01:27:36 INFO  : Checking for BSP changes to sync application flags for project 'zc_full_2'...
+01:27:41 INFO  : Disconnected from the channel tcfchan#11.
+01:27:42 INFO  : Connected through redirection to target on host '192.168.224.251' and port '56918'.
+01:27:43 WARN  : IDE version '2022.1.0' doesn't match hw_server version '2024.1.0'. Some debug features may not work.
+01:27:53 INFO  : ----------------XSDB Script----------------
+connect -path [list tcp::1534 tcp:192.168.224.251:56918]
+----------------End of Script----------------
+
+01:27:53 ERROR : Could not find ARM device on the board for connection 'rem'.
+Check if the target is in:
+1. Split JTAG - No operations are possible with ARM DAP.
+2. Non JTAG bootmode - Bootrom may need time to enable DAP.
+Please try again.
+
+
+Troubleshooting hints:
+1. Check whether board is connected to system properly.
+2. In case of zynq board, check whether Digilent/Xilinx cable switch settings are correct.
+3. If you are using Xilinx Platform Cable USB, ensure that status LED is green.
+01:28:01 INFO  : Connected through redirection to target on host '192.168.224.251' and port '56918'.
+01:28:01 WARN  : IDE version '2022.1.0' doesn't match hw_server version '2024.1.0'. Some debug features may not work.
+01:28:02 INFO  : Jtag cable 'Digilent Zed 210248722265' is selected.
+01:28:02 INFO  : 'jtag frequency' command is executed.
+01:28:02 INFO  : Context for 'APU' is selected.
+01:28:02 INFO  : System reset is completed.
+01:28:05 INFO  : 'after 3000' command is executed.
+01:28:06 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248722265" && level==0 && jtag_device_ctx=="jsn-Zed-210248722265-4ba00477-0"}' command is executed.
+01:28:08 INFO  : Device configured successfully with "/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_2/_ide/bitstream/design_1_wrapper.bit"
+01:28:08 INFO  : Context for 'APU' is selected.
+01:28:09 INFO  : Hardware design and registers information is loaded from '/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/design_1_wrapper_2/export/design_1_wrapper_2/hw/design_1_wrapper.xsa'.
+01:28:09 INFO  : 'configparams force-mem-access 1' command is executed.
+01:28:09 INFO  : Context for 'APU' is selected.
+01:28:09 INFO  : Sourcing of '/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_2/_ide/psinit/ps7_init.tcl' is done.
+01:28:25 INFO  : 'ps7_init' command is executed.
+01:28:26 INFO  : 'ps7_post_config' command is executed.
+01:28:26 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+01:28:26 INFO  : The application '/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_2/Debug/zc_full_2.elf' is downloaded to processor 'ps7_cortexa9_0'.
+01:28:28 INFO  : 'configparams force-mem-access 0' command is executed.
+01:28:28 INFO  : ----------------XSDB Script----------------
+connect -path [list tcp::1534 tcp:192.168.224.251:56918]
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248722265" && level==0 && jtag_device_ctx=="jsn-Zed-210248722265-4ba00477-0"}
+fpga -file /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_2/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/design_1_wrapper_2/export/design_1_wrapper_2/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_2/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_2/Debug/zc_full_2.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+01:28:29 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+01:28:29 INFO  : 'con' command is executed.
+01:28:29 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+01:28:29 INFO  : Launch script is exported to file '/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_2_system/_ide/scripts/debugger_zc_full-default_1.tcl'
+01:29:02 INFO  : Checking for BSP changes to sync application flags for project 'zc_full_2'...
+01:29:06 INFO  : Checking for BSP changes to sync application flags for project 'zc_full_2'...
+01:29:10 INFO  : Disconnected from the channel tcfchan#12.
+01:29:11 INFO  : Connected through redirection to target on host '192.168.224.251' and port '56918'.
+01:29:12 WARN  : IDE version '2022.1.0' doesn't match hw_server version '2024.1.0'. Some debug features may not work.
+01:29:13 INFO  : Jtag cable 'Digilent Zed 210248722265' is selected.
+01:29:13 INFO  : 'jtag frequency' command is executed.
+01:29:13 INFO  : Context for 'APU' is selected.
+01:29:14 INFO  : System reset is completed.
+01:29:17 INFO  : 'after 3000' command is executed.
+01:29:17 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248722265" && level==0 && jtag_device_ctx=="jsn-Zed-210248722265-4ba00477-0"}' command is executed.
+01:29:19 INFO  : Device configured successfully with "/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_2/_ide/bitstream/design_1_wrapper.bit"
+01:29:20 INFO  : Context for 'APU' is selected.
+01:29:20 INFO  : Hardware design and registers information is loaded from '/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/design_1_wrapper_2/export/design_1_wrapper_2/hw/design_1_wrapper.xsa'.
+01:29:20 INFO  : 'configparams force-mem-access 1' command is executed.
+01:29:20 INFO  : Context for 'APU' is selected.
+01:29:20 INFO  : Sourcing of '/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_2/_ide/psinit/ps7_init.tcl' is done.
+01:29:37 INFO  : 'ps7_init' command is executed.
+01:29:38 INFO  : 'ps7_post_config' command is executed.
+01:29:38 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+01:29:38 INFO  : The application '/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_2/Debug/zc_full_2.elf' is downloaded to processor 'ps7_cortexa9_0'.
+01:29:39 INFO  : 'configparams force-mem-access 0' command is executed.
+01:29:39 INFO  : ----------------XSDB Script----------------
+connect -path [list tcp::1534 tcp:192.168.224.251:56918]
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248722265" && level==0 && jtag_device_ctx=="jsn-Zed-210248722265-4ba00477-0"}
+fpga -file /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_2/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/design_1_wrapper_2/export/design_1_wrapper_2/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_2/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_2/Debug/zc_full_2.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+01:29:40 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+01:29:40 INFO  : 'con' command is executed.
+01:29:40 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+01:29:40 INFO  : Launch script is exported to file '/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_2_system/_ide/scripts/debugger_zc_full-default_1.tcl'
+01:30:06 WARN  : channel "tcfchan#13" closed
+01:31:44 INFO  : Checking for BSP changes to sync application flags for project 'zc_full_2'...
+01:31:55 INFO  : Checking for BSP changes to sync application flags for project 'zc_full_2'...
+01:32:01 INFO  : Connected through redirection to target on host '192.168.224.251' and port '52770'.
+01:32:02 WARN  : IDE version '2022.1.0' doesn't match hw_server version '2024.1.0'. Some debug features may not work.
+01:32:12 INFO  : Jtag cable 'Digilent Zed 210248722265' is selected.
+01:32:12 INFO  : 'jtag frequency' command is executed.
+01:32:12 INFO  : Context for 'APU' is selected.
+01:32:12 INFO  : System reset is completed.
+01:32:15 INFO  : 'after 3000' command is executed.
+01:32:16 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248722265" && level==0 && jtag_device_ctx=="jsn-Zed-210248722265-4ba00477-0"}' command is executed.
+01:32:18 INFO  : Device configured successfully with "/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_2/_ide/bitstream/design_1_wrapper.bit"
+01:32:18 INFO  : Context for 'APU' is selected.
+01:32:19 INFO  : Hardware design and registers information is loaded from '/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/design_1_wrapper_2/export/design_1_wrapper_2/hw/design_1_wrapper.xsa'.
+01:32:19 INFO  : 'configparams force-mem-access 1' command is executed.
+01:32:19 INFO  : Context for 'APU' is selected.
+01:32:19 INFO  : Sourcing of '/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_2/_ide/psinit/ps7_init.tcl' is done.
+01:32:33 INFO  : 'ps7_init' command is executed.
+01:32:34 INFO  : 'ps7_post_config' command is executed.
+01:32:34 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+01:32:34 INFO  : The application '/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_2/Debug/zc_full_2.elf' is downloaded to processor 'ps7_cortexa9_0'.
+01:32:35 INFO  : 'configparams force-mem-access 0' command is executed.
+01:32:35 INFO  : ----------------XSDB Script----------------
+connect -path [list tcp::1534 tcp:192.168.224.251:52770]
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248722265" && level==0 && jtag_device_ctx=="jsn-Zed-210248722265-4ba00477-0"}
+fpga -file /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_2/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/design_1_wrapper_2/export/design_1_wrapper_2/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_2/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_2/Debug/zc_full_2.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+01:32:35 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+01:32:36 INFO  : 'con' command is executed.
+01:32:36 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+01:32:36 INFO  : Launch script is exported to file '/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_2_system/_ide/scripts/debugger_zc_full-default_1.tcl'
+01:33:24 INFO  : Checking for BSP changes to sync application flags for project 'zc_full_2'...
+01:33:29 INFO  : Checking for BSP changes to sync application flags for project 'zc_full_2'...
+01:33:34 INFO  : Disconnected from the channel tcfchan#14.
+01:33:35 INFO  : Connected through redirection to target on host '192.168.224.251' and port '52770'.
+01:33:37 WARN  : IDE version '2022.1.0' doesn't match hw_server version '2024.1.0'. Some debug features may not work.
+01:33:38 INFO  : Jtag cable 'Digilent Zed 210248722265' is selected.
+01:33:38 INFO  : 'jtag frequency' command is executed.
+01:33:38 INFO  : Context for 'APU' is selected.
+01:33:38 INFO  : System reset is completed.
+01:33:41 INFO  : 'after 3000' command is executed.
+01:33:42 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248722265" && level==0 && jtag_device_ctx=="jsn-Zed-210248722265-4ba00477-0"}' command is executed.
+01:33:44 INFO  : Device configured successfully with "/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_2/_ide/bitstream/design_1_wrapper.bit"
+01:33:45 INFO  : Context for 'APU' is selected.
+01:33:45 INFO  : Hardware design and registers information is loaded from '/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/design_1_wrapper_2/export/design_1_wrapper_2/hw/design_1_wrapper.xsa'.
+01:33:45 INFO  : 'configparams force-mem-access 1' command is executed.
+01:33:45 INFO  : Context for 'APU' is selected.
+01:33:45 INFO  : Sourcing of '/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_2/_ide/psinit/ps7_init.tcl' is done.
+01:34:01 INFO  : 'ps7_init' command is executed.
+01:34:01 INFO  : 'ps7_post_config' command is executed.
+01:34:01 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+01:34:02 INFO  : The application '/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_2/Debug/zc_full_2.elf' is downloaded to processor 'ps7_cortexa9_0'.
+01:34:02 INFO  : 'configparams force-mem-access 0' command is executed.
+01:34:02 INFO  : ----------------XSDB Script----------------
+connect -path [list tcp::1534 tcp:192.168.224.251:52770]
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248722265" && level==0 && jtag_device_ctx=="jsn-Zed-210248722265-4ba00477-0"}
+fpga -file /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_2/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/design_1_wrapper_2/export/design_1_wrapper_2/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_2/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_2/Debug/zc_full_2.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+01:34:03 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+01:34:03 INFO  : 'con' command is executed.
+01:34:03 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+01:34:03 INFO  : Launch script is exported to file '/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_2_system/_ide/scripts/debugger_zc_full-default_1.tcl'
+01:34:42 INFO  : Checking for BSP changes to sync application flags for project 'zc_full_2'...
+01:34:47 INFO  : Disconnected from the channel tcfchan#15.
+01:34:48 INFO  : Connected through redirection to target on host '192.168.224.251' and port '52770'.
+01:34:48 WARN  : IDE version '2022.1.0' doesn't match hw_server version '2024.1.0'. Some debug features may not work.
+01:34:59 INFO  : ----------------XSDB Script----------------
+connect -path [list tcp::1534 tcp:192.168.224.251:52770]
+----------------End of Script----------------
+
+01:34:59 ERROR : Could not find ARM device on the board for connection 'rem'.
+Check if the target is in:
+1. Split JTAG - No operations are possible with ARM DAP.
+2. Non JTAG bootmode - Bootrom may need time to enable DAP.
+Please try again.
+
+
+Troubleshooting hints:
+1. Check whether board is connected to system properly.
+2. In case of zynq board, check whether Digilent/Xilinx cable switch settings are correct.
+3. If you are using Xilinx Platform Cable USB, ensure that status LED is green.
+01:35:02 INFO  : Connected through redirection to target on host '192.168.224.251' and port '52770'.
+01:35:02 WARN  : IDE version '2022.1.0' doesn't match hw_server version '2024.1.0'. Some debug features may not work.
+01:35:03 INFO  : Jtag cable 'Digilent Zed 210248722265' is selected.
+01:35:03 INFO  : 'jtag frequency' command is executed.
+01:35:03 INFO  : Context for 'APU' is selected.
+01:35:03 INFO  : System reset is completed.
+01:35:06 INFO  : 'after 3000' command is executed.
+01:35:06 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248722265" && level==0 && jtag_device_ctx=="jsn-Zed-210248722265-4ba00477-0"}' command is executed.
+01:35:09 INFO  : Device configured successfully with "/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_2/_ide/bitstream/design_1_wrapper.bit"
+01:35:09 INFO  : Context for 'APU' is selected.
+01:35:10 INFO  : Hardware design and registers information is loaded from '/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/design_1_wrapper_2/export/design_1_wrapper_2/hw/design_1_wrapper.xsa'.
+01:35:10 INFO  : 'configparams force-mem-access 1' command is executed.
+01:35:10 INFO  : Context for 'APU' is selected.
+01:35:10 INFO  : Sourcing of '/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_2/_ide/psinit/ps7_init.tcl' is done.
+01:35:23 INFO  : 'ps7_init' command is executed.
+01:35:24 INFO  : 'ps7_post_config' command is executed.
+01:35:24 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+01:35:25 INFO  : The application '/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_2/Debug/zc_full_2.elf' is downloaded to processor 'ps7_cortexa9_0'.
+01:35:25 INFO  : 'configparams force-mem-access 0' command is executed.
+01:35:25 INFO  : ----------------XSDB Script----------------
+connect -path [list tcp::1534 tcp:192.168.224.251:52770]
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248722265" && level==0 && jtag_device_ctx=="jsn-Zed-210248722265-4ba00477-0"}
+fpga -file /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_2/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/design_1_wrapper_2/export/design_1_wrapper_2/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_2/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_2/Debug/zc_full_2.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+01:35:26 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+01:35:26 INFO  : 'con' command is executed.
+01:35:26 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+01:35:26 INFO  : Launch script is exported to file '/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_2_system/_ide/scripts/debugger_zc_full-default_1.tcl'
+01:36:13 INFO  : Checking for BSP changes to sync application flags for project 'zc_full_2'...
+01:36:17 INFO  : Disconnected from the channel tcfchan#16.
+01:36:18 INFO  : Connected through redirection to target on host '192.168.224.251' and port '52770'.
+01:36:18 WARN  : IDE version '2022.1.0' doesn't match hw_server version '2024.1.0'. Some debug features may not work.
+01:36:19 INFO  : Jtag cable 'Digilent Zed 210248722265' is selected.
+01:36:19 INFO  : 'jtag frequency' command is executed.
+01:36:19 INFO  : Context for 'APU' is selected.
+01:36:20 INFO  : System reset is completed.
+01:36:23 INFO  : 'after 3000' command is executed.
+01:36:23 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248722265" && level==0 && jtag_device_ctx=="jsn-Zed-210248722265-4ba00477-0"}' command is executed.
+01:36:25 INFO  : Device configured successfully with "/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_2/_ide/bitstream/design_1_wrapper.bit"
+01:36:26 INFO  : Context for 'APU' is selected.
+01:36:26 INFO  : Hardware design and registers information is loaded from '/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/design_1_wrapper_2/export/design_1_wrapper_2/hw/design_1_wrapper.xsa'.
+01:36:26 INFO  : 'configparams force-mem-access 1' command is executed.
+01:36:26 INFO  : Context for 'APU' is selected.
+01:36:26 INFO  : Sourcing of '/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_2/_ide/psinit/ps7_init.tcl' is done.
+01:36:40 INFO  : 'ps7_init' command is executed.
+01:36:40 INFO  : 'ps7_post_config' command is executed.
+01:36:40 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+01:36:41 INFO  : The application '/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_2/Debug/zc_full_2.elf' is downloaded to processor 'ps7_cortexa9_0'.
+01:36:41 INFO  : 'configparams force-mem-access 0' command is executed.
+01:36:41 INFO  : ----------------XSDB Script----------------
+connect -path [list tcp::1534 tcp:192.168.224.251:52770]
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248722265" && level==0 && jtag_device_ctx=="jsn-Zed-210248722265-4ba00477-0"}
+fpga -file /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_2/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/design_1_wrapper_2/export/design_1_wrapper_2/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_2/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_2/Debug/zc_full_2.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+01:36:42 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+01:36:42 INFO  : 'con' command is executed.
+01:36:42 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+01:36:42 INFO  : Launch script is exported to file '/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_2_system/_ide/scripts/debugger_zc_full-default_1.tcl'
+01:40:03 INFO  : Checking for BSP changes to sync application flags for project 'zc_full_2'...
+01:40:07 INFO  : Checking for BSP changes to sync application flags for project 'zc_full_2'...
+01:40:11 INFO  : Disconnected from the channel tcfchan#17.
+01:40:12 INFO  : Connected through redirection to target on host '192.168.224.251' and port '52770'.
+01:40:13 WARN  : IDE version '2022.1.0' doesn't match hw_server version '2024.1.0'. Some debug features may not work.
+01:40:16 INFO  : Jtag cable 'Digilent Zed 210248722265' is selected.
+01:40:16 INFO  : 'jtag frequency' command is executed.
+01:40:16 INFO  : Context for 'APU' is selected.
+01:40:16 INFO  : System reset is completed.
+01:40:19 INFO  : 'after 3000' command is executed.
+01:40:19 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248722265" && level==0 && jtag_device_ctx=="jsn-Zed-210248722265-4ba00477-0"}' command is executed.
+01:40:22 INFO  : Device configured successfully with "/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_2/_ide/bitstream/design_1_wrapper.bit"
+01:40:22 INFO  : Context for 'APU' is selected.
+01:40:22 INFO  : Hardware design and registers information is loaded from '/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/design_1_wrapper_2/export/design_1_wrapper_2/hw/design_1_wrapper.xsa'.
+01:40:22 INFO  : 'configparams force-mem-access 1' command is executed.
+01:40:22 INFO  : Context for 'APU' is selected.
+01:40:22 INFO  : Sourcing of '/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_2/_ide/psinit/ps7_init.tcl' is done.
+01:40:37 INFO  : 'ps7_init' command is executed.
+01:40:38 INFO  : 'ps7_post_config' command is executed.
+01:40:38 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+01:40:38 INFO  : The application '/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_2/Debug/zc_full_2.elf' is downloaded to processor 'ps7_cortexa9_0'.
+01:40:39 INFO  : 'configparams force-mem-access 0' command is executed.
+01:40:39 INFO  : ----------------XSDB Script----------------
+connect -path [list tcp::1534 tcp:192.168.224.251:52770]
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248722265" && level==0 && jtag_device_ctx=="jsn-Zed-210248722265-4ba00477-0"}
+fpga -file /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_2/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/design_1_wrapper_2/export/design_1_wrapper_2/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_2/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_2/Debug/zc_full_2.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+01:40:39 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+01:40:40 INFO  : 'con' command is executed.
+01:40:40 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+01:40:40 INFO  : Launch script is exported to file '/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_2_system/_ide/scripts/debugger_zc_full-default_1.tcl'
+01:42:36 INFO  : Checking for BSP changes to sync application flags for project 'zc_full_2'...
+01:42:41 INFO  : Checking for BSP changes to sync application flags for project 'zc_full_2'...
+01:42:45 INFO  : Disconnected from the channel tcfchan#18.
+01:42:46 INFO  : Connected through redirection to target on host '192.168.224.251' and port '52770'.
+01:42:46 WARN  : IDE version '2022.1.0' doesn't match hw_server version '2024.1.0'. Some debug features may not work.
+01:42:56 INFO  : ----------------XSDB Script----------------
+connect -path [list tcp::1534 tcp:192.168.224.251:52770]
+----------------End of Script----------------
+
+01:42:56 ERROR : Could not find ARM device on the board for connection 'rem'.
+Check if the target is in:
+1. Split JTAG - No operations are possible with ARM DAP.
+2. Non JTAG bootmode - Bootrom may need time to enable DAP.
+Please try again.
+
+
+Troubleshooting hints:
+1. Check whether board is connected to system properly.
+2. In case of zynq board, check whether Digilent/Xilinx cable switch settings are correct.
+3. If you are using Xilinx Platform Cable USB, ensure that status LED is green.
+01:43:01 INFO  : Connected through redirection to target on host '192.168.224.251' and port '52770'.
+01:43:01 WARN  : IDE version '2022.1.0' doesn't match hw_server version '2024.1.0'. Some debug features may not work.
+01:43:02 INFO  : Jtag cable 'Digilent Zed 210248722265' is selected.
+01:43:03 INFO  : 'jtag frequency' command is executed.
+01:43:03 INFO  : Context for 'APU' is selected.
+01:43:03 INFO  : System reset is completed.
+01:43:06 INFO  : 'after 3000' command is executed.
+01:43:06 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248722265" && level==0 && jtag_device_ctx=="jsn-Zed-210248722265-4ba00477-0"}' command is executed.
+01:43:11 INFO  : Device configured successfully with "/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_2/_ide/bitstream/design_1_wrapper.bit"
+01:43:11 INFO  : Context for 'APU' is selected.
+01:43:11 INFO  : Hardware design and registers information is loaded from '/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/design_1_wrapper_2/export/design_1_wrapper_2/hw/design_1_wrapper.xsa'.
+01:43:11 INFO  : 'configparams force-mem-access 1' command is executed.
+01:43:11 INFO  : Context for 'APU' is selected.
+01:43:11 INFO  : Sourcing of '/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_2/_ide/psinit/ps7_init.tcl' is done.
+01:43:27 INFO  : 'ps7_init' command is executed.
+01:43:27 INFO  : 'ps7_post_config' command is executed.
+01:43:27 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+01:43:28 INFO  : The application '/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_2/Debug/zc_full_2.elf' is downloaded to processor 'ps7_cortexa9_0'.
+01:43:29 INFO  : 'configparams force-mem-access 0' command is executed.
+01:43:29 INFO  : ----------------XSDB Script----------------
+connect -path [list tcp::1534 tcp:192.168.224.251:52770]
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248722265" && level==0 && jtag_device_ctx=="jsn-Zed-210248722265-4ba00477-0"}
+fpga -file /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_2/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/design_1_wrapper_2/export/design_1_wrapper_2/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_2/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_2/Debug/zc_full_2.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+01:43:29 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+01:43:29 INFO  : 'con' command is executed.
+01:43:29 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+01:43:29 INFO  : Launch script is exported to file '/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_2_system/_ide/scripts/debugger_zc_full-default_1.tcl'
+01:45:39 INFO  : Checking for BSP changes to sync application flags for project 'zc_full_2'...
+01:45:53 INFO  : Checking for BSP changes to sync application flags for project 'zc_full_2'...
+01:46:00 INFO  : Checking for BSP changes to sync application flags for project 'zc_full_2'...
+01:46:03 INFO  : Disconnected from the channel tcfchan#19.
+01:46:04 INFO  : Connected through redirection to target on host '192.168.224.251' and port '61395'.
+01:46:14 WARN  : IDE version '2022.1.0' doesn't match hw_server version '2024.1.0'. Some debug features may not work.
+01:46:27 INFO  : ----------------XSDB Script----------------
+connect -path [list tcp::1534 tcp:192.168.224.251:61395]
+----------------End of Script----------------
+
+01:46:27 ERROR : Could not find ARM device on the board for connection 'rem'.
+Check if the target is in:
+1. Split JTAG - No operations are possible with ARM DAP.
+2. Non JTAG bootmode - Bootrom may need time to enable DAP.
+Please try again.
+
+
+Troubleshooting hints:
+1. Check whether board is connected to system properly.
+2. In case of zynq board, check whether Digilent/Xilinx cable switch settings are correct.
+3. If you are using Xilinx Platform Cable USB, ensure that status LED is green.
+01:46:30 INFO  : Connected through redirection to target on host '192.168.224.251' and port '61395'.
+01:46:39 WARN  : IDE version '2022.1.0' doesn't match hw_server version '2024.1.0'. Some debug features may not work.
+01:46:50 INFO  : ----------------XSDB Script----------------
+connect -path [list tcp::1534 tcp:192.168.224.251:61395]
+----------------End of Script----------------
+
+01:46:50 ERROR : Could not find ARM device on the board for connection 'rem'.
+Check if the target is in:
+1. Split JTAG - No operations are possible with ARM DAP.
+2. Non JTAG bootmode - Bootrom may need time to enable DAP.
+Please try again.
+
+
+Troubleshooting hints:
+1. Check whether board is connected to system properly.
+2. In case of zynq board, check whether Digilent/Xilinx cable switch settings are correct.
+3. If you are using Xilinx Platform Cable USB, ensure that status LED is green.
+01:47:03 INFO  : Connected through redirection to target on host '192.168.224.251' and port '61395'.
+01:47:12 WARN  : IDE version '2022.1.0' doesn't match hw_server version '2024.1.0'. Some debug features may not work.
+01:47:34 DEBUG : Logs will be stored at '/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/IDE.log'.
+01:47:35 INFO  : Launching XSCT server: xsct -n  -interactive /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/temp_xsdb_launch_script.tcl
+01:47:36 INFO  : Registering command handlers for Vitis TCF services
+01:47:37 INFO  : Platform repository initialization has completed.
+01:47:37 INFO  : XSCT server has started successfully.
+01:47:37 INFO  : Successfully done setting XSCT server connection channel  
+01:47:37 INFO  : plnx-install-location is set to ''
+01:47:37 INFO  : Successfully done query RDI_DATADIR 
+01:47:37 INFO  : Successfully done setting workspace for the tool. 
+01:47:42 INFO  : Connected through redirection to target on host '192.168.224.251' and port '61395'.
+01:47:51 WARN  : IDE version '2022.1.0' doesn't match hw_server version '2024.1.0'. Some debug features may not work.
+01:48:04 INFO  : ----------------XSDB Script----------------
+connect -path [list tcp::1541 tcp:192.168.224.251:61395]
+----------------End of Script----------------
+
+01:48:04 ERROR : Could not find ARM device on the board for connection 'rem'.
+Check if the target is in:
+1. Split JTAG - No operations are possible with ARM DAP.
+2. Non JTAG bootmode - Bootrom may need time to enable DAP.
+Please try again.
+
+
+Troubleshooting hints:
+1. Check whether board is connected to system properly.
+2. In case of zynq board, check whether Digilent/Xilinx cable switch settings are correct.
+3. If you are using Xilinx Platform Cable USB, ensure that status LED is green.
+01:48:27 INFO  : Connected through redirection to target on host '192.168.224.251' and port '61395'.
+10:53:19 ERROR : Failed to redirect connection to hardware server on host '192.168.224.251' and port '61395'.
+Reason: Connection refused
+10:53:19 INFO  : ----------------XSDB Script----------------
+connect -path [list tcp::1541 tcp:192.168.224.251:61395]
+----------------End of Script----------------
+
+10:53:19 ERROR : Failed to redirect connection to hardware server on host '192.168.224.251' and port '61395'.
+Reason: Connection refused
+10:53:19 ERROR : Failed to redirect connection to hardware server on host '192.168.224.251' and port '57855'.
+Reason: Connection refused
+10:53:19 INFO  : ----------------XSDB Script----------------
+connect -path [list tcp::1541 tcp:192.168.224.251:57855]
+----------------End of Script----------------
+
+10:53:19 ERROR : Failed to redirect connection to hardware server on host '192.168.224.251' and port '57855'.
+Reason: Connection refused
+10:53:19 INFO  : ----------------XSDB Script----------------
+connect -path [list tcp::1541 tcp:192.168.224.251:61395]
+----------------End of Script----------------
+
+10:53:19 ERROR : null
+11:03:27 INFO  : Checking for BSP changes to sync application flags for project 'zc_full_2'...
+11:05:10 INFO  : Checking for BSP changes to sync application flags for project 'zc_full_2'...
+11:05:25 INFO  : Connected through redirection to target on host '192.168.224.251' and port '55196'.
+11:05:26 WARN  : IDE version '2022.1.0' doesn't match hw_server version '2024.1.0'. Some debug features may not work.
+11:05:30 INFO  : Jtag cable 'Digilent Zed 210248722265' is selected.
+11:05:30 INFO  : 'jtag frequency' command is executed.
+11:05:30 INFO  : Context for 'APU' is selected.
+11:05:30 INFO  : System reset is completed.
+11:05:33 INFO  : 'after 3000' command is executed.
+11:05:34 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248722265" && level==0 && jtag_device_ctx=="jsn-Zed-210248722265-4ba00477-0"}' command is executed.
+11:05:36 INFO  : Device configured successfully with "/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_2/_ide/bitstream/design_1_wrapper.bit"
+11:05:36 INFO  : Context for 'APU' is selected.
+11:05:36 INFO  : Hardware design and registers information is loaded from '/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/design_1_wrapper_2/export/design_1_wrapper_2/hw/design_1_wrapper.xsa'.
+11:05:36 INFO  : 'configparams force-mem-access 1' command is executed.
+11:05:36 INFO  : Context for 'APU' is selected.
+11:05:36 INFO  : Sourcing of '/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_2/_ide/psinit/ps7_init.tcl' is done.
+11:05:38 INFO  : 'ps7_init' command is executed.
+11:05:38 INFO  : 'ps7_post_config' command is executed.
+11:05:38 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:05:38 INFO  : The application '/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_2/Debug/zc_full_2.elf' is downloaded to processor 'ps7_cortexa9_0'.
+11:05:38 INFO  : 'configparams force-mem-access 0' command is executed.
+11:05:38 INFO  : ----------------XSDB Script----------------
+connect -path [list tcp::1534 tcp:192.168.224.251:55196]
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248722265" && level==0 && jtag_device_ctx=="jsn-Zed-210248722265-4ba00477-0"}
+fpga -file /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_2/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/design_1_wrapper_2/export/design_1_wrapper_2/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_2/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_2/Debug/zc_full_2.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+11:05:39 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:05:39 INFO  : 'con' command is executed.
+11:05:39 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+11:05:39 INFO  : Launch script is exported to file '/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_2_system/_ide/scripts/debugger_zc_full-default_1.tcl'
+11:15:01 WARN  : channel "tcfchan#4" closed
+11:55:55 DEBUG : Logs will be stored at '/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/IDE.log'.
+11:55:56 INFO  : Launching XSCT server: xsct -n  -interactive /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/temp_xsdb_launch_script.tcl
+11:55:58 INFO  : Registering command handlers for Vitis TCF services
+11:55:58 INFO  : XSCT server has started successfully.
+11:55:58 INFO  : Successfully done setting XSCT server connection channel  
+11:55:58 INFO  : plnx-install-location is set to ''
+11:55:58 INFO  : Platform repository initialization has completed.
+11:55:58 INFO  : Successfully done setting workspace for the tool. 
+11:55:58 INFO  : Successfully done query RDI_DATADIR 
+11:58:08 INFO  : Result from executing command 'getProjects': design_1_wrapper;design_1_wrapper_1;design_1_wrapper_2;design_1_wrapper_3
+11:58:08 INFO  : Result from executing command 'getPlatforms': design_1_wrapper_1|/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/design_1_wrapper_1/export/design_1_wrapper_1/design_1_wrapper_1.xpfm;design_1_wrapper_2|/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/design_1_wrapper_2/export/design_1_wrapper_2/design_1_wrapper_2.xpfm;design_1_wrapper|/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm;xilinx_vck190_base_202210_1|/tools/Xilinx/Vitis/2022.1/base_platforms/xilinx_vck190_base_202210_1/xilinx_vck190_base_202210_1.xpfm;xilinx_vck190_base_dfx_202210_1|/tools/Xilinx/Vitis/2022.1/base_platforms/xilinx_vck190_base_dfx_202210_1/xilinx_vck190_base_dfx_202210_1.xpfm;xilinx_vmk180_base_202210_1|/tools/Xilinx/Vitis/2022.1/base_platforms/xilinx_vmk180_base_202210_1/xilinx_vmk180_base_202210_1.xpfm;xilinx_zcu102_base_202210_1|/tools/Xilinx/Vitis/2022.1/base_platforms/xilinx_zcu102_base_202210_1/xilinx_zcu102_base_202210_1.xpfm;xilinx_zcu102_base_dfx_202210_1|/tools/Xilinx/Vitis/2022.1/base_platforms/xilinx_zcu102_base_dfx_202210_1/xilinx_zcu102_base_dfx_202210_1.xpfm;xilinx_zcu104_base_202210_1|/tools/Xilinx/Vitis/2022.1/base_platforms/xilinx_zcu104_base_202210_1/xilinx_zcu104_base_202210_1.xpfm
+11:58:09 WARN  : An unexpected exception occurred in the module 'platform project logging'
+11:58:09 INFO  : Platform 'design_1_wrapper_3' is added to custom repositories.
+11:58:14 INFO  : Platform 'design_1_wrapper_3' is added to custom repositories.
+12:03:24 INFO  : Result from executing command 'getProjects': design_1_wrapper;design_1_wrapper_1;design_1_wrapper_2;design_1_wrapper_3
+12:03:24 INFO  : Result from executing command 'getPlatforms': design_1_wrapper_1|/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/design_1_wrapper_1/export/design_1_wrapper_1/design_1_wrapper_1.xpfm;design_1_wrapper_2|/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/design_1_wrapper_2/export/design_1_wrapper_2/design_1_wrapper_2.xpfm;design_1_wrapper_3|/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/design_1_wrapper_3/export/design_1_wrapper_3/design_1_wrapper_3.xpfm;design_1_wrapper|/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm;xilinx_vck190_base_202210_1|/tools/Xilinx/Vitis/2022.1/base_platforms/xilinx_vck190_base_202210_1/xilinx_vck190_base_202210_1.xpfm;xilinx_vck190_base_dfx_202210_1|/tools/Xilinx/Vitis/2022.1/base_platforms/xilinx_vck190_base_dfx_202210_1/xilinx_vck190_base_dfx_202210_1.xpfm;xilinx_vmk180_base_202210_1|/tools/Xilinx/Vitis/2022.1/base_platforms/xilinx_vmk180_base_202210_1/xilinx_vmk180_base_202210_1.xpfm;xilinx_zcu102_base_202210_1|/tools/Xilinx/Vitis/2022.1/base_platforms/xilinx_zcu102_base_202210_1/xilinx_zcu102_base_202210_1.xpfm;xilinx_zcu102_base_dfx_202210_1|/tools/Xilinx/Vitis/2022.1/base_platforms/xilinx_zcu102_base_dfx_202210_1/xilinx_zcu102_base_dfx_202210_1.xpfm;xilinx_zcu104_base_202210_1|/tools/Xilinx/Vitis/2022.1/base_platforms/xilinx_zcu104_base_202210_1/xilinx_zcu104_base_202210_1.xpfm
+12:03:27 INFO  : Checking for BSP changes to sync application flags for project 'zc_full_num_batch_8'...
+12:03:28 INFO  : Updating application flags with new BSP settings...
+12:03:28 INFO  : Successfully updated application flags for project zc_full_num_batch_8.
+12:04:19 INFO  : Checking for BSP changes to sync application flags for project 'zc_full_num_batch_8'...
+12:05:47 INFO  : Connected through redirection to target on host '192.168.224.251' and port '51849'.
+12:05:48 WARN  : IDE version '2022.1.0' doesn't match hw_server version '2024.1.0'. Some debug features may not work.
+12:05:50 INFO  : Jtag cable 'Digilent Zed 210248722265' is selected.
+12:05:50 INFO  : 'jtag frequency' command is executed.
+12:05:50 INFO  : Context for 'APU' is selected.
+12:05:50 INFO  : System reset is completed.
+12:05:53 INFO  : 'after 3000' command is executed.
+12:05:53 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248722265" && level==0 && jtag_device_ctx=="jsn-Zed-210248722265-4ba00477-0"}' command is executed.
+12:05:55 INFO  : Device configured successfully with "/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_num_batch_8/_ide/bitstream/design_1_wrapper.bit"
+12:05:56 INFO  : Context for 'APU' is selected.
+12:05:56 INFO  : Hardware design and registers information is loaded from '/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/design_1_wrapper_3/export/design_1_wrapper_3/hw/design_1_wrapper.xsa'.
+12:05:56 INFO  : 'configparams force-mem-access 1' command is executed.
+12:05:56 INFO  : Context for 'APU' is selected.
+12:05:56 INFO  : Sourcing of '/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_num_batch_8/_ide/psinit/ps7_init.tcl' is done.
+12:05:59 INFO  : 'ps7_init' command is executed.
+12:05:59 INFO  : 'ps7_post_config' command is executed.
+12:05:59 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:05:59 INFO  : The application '/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_num_batch_8/Debug/zc_full_num_batch_8.elf' is downloaded to processor 'ps7_cortexa9_0'.
+12:05:59 INFO  : 'configparams force-mem-access 0' command is executed.
+12:05:59 INFO  : ----------------XSDB Script----------------
+connect -path [list tcp::1534 tcp:192.168.224.251:51849]
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248722265" && level==0 && jtag_device_ctx=="jsn-Zed-210248722265-4ba00477-0"}
+fpga -file /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_num_batch_8/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/design_1_wrapper_3/export/design_1_wrapper_3/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_num_batch_8/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_num_batch_8/Debug/zc_full_num_batch_8.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+12:06:00 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:06:00 INFO  : 'con' command is executed.
+12:06:00 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+12:06:00 INFO  : Launch script is exported to file '/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_num_batch_8_system/_ide/scripts/debugger_zc_full-default_1.tcl'
+12:07:07 INFO  : Checking for BSP changes to sync application flags for project 'zc_full_num_batch_8'...
+12:07:10 INFO  : Disconnected from the channel tcfchan#2.
+12:07:11 INFO  : Connected through redirection to target on host '192.168.224.251' and port '51849'.
+12:07:11 WARN  : IDE version '2022.1.0' doesn't match hw_server version '2024.1.0'. Some debug features may not work.
+12:07:23 INFO  : ----------------XSDB Script----------------
+connect -path [list tcp::1534 tcp:192.168.224.251:51849]
+----------------End of Script----------------
+
+12:07:23 ERROR : Could not find ARM device on the board for connection 'rem'.
+Check if the target is in:
+1. Split JTAG - No operations are possible with ARM DAP.
+2. Non JTAG bootmode - Bootrom may need time to enable DAP.
+Please try again.
+
+
+Troubleshooting hints:
+1. Check whether board is connected to system properly.
+2. In case of zynq board, check whether Digilent/Xilinx cable switch settings are correct.
+3. If you are using Xilinx Platform Cable USB, ensure that status LED is green.
+12:07:25 INFO  : Connected through redirection to target on host '192.168.224.251' and port '51849'.
+12:07:25 WARN  : IDE version '2022.1.0' doesn't match hw_server version '2024.1.0'. Some debug features may not work.
+12:07:26 INFO  : Jtag cable 'Digilent Zed 210248722265' is selected.
+12:07:26 INFO  : 'jtag frequency' command is executed.
+12:07:26 INFO  : Context for 'APU' is selected.
+12:07:26 INFO  : System reset is completed.
+12:07:29 INFO  : 'after 3000' command is executed.
+12:07:29 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248722265" && level==0 && jtag_device_ctx=="jsn-Zed-210248722265-4ba00477-0"}' command is executed.
+12:07:32 INFO  : Device configured successfully with "/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_num_batch_8/_ide/bitstream/design_1_wrapper.bit"
+12:07:32 INFO  : Context for 'APU' is selected.
+12:07:32 INFO  : Hardware design and registers information is loaded from '/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/design_1_wrapper_3/export/design_1_wrapper_3/hw/design_1_wrapper.xsa'.
+12:07:32 INFO  : 'configparams force-mem-access 1' command is executed.
+12:07:32 INFO  : Context for 'APU' is selected.
+12:07:32 INFO  : Sourcing of '/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_num_batch_8/_ide/psinit/ps7_init.tcl' is done.
+12:07:34 INFO  : 'ps7_init' command is executed.
+12:07:34 INFO  : 'ps7_post_config' command is executed.
+12:07:34 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:07:35 INFO  : The application '/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_num_batch_8/Debug/zc_full_num_batch_8.elf' is downloaded to processor 'ps7_cortexa9_0'.
+12:07:35 INFO  : 'configparams force-mem-access 0' command is executed.
+12:07:35 INFO  : ----------------XSDB Script----------------
+connect -path [list tcp::1534 tcp:192.168.224.251:51849]
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248722265" && level==0 && jtag_device_ctx=="jsn-Zed-210248722265-4ba00477-0"}
+fpga -file /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_num_batch_8/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/design_1_wrapper_3/export/design_1_wrapper_3/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_num_batch_8/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_num_batch_8/Debug/zc_full_num_batch_8.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+12:07:35 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:07:35 INFO  : 'con' command is executed.
+12:07:35 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+12:07:35 INFO  : Launch script is exported to file '/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_num_batch_8_system/_ide/scripts/debugger_zc_full-default_1.tcl'
+12:09:27 INFO  : Checking for BSP changes to sync application flags for project 'zc_full_num_batch_8'...
+12:09:31 INFO  : Disconnected from the channel tcfchan#3.
+12:09:32 INFO  : Connected through redirection to target on host '192.168.224.251' and port '51849'.
+12:09:32 WARN  : IDE version '2022.1.0' doesn't match hw_server version '2024.1.0'. Some debug features may not work.
+12:09:43 INFO  : ----------------XSDB Script----------------
+connect -path [list tcp::1534 tcp:192.168.224.251:51849]
+----------------End of Script----------------
+
+12:09:43 ERROR : Could not find ARM device on the board for connection 'rem'.
+Check if the target is in:
+1. Split JTAG - No operations are possible with ARM DAP.
+2. Non JTAG bootmode - Bootrom may need time to enable DAP.
+Please try again.
+
+
+Troubleshooting hints:
+1. Check whether board is connected to system properly.
+2. In case of zynq board, check whether Digilent/Xilinx cable switch settings are correct.
+3. If you are using Xilinx Platform Cable USB, ensure that status LED is green.
+12:09:46 INFO  : Connected through redirection to target on host '192.168.224.251' and port '51849'.
+12:09:46 WARN  : IDE version '2022.1.0' doesn't match hw_server version '2024.1.0'. Some debug features may not work.
+12:09:47 INFO  : Jtag cable 'Digilent Zed 210248722265' is selected.
+12:09:47 INFO  : 'jtag frequency' command is executed.
+12:09:47 INFO  : Context for 'APU' is selected.
+12:09:47 INFO  : System reset is completed.
+12:09:50 INFO  : 'after 3000' command is executed.
+12:09:50 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248722265" && level==0 && jtag_device_ctx=="jsn-Zed-210248722265-4ba00477-0"}' command is executed.
+12:09:53 INFO  : Device configured successfully with "/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_num_batch_8/_ide/bitstream/design_1_wrapper.bit"
+12:09:53 INFO  : Context for 'APU' is selected.
+12:09:53 INFO  : Hardware design and registers information is loaded from '/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/design_1_wrapper_3/export/design_1_wrapper_3/hw/design_1_wrapper.xsa'.
+12:09:53 INFO  : 'configparams force-mem-access 1' command is executed.
+12:09:53 INFO  : Context for 'APU' is selected.
+12:09:53 INFO  : Sourcing of '/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_num_batch_8/_ide/psinit/ps7_init.tcl' is done.
+12:09:55 INFO  : 'ps7_init' command is executed.
+12:09:55 INFO  : 'ps7_post_config' command is executed.
+12:09:55 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:09:55 INFO  : The application '/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_num_batch_8/Debug/zc_full_num_batch_8.elf' is downloaded to processor 'ps7_cortexa9_0'.
+12:09:55 INFO  : 'configparams force-mem-access 0' command is executed.
+12:09:55 INFO  : ----------------XSDB Script----------------
+connect -path [list tcp::1534 tcp:192.168.224.251:51849]
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248722265" && level==0 && jtag_device_ctx=="jsn-Zed-210248722265-4ba00477-0"}
+fpga -file /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_num_batch_8/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/design_1_wrapper_3/export/design_1_wrapper_3/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_num_batch_8/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_num_batch_8/Debug/zc_full_num_batch_8.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+12:09:55 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:09:55 INFO  : 'con' command is executed.
+12:09:55 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+12:09:55 INFO  : Launch script is exported to file '/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_num_batch_8_system/_ide/scripts/debugger_zc_full-default_1.tcl'
+12:11:08 INFO  : Checking for BSP changes to sync application flags for project 'zc_full_num_batch_8'...
+12:11:12 INFO  : Disconnected from the channel tcfchan#4.
+12:11:13 INFO  : Connected through redirection to target on host '192.168.224.251' and port '51849'.
+12:11:13 WARN  : IDE version '2022.1.0' doesn't match hw_server version '2024.1.0'. Some debug features may not work.
+12:11:24 INFO  : ----------------XSDB Script----------------
+connect -path [list tcp::1534 tcp:192.168.224.251:51849]
+----------------End of Script----------------
+
+12:11:24 ERROR : Could not find ARM device on the board for connection 'rem'.
+Check if the target is in:
+1. Split JTAG - No operations are possible with ARM DAP.
+2. Non JTAG bootmode - Bootrom may need time to enable DAP.
+Please try again.
+
+
+Troubleshooting hints:
+1. Check whether board is connected to system properly.
+2. In case of zynq board, check whether Digilent/Xilinx cable switch settings are correct.
+3. If you are using Xilinx Platform Cable USB, ensure that status LED is green.
+12:11:29 INFO  : Connected through redirection to target on host '192.168.224.251' and port '51849'.
+12:11:29 WARN  : IDE version '2022.1.0' doesn't match hw_server version '2024.1.0'. Some debug features may not work.
+12:11:30 INFO  : Jtag cable 'Digilent Zed 210248722265' is selected.
+12:11:30 INFO  : 'jtag frequency' command is executed.
+12:11:30 INFO  : Context for 'APU' is selected.
+12:11:30 INFO  : System reset is completed.
+12:11:33 INFO  : 'after 3000' command is executed.
+12:11:33 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248722265" && level==0 && jtag_device_ctx=="jsn-Zed-210248722265-4ba00477-0"}' command is executed.
+12:11:35 INFO  : Device configured successfully with "/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_num_batch_8/_ide/bitstream/design_1_wrapper.bit"
+12:11:35 INFO  : Context for 'APU' is selected.
+12:11:35 INFO  : Hardware design and registers information is loaded from '/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/design_1_wrapper_3/export/design_1_wrapper_3/hw/design_1_wrapper.xsa'.
+12:11:35 INFO  : 'configparams force-mem-access 1' command is executed.
+12:11:35 INFO  : Context for 'APU' is selected.
+12:11:35 INFO  : Sourcing of '/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_num_batch_8/_ide/psinit/ps7_init.tcl' is done.
+12:11:37 INFO  : 'ps7_init' command is executed.
+12:11:37 INFO  : 'ps7_post_config' command is executed.
+12:11:37 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:11:38 INFO  : The application '/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_num_batch_8/Debug/zc_full_num_batch_8.elf' is downloaded to processor 'ps7_cortexa9_0'.
+12:11:38 INFO  : 'configparams force-mem-access 0' command is executed.
+12:11:38 INFO  : ----------------XSDB Script----------------
+connect -path [list tcp::1534 tcp:192.168.224.251:51849]
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248722265" && level==0 && jtag_device_ctx=="jsn-Zed-210248722265-4ba00477-0"}
+fpga -file /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_num_batch_8/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/design_1_wrapper_3/export/design_1_wrapper_3/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_num_batch_8/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_num_batch_8/Debug/zc_full_num_batch_8.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+12:11:38 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:11:38 INFO  : 'con' command is executed.
+12:11:38 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+12:11:38 INFO  : Launch script is exported to file '/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_num_batch_8_system/_ide/scripts/debugger_zc_full-default_1.tcl'
+12:15:00 WARN  : channel "tcfchan#5" closed
+12:15:36 INFO  : Checking for BSP changes to sync application flags for project 'zc_full_num_batch_8'...
+12:15:52 INFO  : Connected through redirection to target on host '192.168.224.251' and port '53848'.
+12:15:53 WARN  : IDE version '2022.1.0' doesn't match hw_server version '2024.1.0'. Some debug features may not work.
+12:15:56 INFO  : Jtag cable 'Digilent Zed 210248722265' is selected.
+12:15:56 INFO  : 'jtag frequency' command is executed.
+12:15:56 INFO  : Context for 'APU' is selected.
+12:15:56 INFO  : System reset is completed.
+12:15:59 INFO  : 'after 3000' command is executed.
+12:16:00 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248722265" && level==0 && jtag_device_ctx=="jsn-Zed-210248722265-4ba00477-0"}' command is executed.
+12:16:03 INFO  : Device configured successfully with "/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_num_batch_8/_ide/bitstream/design_1_wrapper.bit"
+12:16:03 INFO  : Context for 'APU' is selected.
+12:16:03 INFO  : Hardware design and registers information is loaded from '/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/design_1_wrapper_3/export/design_1_wrapper_3/hw/design_1_wrapper.xsa'.
+12:16:03 INFO  : 'configparams force-mem-access 1' command is executed.
+12:16:03 INFO  : Context for 'APU' is selected.
+12:16:03 INFO  : Sourcing of '/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_num_batch_8/_ide/psinit/ps7_init.tcl' is done.
+12:16:05 INFO  : 'ps7_init' command is executed.
+12:16:05 INFO  : 'ps7_post_config' command is executed.
+12:16:05 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:16:05 INFO  : The application '/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_num_batch_8/Debug/zc_full_num_batch_8.elf' is downloaded to processor 'ps7_cortexa9_0'.
+12:16:05 INFO  : 'configparams force-mem-access 0' command is executed.
+12:16:05 INFO  : ----------------XSDB Script----------------
+connect -path [list tcp::1534 tcp:192.168.224.251:53848]
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248722265" && level==0 && jtag_device_ctx=="jsn-Zed-210248722265-4ba00477-0"}
+fpga -file /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_num_batch_8/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/design_1_wrapper_3/export/design_1_wrapper_3/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_num_batch_8/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_num_batch_8/Debug/zc_full_num_batch_8.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+12:16:05 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+12:16:05 INFO  : 'con' command is executed.
+12:16:05 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+12:16:05 INFO  : Launch script is exported to file '/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_num_batch_8_system/_ide/scripts/debugger_zc_full-default_1.tcl'
+12:30:01 WARN  : channel "tcfchan#6" closed
+12:34:33 INFO  : Checking for BSP changes to sync application flags for project 'zc_full_num_batch_8'...
+12:48:14 INFO  : Result from executing command 'getProjects': design_1_wrapper;design_1_wrapper_1;design_1_wrapper_2;design_1_wrapper_3;design_1_wrapper_mul_fixed
+12:48:14 INFO  : Result from executing command 'getPlatforms': design_1_wrapper_1|/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/design_1_wrapper_1/export/design_1_wrapper_1/design_1_wrapper_1.xpfm;design_1_wrapper_2|/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/design_1_wrapper_2/export/design_1_wrapper_2/design_1_wrapper_2.xpfm;design_1_wrapper_3|/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/design_1_wrapper_3/export/design_1_wrapper_3/design_1_wrapper_3.xpfm;design_1_wrapper|/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm;xilinx_vck190_base_202210_1|/tools/Xilinx/Vitis/2022.1/base_platforms/xilinx_vck190_base_202210_1/xilinx_vck190_base_202210_1.xpfm;xilinx_vck190_base_dfx_202210_1|/tools/Xilinx/Vitis/2022.1/base_platforms/xilinx_vck190_base_dfx_202210_1/xilinx_vck190_base_dfx_202210_1.xpfm;xilinx_vmk180_base_202210_1|/tools/Xilinx/Vitis/2022.1/base_platforms/xilinx_vmk180_base_202210_1/xilinx_vmk180_base_202210_1.xpfm;xilinx_zcu102_base_202210_1|/tools/Xilinx/Vitis/2022.1/base_platforms/xilinx_zcu102_base_202210_1/xilinx_zcu102_base_202210_1.xpfm;xilinx_zcu102_base_dfx_202210_1|/tools/Xilinx/Vitis/2022.1/base_platforms/xilinx_zcu102_base_dfx_202210_1/xilinx_zcu102_base_dfx_202210_1.xpfm;xilinx_zcu104_base_202210_1|/tools/Xilinx/Vitis/2022.1/base_platforms/xilinx_zcu104_base_202210_1/xilinx_zcu104_base_202210_1.xpfm
+12:48:15 INFO  : Platform 'design_1_wrapper_mul_fixed' is added to custom repositories.
+12:48:20 INFO  : Platform 'design_1_wrapper_mul_fixed' is added to custom repositories.
+12:49:59 INFO  : Result from executing command 'getProjects': design_1_wrapper;design_1_wrapper_1;design_1_wrapper_2;design_1_wrapper_3;design_1_wrapper_mul_fixed
+12:49:59 INFO  : Result from executing command 'getPlatforms': design_1_wrapper_1|/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/design_1_wrapper_1/export/design_1_wrapper_1/design_1_wrapper_1.xpfm;design_1_wrapper_2|/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/design_1_wrapper_2/export/design_1_wrapper_2/design_1_wrapper_2.xpfm;design_1_wrapper_3|/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/design_1_wrapper_3/export/design_1_wrapper_3/design_1_wrapper_3.xpfm;design_1_wrapper_mul_fixed|/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/design_1_wrapper_mul_fixed/export/design_1_wrapper_mul_fixed/design_1_wrapper_mul_fixed.xpfm;design_1_wrapper|/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm;xilinx_vck190_base_202210_1|/tools/Xilinx/Vitis/2022.1/base_platforms/xilinx_vck190_base_202210_1/xilinx_vck190_base_202210_1.xpfm;xilinx_vck190_base_dfx_202210_1|/tools/Xilinx/Vitis/2022.1/base_platforms/xilinx_vck190_base_dfx_202210_1/xilinx_vck190_base_dfx_202210_1.xpfm;xilinx_vmk180_base_202210_1|/tools/Xilinx/Vitis/2022.1/base_platforms/xilinx_vmk180_base_202210_1/xilinx_vmk180_base_202210_1.xpfm;xilinx_zcu102_base_202210_1|/tools/Xilinx/Vitis/2022.1/base_platforms/xilinx_zcu102_base_202210_1/xilinx_zcu102_base_202210_1.xpfm;xilinx_zcu102_base_dfx_202210_1|/tools/Xilinx/Vitis/2022.1/base_platforms/xilinx_zcu102_base_dfx_202210_1/xilinx_zcu102_base_dfx_202210_1.xpfm;xilinx_zcu104_base_202210_1|/tools/Xilinx/Vitis/2022.1/base_platforms/xilinx_zcu104_base_202210_1/xilinx_zcu104_base_202210_1.xpfm
+12:50:02 INFO  : Checking for BSP changes to sync application flags for project 'zc_full_mul_fixed'...
+12:50:03 INFO  : Updating application flags with new BSP settings...
+12:50:03 INFO  : Successfully updated application flags for project zc_full_mul_fixed.
+12:50:25 INFO  : Checking for BSP changes to sync application flags for project 'zc_full_mul_fixed'...
+13:00:22 INFO  : Checking for BSP changes to sync application flags for project 'zc_full_mul_fixed'...
+13:00:33 INFO  : Connected through redirection to target on host '192.168.224.251' and port '62426'.
+13:00:35 WARN  : IDE version '2022.1.0' doesn't match hw_server version '2024.1.0'. Some debug features may not work.
+13:00:36 INFO  : Jtag cable 'Digilent Zed 210248722265' is selected.
+13:00:36 INFO  : 'jtag frequency' command is executed.
+13:00:36 INFO  : Context for 'APU' is selected.
+13:00:36 INFO  : System reset is completed.
+13:00:39 INFO  : 'after 3000' command is executed.
+13:00:40 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248722265" && level==0 && jtag_device_ctx=="jsn-Zed-210248722265-4ba00477-0"}' command is executed.
+13:00:42 INFO  : Device configured successfully with "/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_mul_fixed/_ide/bitstream/design_1_wrapper_mul_fixed.bit"
+13:00:42 INFO  : Context for 'APU' is selected.
+13:00:43 INFO  : Hardware design and registers information is loaded from '/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/design_1_wrapper_mul_fixed/export/design_1_wrapper_mul_fixed/hw/design_1_wrapper_mul_fixed.xsa'.
+13:00:43 INFO  : 'configparams force-mem-access 1' command is executed.
+13:00:43 INFO  : Context for 'APU' is selected.
+13:00:43 INFO  : Sourcing of '/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_mul_fixed/_ide/psinit/ps7_init.tcl' is done.
+13:00:45 INFO  : 'ps7_init' command is executed.
+13:00:45 INFO  : 'ps7_post_config' command is executed.
+13:00:45 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+13:00:45 INFO  : The application '/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_mul_fixed/Debug/zc_full_mul_fixed.elf' is downloaded to processor 'ps7_cortexa9_0'.
+13:00:45 INFO  : 'configparams force-mem-access 0' command is executed.
+13:00:45 INFO  : ----------------XSDB Script----------------
+connect -path [list tcp::1534 tcp:192.168.224.251:62426]
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248722265" && level==0 && jtag_device_ctx=="jsn-Zed-210248722265-4ba00477-0"}
+fpga -file /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_mul_fixed/_ide/bitstream/design_1_wrapper_mul_fixed.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/design_1_wrapper_mul_fixed/export/design_1_wrapper_mul_fixed/hw/design_1_wrapper_mul_fixed.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_mul_fixed/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_mul_fixed/Debug/zc_full_mul_fixed.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+13:00:45 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+13:00:45 INFO  : 'con' command is executed.
+13:00:45 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+13:00:45 INFO  : Launch script is exported to file '/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_mul_fixed_system/_ide/scripts/debugger_zc_full-default_1.tcl'
+13:03:17 INFO  : Checking for BSP changes to sync application flags for project 'zc_full_mul_fixed'...
+13:03:24 INFO  : Disconnected from the channel tcfchan#8.
+13:03:25 INFO  : Connected through redirection to target on host '192.168.224.251' and port '62426'.
+13:03:25 WARN  : IDE version '2022.1.0' doesn't match hw_server version '2024.1.0'. Some debug features may not work.
+13:03:35 INFO  : ----------------XSDB Script----------------
+connect -path [list tcp::1534 tcp:192.168.224.251:62426]
+----------------End of Script----------------
+
+13:03:35 ERROR : Could not find ARM device on the board for connection 'rem'.
+Check if the target is in:
+1. Split JTAG - No operations are possible with ARM DAP.
+2. Non JTAG bootmode - Bootrom may need time to enable DAP.
+Please try again.
+
+
+Troubleshooting hints:
+1. Check whether board is connected to system properly.
+2. In case of zynq board, check whether Digilent/Xilinx cable switch settings are correct.
+3. If you are using Xilinx Platform Cable USB, ensure that status LED is green.
+13:03:42 INFO  : Connected through redirection to target on host '192.168.224.251' and port '62426'.
+13:03:42 WARN  : IDE version '2022.1.0' doesn't match hw_server version '2024.1.0'. Some debug features may not work.
+13:03:43 INFO  : Jtag cable 'Digilent Zed 210248722265' is selected.
+13:03:43 INFO  : 'jtag frequency' command is executed.
+13:03:43 INFO  : Context for 'APU' is selected.
+13:03:43 INFO  : System reset is completed.
+13:03:46 INFO  : 'after 3000' command is executed.
+13:03:46 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248722265" && level==0 && jtag_device_ctx=="jsn-Zed-210248722265-4ba00477-0"}' command is executed.
+13:03:49 INFO  : Device configured successfully with "/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_mul_fixed/_ide/bitstream/design_1_wrapper_mul_fixed.bit"
+13:03:49 INFO  : Context for 'APU' is selected.
+13:03:49 INFO  : Hardware design and registers information is loaded from '/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/design_1_wrapper_mul_fixed/export/design_1_wrapper_mul_fixed/hw/design_1_wrapper_mul_fixed.xsa'.
+13:03:49 INFO  : 'configparams force-mem-access 1' command is executed.
+13:03:49 INFO  : Context for 'APU' is selected.
+13:03:49 INFO  : Sourcing of '/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_mul_fixed/_ide/psinit/ps7_init.tcl' is done.
+13:03:51 INFO  : 'ps7_init' command is executed.
+13:03:51 INFO  : 'ps7_post_config' command is executed.
+13:03:51 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+13:03:51 INFO  : The application '/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_mul_fixed/Debug/zc_full_mul_fixed.elf' is downloaded to processor 'ps7_cortexa9_0'.
+13:03:51 INFO  : 'configparams force-mem-access 0' command is executed.
+13:03:51 INFO  : ----------------XSDB Script----------------
+connect -path [list tcp::1534 tcp:192.168.224.251:62426]
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248722265" && level==0 && jtag_device_ctx=="jsn-Zed-210248722265-4ba00477-0"}
+fpga -file /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_mul_fixed/_ide/bitstream/design_1_wrapper_mul_fixed.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/design_1_wrapper_mul_fixed/export/design_1_wrapper_mul_fixed/hw/design_1_wrapper_mul_fixed.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_mul_fixed/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_mul_fixed/Debug/zc_full_mul_fixed.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+13:03:51 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+13:03:52 INFO  : 'con' command is executed.
+13:03:52 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+13:03:52 INFO  : Launch script is exported to file '/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_mul_fixed_system/_ide/scripts/debugger_zc_full-default_1.tcl'
+13:03:57 INFO  : Checking for BSP changes to sync application flags for project 'zc_full_mul_fixed'...
+13:04:01 INFO  : Disconnected from the channel tcfchan#9.
+13:04:02 INFO  : Connected through redirection to target on host '192.168.224.251' and port '62426'.
+13:04:02 WARN  : IDE version '2022.1.0' doesn't match hw_server version '2024.1.0'. Some debug features may not work.
+13:04:04 INFO  : Jtag cable 'Digilent Zed 210248722265' is selected.
+13:04:04 INFO  : 'jtag frequency' command is executed.
+13:04:04 INFO  : Context for 'APU' is selected.
+13:04:04 INFO  : System reset is completed.
+13:04:07 INFO  : 'after 3000' command is executed.
+13:04:07 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248722265" && level==0 && jtag_device_ctx=="jsn-Zed-210248722265-4ba00477-0"}' command is executed.
+13:04:09 INFO  : Device configured successfully with "/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_mul_fixed/_ide/bitstream/design_1_wrapper_mul_fixed.bit"
+13:04:09 INFO  : Context for 'APU' is selected.
+13:04:09 INFO  : Hardware design and registers information is loaded from '/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/design_1_wrapper_mul_fixed/export/design_1_wrapper_mul_fixed/hw/design_1_wrapper_mul_fixed.xsa'.
+13:04:09 INFO  : 'configparams force-mem-access 1' command is executed.
+13:04:09 INFO  : Context for 'APU' is selected.
+13:04:09 INFO  : Sourcing of '/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_mul_fixed/_ide/psinit/ps7_init.tcl' is done.
+13:04:11 INFO  : 'ps7_init' command is executed.
+13:04:11 INFO  : 'ps7_post_config' command is executed.
+13:04:11 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+13:04:12 INFO  : The application '/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_mul_fixed/Debug/zc_full_mul_fixed.elf' is downloaded to processor 'ps7_cortexa9_0'.
+13:04:12 INFO  : 'configparams force-mem-access 0' command is executed.
+13:04:12 INFO  : ----------------XSDB Script----------------
+connect -path [list tcp::1534 tcp:192.168.224.251:62426]
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248722265" && level==0 && jtag_device_ctx=="jsn-Zed-210248722265-4ba00477-0"}
+fpga -file /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_mul_fixed/_ide/bitstream/design_1_wrapper_mul_fixed.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/design_1_wrapper_mul_fixed/export/design_1_wrapper_mul_fixed/hw/design_1_wrapper_mul_fixed.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_mul_fixed/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_mul_fixed/Debug/zc_full_mul_fixed.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+13:04:12 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+13:04:12 INFO  : 'con' command is executed.
+13:04:12 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+13:04:12 INFO  : Launch script is exported to file '/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/zc_full_mul_fixed_system/_ide/scripts/debugger_zc_full-default_1.tcl'
+13:11:20 INFO  : Disconnected from the channel tcfchan#10.
+01:00:59 DEBUG : Logs will be stored at '/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/IDE.log'.
+01:00:59 INFO  : Launching XSCT server: xsct -n  -interactive /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/temp_xsdb_launch_script.tcl
+01:01:01 INFO  : Registering command handlers for Vitis TCF services
+01:01:01 INFO  : Platform repository initialization has completed.
+01:01:02 INFO  : XSCT server has started successfully.
+01:01:02 INFO  : Successfully done setting XSCT server connection channel  
+01:01:02 INFO  : plnx-install-location is set to ''
+01:01:02 INFO  : Successfully done setting workspace for the tool. 
+01:01:02 INFO  : Successfully done query RDI_DATADIR 
+01:02:05 INFO  : Result from executing command 'getProjects': design_1_wrapper;design_1_wrapper_1;design_1_wrapper_2;design_1_wrapper_3;design_1_wrapper_dopp_WLO;design_1_wrapper_mul_fixed
+01:02:05 INFO  : Result from executing command 'getPlatforms': design_1_wrapper_1|/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/design_1_wrapper_1/export/design_1_wrapper_1/design_1_wrapper_1.xpfm;design_1_wrapper_2|/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/design_1_wrapper_2/export/design_1_wrapper_2/design_1_wrapper_2.xpfm;design_1_wrapper_3|/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/design_1_wrapper_3/export/design_1_wrapper_3/design_1_wrapper_3.xpfm;design_1_wrapper_mul_fixed|/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/design_1_wrapper_mul_fixed/export/design_1_wrapper_mul_fixed/design_1_wrapper_mul_fixed.xpfm;design_1_wrapper|/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm;xilinx_vck190_base_202210_1|/tools/Xilinx/Vitis/2022.1/base_platforms/xilinx_vck190_base_202210_1/xilinx_vck190_base_202210_1.xpfm;xilinx_vck190_base_dfx_202210_1|/tools/Xilinx/Vitis/2022.1/base_platforms/xilinx_vck190_base_dfx_202210_1/xilinx_vck190_base_dfx_202210_1.xpfm;xilinx_vmk180_base_202210_1|/tools/Xilinx/Vitis/2022.1/base_platforms/xilinx_vmk180_base_202210_1/xilinx_vmk180_base_202210_1.xpfm;xilinx_zcu102_base_202210_1|/tools/Xilinx/Vitis/2022.1/base_platforms/xilinx_zcu102_base_202210_1/xilinx_zcu102_base_202210_1.xpfm;xilinx_zcu102_base_dfx_202210_1|/tools/Xilinx/Vitis/2022.1/base_platforms/xilinx_zcu102_base_dfx_202210_1/xilinx_zcu102_base_dfx_202210_1.xpfm;xilinx_zcu104_base_202210_1|/tools/Xilinx/Vitis/2022.1/base_platforms/xilinx_zcu104_base_202210_1/xilinx_zcu104_base_202210_1.xpfm
+01:02:05 WARN  : An unexpected exception occurred in the module 'platform project logging'
+01:02:05 INFO  : Platform 'design_1_wrapper_dopp_WLO' is added to custom repositories.
+01:02:11 INFO  : Platform 'design_1_wrapper_dopp_WLO' is added to custom repositories.
+01:05:14 INFO  : Result from executing command 'getProjects': design_1_wrapper;design_1_wrapper_1;design_1_wrapper_2;design_1_wrapper_3;design_1_wrapper_dopp_WLO;design_1_wrapper_mul_fixed
+01:05:14 INFO  : Result from executing command 'getPlatforms': design_1_wrapper_1|/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/design_1_wrapper_1/export/design_1_wrapper_1/design_1_wrapper_1.xpfm;design_1_wrapper_2|/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/design_1_wrapper_2/export/design_1_wrapper_2/design_1_wrapper_2.xpfm;design_1_wrapper_3|/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/design_1_wrapper_3/export/design_1_wrapper_3/design_1_wrapper_3.xpfm;design_1_wrapper_dopp_WLO|/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/design_1_wrapper_dopp_WLO/export/design_1_wrapper_dopp_WLO/design_1_wrapper_dopp_WLO.xpfm;design_1_wrapper_mul_fixed|/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/design_1_wrapper_mul_fixed/export/design_1_wrapper_mul_fixed/design_1_wrapper_mul_fixed.xpfm;design_1_wrapper|/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm;xilinx_vck190_base_202210_1|/tools/Xilinx/Vitis/2022.1/base_platforms/xilinx_vck190_base_202210_1/xilinx_vck190_base_202210_1.xpfm;xilinx_vck190_base_dfx_202210_1|/tools/Xilinx/Vitis/2022.1/base_platforms/xilinx_vck190_base_dfx_202210_1/xilinx_vck190_base_dfx_202210_1.xpfm;xilinx_vmk180_base_202210_1|/tools/Xilinx/Vitis/2022.1/base_platforms/xilinx_vmk180_base_202210_1/xilinx_vmk180_base_202210_1.xpfm;xilinx_zcu102_base_202210_1|/tools/Xilinx/Vitis/2022.1/base_platforms/xilinx_zcu102_base_202210_1/xilinx_zcu102_base_202210_1.xpfm;xilinx_zcu102_base_dfx_202210_1|/tools/Xilinx/Vitis/2022.1/base_platforms/xilinx_zcu102_base_dfx_202210_1/xilinx_zcu102_base_dfx_202210_1.xpfm;xilinx_zcu104_base_202210_1|/tools/Xilinx/Vitis/2022.1/base_platforms/xilinx_zcu104_base_202210_1/xilinx_zcu104_base_202210_1.xpfm
+01:05:17 INFO  : Checking for BSP changes to sync application flags for project 'dopp_wlo'...
+01:05:18 INFO  : Updating application flags with new BSP settings...
+01:05:19 INFO  : Successfully updated application flags for project dopp_wlo.
+01:07:08 INFO  : Connected through redirection to target on host '192.168.224.251' and port '61325'.
+01:07:09 WARN  : IDE version '2022.1.0' doesn't match hw_server version '2024.1.0'. Some debug features may not work.
+01:07:12 INFO  : Jtag cable 'Digilent Zed 210248722265' is selected.
+01:07:12 INFO  : 'jtag frequency' command is executed.
+01:07:12 INFO  : Context for 'APU' is selected.
+01:07:13 INFO  : System reset is completed.
+01:07:16 INFO  : 'after 3000' command is executed.
+01:07:16 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248722265" && level==0 && jtag_device_ctx=="jsn-Zed-210248722265-4ba00477-0"}' command is executed.
+01:07:20 INFO  : Device configured successfully with "/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/dopp_wlo/_ide/bitstream/design_1_wrapper_dopp_WLO.bit"
+01:07:20 INFO  : Context for 'APU' is selected.
+01:07:20 INFO  : Hardware design and registers information is loaded from '/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/design_1_wrapper_dopp_WLO/export/design_1_wrapper_dopp_WLO/hw/design_1_wrapper_dopp_WLO.xsa'.
+01:07:20 INFO  : 'configparams force-mem-access 1' command is executed.
+01:07:20 INFO  : Context for 'APU' is selected.
+01:07:20 INFO  : Sourcing of '/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/dopp_wlo/_ide/psinit/ps7_init.tcl' is done.
+01:07:35 INFO  : 'ps7_init' command is executed.
+01:07:35 INFO  : 'ps7_post_config' command is executed.
+01:07:35 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+01:07:36 INFO  : The application '/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/dopp_wlo/Debug/dopp_wlo.elf' is downloaded to processor 'ps7_cortexa9_0'.
+01:07:37 INFO  : 'configparams force-mem-access 0' command is executed.
+01:07:37 INFO  : ----------------XSDB Script----------------
+connect -path [list tcp::1534 tcp:192.168.224.251:61325]
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248722265" && level==0 && jtag_device_ctx=="jsn-Zed-210248722265-4ba00477-0"}
+fpga -file /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/dopp_wlo/_ide/bitstream/design_1_wrapper_dopp_WLO.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/design_1_wrapper_dopp_WLO/export/design_1_wrapper_dopp_WLO/hw/design_1_wrapper_dopp_WLO.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/dopp_wlo/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/dopp_wlo/Debug/dopp_wlo.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+01:07:37 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+01:07:37 INFO  : 'con' command is executed.
+01:07:37 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+01:07:37 INFO  : Launch script is exported to file '/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/dopp_wlo_system/_ide/scripts/debugger_zc_full-default_1.tcl'
+01:08:27 INFO  : Checking for BSP changes to sync application flags for project 'dopp_wlo'...
+01:08:47 INFO  : Disconnected from the channel tcfchan#2.
+01:08:48 INFO  : Connected through redirection to target on host '192.168.224.251' and port '61325'.
+01:08:48 WARN  : IDE version '2022.1.0' doesn't match hw_server version '2024.1.0'. Some debug features may not work.
+01:08:56 INFO  : Jtag cable 'Digilent Zed 210248722265' is selected.
+01:08:56 INFO  : 'jtag frequency' command is executed.
+01:08:56 INFO  : Context for 'APU' is selected.
+01:08:56 INFO  : System reset is completed.
+01:08:59 INFO  : 'after 3000' command is executed.
+01:08:59 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248722265" && level==0 && jtag_device_ctx=="jsn-Zed-210248722265-4ba00477-0"}' command is executed.
+01:09:02 INFO  : Device configured successfully with "/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/dopp_wlo/_ide/bitstream/design_1_wrapper_dopp_WLO.bit"
+01:09:02 INFO  : Context for 'APU' is selected.
+01:09:02 INFO  : Hardware design and registers information is loaded from '/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/design_1_wrapper_dopp_WLO/export/design_1_wrapper_dopp_WLO/hw/design_1_wrapper_dopp_WLO.xsa'.
+01:09:02 INFO  : 'configparams force-mem-access 1' command is executed.
+01:09:02 INFO  : Context for 'APU' is selected.
+01:09:02 INFO  : Sourcing of '/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/dopp_wlo/_ide/psinit/ps7_init.tcl' is done.
+01:09:17 INFO  : 'ps7_init' command is executed.
+01:09:18 INFO  : 'ps7_post_config' command is executed.
+01:09:18 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+01:09:18 INFO  : The application '/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/dopp_wlo/Debug/dopp_wlo.elf' is downloaded to processor 'ps7_cortexa9_0'.
+01:09:19 INFO  : 'configparams force-mem-access 0' command is executed.
+01:09:19 INFO  : ----------------XSDB Script----------------
+connect -path [list tcp::1534 tcp:192.168.224.251:61325]
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248722265" && level==0 && jtag_device_ctx=="jsn-Zed-210248722265-4ba00477-0"}
+fpga -file /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/dopp_wlo/_ide/bitstream/design_1_wrapper_dopp_WLO.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/design_1_wrapper_dopp_WLO/export/design_1_wrapper_dopp_WLO/hw/design_1_wrapper_dopp_WLO.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/dopp_wlo/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/dopp_wlo/Debug/dopp_wlo.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+01:09:19 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+01:09:20 INFO  : 'con' command is executed.
+01:09:20 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+01:09:20 INFO  : Launch script is exported to file '/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/dopp_wlo_system/_ide/scripts/debugger_zc_full-default_1.tcl'
+01:09:45 INFO  : Checking for BSP changes to sync application flags for project 'dopp_wlo'...
+01:10:09 INFO  : Checking for BSP changes to sync application flags for project 'dopp_wlo'...
+01:10:22 INFO  : Disconnected from the channel tcfchan#3.
+01:10:24 INFO  : Connected through redirection to target on host '192.168.224.251' and port '61325'.
+01:10:25 WARN  : IDE version '2022.1.0' doesn't match hw_server version '2024.1.0'. Some debug features may not work.
+01:10:27 INFO  : Jtag cable 'Digilent Zed 210248722265' is selected.
+01:10:27 INFO  : 'jtag frequency' command is executed.
+01:10:27 INFO  : Context for 'APU' is selected.
+01:10:27 INFO  : System reset is completed.
+01:10:30 INFO  : 'after 3000' command is executed.
+01:10:30 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248722265" && level==0 && jtag_device_ctx=="jsn-Zed-210248722265-4ba00477-0"}' command is executed.
+01:10:33 INFO  : Device configured successfully with "/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/dopp_wlo/_ide/bitstream/design_1_wrapper_dopp_WLO.bit"
+01:10:33 INFO  : Context for 'APU' is selected.
+01:10:33 INFO  : Hardware design and registers information is loaded from '/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/design_1_wrapper_dopp_WLO/export/design_1_wrapper_dopp_WLO/hw/design_1_wrapper_dopp_WLO.xsa'.
+01:10:34 INFO  : 'configparams force-mem-access 1' command is executed.
+01:10:34 INFO  : Context for 'APU' is selected.
+01:10:34 INFO  : Sourcing of '/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/dopp_wlo/_ide/psinit/ps7_init.tcl' is done.
+01:10:49 INFO  : 'ps7_init' command is executed.
+01:10:50 INFO  : 'ps7_post_config' command is executed.
+01:10:50 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+01:10:50 INFO  : The application '/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/dopp_wlo/Debug/dopp_wlo.elf' is downloaded to processor 'ps7_cortexa9_0'.
+01:10:51 INFO  : 'configparams force-mem-access 0' command is executed.
+01:10:51 INFO  : ----------------XSDB Script----------------
+connect -path [list tcp::1534 tcp:192.168.224.251:61325]
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248722265" && level==0 && jtag_device_ctx=="jsn-Zed-210248722265-4ba00477-0"}
+fpga -file /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/dopp_wlo/_ide/bitstream/design_1_wrapper_dopp_WLO.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/design_1_wrapper_dopp_WLO/export/design_1_wrapper_dopp_WLO/hw/design_1_wrapper_dopp_WLO.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/dopp_wlo/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/dopp_wlo/Debug/dopp_wlo.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+01:10:52 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+01:10:52 INFO  : 'con' command is executed.
+01:10:52 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+01:10:52 INFO  : Launch script is exported to file '/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/dopp_wlo_system/_ide/scripts/debugger_zc_full-default_1.tcl'
+01:11:13 INFO  : Disconnected from the channel tcfchan#4.
+01:11:17 INFO  : Checking for BSP changes to sync application flags for project 'dopp_wlo'...
+01:11:23 INFO  : Connected through redirection to target on host '192.168.224.251' and port '61325'.
+01:11:24 WARN  : IDE version '2022.1.0' doesn't match hw_server version '2024.1.0'. Some debug features may not work.
+01:11:26 INFO  : Jtag cable 'Digilent Zed 210248722265' is selected.
+01:11:26 INFO  : 'jtag frequency' command is executed.
+01:11:26 INFO  : Context for 'APU' is selected.
+01:11:26 INFO  : System reset is completed.
+01:11:29 INFO  : 'after 3000' command is executed.
+01:11:30 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248722265" && level==0 && jtag_device_ctx=="jsn-Zed-210248722265-4ba00477-0"}' command is executed.
+01:11:32 INFO  : Device configured successfully with "/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/dopp_wlo/_ide/bitstream/design_1_wrapper_dopp_WLO.bit"
+01:11:32 INFO  : Context for 'APU' is selected.
+01:11:33 INFO  : Hardware design and registers information is loaded from '/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/design_1_wrapper_dopp_WLO/export/design_1_wrapper_dopp_WLO/hw/design_1_wrapper_dopp_WLO.xsa'.
+01:11:33 INFO  : 'configparams force-mem-access 1' command is executed.
+01:11:33 INFO  : Context for 'APU' is selected.
+01:11:33 INFO  : Sourcing of '/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/dopp_wlo/_ide/psinit/ps7_init.tcl' is done.
+01:11:48 INFO  : 'ps7_init' command is executed.
+01:11:49 INFO  : 'ps7_post_config' command is executed.
+01:11:49 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+01:11:50 INFO  : The application '/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/dopp_wlo/Debug/dopp_wlo.elf' is downloaded to processor 'ps7_cortexa9_0'.
+01:11:50 INFO  : 'configparams force-mem-access 0' command is executed.
+01:11:50 INFO  : ----------------XSDB Script----------------
+connect -path [list tcp::1534 tcp:192.168.224.251:61325]
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248722265" && level==0 && jtag_device_ctx=="jsn-Zed-210248722265-4ba00477-0"}
+fpga -file /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/dopp_wlo/_ide/bitstream/design_1_wrapper_dopp_WLO.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/design_1_wrapper_dopp_WLO/export/design_1_wrapper_dopp_WLO/hw/design_1_wrapper_dopp_WLO.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/dopp_wlo/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/dopp_wlo/Debug/dopp_wlo.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+01:11:51 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+01:11:51 INFO  : 'con' command is executed.
+01:11:51 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+01:11:51 INFO  : Launch script is exported to file '/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/dopp_wlo_system/_ide/scripts/debugger_zc_full-default_1.tcl'
+01:15:01 WARN  : channel "tcfchan#5" closed

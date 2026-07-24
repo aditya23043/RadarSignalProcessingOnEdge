@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="mul.h" path="/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/zc/mul2_512/mul.h"/>
+    <originFiles name="mul.cpp" path="/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/zc/mul2_512/mul.cpp"/>
+    <originFiles name="conj_values.h" path="/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/zc/mul2_512/conj_values.h"/>
+    <originFiles name="conj_values.cpp" path="/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/zc/mul2_512/conj_values.cpp"/>
+  </source>
+  <testbench>
+    <originFiles name="mul_tb.cpp" path="/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/zc/mul2_512/mul_tb.cpp"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>

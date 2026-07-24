@@ -1,0 +1,35 @@
+{"sourceFile": [{
+      "name": "",
+      "directive": [
+        {
+          "functionName": "trigger_ip",
+          "label": "",
+          "functionLabel": "",
+          "id": "1",
+          "sourceFile": "\/mnt\/arch\/home\/adi\/repo\/AELD_Lab_2026\/as_close_as_midsem\/zc\/project_trigger_ip\/solution1\/directives.tcl",
+          "sourceLine": "6",
+          "pragma": {
+            "name": "TOP",
+            "option": [{
+                "name": "name",
+                "value": "trigger_ip"
+              }]
+          }
+        },
+        {
+          "functionName": "trigger_ip",
+          "label": "",
+          "functionLabel": "",
+          "id": "2",
+          "sourceFile": "\/mnt\/arch\/home\/adi\/repo\/AELD_Lab_2026\/as_close_as_midsem\/zc\/project_trigger_ip\/solution1\/csynth.tcl",
+          "sourceLine": "16",
+          "pragma": {
+            "name": "TOP",
+            "option": [{
+                "name": "name",
+                "value": "trigger_ip"
+              }]
+          }
+        }
+      ]
+    }]}

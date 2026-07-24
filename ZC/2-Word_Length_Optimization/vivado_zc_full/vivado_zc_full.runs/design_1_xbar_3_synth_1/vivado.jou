@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:47:01 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Sun May  3 15:28:49 2026
+# Process ID: 380643
+# Current directory: /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/vivado_zc_full.runs/design_1_xbar_3_synth_1
+# Command line: vivado -log design_1_xbar_3.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_xbar_3.tcl
+# Log file: /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/vivado_zc_full.runs/design_1_xbar_3_synth_1/design_1_xbar_3.vds
+# Journal file: /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/vivado_zc_full.runs/design_1_xbar_3_synth_1/vivado.jou
+# Running On: adi-ubuntu, OS: Linux, CPU Frequency: 1200.000 MHz, CPU Physical cores: 16, Host memory: 16131 MB
+#-----------------------------------------------------------
+source design_1_xbar_3.tcl -notrace

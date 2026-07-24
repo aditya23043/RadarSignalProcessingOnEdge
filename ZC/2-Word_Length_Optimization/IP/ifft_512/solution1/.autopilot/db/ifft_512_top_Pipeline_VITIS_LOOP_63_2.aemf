@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cdfg:DBCdfg xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cdfg="http://www.autoesl.com/DBCdfg" timeStamp="1777615645067">
+  <ports id="1" name="zc_M_value" type="PortType" coreName="RAM" coreId="0" bitwidth="32" iftype="IfTypeRegister" arraysize="512">
+    <dataOutputObjs>getelementptr</dataOutputObjs>
+  </ports>
+  <ports id="2" name="zc_M_value_1" type="PortType" coreName="RAM" coreId="0" bitwidth="32" iftype="IfTypeRegister" arraysize="512">
+    <dataOutputObjs>getelementptr</dataOutputObjs>
+  </ports>
+  <ports id="3" name="output_r_V_data_V" type="PortType" originalName="this" coreId="0" bitwidth="64" direction="DirOut">
+    <dataInputObjs>write</dataInputObjs>
+  </ports>
+  <ports id="4" name="output_r_V_keep_V" type="PortType" originalName="this" coreId="0" bitwidth="8" direction="DirOut">
+    <dataInputObjs>write</dataInputObjs>
+  </ports>
+  <ports id="5" name="output_r_V_strb_V" type="PortType" originalName="this" coreId="0" bitwidth="8" direction="DirOut">
+    <dataInputObjs>write</dataInputObjs>
+  </ports>
+  <ports id="6" name="output_r_V_last_V" type="PortType" originalName="this" coreId="4016325568" bitwidth="1" direction="DirOut">
+    <dataInputObjs>write</dataInputObjs>
+  </ports>
+  <edges id="39" source_obj="//@blocks.0/@node_objs.0" sink_obj="//@blocks.0/@node_objs.1"/>
+  <edges id="40" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.0" sink_obj="//@blocks.0/@node_objs.2"/>
+  <edges id="41" source_obj="//@blocks.0/@node_objs.0" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.0"/>
+  <edges id="42" source_obj="//@regions.0/@basic_blocks.0/@node_objs.0" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.1"/>
+  <edges id="45" source_obj="//@regions.0/@basic_blocks.0/@node_objs.0" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.2"/>
+  <edges id="48" source_obj="//@regions.0/@basic_blocks.0/@node_objs.1" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.3"/>
+  <edges id="49" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.1" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.3"/>
+  <edges id="50" edge_type="CtrlEdge" source_obj="//@blocks.1" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.3"/>
+  <edges id="51" source_obj="//@regions.0/@basic_blocks.0/@node_objs.0" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.0"/>
+  <edges id="52" source_obj="//@ports.0" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.1"/>
+  <edges id="55" source_obj="//@regions.0/@basic_blocks.1/@node_objs.0" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.1"/>
+  <edges id="56" source_obj="//@regions.0/@basic_blocks.1/@node_objs.1" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.2"/>
+  <edges id="57" source_obj="//@ports.1" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.3"/>
+  <edges id="59" source_obj="//@regions.0/@basic_blocks.1/@node_objs.0" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.3"/>
+  <edges id="60" source_obj="//@regions.0/@basic_blocks.1/@node_objs.3" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.4"/>
+  <edges id="61" source_obj="//@regions.0/@basic_blocks.0/@node_objs.0" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.5"/>
+  <edges id="64" source_obj="//@regions.0/@basic_blocks.1/@node_objs.2" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.6"/>
+  <edges id="65" source_obj="//@regions.0/@basic_blocks.1/@node_objs.4" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.7"/>
+  <edges id="68" source_obj="//@regions.0/@basic_blocks.1/@node_objs.7" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.8"/>
+  <edges id="69" source_obj="//@regions.0/@basic_blocks.1/@node_objs.6" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.8"/>
+  <edges id="72" source_obj="//@regions.0/@basic_blocks.1/@node_objs.9" sink_obj="//@ports.2"/>
+  <edges id="73" source_obj="//@regions.0/@basic_blocks.1/@node_objs.9" sink_obj="//@ports.3"/>
+  <edges id="74" source_obj="//@regions.0/@basic_blocks.1/@node_objs.9" sink_obj="//@ports.4"/>
+  <edges id="75" source_obj="//@regions.0/@basic_blocks.1/@node_objs.9" sink_obj="//@ports.5"/>
+  <edges id="76" source_obj="//@regions.0/@basic_blocks.1/@node_objs.8" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.9"/>
+  <edges id="81" source_obj="//@regions.0/@basic_blocks.1/@node_objs.5" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.9"/>
+  <edges id="82" source_obj="//@regions.0/@basic_blocks.0/@node_objs.2" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.10"/>
+  <edges id="83" source_obj="//@blocks.0/@node_objs.0" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.10"/>
+  <edges id="84" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.0" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.11"/>
+  <edges id="131" edge_type="CtrlEdge" source_obj="//@blocks.0" sink_obj="//@regions.0/@basic_blocks.0"/>
+  <edges id="132" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.0" sink_obj="//@blocks.1"/>
+  <edges id="133" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.0" sink_obj="//@regions.0/@basic_blocks.1"/>
+  <edges id="134" edge_type="CtrlEdge" source_obj="//@regions.0/@basic_blocks.1" sink_obj="//@regions.0/@basic_blocks.0" is_back_edge="1"/>
+  <edges id="135" edge_type="VirtEdge" source_obj="//@blocks.0/@node_objs.1" sink_obj="//@regions.0/@basic_blocks.0/@node_objs.0"/>
+  <edges id="136" edge_type="VirtEdge" source_obj="//@blocks.0/@node_objs.1" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.10"/>
+  <edges id="137" edge_type="VirtEdge" source_obj="//@regions.0/@basic_blocks.0/@node_objs.0" sink_obj="//@regions.0/@basic_blocks.1/@node_objs.10"/>
+  <blocks id="11" name="newFuncRoot" type="BlockType">
+    <controlOutputObjs>for.inc13</controlOutputObjs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="7" name="i_2" originalName="i" coreId="1768843590" bitwidth="10" opcode="alloca" m_display="0" m_topoIndex="1" m_clusterGroupNumber="-1">
+      <dataOutputObjs>store</dataOutputObjs>
+      <dataOutputObjs>load</dataOutputObjs>
+      <dataOutputObjs>store</dataOutputObjs>
+      <constName>empty</constName>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="9" name="i_2_write_ln0" coreId="4016225472" opcode="store" m_display="0" m_delay="1.58" m_topoIndex="2" m_clusterGroupNumber="-1">
+      <dataInputObjs>alloca</dataInputObjs>
+      <constName>empty</constName>
+    </node_objs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="10" name="br_ln0" coreId="757935405" opcode="br" m_display="0" m_topoIndex="3" m_clusterGroupNumber="-1">
+      <controlInputObjs>for.inc13</controlInputObjs>
+    </node_objs>
+  </blocks>
+  <blocks id="34" name="for.cond.cleanup5.exitStub" type="BlockType">
+    <controlInputObjs>for.inc13</controlInputObjs>
+    <controlOutputObjs>br</controlOutputObjs>
+    <node_objs xsi:type="cdfg:CdfgNode" id="33" name="_ln0" coreId="4016622512" opcode="ret" m_display="0" m_topoIndex="15" m_clusterGroupNumber="-1"/>
+  </blocks>
+  <regions anchor_node="-1" region_type="8" interval="1" typeName="Pipeline" iiViolation="" id="119" pipe_depth="2" RegionName="VITIS_LOOP_63_2">
+    <basic_blocks id="18" name="for.inc13" type="BlockType">
+      <controlInputObjs>newFuncRoot</controlInputObjs>
+      <controlInputObjs>for.inc13.split</controlInputObjs>
+      <controlOutputObjs>br</controlOutputObjs>
+      <controlOutputObjs>br</controlOutputObjs>
+      <controlOutputObjs>for.cond.cleanup5.exitStub</controlOutputObjs>
+      <controlOutputObjs>for.inc13.split</controlOutputObjs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="12" name="i" lineNumber="63" originalName="i" fileName="ifft_512/ifft.cpp" fileDirectory=".." coreId="4017092720" contextFuncName="ifft_512_top" bitwidth="10" opcode="load" m_display="0" m_topoIndex="4" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="ifft_512/ifft.cpp" linenumber="63" fileDirectory="/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/zc" functionName="ifft_512_top"/>
+        <dataInputObjs>alloca</dataInputObjs>
+        <dataOutputObjs>icmp</dataOutputObjs>
+        <dataOutputObjs>add</dataOutputObjs>
+        <dataOutputObjs>zext</dataOutputObjs>
+        <dataOutputObjs>icmp</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="14" name="icmp_ln63" lineNumber="63" fileName="ifft_512/ifft.cpp" fileDirectory=".." rtlName="icmp_ln63_fu_112_p2" coreName="Cmp" implIndex="auto" control="no" opType="icmp" coreId="9" contextFuncName="ifft_512_top" bitwidth="1" opcode="icmp" m_display="0" m_delay="1.77" m_topoIndex="5" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="ifft_512/ifft.cpp" linenumber="63" fileDirectory="/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/zc" functionName="ifft_512_top"/>
+        <dataInputObjs>load</dataInputObjs>
+        <dataOutputObjs>br</dataOutputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="16" name="add_ln63" lineNumber="63" fileName="ifft_512/ifft.cpp" fileDirectory=".." rtlName="add_ln63_fu_118_p2" coreName="Adder" implIndex="fabric" control="no" opType="add" coreId="1" contextFuncName="ifft_512_top" bitwidth="10" opcode="add" m_display="0" m_delay="1.73" m_topoIndex="6" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="ifft_512/ifft.cpp" linenumber="63" fileDirectory="/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/zc" functionName="ifft_512_top"/>
+        <dataInputObjs>load</dataInputObjs>
+        <dataOutputObjs>store</dataOutputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="17" name="br_ln63" lineNumber="63" fileName="ifft_512/ifft.cpp" fileDirectory=".." coreId="0" contextFuncName="ifft_512_top" opcode="br" m_display="0" m_topoIndex="7" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="ifft_512/ifft.cpp" linenumber="63" fileDirectory="/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/zc" functionName="ifft_512_top"/>
+        <dataInputObjs>icmp</dataInputObjs>
+        <controlInputObjs>for.inc13.split</controlInputObjs>
+        <controlInputObjs>for.cond.cleanup5.exitStub</controlInputObjs>
+      </node_objs>
+      <fileValidLineNumbers fileName="ifft_512/ifft.cpp">
+        <validLinenumbers>63</validLinenumbers>
+      </fileValidLineNumbers>
+    </basic_blocks>
+    <basic_blocks id="32" name="for.inc13.split" type="BlockType">
+      <controlInputObjs>for.inc13</controlInputObjs>
+      <controlOutputObjs>br</controlOutputObjs>
+      <controlOutputObjs>for.inc13</controlOutputObjs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="19" name="i_2_cast" lineNumber="63" fileName="ifft_512/ifft.cpp" fileDirectory=".." rtlName="i_2_cast_fu_124_p1" coreId="2020173413" contextFuncName="ifft_512_top" bitwidth="64" opcode="zext" m_display="0" m_topoIndex="8" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="ifft_512/ifft.cpp" linenumber="63" fileDirectory="/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/zc" functionName="ifft_512_top"/>
+        <dataInputObjs>load</dataInputObjs>
+        <dataOutputObjs>getelementptr</dataOutputObjs>
+        <dataOutputObjs>getelementptr</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="21" name="zc_M_value_addr" lineNumber="65" fileName="ifft_512/ifft.cpp" fileDirectory=".." coreId="1701978146" contextFuncName="ifft_512_top" bitwidth="9" opcode="getelementptr" m_display="0" m_topoIndex="9" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="ifft_512/ifft.cpp" linenumber="65" fileDirectory="/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/zc" functionName="ifft_512_top"/>
+        <dataInputObjs>zc_M_value</dataInputObjs>
+        <dataInputObjs>zext</dataInputObjs>
+        <dataOutputObjs>load</dataOutputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="22" name="tmp_data_M_value" lineNumber="65" originalName="tmp.data._M_value" fileName="ifft_512/ifft.cpp" fileDirectory=".." coreName="RAM" implIndex="auto" control="no" opType="ram" coreId="82" contextFuncName="ifft_512_top" bitwidth="32" opcode="load" nodeLatency="1" m_display="0" m_delay="3.25" m_topoIndex="10" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="ifft_512/ifft.cpp" linenumber="65" fileDirectory="/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/zc" functionName="ifft_512_top"/>
+        <dataInputObjs>getelementptr</dataInputObjs>
+        <dataOutputObjs>bitcast</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="23" name="zc_M_value_1_addr" lineNumber="65" fileName="ifft_512/ifft.cpp" fileDirectory=".." coreId="4016827200" contextFuncName="ifft_512_top" bitwidth="9" opcode="getelementptr" m_display="0" m_topoIndex="11" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="ifft_512/ifft.cpp" linenumber="65" fileDirectory="/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/zc" functionName="ifft_512_top"/>
+        <dataInputObjs>zc_M_value_1</dataInputObjs>
+        <dataInputObjs>zext</dataInputObjs>
+        <dataOutputObjs>load</dataOutputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="24" name="tmp_data_M_value_1" lineNumber="65" originalName="tmp.data._M_value" fileName="ifft_512/ifft.cpp" fileDirectory=".." coreName="RAM" implIndex="auto" control="no" opType="ram" coreId="82" contextFuncName="ifft_512_top" bitwidth="32" opcode="load" nodeLatency="1" m_display="0" m_delay="3.25" m_topoIndex="12" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="ifft_512/ifft.cpp" linenumber="65" fileDirectory="/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/zc" functionName="ifft_512_top"/>
+        <dataInputObjs>getelementptr</dataInputObjs>
+        <dataOutputObjs>bitcast</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="25" name="tmp_last_V" lineNumber="67" originalName="tmp.last.V" fileName="ifft_512/ifft.cpp" fileDirectory=".." rtlName="tmp_last_V_fu_130_p2" coreName="Cmp" implIndex="auto" control="no" opType="icmp" coreId="9" contextFuncName="ifft_512_top" bitwidth="1" opcode="icmp" m_display="0" m_delay="1.77" m_topoIndex="13" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="ifft_512/ifft.cpp" linenumber="67" fileDirectory="/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/zc" functionName="ifft_512_top"/>
+        <dataInputObjs>load</dataInputObjs>
+        <dataOutputObjs>write</dataOutputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="26" name="bitcast_ln304" lineNumber="304" fileName="/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_axi_sdata.h" fileDirectory=".." rtlName="bitcast_ln304_fu_141_p1" coreId="1397508187" contextFuncName="write" bitwidth="32" opcode="bitcast" nodeLabel="1.0" m_display="0" m_topoIndex="16" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_axi_sdata.h" linenumber="304" fileDirectory="/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/zc" functionName="write"/>
+        <dataInputObjs>load</dataInputObjs>
+        <dataOutputObjs>bitconcatenate</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="27" name="bitcast_ln304_1" lineNumber="304" fileName="/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_axi_sdata.h" fileDirectory=".." rtlName="bitcast_ln304_1_fu_145_p1" coreId="4017017104" contextFuncName="write" bitwidth="32" opcode="bitcast" nodeLabel="1.0" m_display="0" m_topoIndex="17" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_axi_sdata.h" linenumber="304" fileDirectory="/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/zc" functionName="write"/>
+        <dataInputObjs>load</dataInputObjs>
+        <dataOutputObjs>bitconcatenate</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="28" name="p_0" lineNumber="304" fileName="/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_axi_sdata.h" fileDirectory=".." rtlName="output_r_TDATA" coreId="4016999936" contextFuncName="write" bitwidth="64" opcode="bitconcatenate" nodeLabel="1.0" m_display="0" m_topoIndex="18" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_axi_sdata.h" linenumber="304" fileDirectory="/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/zc" functionName="write"/>
+        <dataInputObjs>bitcast</dataInputObjs>
+        <dataInputObjs>bitcast</dataInputObjs>
+        <dataOutputObjs>write</dataOutputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="29" name="output_r_V_data_V_write_ln304" lineNumber="304" fileName="/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_axi_sdata.h" fileDirectory=".." coreName="axis" implIndex="axi4stream" control="no" opType="adapter" coreId="115" contextFuncName="write" opcode="write" nodeLabel="1.0" m_display="0" m_topoIndex="19" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_axi_sdata.h" linenumber="304" fileDirectory="/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/zc" functionName="write"/>
+        <dataInputObjs>bitconcatenate</dataInputObjs>
+        <dataInputObjs>icmp</dataInputObjs>
+        <dataOutputObjs>output_r_V_data_V</dataOutputObjs>
+        <dataOutputObjs>output_r_V_keep_V</dataOutputObjs>
+        <dataOutputObjs>output_r_V_strb_V</dataOutputObjs>
+        <dataOutputObjs>output_r_V_last_V</dataOutputObjs>
+        <constName>empty</constName>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="30" name="i_2_write_ln63" lineNumber="63" fileName="ifft_512/ifft.cpp" fileDirectory=".." coreId="4017014592" contextFuncName="ifft_512_top" opcode="store" m_display="0" m_delay="1.58" m_topoIndex="14" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="ifft_512/ifft.cpp" linenumber="63" fileDirectory="/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/zc" functionName="ifft_512_top"/>
+        <dataInputObjs>add</dataInputObjs>
+        <dataInputObjs>alloca</dataInputObjs>
+      </node_objs>
+      <node_objs xsi:type="cdfg:CdfgNode" id="31" name="br_ln63" lineNumber="63" fileName="ifft_512/ifft.cpp" fileDirectory=".." coreId="4017104608" contextFuncName="ifft_512_top" opcode="br" nodeLabel="1.0" m_display="0" m_topoIndex="20" m_clusterGroupNumber="-1">
+        <inlineStackInfo fileName="ifft_512/ifft.cpp" linenumber="63" fileDirectory="/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/zc" functionName="ifft_512_top"/>
+        <controlInputObjs>for.inc13</controlInputObjs>
+      </node_objs>
+      <fileValidLineNumbers fileName="ifft_512/ifft.cpp">
+        <validLinenumbers>63</validLinenumbers>
+        <validLinenumbers>65</validLinenumbers>
+        <validLinenumbers>67</validLinenumbers>
+      </fileValidLineNumbers>
+      <fileValidLineNumbers fileName="/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_axi_sdata.h">
+        <validLinenumbers>304</validLinenumbers>
+      </fileValidLineNumbers>
+    </basic_blocks>
+  </regions>
+  <ScheduleInfo time="0"/>
+  <ScheduleInfo time="1"/>
+  <regnodes realName="zc_M_value_1_addr_reg_173">
+    <nodeIds>23</nodeIds>
+  </regnodes>
+  <regnodes realName="i_2_reg_158">
+    <nodeIds>7</nodeIds>
+  </regnodes>
+  <regnodes realName="zc_M_value_addr_reg_168">
+    <nodeIds>21</nodeIds>
+  </regnodes>
+  <regnodes realName="tmp_last_V_reg_178">
+    <nodeIds>25</nodeIds>
+  </regnodes>
+  <expressionNodes realName="bitcast_ln304_fu_141">
+    <nodeIds>26</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="bitcast_ln304_1_fu_145">
+    <nodeIds>27</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="zc_M_value_1_addr_gep_fu_91">
+    <nodeIds>23</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="i_2_cast_fu_124">
+    <nodeIds>19</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="i_2_fu_56">
+    <nodeIds>7</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="tmp_last_V_fu_130">
+    <nodeIds>25</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="add_ln63_fu_118">
+    <nodeIds>16</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="icmp_ln63_fu_112">
+    <nodeIds>14</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="zc_M_value_addr_gep_fu_78">
+    <nodeIds>21</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="p_0_fu_149">
+    <nodeIds>28</nodeIds>
+  </expressionNodes>
+  <ioNodes realName="i_load_fu_109">
+    <nodeIds>12</nodeIds>
+  </ioNodes>
+  <ioNodes realName="write_ln304_write_fu_60">
+    <nodeIds>29</nodeIds>
+  </ioNodes>
+  <ioNodes realName="store_ln63_store_fu_136">
+    <nodeIds>30</nodeIds>
+  </ioNodes>
+  <ioNodes realName="store_ln0_store_fu_104">
+    <nodeIds>9</nodeIds>
+  </ioNodes>
+  <memoryPorts dataString="zc_M_value">
+    <nodeIds>22</nodeIds>
+  </memoryPorts>
+  <memoryPorts dataString="zc_M_value_1">
+    <nodeIds>24</nodeIds>
+  </memoryPorts>
+  <ioPorts name="output_r_V_data_V">
+    <contents name="write">
+      <nodeIds>29</nodeIds>
+    </contents>
+  </ioPorts>
+  <ioPorts name="output_r_V_keep_V">
+    <contents name="write">
+      <nodeIds>29</nodeIds>
+    </contents>
+  </ioPorts>
+  <ioPorts name="output_r_V_last_V">
+    <contents name="write">
+      <nodeIds>29</nodeIds>
+    </contents>
+  </ioPorts>
+  <ioPorts name="output_r_V_strb_V">
+    <contents name="write">
+      <nodeIds>29</nodeIds>
+    </contents>
+  </ioPorts>
+  <ioPorts name="zc_M_value(p0)">
+    <contents name="load">
+      <nodeIds>22</nodeIds>
+    </contents>
+  </ioPorts>
+  <ioPorts name="zc_M_value_1(p0)">
+    <contents name="load">
+      <nodeIds>24</nodeIds>
+    </contents>
+  </ioPorts>
+  <fsm>
+    <states id="1">
+      <operations id="7" stage="1" latency="1"/>
+      <operations id="8" stage="1" latency="1"/>
+      <operations id="9" stage="1" latency="1"/>
+      <operations id="10" stage="1" latency="1"/>
+      <operations id="12" stage="1" latency="1"/>
+      <operations id="13" stage="1" latency="1"/>
+      <operations id="14" stage="1" latency="1"/>
+      <operations id="15" stage="1" latency="1"/>
+      <operations id="16" stage="1" latency="1"/>
+      <operations id="17" stage="1" latency="1"/>
+      <operations id="19" stage="1" latency="1"/>
+      <operations id="21" stage="1" latency="1"/>
+      <operations id="22" stage="2" latency="2"/>
+      <operations id="23" stage="1" latency="1"/>
+      <operations id="24" stage="2" latency="2"/>
+      <operations id="25" stage="1" latency="1"/>
+      <operations id="30" stage="1" latency="1"/>
+      <operations id="33" stage="1" latency="1"/>
+    </states>
+    <states id="2">
+      <operations id="20" stage="1" latency="1"/>
+      <operations id="22" stage="1" latency="2"/>
+      <operations id="24" stage="1" latency="2"/>
+      <operations id="26" stage="1" latency="1"/>
+      <operations id="27" stage="1" latency="1"/>
+      <operations id="28" stage="1" latency="1"/>
+      <operations id="29" stage="1" latency="1"/>
+      <operations id="31" stage="1" latency="1"/>
+    </states>
+    <transitions inState="1" outState="2">
+      <condition id="-1"/>
+    </transitions>
+  </fsm>
+  <CFGRegionsRoot>
+    <cfgRegions mId="1" mTag="ifft_512_top_Pipeline_VITIS_LOOP_63_2" mII="-1" mDepth="-1" mMinTripCount="-1" mMaxTripCount="-1" mMinLatency="514" mMaxLatency="514">
+      <subRegions>2</subRegions>
+      <subRegions>3</subRegions>
+      <subRegions>4</subRegions>
+      <mDfPipe/>
+    </cfgRegions>
+    <cfgRegions mId="2" mTag="Entry" mII="-1" mDepth="-1" mMinTripCount="-1" mMaxTripCount="-1">
+      <basicBlocks>11</basicBlocks>
+      <mDfPipe/>
+    </cfgRegions>
+    <cfgRegions mId="3" mTag="VITIS_LOOP_63_2" mII="1" mDepth="2" mMinTripCount="512" mMaxTripCount="512" mMinLatency="512" mMaxLatency="512" mType="1">
+      <basicBlocks>18</basicBlocks>
+      <basicBlocks>32</basicBlocks>
+      <mDfPipe/>
+    </cfgRegions>
+    <cfgRegions mId="4" mTag="Return" mII="-1" mDepth="-1" mMinTripCount="-1" mMaxTripCount="-1">
+      <basicBlocks>34</basicBlocks>
+      <mDfPipe/>
+    </cfgRegions>
+  </CFGRegionsRoot>
+</cdfg:DBCdfg>

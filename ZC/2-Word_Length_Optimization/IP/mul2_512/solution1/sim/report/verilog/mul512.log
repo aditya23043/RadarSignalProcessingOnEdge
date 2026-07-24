@@ -1,0 +1,1323 @@
+INFO: [COSIM-47] Using XSIM for RTL simulation.
+INFO: [COSIM-14] Instrumenting C test bench ...
+   Build using "/tools/Xilinx/Vitis_HLS/2022.1/tps/lnx64/gcc-8.3.0/bin/g++"
+   Compiling mul.cpp_pre.cpp.tb.cpp
+   Compiling apatb_mul512_util.cpp
+   Compiling conj_values.cpp_pre.cpp.tb.cpp
+   Compiling mul_tb.cpp_pre.cpp.tb.cpp
+   Compiling apatb_mul512.cpp
+   Compiling apatb_mul512_ir.ll
+   Generating cosim.tv.exe
+INFO: [COSIM-302] Starting C TB testing ... 
+INFO: [COSIM-333] Generating C post check test bench ...
+INFO: [COSIM-12] Generating RTL test bench ...
+INFO: [COSIM-1] *** C/RTL co-simulation file generation completed. ***
+INFO: [COSIM-323] Starting verilog simulation. 
+INFO: [COSIM-15] Starting XSIM ...
+INFO: [COSIM-316] Starting C post checking ...
+{15.999224,16.000418}
+{16.097683,15.902049}
+{16.387341,15.602379}
+{16.857679,15.092836}
+{17.490709,14.355440}
+{18.255720,13.367920}
+{19.115992,12.107252}
+{20.020653,10.545676}
+{20.905582,8.660848}
+{21.693787,6.436282}
+{22.295404,3.869441}
+{22.607338,0.971690}
+{22.518530,-2.217475}
+{21.915869,-5.631951}
+{20.686802,-9.169207}
+{18.736679,-12.685846}
+{16.000561,-15.999183}
+{12.455997,-18.889858}
+{8.145101,-21.110321}
+{3.184043,-22.401962}
+{-2.215901,-22.518539}
+{-7.751744,-21.258142}
+{-13.027651,-18.501347}
+{-17.578629,-14.248416}
+{-20.905060,-8.660286}
+{-22.531584,-2.080224}
+{-22.077383,4.957053}
+{-19.336483,11.751048}
+{-14.354740,17.490822}
+{-7.491889,21.350168}
+{0.554927,22.619457}
+{8.786027,20.851021}
+{15.999029,16.000393}
+{20.957144,8.531422}
+{22.620804,-0.554396}
+{20.395605,-9.799093}
+{14.355875,-17.490807}
+{5.364289,-21.983143}
+{-4.957075,-22.078325}
+{-14.461468,-17.403727}
+{-20.904844,-8.659784}
+{-22.504509,2.355083}
+{-18.499889,13.028195}
+{-9.549312,20.513014}
+{2.216838,22.517550}
+{13.588816,18.091774}
+{21.110445,8.144643}
+{22.165386,-4.549475}
+{16.001205,-15.999821}
+{4.278735,-22.219954}
+{-9.169582,-20.687166}
+{-19.480070,-11.514273}
+{-22.519226,2.218036}
+{-16.672680,15.298009}
+{-3.868978,22.294189}
+{10.787886,19.890087}
+{20.904207,8.659554}
+{21.611444,-6.699706}
+{12.106026,-19.115236}
+{-3.456292,-22.360926}
+{-17.490017,-14.354304}
+{-22.591579,1.247959}
+{-15.603141,16.386885}
+{0.138349,22.627502}
+{16.000725,16.000681}
+{22.627560,-0.139219}
+{15.602946,-16.387915}
+{-1.248154,-22.593430}
+{-17.491028,-14.355936}
+{-22.362041,3.456331}
+{-12.106510,19.115915}
+{6.699865,21.612146}
+{20.903616,8.659550}
+{19.888927,-10.787107}
+{3.869051,-22.293192}
+{-15.297656,-16.671944}
+{-22.518360,2.217642}
+{-11.513874,19.479446}
+{9.169854,20.686901}
+{22.219988,4.278642}
+{16.000656,-16.000109}
+{-4.549513,-22.165125}
+{-21.110790,-8.144664}
+{-18.092331,13.589515}
+{2.216779,22.519094}
+{20.513552,9.549947}
+{18.500471,-13.027622}
+{-2.354025,-22.504087}
+{-20.903564,-8.660338}
+{-17.402929,14.459897}
+{4.956758,22.077431}
+{21.982740,5.363948}
+{14.355618,-17.491545}
+{-9.799384,-20.396105}
+{-22.620749,0.554638}
+{-8.531281,20.957245}
+{15.999368,16.000360}
+{20.851885,-8.786683}
+{-0.554378,-22.620764}
+{-21.350569,-7.493460}
+{-14.355835,17.489887}
+{11.750194,19.336535}
+{22.076992,-4.956706}
+{2.080588,-22.531023}
+{-20.904749,-8.659916}
+{-14.247598,17.578602}
+{13.028927,18.500143}
+{21.258270,-7.753226}
+{-2.217292,-22.519751}
+{-22.402973,-3.183892}
+{-8.144762,21.111015}
+{18.889935,12.456066}
+{16.000458,-15.998940}
+{-12.684842,-18.736578}
+{-20.686157,9.167763}
+{5.631150,21.914499}
+{22.517744,-2.217257}
+{0.971665,-22.606018}
+{-22.294403,-3.868382}
+{-6.435380,21.693001}
+{20.905149,8.659101}
+{10.543825,-20.021025}
+{-19.117476,-12.106081}
+{-13.367964,18.256966}
+{17.490808,14.354995}
+{15.092203,-16.857958}
+{-16.387047,-15.602777}
+{-15.902228,16.096531}
+{15.998262,16.000656}
+{15.901406,-16.096779}
+{-16.387482,-15.602167}
+{-15.092533,16.858461}
+{17.490753,14.354675}
+{13.366860,-18.256582}
+{-19.117342,-12.105600}
+{-10.545044,20.021605}
+{20.905689,8.660439}
+{6.435662,-21.692352}
+{-22.293699,-3.868222}
+{-0.971402,22.606342}
+{22.518171,-2.217308}
+{-5.631413,-21.914650}
+{-20.686125,9.168530}
+{12.685372,18.736568}
+{16.000214,-15.999350}
+{-18.890518,-12.455355}
+{-8.143555,21.111683}
+{22.402874,3.182861}
+{-2.217659,-22.519112}
+{-21.258202,7.753493}
+{13.028938,18.500612}
+{14.247621,-17.578304}
+{-20.904514,-8.659575}
+{-2.080000,22.531143}
+{22.077278,-4.956949}
+{-11.750892,-19.336470}
+{-14.355344,17.490932}
+{21.350637,7.492830}
+{-0.554767,-22.620037}
+{-20.850946,8.786987}
+{15.999688,16.000219}
+{8.530963,-20.956984}
+{-22.620403,0.555302}
+{9.799865,20.396170}
+{14.356335,-17.491055}
+{-21.981836,-5.363946}
+{4.957867,22.077282}
+{17.403429,-14.461880}
+{-20.904694,-8.660398}
+{2.355303,22.503944}
+{18.499712,-13.029119}
+{-20.513836,-9.548971}
+{2.217703,22.518332}
+{18.091015,-13.590395}
+{-21.111227,-8.143301}
+{4.550093,22.164989}
+{16.000448,-15.999779}
+{-22.219093,-4.278299}
+{9.169352,20.686153}
+{11.513618,-19.478743}
+{-22.518202,2.217483}
+{15.297658,16.672220}
+{3.869256,-22.293985}
+{-19.889828,10.787507}
+{20.904284,8.659446}
+{-6.700764,-21.611628}
+{-12.105308,19.116461}
+{22.361601,-3.457534}
+{-17.491297,-14.355024}
+{1.248253,22.592554}
+{15.602697,-16.387543}
+{-22.627493,0.138958}
+{16.000340,16.000996}
+{-0.137865,-22.626928}
+{-15.602222,16.387197}
+{22.592928,-1.249113}
+{-17.491144,-14.355736}
+{3.456359,22.361217}
+{12.105262,-19.116587}
+{-21.612282,6.701018}
+{20.904499,8.658856}
+{-10.789271,-19.889130}
+{-3.868795,22.294943}
+{16.672544,-15.297485}
+{-22.518312,2.217972}
+{19.479612,11.513907}
+{-9.169125,-20.686977}
+{-4.278648,22.218864}
+{15.999905,-15.999464}
+{-22.164841,4.549931}
+{21.110851,8.144500}
+{-13.589096,-18.091593}
+{2.217225,22.517973}
+{9.548859,-20.513334}
+{-18.499321,13.028720}
+{22.503593,-2.356396}
+{-20.905111,-8.658935}
+{14.461402,17.402761}
+{-4.957652,-22.077658}
+{-5.363711,21.982813}
+{14.354966,-17.490747}
+{-20.394396,9.799711}
+{22.620470,-0.555368}
+{-20.957497,-8.530691}
+{16.000296,16.000402}
+{-8.786689,-20.851791}
+{0.554569,22.620481}
+{7.492428,-21.350473}
+{-14.354273,17.490852}
+{19.336397,-11.751759}
+{-22.078026,4.956958}
+{22.531063,2.079806}
+{-20.905769,-8.659243}
+{17.578501,14.248102}
+{-13.028134,-18.499729}
+{7.753178,21.257217}
+{-2.217341,-22.518162}
+{-3.182930,22.402010}
+{8.144008,-21.110846}
+{-12.455489,18.890268}
+{16.000338,-15.999837}
+{-18.736061,12.685903}
+{20.685884,-9.169783}
+{-21.915085,5.632508}
+{22.518867,-2.217255}
+{-22.605783,-0.972423}
+{22.293858,3.868223}
+{-21.693367,-6.435832}
+{20.904518,8.659822}
+{-20.020060,-10.543425}
+{19.116570,12.105915}
+{-18.256397,-13.367060}
+{17.491577,14.354931}
+{-16.858246,-15.092655}
+{16.387756,15.602984}
+{-16.097214,-15.901621}
+{15.999956,16.000044}
+{-16.097111,-15.901664}
+{16.387966,15.602552}
+{-16.858091,-15.093315}
+{17.490988,14.353956}
+{-18.257563,-13.367847}
+{19.116381,12.105803}
+{-20.020645,-10.543599}
+{20.905128,8.659652}
+{-21.692543,-6.436110}
+{22.294046,3.868417}
+{-22.606346,-0.971894}
+{22.518251,-2.218255}
+{-21.915491,5.632535}
+{20.686329,-9.169540}
+{-18.737133,12.685884}
+{15.999978,-15.999480}
+{-12.455359,18.890495}
+{8.143502,-21.111549}
+{-3.183230,22.402401}
+{-2.218251,-22.518517}
+{7.752935,21.257742}
+{-13.029070,-18.499393}
+{17.578987,14.247642}
+{-20.904388,-8.659367}
+{22.531153,2.079383}
+{-22.077936,4.957795}
+{19.336208,-11.751437}
+{-14.354954,17.491837}
+{7.492726,-21.350443}
+{0.555394,22.620266}
+{-8.786847,-20.850998}
+{16.000586,15.999749}
+{-20.957739,-8.531395}
+{22.620407,-0.555205}
+{-20.395388,9.799330}
+{14.354692,-17.491028}
+{-5.363811,21.982502}
+{-4.957449,-22.077154}
+{14.461739,17.402830}
+{-20.905066,-8.659327}
+{22.504421,-2.355650}
+{-18.500011,13.028981}
+{9.549382,-20.513460}
+{2.217987,22.518126}
+{-13.590273,-18.091904}
+{21.111147,8.143474}
+{-22.165493,4.550156}
+{16.000095,-15.999989}
+{-4.278838,22.219038}
+{-9.169689,-20.685949}
+{19.478910,11.514290}
+{-22.518017,2.218009}
+{16.672413,-15.298461}
+{-3.868885,22.294662}
+{-10.788202,-19.889637}
+{20.905199,8.659243}
+{-21.612356,6.700825}
+{12.106060,-19.116476}
+{3.457421,22.361166}
+{-17.491367,-14.354911}
+{22.592621,-1.248682}
+{-15.602761,16.387751}
+{-0.138341,-22.626633}
+{16.000019,16.000048}
+{-22.626568,0.138226}
+{15.602197,-16.387995}
+{1.248301,22.592953}
+{-17.491318,-14.354349}
+{22.361763,-3.457134}
+{-12.105791,19.116945}
+{-6.700460,-21.612005}
+{20.904833,8.658766}
+{-19.889683,10.789121}
+{3.868893,-22.294142}
+{15.298465,16.672279}
+{-22.518063,2.217621}
+{11.513988,-19.479362}
+{9.169349,20.685295}
+{-22.219526,-4.278466}
+{15.999557,-16.000105}
+{4.550355,22.165079}
+{-21.111561,-8.143781}
+{18.091419,-13.589850}
+{2.217682,22.518549}
+{-20.513449,-9.548759}
+{18.499647,-13.028786}
+{2.356219,22.504286}
+{-20.904911,-8.659266}
+{17.402903,-14.461886}
+{4.957414,22.077332}
+{-21.982721,-5.363395}
+{14.355014,-17.491148}
+{9.799310,20.394369}
+{-22.620756,0.555223}
+{8.530323,-20.957726}
+{15.999635,16.000284}
+{-20.851377,8.787192}
+{-0.555189,-22.620546}
+{21.350626,7.491896}
+{-14.355297,17.491314}
+{-11.751851,-19.335604}
+{22.077827,-4.957049}
+{-2.079074,22.531633}
+{-20.905008,-8.660000}
+{14.246541,-17.578659}
+{13.028637,18.500013}
+{-21.257236,7.753686}
+{-2.217668,-22.518488}
+{22.402500,3.182470}
+{-8.143816,21.110538}
+{-18.891415,-12.455898}
+{15.999434,-15.999580}
+{12.685540,18.736635}
+{-20.686367,9.169832}
+{-5.632919,-21.914373}
+{22.518721,-2.217088}
+{-0.971337,22.606358}
+{-22.294323,-3.868524}
+{6.435394,-21.692341}
+{20.904627,8.659568}
+{-10.543497,20.020960}
+{-19.116449,-12.105196}
+{13.367575,-18.256535}
+{17.491598,14.354991}
+{-15.092257,16.858507}
+{-16.387455,-15.602307}
+{15.901643,-16.097736}
+{15.999670,16.000202}
+{-15.901158,16.098488}
+{-16.387360,-15.602497}
+{15.092976,-16.858526}
+{17.491348,14.354664}
+{-13.367164,18.256449}
+{-19.117022,-12.105547}
+{10.543879,-20.019907}
+{20.905655,8.659298}
+{-6.435073,21.692947}
+{-22.293699,-3.868809}
+{0.971883,-22.606800}
+{22.518190,-2.218194}
+{5.632185,21.914970}
+{-20.686487,9.169869}
+{-12.686313,-18.735989}
+{16.000362,-15.999371}
+{18.891106,12.455893}
+{-8.142881,21.111340}
+{-22.401928,-3.182896}
+{-2.216988,-22.517960}
+{21.257881,-7.753806}
+{13.029728,18.499762}
+{-14.246245,17.578632}
+{-20.904270,-8.660109}
+{2.079892,-22.532272}
+{22.077782,-4.958414}
+{11.750947,19.335386}
+{-14.355075,17.491199}
+{-21.350939,-7.492155}
+{-0.555638,-22.620693}
+{20.851652,-8.786922}
+{16.000248,15.999739}
+{-8.530477,20.957083}
+{-22.620625,0.554689}
+{-9.800080,-20.395266}
+{14.354374,-17.491596}
+{21.982035,5.363620}
+{4.957861,22.077557}
+{-17.402761,14.461491}
+{-20.904766,-8.659243}
+{-2.355869,-22.504536}
+{18.499464,-13.029259}
+{20.513885,9.548670}
+{2.217527,22.517969}
+{-18.091709,13.590143}
+{-21.111479,-8.143263}
+{-4.550487,-22.164669}
+{16.000341,-15.999588}
+{22.219566,4.277949}
+{9.170118,20.685436}
+{-11.513906,19.478186}
+{-22.518774,2.217407}
+{-15.298715,-16.672121}
+{3.868208,-22.294210}
+{19.889332,-10.788959}
+{20.904192,8.659133}
+{6.700589,21.612692}
+{-12.105573,19.117189}
+{-22.361460,3.457326}
+{-17.491545,-14.354439}
+{-1.248569,-22.592295}
+{15.602591,-16.388054}
+{22.626352,-0.138868}
+{15.999985,16.000282}
+{0.138740,22.626650}
+{-15.602791,16.387941}
+{-22.592817,1.249342}
+{-17.490934,-14.354843}
+{-3.457803,-22.361217}
+{12.105594,-19.116327}
+{21.612343,-6.700917}
+{20.904957,8.659715}
+{10.789147,19.889790}
+{-3.868356,22.294268}
+{-16.671480,15.297932}
+{-22.518469,2.217835}
+{-19.478846,-11.513196}
+{-9.168869,-20.685944}
+{4.278771,-22.219429}
+{15.999989,-16.000772}
+{22.164696,-4.550653}
+{21.110851,8.143670}
+{13.590744,18.091093}
+{2.217941,22.518084}
+{-9.548746,20.513105}
+{-18.500202,13.028783}
+{-22.504417,2.356030}
+{-20.905149,-8.659072}
+{-14.461343,-17.402414}
+{-4.957423,-22.077791}
+{5.362661,-21.982946}
+{14.354079,-17.491030}
+{20.394564,-9.798887}
+{22.620752,-0.554711}
+{20.958286,8.530741}
+{16.000269,15.999952}
+{8.787572,20.850937}
+{0.555492,22.620058}
+{-7.491918,21.350508}
+{-14.354895,17.491028}
+{-19.335943,11.751617}
+{-22.077251,4.957591}
+{-22.530804,-2.080101}
+{-20.905064,-8.659868}
+{-17.578764,-14.247282}
+{-13.028850,-18.499924}
+{-7.753274,-21.258087}
+{-2.218030,-22.518948}
+{3.182665,-22.403090}
+{8.142690,-21.112074}
+{12.454312,-18.891066}
+{15.999172,-16.000179}
+{18.735359,-12.686046}
+{20.685511,-9.169632}
+{21.914078,-5.632768}
+{22.517284,-2.217646}
+{22.605345,0.971967}
+{22.293289,3.869046}
+{21.692486,6.436204}
+{20.904793,8.659495}
+{20.019903,10.544334}
+{19.116753,12.106377}
+{18.257118,13.367418}
+{17.491463,14.354708}
+{16.858677,15.091970}
+{16.387142,15.601806}
+{16.096924,15.901262}
+
+
+Vivado Simulator v2022.1
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: /tools/Xilinx/Vivado/2022.1/bin/unwrapped/lnx64.o/xelab xil_defaultlib.apatb_mul512_top glbl -Oenable_linking_all_libraries -prj mul512.prj -L smartconnect_v1_0 -L axi_protocol_checker_v1_1_12 -L axi_protocol_checker_v1_1_13 -L axis_protocol_checker_v1_1_11 -L axis_protocol_checker_v1_1_12 -L xil_defaultlib -L unisims_ver -L xpm -L floating_point_v7_0_20 -L floating_point_v7_1_14 --lib ieee_proposed=./ieee_proposed -s mul512 
+Multi-threading is on. Using 14 slave threads.
+WARNING: [XSIM 43-3431] One or more environment variables have been detected which affect the operation of the C compiler. These are typically not set in standard installations and are not tested by Xilinx, however they may be appropriate for your system, so the flow will attempt to continue.  If errors occur, try running xelab with the "-mt off -v 1" switches to see more information from the C compiler. The following environment variables have been detected:
+    LIBRARY_PATH
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/zc/mul2_512/solution1/sim/verilog/ip/xil_defaultlib/mul512_fmul_32ns_32ns_32_4_max_dsp_1_ip.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mul512_fmul_32ns_32ns_32_4_max_dsp_1_ip
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/zc/mul2_512/solution1/sim/verilog/ip/xil_defaultlib/mul512_fadd_32ns_32ns_32_5_full_dsp_1_ip.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mul512_fadd_32ns_32ns_32_5_full_dsp_1_ip
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/zc/mul2_512/solution1/sim/verilog/ip/xil_defaultlib/mul512_fsub_32ns_32ns_32_5_full_dsp_1_ip.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mul512_fsub_32ns_32ns_32_5_full_dsp_1_ip
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/zc/mul2_512/solution1/sim/verilog/glbl.v" into library work
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/zc/mul2_512/solution1/sim/verilog/mul512_mul512_Pipeline_VITIS_LOOP_20_2_zc_conj_M_value_1_ROM_AUTO_1R.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mul512_mul512_Pipeline_VITIS_LOOP_20_2_zc_conj_M_value_1_ROM_AUTO_1R
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/zc/mul2_512/solution1/sim/verilog/AESL_deadlock_kernel_monitor_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_deadlock_kernel_monitor_top
+WARNING: [VRFC 10-3824] variable 'block_delay' must explicitly be declared as automatic or static [/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/zc/mul2_512/solution1/sim/verilog/AESL_deadlock_kernel_monitor_top.v:31]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/zc/mul2_512/solution1/sim/verilog/mul512_mul512_Pipeline_VITIS_LOOP_15_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mul512_mul512_Pipeline_VITIS_LOOP_15_1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/zc/mul2_512/solution1/sim/verilog/mul512_fmul_32ns_32ns_32_4_max_dsp_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mul512_fmul_32ns_32ns_32_4_max_dsp_1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/zc/mul2_512/solution1/sim/verilog/mul512_mul512_Pipeline_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mul512_mul512_Pipeline_2
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/zc/mul2_512/solution1/sim/verilog/AESL_deadlock_idx0_monitor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_deadlock_idx0_monitor
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/zc/mul2_512/solution1/sim/verilog/mul512_mul512_Pipeline_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mul512_mul512_Pipeline_1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/zc/mul2_512/solution1/sim/verilog/mul512.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mul512
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/zc/mul2_512/solution1/sim/verilog/AESL_axi_s_output_r.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_axi_s_output_r
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/zc/mul2_512/solution1/sim/verilog/mul512_mul512_Pipeline_VITIS_LOOP_25_3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mul512_mul512_Pipeline_VITIS_LOOP_25_3
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/zc/mul2_512/solution1/sim/verilog/mul512_zc_M_value_RAM_AUTO_1R1W.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mul512_zc_M_value_RAM_AUTO_1R1W
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/zc/mul2_512/solution1/sim/verilog/mul512_mul512_Pipeline_VITIS_LOOP_20_2_zc_conj_M_value_ROM_AUTO_1R.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mul512_mul512_Pipeline_VITIS_LOOP_20_2_zc_conj_M_value_ROM_AUTO_1R
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/zc/mul2_512/solution1/sim/verilog/mul512_flow_control_loop_pipe_sequential_init.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mul512_flow_control_loop_pipe_sequential_init
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/zc/mul2_512/solution1/sim/verilog/AESL_axi_s_input_r.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AESL_axi_s_input_r
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/zc/mul2_512/solution1/sim/verilog/mul512_fsub_32ns_32ns_32_5_full_dsp_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mul512_fsub_32ns_32ns_32_5_full_dsp_1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/zc/mul2_512/solution1/sim/verilog/mul512_mul512_Pipeline_VITIS_LOOP_20_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mul512_mul512_Pipeline_VITIS_LOOP_20_2
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/zc/mul2_512/solution1/sim/verilog/mul512.autotb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module apatb_mul512_top
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/zc/mul2_512/solution1/sim/verilog/mul512_regslice_both.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mul512_regslice_both
+INFO: [VRFC 10-311] analyzing module mul512_regslice_both_w1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/zc/mul2_512/solution1/sim/verilog/AESL_fifo.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fifo
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/zc/mul2_512/solution1/sim/verilog/mul512_fadd_32ns_32ns_32_5_full_dsp_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mul512_fadd_32ns_32ns_32_5_full_dsp_1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/zc/mul2_512/solution1/sim/verilog/dataflow_monitor.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dataflow_monitor
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3645] port 'axis_block_info' remains unconnected for this instance [/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/zc/mul2_512/solution1/sim/verilog/AESL_deadlock_kernel_monitor_top.v:21]
+WARNING: [VRFC 10-3705] select index -1 into 'axis_block_sigs' is out of bounds [/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/zc/mul2_512/solution1/sim/verilog/AESL_deadlock_idx0_monitor.v:45]
+WARNING: [VRFC 10-3705] select index -1 into 'axis_block_sigs' is out of bounds [/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/zc/mul2_512/solution1/sim/verilog/AESL_deadlock_idx0_monitor.v:53]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package floating_point_v7_1_14.floating_point_v7_1_14_viv_comp
+Compiling package ieee.numeric_std
+Compiling package xbip_utils_v3_0_10.xbip_utils_v3_0_10_pkg
+Compiling package axi_utils_v2_0_6.axi_utils_v2_0_6_pkg
+Compiling package floating_point_v7_1_14.floating_point_v7_1_14_consts
+Compiling package ieee.math_real
+Compiling package floating_point_v7_1_14.floating_point_v7_1_14_exp_table...
+Compiling package mult_gen_v12_0_18.mult_gen_v12_0_18_pkg
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_signed
+Compiling package floating_point_v7_1_14.floating_point_v7_1_14_pkg
+Compiling package floating_point_v7_1_14.flt_utils
+Compiling package xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv_comp
+Compiling package unisim.vcomponents
+Compiling package ieee.vital_timing
+Compiling package ieee.vital_primitives
+Compiling package unisim.vpkg
+Compiling package xil_defaultlib.$unit_dataflow_monitor_sv
+Compiling module xil_defaultlib.mul512_zc_M_value_RAM_AUTO_1R1W
+Compiling module xil_defaultlib.mul512_flow_control_loop_pipe_se...
+Compiling module xil_defaultlib.mul512_mul512_Pipeline_1
+Compiling module xil_defaultlib.mul512_mul512_Pipeline_2
+Compiling module xil_defaultlib.mul512_mul512_Pipeline_VITIS_LOO...
+Compiling module xil_defaultlib.mul512_mul512_Pipeline_VITIS_LOO...
+Compiling module xil_defaultlib.mul512_mul512_Pipeline_VITIS_LOO...
+Compiling architecture muxcy_v of entity unisim.MUXCY [muxcy_default]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_has_ce=1...]
+Compiling architecture rtl of entity floating_point_v7_1_14.delay [\delay(width=7,length=0)\]
+Compiling architecture struct of entity floating_point_v7_1_14.carry_chain [\carry_chain(c_xdevicefamily="zy...]
+Compiling architecture synth of entity floating_point_v7_1_14.compare_eq_im [\compare_eq_im(c_xdevicefamily="...]
+Compiling architecture xorcy_v of entity unisim.XORCY [xorcy_default]
+Compiling architecture struct of entity floating_point_v7_1_14.carry_chain [\carry_chain(c_xdevicefamily="zy...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_has_ce=1...]
+Compiling architecture rtl of entity floating_point_v7_1_14.delay [\delay(length=0)\]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_has_ce=1...]
+Compiling architecture rtl of entity floating_point_v7_1_14.delay [\delay(width=24,length=0,fast_in...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_has_ce=1...]
+Compiling architecture rtl of entity floating_point_v7_1_14.delay [\delay(width=16,length=0)\]
+Compiling architecture dsp48e1_v of entity unisim.DSP48E1 [\DSP48E1(acascreg=0,adreg=0,alum...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_has_ce=1...]
+Compiling architecture rtl of entity floating_point_v7_1_14.delay [\delay(width=4,length=0)\]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_has_ce=1...]
+Compiling architecture rtl of entity floating_point_v7_1_14.delay [\delay(width=48,length=0)\]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_has_ce=1...]
+Compiling architecture rtl of entity floating_point_v7_1_14.delay [\delay(width=24,length=0)\]
+Compiling architecture rtl of entity floating_point_v7_1_14.dsp48e1_wrapper [\dsp48e1_wrapper(c_part="xc7z020...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_latency=...]
+Compiling architecture rtl of entity floating_point_v7_1_14.delay [delay_default]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_has_ce=1...]
+Compiling architecture rtl of entity floating_point_v7_1_14.delay [\delay(width=13,length=0)\]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_has_ce=1...]
+Compiling architecture rtl of entity floating_point_v7_1_14.delay [\delay(width=27,length=0)\]
+Compiling architecture synth of entity floating_point_v7_1_14.align_add_dsp48e1_sgl [\align_add_dsp48e1_sgl(c_xdevice...]
+Compiling architecture lut5_v of entity unisim.LUT5 [\LUT5(init="00000000000000001111...]
+Compiling architecture lut5_v of entity unisim.LUT5 [\LUT5(init="00000000000000000000...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_has_ce=1...]
+Compiling architecture rtl of entity floating_point_v7_1_14.delay [\delay(width=5,length=0)\]
+Compiling architecture rtl of entity floating_point_v7_1_14.lead_zero_encode_shift [\lead_zero_encode_shift(ab_fw=24...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_has_ce=1...]
+Compiling architecture rtl of entity floating_point_v7_1_14.delay [\delay(width=3,length=0)\]
+Compiling architecture lut6_v of entity unisim.LUT6 [\LUT6(init="11111110010101001011...]
+Compiling architecture lut5_v of entity unisim.LUT5 [\LUT5(init="00010001010111110000...]
+Compiling architecture lut5_v of entity unisim.LUT5 [\LUT5(init="11101110101000001111...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_latency=...]
+Compiling architecture rtl of entity floating_point_v7_1_14.delay [\delay(width=2)\]
+Compiling architecture dsp48e1_v of entity unisim.DSP48E1 [\DSP48E1(adreg=0,alumodereg=0,ca...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_has_ce=1...]
+Compiling architecture rtl of entity floating_point_v7_1_14.delay [\delay(width=25,length=0)\]
+Compiling architecture rtl of entity floating_point_v7_1_14.dsp48e1_wrapper [\dsp48e1_wrapper(a_width=24,c_wi...]
+Compiling architecture rtl of entity floating_point_v7_1_14.norm_and_round_dsp48e1_sgl [\norm_and_round_dsp48e1_sgl(c_mu...]
+Compiling architecture lut5_v of entity unisim.LUT5 [\LUT5(init="10011001100110011001...]
+Compiling architecture lut5_v of entity unisim.LUT5 [\LUT5(init="11111111000000001111...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_has_ce=1...]
+Compiling architecture rtl of entity floating_point_v7_1_14.delay [\delay(width=9,length=0)\]
+Compiling architecture struct of entity floating_point_v7_1_14.carry_chain [\carry_chain(c_xdevicefamily="zy...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_has_ce=1...]
+Compiling architecture rtl of entity floating_point_v7_1_14.delay [\delay(width=8,length=0)\]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_latency=...]
+Compiling architecture rtl of entity floating_point_v7_1_14.delay [\delay(width=10)\]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_has_ce=1...]
+Compiling architecture rtl of entity floating_point_v7_1_14.delay [\delay(width=4,length=0,fast_inp...]
+Compiling architecture fdre_v of entity unisim.FDRE [fdre_default]
+Compiling architecture fde_v of entity unisim.FDE [fde_default]
+Compiling architecture struct of entity floating_point_v7_1_14.carry_chain [\carry_chain(c_xdevicefamily="zy...]
+Compiling architecture synth of entity floating_point_v7_1_14.compare_eq_im [\compare_eq_im(c_xdevicefamily="...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_latency=...]
+Compiling architecture rtl of entity floating_point_v7_1_14.delay [\delay(fast_input=true)\]
+Compiling architecture rtl of entity floating_point_v7_1_14.special_detect [\special_detect(c_xdevicefamily=...]
+Compiling architecture struct of entity floating_point_v7_1_14.carry_chain [\carry_chain(c_xdevicefamily="zy...]
+Compiling architecture synth of entity floating_point_v7_1_14.compare_gt [\compare_gt(c_xdevicefamily="zyn...]
+Compiling architecture synth of entity floating_point_v7_1_14.compare [\compare(c_xdevicefamily="zynq",...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_latency=...]
+Compiling architecture rtl of entity floating_point_v7_1_14.delay [\delay(width=8)\]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_latency=...]
+Compiling architecture rtl of entity floating_point_v7_1_14.delay [\delay(width=9)\]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_latency=...]
+Compiling architecture rtl of entity floating_point_v7_1_14.delay [\delay(width=2,length=2,fast_inp...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_latency=...]
+Compiling architecture rtl of entity floating_point_v7_1_14.delay [\delay(length=2,fast_input=true)...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_has_ce=1...]
+Compiling architecture rtl of entity floating_point_v7_1_14.delay [\delay(length=0,fast_input=true)...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_has_ce=1...]
+Compiling architecture rtl of entity floating_point_v7_1_14.delay [\delay(width=2,length=0,fast_inp...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_has_ce=1...]
+Compiling architecture rtl of entity floating_point_v7_1_14.delay [\delay(width=12,length=0)\]
+Compiling architecture rtl of entity floating_point_v7_1_14.flt_add_exp_sp [\flt_add_exp_sp(c_xdevicefamily=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_latency=...]
+Compiling architecture rtl of entity floating_point_v7_1_14.delay [\delay(width=23)\]
+Compiling architecture synth of entity floating_point_v7_1_14.flt_dec_op [\flt_dec_op(c_xdevicefamily="zyn...]
+Compiling architecture rtl of entity floating_point_v7_1_14.flt_add_dsp [\flt_add_dsp(c_xdevicefamily="zy...]
+Compiling architecture rtl of entity floating_point_v7_1_14.flt_add [\flt_add(c_xdevicefamily="zynq",...]
+Compiling module unisims_ver.x_lut1_mux2
+Compiling module unisims_ver.LUT1
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_has_ce=1...]
+Compiling architecture rtl of entity floating_point_v7_1_14.delay [\delay(width=32,length=0)\]
+Compiling architecture xilinx of entity floating_point_v7_1_14.floating_point_v7_1_14_viv [\floating_point_v7_1_14_viv(c_xd...]
+Compiling architecture xilinx of entity floating_point_v7_1_14.floating_point_v7_1_14 [\floating_point_v7_1_14(c_xdevic...]
+Compiling module xil_defaultlib.mul512_fsub_32ns_32ns_32_5_full_...
+Compiling module xil_defaultlib.mul512_fsub_32ns_32ns_32_5_full_...
+Compiling architecture rtl of entity floating_point_v7_1_14.flt_add [\flt_add(c_xdevicefamily="zynq",...]
+Compiling architecture xilinx of entity floating_point_v7_1_14.floating_point_v7_1_14_viv [\floating_point_v7_1_14_viv(c_xd...]
+Compiling architecture xilinx of entity floating_point_v7_1_14.floating_point_v7_1_14 [\floating_point_v7_1_14(c_xdevic...]
+Compiling module xil_defaultlib.mul512_fadd_32ns_32ns_32_5_full_...
+Compiling module xil_defaultlib.mul512_fadd_32ns_32ns_32_5_full_...
+Compiling architecture dsp48e1_v of entity unisim.DSP48E1 [\DSP48E1(acascreg=0,adreg=0,alum...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_has_ce=1...]
+Compiling architecture rtl of entity floating_point_v7_1_14.delay [\delay(width=17,length=0)\]
+Compiling architecture rtl of entity floating_point_v7_1_14.dsp48e1_wrapper [\dsp48e1_wrapper(a_width=24,b_wi...]
+Compiling architecture dsp48e1_v of entity unisim.DSP48E1 [\DSP48E1(acascreg=0,adreg=0,alum...]
+Compiling architecture rtl of entity floating_point_v7_1_14.dsp48e1_wrapper [\dsp48e1_wrapper(a_width=24,b_wi...]
+Compiling architecture struct of entity floating_point_v7_1_14.fix_mult_dsp48e1_sgl [\fix_mult_dsp48e1_sgl(registers=...]
+Compiling architecture rtl of entity floating_point_v7_1_14.fix_mult [\fix_mult(c_xdevicefamily="zynq"...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_has_ce=1...]
+Compiling architecture rtl of entity floating_point_v7_1_14.delay [\delay(width=8,length=0,fast_inp...]
+Compiling architecture struct of entity floating_point_v7_1_14.carry_chain [\carry_chain(c_xdevicefamily="zy...]
+Compiling architecture struct of entity floating_point_v7_1_14.carry_chain [\carry_chain(c_xdevicefamily="zy...]
+Compiling architecture synth of entity floating_point_v7_1_14.compare_eq_im [\compare_eq_im(c_xdevicefamily="...]
+Compiling architecture rtl of entity floating_point_v7_1_14.special_detect [\special_detect(c_xdevicefamily=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_latency=...]
+Compiling architecture rtl of entity floating_point_v7_1_14.delay [\delay(width=2,fast_input=true)\]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_latency=...]
+Compiling architecture rtl of entity floating_point_v7_1_14.delay [\delay(width=4,fast_input=true)\]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_has_ce=1...]
+Compiling architecture rtl of entity floating_point_v7_1_14.delay [\delay(width=3,length=0,fast_inp...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_has_ce=1...]
+Compiling architecture rtl of entity floating_point_v7_1_14.delay [\delay(width=14,length=0)\]
+Compiling architecture rtl of entity floating_point_v7_1_14.flt_mult_exp [\flt_mult_exp(c_xdevicefamily="z...]
+Compiling architecture dsp48e1_v of entity unisim.DSP48E1 [\DSP48E1(acascreg=0,adreg=0,alum...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_has_ce=1...]
+Compiling architecture rtl of entity floating_point_v7_1_14.delay [\delay(width=30,length=0)\]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_has_ce=1...]
+Compiling architecture rtl of entity floating_point_v7_1_14.delay [\delay(width=18,length=0)\]
+Compiling architecture rtl of entity floating_point_v7_1_14.dsp48e1_wrapper [\dsp48e1_wrapper(a_width=30,b_wi...]
+Compiling architecture struct of entity floating_point_v7_1_14.flt_round_dsp_opt_full [\flt_round_dsp_opt_full(c_xdevic...]
+Compiling architecture rtl of entity floating_point_v7_1_14.flt_mult_round [\flt_mult_round(c_xdevicefamily=...]
+Compiling architecture synth of entity floating_point_v7_1_14.flt_dec_op_lat [\flt_dec_op_lat(c_xdevicefamily=...]
+Compiling architecture rtl of entity floating_point_v7_1_14.flt_mult [\flt_mult(c_xdevicefamily="zynq"...]
+Compiling architecture xilinx of entity floating_point_v7_1_14.floating_point_v7_1_14_viv [\floating_point_v7_1_14_viv(c_xd...]
+Compiling architecture xilinx of entity floating_point_v7_1_14.floating_point_v7_1_14 [\floating_point_v7_1_14(c_xdevic...]
+Compiling module xil_defaultlib.mul512_fmul_32ns_32ns_32_4_max_d...
+Compiling module xil_defaultlib.mul512_fmul_32ns_32ns_32_4_max_d...
+Compiling module xil_defaultlib.mul512_mul512_Pipeline_VITIS_LOO...
+Compiling module xil_defaultlib.mul512_mul512_Pipeline_VITIS_LOO...
+Compiling module xil_defaultlib.mul512_regslice_both(DataWidth=6...
+Compiling module xil_defaultlib.mul512_regslice_both(DataWidth=8...
+Compiling module xil_defaultlib.mul512_regslice_both(DataWidth=1...
+Compiling module xil_defaultlib.mul512
+Compiling module xil_defaultlib.fifo(DEPTH=512,WIDTH=64)
+Compiling module xil_defaultlib.fifo(DEPTH=512)
+Compiling module xil_defaultlib.fifo(DEPTH=512,WIDTH=1)
+Compiling module xil_defaultlib.AESL_axi_s_input_r
+Compiling module xil_defaultlib.AESL_axi_s_output_r
+WARNING: [VRFC 10-3705] select index -1 into 'axis_block_sigs' is out of bounds [/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/zc/mul2_512/solution1/sim/verilog/AESL_deadlock_idx0_monitor.v:45]
+WARNING: [VRFC 10-3705] select index -1 into 'axis_block_sigs' is out of bounds [/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/zc/mul2_512/solution1/sim/verilog/AESL_deadlock_idx0_monitor.v:53]
+Compiling module xil_defaultlib.AESL_deadlock_idx0_monitor
+Compiling module xil_defaultlib.AESL_deadlock_kernel_monitor_top...
+Compiling module xil_defaultlib.nodf_module_intf
+Compiling module xil_defaultlib.upc_loop_intf(FSM_WIDTH=1)
+Compiling module xil_defaultlib.dataflow_monitor_1
+Compiling module xil_defaultlib.apatb_mul512_top
+Compiling module work.glbl
+Built simulation snapshot mul512
+
+****** xsim v2022.1 (64-bit)
+  **** SW Build 3526262 on Mon Apr 18 15:47:01 MDT 2022
+  **** IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+source xsim.dir/mul512/xsim_script.tcl
+# xsim {mul512} -autoloadwcfg -tclbatch {mul512.tcl}
+Time resolution is 1 ps
+source mul512.tcl
+## run all
+////////////////////////////////////////////////////////////////////////////////////
+// Inter-Transaction Progress: Completed Transaction / Total Transaction
+// Intra-Transaction Progress: Measured Latency / Latency Estimation * 100%
+//
+// RTL Simulation : "Inter-Transaction Progress" ["Intra-Transaction Progress"] @ "Simulation Time"
+////////////////////////////////////////////////////////////////////////////////////
+// RTL Simulation : 0 / 1 [0.00%] @ "125000"
+// RTL Simulation : 1 / 1 [100.00%] @ "20785000"
+////////////////////////////////////////////////////////////////////////////////////
+$finish called at time : 20845 ns : File "/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/zc/mul2_512/solution1/sim/verilog/mul512.autotb.v" Line 248
+## quit
+INFO: [Common 17-206] Exiting xsim at Tue May  5 12:36:43 2026...
+{15.999224,16.000418}
+{16.097683,15.902049}
+{16.387341,15.602379}
+{16.857679,15.092836}
+{17.490709,14.355440}
+{18.255720,13.367920}
+{19.115992,12.107252}
+{20.020653,10.545676}
+{20.905582,8.660848}
+{21.693787,6.436282}
+{22.295404,3.869441}
+{22.607338,0.971690}
+{22.518530,-2.217475}
+{21.915869,-5.631951}
+{20.686802,-9.169207}
+{18.736679,-12.685846}
+{16.000561,-15.999183}
+{12.455997,-18.889858}
+{8.145101,-21.110321}
+{3.184043,-22.401962}
+{-2.215901,-22.518539}
+{-7.751744,-21.258142}
+{-13.027651,-18.501347}
+{-17.578629,-14.248416}
+{-20.905060,-8.660286}
+{-22.531584,-2.080224}
+{-22.077383,4.957053}
+{-19.336483,11.751048}
+{-14.354740,17.490822}
+{-7.491889,21.350168}
+{0.554927,22.619457}
+{8.786027,20.851021}
+{15.999029,16.000393}
+{20.957144,8.531422}
+{22.620804,-0.554396}
+{20.395605,-9.799093}
+{14.355875,-17.490807}
+{5.364289,-21.983143}
+{-4.957075,-22.078325}
+{-14.461468,-17.403727}
+{-20.904844,-8.659784}
+{-22.504509,2.355083}
+{-18.499889,13.028195}
+{-9.549312,20.513014}
+{2.216838,22.517550}
+{13.588816,18.091774}
+{21.110445,8.144643}
+{22.165386,-4.549475}
+{16.001205,-15.999821}
+{4.278735,-22.219954}
+{-9.169582,-20.687166}
+{-19.480070,-11.514273}
+{-22.519226,2.218036}
+{-16.672680,15.298009}
+{-3.868978,22.294189}
+{10.787886,19.890087}
+{20.904207,8.659554}
+{21.611444,-6.699706}
+{12.106026,-19.115236}
+{-3.456292,-22.360926}
+{-17.490017,-14.354304}
+{-22.591579,1.247959}
+{-15.603141,16.386885}
+{0.138349,22.627502}
+{16.000725,16.000681}
+{22.627560,-0.139219}
+{15.602946,-16.387915}
+{-1.248154,-22.593430}
+{-17.491028,-14.355936}
+{-22.362041,3.456331}
+{-12.106510,19.115915}
+{6.699865,21.612146}
+{20.903616,8.659550}
+{19.888927,-10.787107}
+{3.869051,-22.293192}
+{-15.297656,-16.671944}
+{-22.518360,2.217642}
+{-11.513874,19.479446}
+{9.169854,20.686901}
+{22.219988,4.278642}
+{16.000656,-16.000109}
+{-4.549513,-22.165125}
+{-21.110790,-8.144664}
+{-18.092331,13.589515}
+{2.216779,22.519094}
+{20.513552,9.549947}
+{18.500471,-13.027622}
+{-2.354025,-22.504087}
+{-20.903564,-8.660338}
+{-17.402929,14.459897}
+{4.956758,22.077431}
+{21.982740,5.363948}
+{14.355618,-17.491545}
+{-9.799384,-20.396105}
+{-22.620749,0.554638}
+{-8.531281,20.957245}
+{15.999368,16.000360}
+{20.851885,-8.786683}
+{-0.554378,-22.620764}
+{-21.350569,-7.493460}
+{-14.355835,17.489887}
+{11.750194,19.336535}
+{22.076992,-4.956706}
+{2.080588,-22.531023}
+{-20.904749,-8.659916}
+{-14.247598,17.578602}
+{13.028927,18.500143}
+{21.258270,-7.753226}
+{-2.217292,-22.519751}
+{-22.402973,-3.183892}
+{-8.144762,21.111015}
+{18.889935,12.456066}
+{16.000458,-15.998940}
+{-12.684842,-18.736578}
+{-20.686157,9.167763}
+{5.631150,21.914499}
+{22.517744,-2.217257}
+{0.971665,-22.606018}
+{-22.294403,-3.868382}
+{-6.435380,21.693001}
+{20.905149,8.659101}
+{10.543825,-20.021025}
+{-19.117476,-12.106081}
+{-13.367964,18.256966}
+{17.490808,14.354995}
+{15.092203,-16.857958}
+{-16.387047,-15.602777}
+{-15.902228,16.096531}
+{15.998262,16.000656}
+{15.901406,-16.096779}
+{-16.387482,-15.602167}
+{-15.092533,16.858461}
+{17.490753,14.354675}
+{13.366860,-18.256582}
+{-19.117342,-12.105600}
+{-10.545044,20.021605}
+{20.905689,8.660439}
+{6.435662,-21.692352}
+{-22.293699,-3.868222}
+{-0.971402,22.606342}
+{22.518171,-2.217308}
+{-5.631413,-21.914650}
+{-20.686125,9.168530}
+{12.685372,18.736568}
+{16.000214,-15.999350}
+{-18.890518,-12.455355}
+{-8.143555,21.111683}
+{22.402874,3.182861}
+{-2.217659,-22.519112}
+{-21.258202,7.753493}
+{13.028938,18.500612}
+{14.247621,-17.578304}
+{-20.904514,-8.659575}
+{-2.080000,22.531143}
+{22.077278,-4.956949}
+{-11.750892,-19.336470}
+{-14.355344,17.490932}
+{21.350637,7.492830}
+{-0.554767,-22.620037}
+{-20.850946,8.786987}
+{15.999688,16.000219}
+{8.530963,-20.956984}
+{-22.620403,0.555302}
+{9.799865,20.396170}
+{14.356335,-17.491055}
+{-21.981836,-5.363946}
+{4.957867,22.077282}
+{17.403429,-14.461880}
+{-20.904694,-8.660398}
+{2.355303,22.503944}
+{18.499712,-13.029119}
+{-20.513836,-9.548971}
+{2.217703,22.518332}
+{18.091015,-13.590395}
+{-21.111227,-8.143301}
+{4.550093,22.164989}
+{16.000448,-15.999779}
+{-22.219093,-4.278299}
+{9.169352,20.686153}
+{11.513618,-19.478743}
+{-22.518202,2.217483}
+{15.297658,16.672220}
+{3.869256,-22.293985}
+{-19.889828,10.787507}
+{20.904284,8.659446}
+{-6.700764,-21.611628}
+{-12.105308,19.116461}
+{22.361601,-3.457534}
+{-17.491297,-14.355024}
+{1.248253,22.592554}
+{15.602697,-16.387543}
+{-22.627493,0.138958}
+{16.000340,16.000996}
+{-0.137865,-22.626928}
+{-15.602222,16.387197}
+{22.592928,-1.249113}
+{-17.491144,-14.355736}
+{3.456359,22.361217}
+{12.105262,-19.116587}
+{-21.612282,6.701018}
+{20.904499,8.658856}
+{-10.789271,-19.889130}
+{-3.868795,22.294943}
+{16.672544,-15.297485}
+{-22.518312,2.217972}
+{19.479612,11.513907}
+{-9.169125,-20.686977}
+{-4.278648,22.218864}
+{15.999905,-15.999464}
+{-22.164841,4.549931}
+{21.110851,8.144500}
+{-13.589096,-18.091593}
+{2.217225,22.517973}
+{9.548859,-20.513334}
+{-18.499321,13.028720}
+{22.503593,-2.356396}
+{-20.905111,-8.658935}
+{14.461402,17.402761}
+{-4.957652,-22.077658}
+{-5.363711,21.982813}
+{14.354966,-17.490747}
+{-20.394396,9.799711}
+{22.620470,-0.555368}
+{-20.957497,-8.530691}
+{16.000296,16.000402}
+{-8.786689,-20.851791}
+{0.554569,22.620481}
+{7.492428,-21.350473}
+{-14.354273,17.490852}
+{19.336397,-11.751759}
+{-22.078026,4.956958}
+{22.531063,2.079806}
+{-20.905769,-8.659243}
+{17.578501,14.248102}
+{-13.028134,-18.499729}
+{7.753178,21.257217}
+{-2.217341,-22.518162}
+{-3.182930,22.402010}
+{8.144008,-21.110846}
+{-12.455489,18.890268}
+{16.000338,-15.999837}
+{-18.736061,12.685903}
+{20.685884,-9.169783}
+{-21.915085,5.632508}
+{22.518867,-2.217255}
+{-22.605783,-0.972423}
+{22.293858,3.868223}
+{-21.693367,-6.435832}
+{20.904518,8.659822}
+{-20.020060,-10.543425}
+{19.116570,12.105915}
+{-18.256397,-13.367060}
+{17.491577,14.354931}
+{-16.858246,-15.092655}
+{16.387756,15.602984}
+{-16.097214,-15.901621}
+{15.999956,16.000044}
+{-16.097111,-15.901664}
+{16.387966,15.602552}
+{-16.858091,-15.093315}
+{17.490988,14.353956}
+{-18.257563,-13.367847}
+{19.116381,12.105803}
+{-20.020645,-10.543599}
+{20.905128,8.659652}
+{-21.692543,-6.436110}
+{22.294046,3.868417}
+{-22.606346,-0.971894}
+{22.518251,-2.218255}
+{-21.915491,5.632535}
+{20.686329,-9.169540}
+{-18.737133,12.685884}
+{15.999978,-15.999480}
+{-12.455359,18.890495}
+{8.143502,-21.111549}
+{-3.183230,22.402401}
+{-2.218251,-22.518517}
+{7.752935,21.257742}
+{-13.029070,-18.499393}
+{17.578987,14.247642}
+{-20.904388,-8.659367}
+{22.531153,2.079383}
+{-22.077936,4.957795}
+{19.336208,-11.751437}
+{-14.354954,17.491837}
+{7.492726,-21.350443}
+{0.555394,22.620266}
+{-8.786847,-20.850998}
+{16.000586,15.999749}
+{-20.957739,-8.531395}
+{22.620407,-0.555205}
+{-20.395388,9.799330}
+{14.354692,-17.491028}
+{-5.363811,21.982502}
+{-4.957449,-22.077154}
+{14.461739,17.402830}
+{-20.905066,-8.659327}
+{22.504421,-2.355650}
+{-18.500011,13.028981}
+{9.549382,-20.513460}
+{2.217987,22.518126}
+{-13.590273,-18.091904}
+{21.111147,8.143474}
+{-22.165493,4.550156}
+{16.000095,-15.999989}
+{-4.278838,22.219038}
+{-9.169689,-20.685949}
+{19.478910,11.514290}
+{-22.518017,2.218009}
+{16.672413,-15.298461}
+{-3.868885,22.294662}
+{-10.788202,-19.889637}
+{20.905199,8.659243}
+{-21.612356,6.700825}
+{12.106060,-19.116476}
+{3.457421,22.361166}
+{-17.491367,-14.354911}
+{22.592621,-1.248682}
+{-15.602761,16.387751}
+{-0.138341,-22.626633}
+{16.000019,16.000048}
+{-22.626568,0.138226}
+{15.602197,-16.387995}
+{1.248301,22.592953}
+{-17.491318,-14.354349}
+{22.361763,-3.457134}
+{-12.105791,19.116945}
+{-6.700460,-21.612005}
+{20.904833,8.658766}
+{-19.889683,10.789121}
+{3.868893,-22.294142}
+{15.298465,16.672279}
+{-22.518063,2.217621}
+{11.513988,-19.479362}
+{9.169349,20.685295}
+{-22.219526,-4.278466}
+{15.999557,-16.000105}
+{4.550355,22.165079}
+{-21.111561,-8.143781}
+{18.091419,-13.589850}
+{2.217682,22.518549}
+{-20.513449,-9.548759}
+{18.499647,-13.028786}
+{2.356219,22.504286}
+{-20.904911,-8.659266}
+{17.402903,-14.461886}
+{4.957414,22.077332}
+{-21.982721,-5.363395}
+{14.355014,-17.491148}
+{9.799310,20.394369}
+{-22.620756,0.555223}
+{8.530323,-20.957726}
+{15.999635,16.000284}
+{-20.851377,8.787192}
+{-0.555189,-22.620546}
+{21.350626,7.491896}
+{-14.355297,17.491314}
+{-11.751851,-19.335604}
+{22.077827,-4.957049}
+{-2.079074,22.531633}
+{-20.905008,-8.660000}
+{14.246541,-17.578659}
+{13.028637,18.500013}
+{-21.257236,7.753686}
+{-2.217668,-22.518488}
+{22.402500,3.182470}
+{-8.143816,21.110538}
+{-18.891415,-12.455898}
+{15.999434,-15.999580}
+{12.685540,18.736635}
+{-20.686367,9.169832}
+{-5.632919,-21.914373}
+{22.518721,-2.217088}
+{-0.971337,22.606358}
+{-22.294323,-3.868524}
+{6.435394,-21.692341}
+{20.904627,8.659568}
+{-10.543497,20.020960}
+{-19.116449,-12.105196}
+{13.367575,-18.256535}
+{17.491598,14.354991}
+{-15.092257,16.858507}
+{-16.387455,-15.602307}
+{15.901643,-16.097736}
+{15.999670,16.000202}
+{-15.901158,16.098488}
+{-16.387360,-15.602497}
+{15.092976,-16.858526}
+{17.491348,14.354664}
+{-13.367164,18.256449}
+{-19.117022,-12.105547}
+{10.543879,-20.019907}
+{20.905655,8.659298}
+{-6.435073,21.692947}
+{-22.293699,-3.868809}
+{0.971883,-22.606800}
+{22.518190,-2.218194}
+{5.632185,21.914970}
+{-20.686487,9.169869}
+{-12.686313,-18.735989}
+{16.000362,-15.999371}
+{18.891106,12.455893}
+{-8.142881,21.111340}
+{-22.401928,-3.182896}
+{-2.216988,-22.517960}
+{21.257881,-7.753806}
+{13.029728,18.499762}
+{-14.246245,17.578632}
+{-20.904270,-8.660109}
+{2.079892,-22.532272}
+{22.077782,-4.958414}
+{11.750947,19.335386}
+{-14.355075,17.491199}
+{-21.350939,-7.492155}
+{-0.555638,-22.620693}
+{20.851652,-8.786922}
+{16.000248,15.999739}
+{-8.530477,20.957083}
+{-22.620625,0.554689}
+{-9.800080,-20.395266}
+{14.354374,-17.491596}
+{21.982035,5.363620}
+{4.957861,22.077557}
+{-17.402761,14.461491}
+{-20.904766,-8.659243}
+{-2.355869,-22.504536}
+{18.499464,-13.029259}
+{20.513885,9.548670}
+{2.217527,22.517969}
+{-18.091709,13.590143}
+{-21.111479,-8.143263}
+{-4.550487,-22.164669}
+{16.000341,-15.999588}
+{22.219566,4.277949}
+{9.170118,20.685436}
+{-11.513906,19.478186}
+{-22.518774,2.217407}
+{-15.298715,-16.672121}
+{3.868208,-22.294210}
+{19.889332,-10.788959}
+{20.904192,8.659133}
+{6.700589,21.612692}
+{-12.105573,19.117189}
+{-22.361460,3.457326}
+{-17.491545,-14.354439}
+{-1.248569,-22.592295}
+{15.602591,-16.388054}
+{22.626352,-0.138868}
+{15.999985,16.000282}
+{0.138740,22.626650}
+{-15.602791,16.387941}
+{-22.592817,1.249342}
+{-17.490934,-14.354843}
+{-3.457803,-22.361217}
+{12.105594,-19.116327}
+{21.612343,-6.700917}
+{20.904957,8.659715}
+{10.789147,19.889790}
+{-3.868356,22.294268}
+{-16.671480,15.297932}
+{-22.518469,2.217835}
+{-19.478846,-11.513196}
+{-9.168869,-20.685944}
+{4.278771,-22.219429}
+{15.999989,-16.000772}
+{22.164696,-4.550653}
+{21.110851,8.143670}
+{13.590744,18.091093}
+{2.217941,22.518084}
+{-9.548746,20.513105}
+{-18.500202,13.028783}
+{-22.504417,2.356030}
+{-20.905149,-8.659072}
+{-14.461343,-17.402414}
+{-4.957423,-22.077791}
+{5.362661,-21.982946}
+{14.354079,-17.491030}
+{20.394564,-9.798887}
+{22.620752,-0.554711}
+{20.958286,8.530741}
+{16.000269,15.999952}
+{8.787572,20.850937}
+{0.555492,22.620058}
+{-7.491918,21.350508}
+{-14.354895,17.491028}
+{-19.335943,11.751617}
+{-22.077251,4.957591}
+{-22.530804,-2.080101}
+{-20.905064,-8.659868}
+{-17.578764,-14.247282}
+{-13.028850,-18.499924}
+{-7.753274,-21.258087}
+{-2.218030,-22.518948}
+{3.182665,-22.403090}
+{8.142690,-21.112074}
+{12.454312,-18.891066}
+{15.999172,-16.000179}
+{18.735359,-12.686046}
+{20.685511,-9.169632}
+{21.914078,-5.632768}
+{22.517284,-2.217646}
+{22.605345,0.971967}
+{22.293289,3.869046}
+{21.692486,6.436204}
+{20.904793,8.659495}
+{20.019903,10.544334}
+{19.116753,12.106377}
+{18.257118,13.367418}
+{17.491463,14.354708}
+{16.858677,15.091970}
+{16.387142,15.601806}
+{16.096924,15.901262}
+
+
+INFO: [COSIM-1000] *** C/RTL co-simulation finished: PASS ***
+INFO: [COSIM-211] II is measurable only when transaction number is greater than 1 in RTL simulation. Otherwise, they will be marked as all NA. If user wants to calculate them, please make sure there are at least 2 transactions in RTL simulation.

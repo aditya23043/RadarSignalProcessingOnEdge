@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="trigger_ip.h" path="/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/zc/trigger_ip.h"/>
+    <originFiles name="trigger_ip.cpp" path="/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/zc/project_trigger_ip/trigger_ip.cpp"/>
+  </source>
+  <testbench>
+    <originFiles name="trigger_ip_tb.cpp" path="/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/zc/project_trigger_ip/trigger_ip_tb.cpp"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>

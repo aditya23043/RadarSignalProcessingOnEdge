@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="ifft.h" path="/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/zc/ifft_512/ifft.h"/>
+    <originFiles name="ifft.cpp" path="/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/zc/ifft_512/ifft.cpp"/>
+    <originFiles name="tw.h" path="/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/zc/ifft_512/tw.h"/>
+    <originFiles name="tw.cpp" path="/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/zc/ifft_512/tw.cpp"/>
+  </source>
+  <testbench>
+    <originFiles name="ifft_tb.cpp" path="/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/zc/ifft_512/ifft_tb.cpp"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>

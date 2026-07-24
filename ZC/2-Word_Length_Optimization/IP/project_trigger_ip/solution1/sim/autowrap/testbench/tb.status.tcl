@@ -1,0 +1,1 @@
+set ::AESL_AUTOSIM::gTopFileName /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/zc/project_trigger_ip/solution1/./sim/autowrap/testbench/trigger_ip.cpp_pre.cpp.tb.cpp

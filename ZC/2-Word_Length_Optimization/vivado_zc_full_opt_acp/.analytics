@@ -1,0 +1,19 @@
+timestamp=[2026-05-06 01:43:38], mode=WORKBENCH_START, duration=0:00:04.251, duration_ms=4251, data={}
+timestamp=[2026-05-06 01:43:38], mode=WORKBENCH_UI_INIT, duration=0:00:00.229, duration_ms=229, data={editors_count=0, platform_editors_count=0, projects_count=0, platform_projects_count=0, active_platform_editor=false, projects=}
+timestamp=[2026-05-06 01:43:38], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.546, duration_ms=546, data={}
+timestamp=[2026-05-06 01:44:19], mode=APP_CREATION, duration=0:00:10.638, duration_ms=10638, data={name=zc_acp_wlo, project_type=sdk, os=standalone, processor=ps7_cortexa9, runtime=cpp, platform=design_1_wrapper, application_type=application}
+timestamp=[2026-05-06 01:47:20], mode=PLATFORM_GENERATION, duration=0:00:07.864, duration_ms=7864, data={name=design_1_wrapper}
+timestamp=[2026-05-06 01:47:22], mode=BUILD, duration=0:00:00.685, duration_ms=685, data={name=zc_acp_wlo, configuration=Debug, clean_build=false}
+timestamp=[2026-05-06 01:55:15], mode=BUILD, duration=0:00:00.547, duration_ms=547, data={name=zc_acp_wlo, configuration=Debug, clean_build=false}
+timestamp=[2026-05-06 01:57:40], mode=WORKBENCH_START, duration=0:00:04.485, duration_ms=4485, data={}
+timestamp=[2026-05-06 01:57:41], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.431, duration_ms=431, data={}
+timestamp=[2026-05-06 01:57:41], mode=WORKBENCH_UI_INIT, duration=0:00:00.987, duration_ms=987, data={editors_count=5, platform_editors_count=2, projects_count=4, platform_projects_count=1, active_platform_editor=true, projects=RemoteSystemsTempFiles,design_1_wrapper,zc_acp_wlo,zc_acp_wlo_system}
+timestamp=[2026-05-06 02:00:05], mode=WORKBENCH_START, duration=0:00:05.401, duration_ms=5401, data={}
+timestamp=[2026-05-06 02:00:06], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.483, duration_ms=483, data={}
+timestamp=[2026-05-06 02:00:06], mode=WORKBENCH_UI_INIT, duration=0:00:00.939, duration_ms=939, data={editors_count=5, platform_editors_count=2, projects_count=4, platform_projects_count=1, active_platform_editor=true, projects=RemoteSystemsTempFiles,design_1_wrapper,zc_acp_wlo,zc_acp_wlo_system}
+timestamp=[2026-05-06 02:00:28], mode=PLATFORM_GENERATION, duration=0:00:06.607, duration_ms=6607, data={name=design_1_wrapper}
+timestamp=[2026-05-06 02:00:30], mode=BUILD, duration=0:00:00.641, duration_ms=641, data={name=zc_acp_wlo, configuration=Debug, clean_build=false}
+timestamp=[2026-05-06 02:05:21], mode=WORKBENCH_START, duration=0:00:04.555, duration_ms=4555, data={}
+timestamp=[2026-05-06 02:05:22], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.388, duration_ms=388, data={}
+timestamp=[2026-05-06 02:05:22], mode=WORKBENCH_UI_INIT, duration=0:00:00.864, duration_ms=864, data={editors_count=5, platform_editors_count=2, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,design_1_wrapper,zc_acp_wlo,zc_acp_wlo_system}
+timestamp=[2026-05-06 02:07:17], mode=BUILD, duration=0:00:00.536, duration_ms=536, data={name=zc_acp_wlo, configuration=Debug, clean_build=false}

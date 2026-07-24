@@ -1,0 +1,10 @@
+trigger_ip_control_s_axi
+trigger_ip_regslice_both
+trigger_ip_regslice_both
+trigger_ip_regslice_both
+trigger_ip_regslice_both
+trigger_ip_regslice_both
+trigger_ip_regslice_both
+trigger_ip_regslice_both
+trigger_ip_regslice_both
+trigger_ip

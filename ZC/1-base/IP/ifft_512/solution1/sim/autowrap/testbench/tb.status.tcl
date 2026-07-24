@@ -1,0 +1,1 @@
+set ::AESL_AUTOSIM::gTopFileName /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/zc/ifft_512/solution1/./sim/autowrap/testbench/ifft.cpp_pre.cpp.tb.cpp

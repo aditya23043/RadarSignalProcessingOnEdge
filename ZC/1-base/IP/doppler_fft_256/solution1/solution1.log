@@ -1,0 +1,1087 @@
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2022.1 (64-bit)
+Tool Version Limit: 2022.04
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2022.1 (64-bit)
+Tool Version Limit: 2022.04
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2022.1 (64-bit)
+Tool Version Limit: 2022.04
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2022.1 (64-bit)
+Tool Version Limit: 2022.04
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2022.1 (64-bit)
+Tool Version Limit: 2022.04
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2022.1 (64-bit)
+Tool Version Limit: 2022.04
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2022.1 (64-bit)
+Tool Version Limit: 2022.04
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2022.1 (64-bit)
+Tool Version Limit: 2022.04
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2022.1 (64-bit)
+Tool Version Limit: 2022.04
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2022.1 (64-bit)
+Tool Version Limit: 2022.04
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2022.1 (64-bit)
+Tool Version Limit: 2022.04
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2022.1 (64-bit)
+Tool Version Limit: 2022.04
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2022.1 (64-bit)
+Tool Version Limit: 2022.04
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2022.1 (64-bit)
+Tool Version Limit: 2022.04
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2022.1 (64-bit)
+Tool Version Limit: 2022.04
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2022.1 (64-bit)
+Tool Version Limit: 2022.04
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2022.1 (64-bit)
+Tool Version Limit: 2022.04
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2022.1 (64-bit)
+Tool Version Limit: 2022.04
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2022.1 (64-bit)
+Tool Version Limit: 2022.04
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2022.1 (64-bit)
+Tool Version Limit: 2022.04
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2022.1 (64-bit)
+Tool Version Limit: 2022.04
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1611] Setting target device to 'xc7z020-clg484-1'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1510] Running: set_part xc7z020clg484-1 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [HLS 200-1510] Running: csynth_design 
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0.01 seconds. CPU system time: 0 seconds. Elapsed time: 0.01 seconds; current allocated memory: 1.745 GB.
+INFO: [HLS 200-10] Analyzing design file 'doppler_fft_256/tw.cpp' ... 
+INFO: [HLS 200-10] Analyzing design file 'doppler_fft_256/input.cpp' ... 
+INFO: [HLS 200-10] Analyzing design file 'doppler_fft_256/doppler.cpp' ... 
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 20.29 seconds. CPU system time: 2.18 seconds. Elapsed time: 22.46 seconds; current allocated memory: 752.918 MB.
+INFO: [HLS 200-777] Using interface defaults for 'Vivado' flow target.
+INFO: [HLS 214-178] Inlining function 'fftshift_inplace(std::complex<float>*, int)' into 'doppler_fft_256(hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<float, 0ul, 0ul, 0ul>, 0>&)' (doppler_fft_256/doppler.cpp:48:0)
+INFO: [HLS 214-131] Inlining function '_llvm.fpga.unpack.none.s_struct.std::complex<float>s.i64' into 'doppler_fft_256(hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<float, 0ul, 0ul, 0ul>, 0>&)' (/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_axi_sdata.h:293:5)
+INFO: [HLS 214-131] Inlining function '_llvm.fpga.pack.none.i1.s_struct.ap_uint<1>s' into 'doppler_fft_256(hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<float, 0ul, 0ul, 0ul>, 0>&)' (/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_axi_sdata.h:304:5)
+INFO: [HLS 214-131] Inlining function '_llvm.fpga.pack.none.i4.s_struct.ap_uint<4>s' into 'doppler_fft_256(hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<float, 0ul, 0ul, 0ul>, 0>&)' (/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_axi_sdata.h:304:5)
+INFO: [HLS 214-131] Inlining function '_llvm.fpga.pack.none.i32.f32' into 'doppler_fft_256(hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<float, 0ul, 0ul, 0ul>, 0>&)' (/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_axi_sdata.h:304:5)
+INFO: [HLS 214-131] Inlining function '_llvm.fpga.unpack.none.s_struct.ap_uint<8>s.i8' into 'doppler_fft_256(hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<float, 0ul, 0ul, 0ul>, 0>&)' (/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_axi_sdata.h:293:5)
+INFO: [HLS 214-131] Inlining function '_llvm.fpga.unpack.none.s_struct.ap_uint<1>s.i1' into 'doppler_fft_256(hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<float, 0ul, 0ul, 0ul>, 0>&)' (/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_axi_sdata.h:293:5)
+INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 7.18 seconds. CPU system time: 1.5 seconds. Elapsed time: 8.83 seconds; current allocated memory: 754.043 MB.
+INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0.01 seconds. CPU system time: 0 seconds. Elapsed time: 0 seconds; current allocated memory: 754.043 MB.
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 0.02 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.05 seconds; current allocated memory: 760.430 MB.
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 0.06 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.06 seconds; current allocated memory: 768.586 MB.
+INFO: [XFORM 203-510] Pipelining loop 'VITIS_LOOP_8_1' (doppler_fft_256/doppler.cpp:8) in function 'fft_fast' automatically.
+INFO: [XFORM 203-510] Pipelining loop 'VITIS_LOOP_23_4' (doppler_fft_256/doppler.cpp:23) in function 'fft_fast' automatically.
+INFO: [XFORM 203-510] Pipelining loop 'Loop-2' (doppler_fft_256/doppler.cpp:55) in function 'doppler_fft_256' automatically.
+INFO: [XFORM 203-510] Pipelining loop 'Loop-3.1' (doppler_fft_256/doppler.cpp:55) in function 'doppler_fft_256' automatically.
+INFO: [XFORM 203-510] Pipelining loop 'VITIS_LOOP_60_2' in function 'doppler_fft_256' automatically.
+INFO: [XFORM 203-510] Pipelining loop 'VITIS_LOOP_38_1' (doppler_fft_256/doppler.cpp:38) in function 'doppler_fft_256' automatically.
+INFO: [XFORM 203-510] Pipelining loop 'VITIS_LOOP_75_4' (doppler_fft_256/doppler.cpp:68) in function 'doppler_fft_256' automatically.
+INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 0.09 seconds. CPU system time: 0.02 seconds. Elapsed time: 0.11 seconds; current allocated memory: 798.371 MB.
+WARNING: [HLS 200-960] Cannot flatten loop 'VITIS_LOOP_22_3' (doppler_fft_256/doppler.cpp:23:39) in function 'fft_fast' the outer loop is not a perfect loop because either the parent loop or the sub loop has no computeable trip count.
+WARNING: [HLS 200-960] Cannot flatten loop 'VITIS_LOOP_19_2' (doppler_fft_256/doppler.cpp:18:9) in function 'fft_fast' the outer loop is not a perfect loop.
+WARNING: [HLS 200-960] Cannot flatten loop 'Loop-2' (doppler_fft_256/doppler.cpp:55:52) in function 'doppler_fft_256' either the parent loop or sub loop is do-while loop.
+INFO: [XFORM 203-541] Flattening a loop nest 'VITIS_LOOP_58_1' (doppler_fft_256/doppler.cpp:58:30) in function 'doppler_fft_256'.
+WARNING: [HLS 200-960] Cannot flatten loop 'VITIS_LOOP_70_3' (doppler_fft_256/doppler.cpp:68:9) in function 'doppler_fft_256' more than one sub loop.
+INFO: [HLS 200-472] Inferring partial write operation for 'x.0' (doppler_fft_256/doppler.cpp:12:18)
+INFO: [HLS 200-472] Inferring partial write operation for 'x.0' (doppler_fft_256/doppler.cpp:13:20)
+INFO: [HLS 200-472] Inferring partial write operation for 'x.0' (doppler_fft_256/doppler.cpp:27:26)
+INFO: [HLS 200-472] Inferring partial write operation for 'x.0' (doppler_fft_256/doppler.cpp:28:31)
+INFO: [HLS 200-472] Inferring partial write operation for 'range_dop_map._M_value' 
+INFO: [HLS 200-472] Inferring partial write operation for 'range_dop_map._M_value' (doppler_fft_256/doppler.cpp:62:33)
+INFO: [HLS 200-472] Inferring partial write operation for 'range_dop_map._M_value' (doppler_fft_256/doppler.cpp:40:14)
+INFO: [HLS 200-472] Inferring partial write operation for 'range_dop_map._M_value' (doppler_fft_256/doppler.cpp:41:21)
+INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 0.11 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.13 seconds; current allocated memory: 870.270 MB.
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'doppler_fft_256' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'doppler_fft_256_Pipeline_1' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'Loop 1'.
+INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 1, loop 'Loop 1'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.03 seconds. CPU system time: 0.04 seconds. Elapsed time: 0.07 seconds; current allocated memory: 871.586 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.01 seconds. CPU system time: 0 seconds. Elapsed time: 0 seconds; current allocated memory: 871.586 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'doppler_fft_256_Pipeline_2' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'Loop 1'.
+INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 1, loop 'Loop 1'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.02 seconds. CPU system time: 0 seconds. Elapsed time: 0.02 seconds; current allocated memory: 871.965 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.01 seconds. CPU system time: 0 seconds. Elapsed time: 0.01 seconds; current allocated memory: 871.965 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'doppler_fft_256_Pipeline_VITIS_LOOP_58_1_VITIS_LOOP_60_2' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_58_1_VITIS_LOOP_60_2'.
+INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 3, loop 'VITIS_LOOP_58_1_VITIS_LOOP_60_2'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.03 seconds. CPU system time: 0 seconds. Elapsed time: 0.03 seconds; current allocated memory: 872.293 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.02 seconds. CPU system time: 0 seconds. Elapsed time: 0.02 seconds; current allocated memory: 872.293 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'fft_fast_Pipeline_VITIS_LOOP_8_1' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_8_1'.
+WARNING: [HLS 200-880] The II Violation in module 'fft_fast_Pipeline_VITIS_LOOP_8_1' (loop 'VITIS_LOOP_8_1'): Unable to enforce a carried dependence constraint (II = 1, distance = 1, offset = 1) between 'store' operation ('x_0_addr_1_write_ln13', doppler_fft_256/doppler.cpp:13) of variable 'x_0_load', doppler_fft_256/doppler.cpp:13 on array 'x_0' and 'load' operation ('x_0_load_1', doppler_fft_256/doppler.cpp:12) on array 'x_0'.
+WARNING: [HLS 200-880] The II Violation in module 'fft_fast_Pipeline_VITIS_LOOP_8_1' (loop 'VITIS_LOOP_8_1'): Unable to enforce a carried dependence constraint (II = 2, distance = 1, offset = 1) between 'store' operation ('x_0_addr_1_write_ln13', doppler_fft_256/doppler.cpp:13) of variable 'x_0_load', doppler_fft_256/doppler.cpp:13 on array 'x_0' and 'load' operation ('x_0_load_1', doppler_fft_256/doppler.cpp:12) on array 'x_0'.
+INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 3, Depth = 4, loop 'VITIS_LOOP_8_1'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.05 seconds. CPU system time: 0 seconds. Elapsed time: 0.05 seconds; current allocated memory: 872.699 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.02 seconds. CPU system time: 0 seconds. Elapsed time: 0.03 seconds; current allocated memory: 872.699 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'fft_fast_Pipeline_VITIS_LOOP_23_4' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_23_4'.
+WARNING: [HLS 200-880] The II Violation in module 'fft_fast_Pipeline_VITIS_LOOP_23_4' (loop 'VITIS_LOOP_23_4'): Unable to enforce a carried dependence constraint (II = 1, distance = 1, offset = 1) between 'store' operation ('x_0_addr_write_ln27', doppler_fft_256/doppler.cpp:27) of variable '__r._M_value' on array 'x_0' and 'load' operation ('u._M_value', doppler_fft_256/doppler.cpp:26) on array 'x_0'.
+WARNING: [HLS 200-880] The II Violation in module 'fft_fast_Pipeline_VITIS_LOOP_23_4' (loop 'VITIS_LOOP_23_4'): Unable to enforce a carried dependence constraint (II = 2, distance = 1, offset = 1) between 'store' operation ('x_0_addr_write_ln27', doppler_fft_256/doppler.cpp:27) of variable '__r._M_value' on array 'x_0' and 'load' operation ('u._M_value', doppler_fft_256/doppler.cpp:26) on array 'x_0'.
+WARNING: [HLS 200-880] The II Violation in module 'fft_fast_Pipeline_VITIS_LOOP_23_4' (loop 'VITIS_LOOP_23_4'): Unable to enforce a carried dependence constraint (II = 3, distance = 1, offset = 1) between 'store' operation ('x_0_addr_write_ln27', doppler_fft_256/doppler.cpp:27) of variable '__r._M_value' on array 'x_0' and 'load' operation ('u._M_value', doppler_fft_256/doppler.cpp:26) on array 'x_0'.
+WARNING: [HLS 200-880] The II Violation in module 'fft_fast_Pipeline_VITIS_LOOP_23_4' (loop 'VITIS_LOOP_23_4'): Unable to enforce a carried dependence constraint (II = 4, distance = 1, offset = 1) between 'store' operation ('x_0_addr_write_ln27', doppler_fft_256/doppler.cpp:27) of variable '__r._M_value' on array 'x_0' and 'load' operation ('u._M_value', doppler_fft_256/doppler.cpp:26) on array 'x_0'.
+WARNING: [HLS 200-880] The II Violation in module 'fft_fast_Pipeline_VITIS_LOOP_23_4' (loop 'VITIS_LOOP_23_4'): Unable to enforce a carried dependence constraint (II = 11, distance = 1, offset = 1) between 'store' operation ('x_0_addr_2_write_ln28', doppler_fft_256/doppler.cpp:28) of variable '__r._M_value' on array 'x_0' and 'load' operation ('__t') on array 'x_0'.
+WARNING: [HLS 200-880] The II Violation in module 'fft_fast_Pipeline_VITIS_LOOP_23_4' (loop 'VITIS_LOOP_23_4'): Unable to enforce a carried dependence constraint (II = 15, distance = 1, offset = 1) between 'store' operation ('x_0_addr_2_write_ln28', doppler_fft_256/doppler.cpp:28) of variable '__r._M_value' on array 'x_0' and 'load' operation ('__t') on array 'x_0'.
+WARNING: [HLS 200-880] The II Violation in module 'fft_fast_Pipeline_VITIS_LOOP_23_4' (loop 'VITIS_LOOP_23_4'): Unable to enforce a carried dependence constraint (II = 17, distance = 1, offset = 1) between 'store' operation ('x_0_addr_2_write_ln28', doppler_fft_256/doppler.cpp:28) of variable '__r._M_value' on array 'x_0' and 'load' operation ('__t') on array 'x_0'.
+INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 18, Depth = 19, loop 'VITIS_LOOP_23_4'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.1 seconds. CPU system time: 0 seconds. Elapsed time: 0.1 seconds; current allocated memory: 873.332 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.1 seconds. CPU system time: 0 seconds. Elapsed time: 0.1 seconds; current allocated memory: 873.332 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'fft_fast' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.09 seconds. CPU system time: 0 seconds. Elapsed time: 0.09 seconds; current allocated memory: 873.691 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.03 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.04 seconds; current allocated memory: 873.691 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'doppler_fft_256_Pipeline_VITIS_LOOP_38_1' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_38_1'.
+WARNING: [HLS 200-885] The II Violation in module 'doppler_fft_256_Pipeline_VITIS_LOOP_38_1' (loop 'VITIS_LOOP_38_1'): Unable to schedule 'load' operation ('range_dop_map_M_value_load_1', doppler_fft_256/doppler.cpp:40) on array 'range_dop_map_M_value' due to limited memory ports (II = 1). Please consider using a memory core with more ports or partitioning the array 'range_dop_map_M_value'.
+INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 2, Depth = 2, loop 'VITIS_LOOP_38_1'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.08 seconds. CPU system time: 0 seconds. Elapsed time: 0.08 seconds; current allocated memory: 874.094 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.01 seconds. CPU system time: 0 seconds. Elapsed time: 0.02 seconds; current allocated memory: 874.094 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'doppler_fft_256_Pipeline_VITIS_LOOP_75_4' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_75_4'.
+INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 13, loop 'VITIS_LOOP_75_4'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.06 seconds. CPU system time: 0 seconds. Elapsed time: 0.05 seconds; current allocated memory: 874.480 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.06 seconds. CPU system time: 0 seconds. Elapsed time: 0.06 seconds; current allocated memory: 874.480 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'doppler_fft_256' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.1 seconds. CPU system time: 0 seconds. Elapsed time: 0.1 seconds; current allocated memory: 875.145 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.12 seconds. CPU system time: 0 seconds. Elapsed time: 0.13 seconds; current allocated memory: 875.145 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'doppler_fft_256_Pipeline_1' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-100] Finished creating RTL model for 'doppler_fft_256_Pipeline_1'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.14 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.15 seconds; current allocated memory: 875.145 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'doppler_fft_256_Pipeline_2' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-100] Finished creating RTL model for 'doppler_fft_256_Pipeline_2'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.01 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.03 seconds; current allocated memory: 875.758 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'doppler_fft_256_Pipeline_VITIS_LOOP_58_1_VITIS_LOOP_60_2' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'doppler_fft_256_Pipeline_VITIS_LOOP_58_1_VITIS_LOOP_60_2' pipeline 'VITIS_LOOP_58_1_VITIS_LOOP_60_2' pipeline type 'loop pipeline'
+INFO: [RTGEN 206-100] Finished creating RTL model for 'doppler_fft_256_Pipeline_VITIS_LOOP_58_1_VITIS_LOOP_60_2'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.03 seconds. CPU system time: 0 seconds. Elapsed time: 0.02 seconds; current allocated memory: 876.691 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'fft_fast_Pipeline_VITIS_LOOP_8_1' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'fft_fast_Pipeline_VITIS_LOOP_8_1' pipeline 'VITIS_LOOP_8_1' pipeline type 'loop pipeline'
+INFO: [RTGEN 206-100] Finished creating RTL model for 'fft_fast_Pipeline_VITIS_LOOP_8_1'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.08 seconds. CPU system time: 0 seconds. Elapsed time: 0.08 seconds; current allocated memory: 878.027 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'fft_fast_Pipeline_VITIS_LOOP_23_4' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'fft_fast_Pipeline_VITIS_LOOP_23_4' pipeline 'VITIS_LOOP_23_4' pipeline type 'loop pipeline'
+INFO: [RTGEN 206-100] Generating core module 'faddfsub_32ns_32ns_32_5_full_dsp_1': 2 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'fmul_32ns_32ns_32_4_max_dsp_1': 4 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'fft_fast_Pipeline_VITIS_LOOP_23_4'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.05 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.06 seconds; current allocated memory: 879.766 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'fft_fast' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-100] Generating core module 'faddfsub_32ns_32ns_32_5_full_dsp_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'fmul_32ns_32ns_32_4_max_dsp_1': 2 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'fft_fast'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.15 seconds. CPU system time: 0 seconds. Elapsed time: 0.15 seconds; current allocated memory: 881.699 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'doppler_fft_256_Pipeline_VITIS_LOOP_38_1' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-100] Finished creating RTL model for 'doppler_fft_256_Pipeline_VITIS_LOOP_38_1'.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2022.1 (64-bit)
+Tool Version Limit: 2022.04
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2022.1 (64-bit)
+Tool Version Limit: 2022.04
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2022.1 (64-bit)
+Tool Version Limit: 2022.04
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2022.1 (64-bit)
+Tool Version Limit: 2022.04
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1611] Setting target device to 'xc7z020-clg484-1'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1464] Running solution command: config_export -format=ip_catalog
+INFO: [HLS 200-1464] Running solution command: config_export -rtl=verilog
+INFO: [HLS 200-1510] Running: set_part xc7z020clg484-1 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [HLS 200-1510] Running: config_export -format ip_catalog -rtl verilog 
+INFO: [HLS 200-1510] Running: source ./doppler_fft_256/solution1/directives.tcl
+INFO: [HLS 200-1510] Running: set_directive_top -name doppler_fft_256 doppler_fft_256 
+INFO: [HLS 200-1510] Running: csynth_design 
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0 seconds. CPU system time: 0.01 seconds. Elapsed time: 0 seconds; current allocated memory: 753.035 MB.
+INFO: [HLS 200-10] Analyzing design file 'doppler_fft_256/doppler.cpp' ... 
+INFO: [HLS 200-10] Analyzing design file 'doppler_fft_256/input.cpp' ... 
+INFO: [HLS 200-10] Analyzing design file 'doppler_fft_256/tw.cpp' ... 
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 5.61 seconds. CPU system time: 1.92 seconds. Elapsed time: 7.79 seconds; current allocated memory: 753.035 MB.
+INFO: [HLS 200-777] Using interface defaults for 'Vivado' flow target.
+INFO: [HLS 214-178] Inlining function 'fftshift_inplace(std::complex<float>*, int)' into 'doppler_fft_256(hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<float, 0ul, 0ul, 0ul>, 0>&)' (doppler_fft_256/doppler.cpp:48:0)
+INFO: [HLS 214-131] Inlining function '_llvm.fpga.unpack.none.s_struct.std::complex<float>s.i64' into 'doppler_fft_256(hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<float, 0ul, 0ul, 0ul>, 0>&)' (/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_axi_sdata.h:293:5)
+INFO: [HLS 214-131] Inlining function '_llvm.fpga.pack.none.i1.s_struct.ap_uint<1>s' into 'doppler_fft_256(hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<float, 0ul, 0ul, 0ul>, 0>&)' (/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_axi_sdata.h:304:5)
+INFO: [HLS 214-131] Inlining function '_llvm.fpga.pack.none.i4.s_struct.ap_uint<4>s' into 'doppler_fft_256(hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<float, 0ul, 0ul, 0ul>, 0>&)' (/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_axi_sdata.h:304:5)
+INFO: [HLS 214-131] Inlining function '_llvm.fpga.pack.none.i32.f32' into 'doppler_fft_256(hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<float, 0ul, 0ul, 0ul>, 0>&)' (/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_axi_sdata.h:304:5)
+INFO: [HLS 214-131] Inlining function '_llvm.fpga.unpack.none.s_struct.ap_uint<8>s.i8' into 'doppler_fft_256(hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<float, 0ul, 0ul, 0ul>, 0>&)' (/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_axi_sdata.h:293:5)
+INFO: [HLS 214-131] Inlining function '_llvm.fpga.unpack.none.s_struct.ap_uint<1>s.i1' into 'doppler_fft_256(hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<float, 0ul, 0ul, 0ul>, 0>&)' (/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_axi_sdata.h:293:5)
+INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 2.62 seconds. CPU system time: 0.78 seconds. Elapsed time: 3.51 seconds; current allocated memory: 754.168 MB.
+INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0 seconds; current allocated memory: 754.168 MB.
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 0.04 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.07 seconds; current allocated memory: 760.621 MB.
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 0.04 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.05 seconds; current allocated memory: 768.777 MB.
+INFO: [XFORM 203-510] Pipelining loop 'VITIS_LOOP_8_1' (doppler_fft_256/doppler.cpp:8) in function 'fft_fast' automatically.
+INFO: [XFORM 203-510] Pipelining loop 'VITIS_LOOP_23_4' (doppler_fft_256/doppler.cpp:23) in function 'fft_fast' automatically.
+INFO: [XFORM 203-510] Pipelining loop 'Loop-2' (doppler_fft_256/doppler.cpp:55) in function 'doppler_fft_256' automatically.
+INFO: [XFORM 203-510] Pipelining loop 'Loop-3.1' (doppler_fft_256/doppler.cpp:55) in function 'doppler_fft_256' automatically.
+INFO: [XFORM 203-510] Pipelining loop 'VITIS_LOOP_60_2' in function 'doppler_fft_256' automatically.
+INFO: [XFORM 203-510] Pipelining loop 'VITIS_LOOP_38_1' (doppler_fft_256/doppler.cpp:38) in function 'doppler_fft_256' automatically.
+INFO: [XFORM 203-510] Pipelining loop 'VITIS_LOOP_75_4' (doppler_fft_256/doppler.cpp:68) in function 'doppler_fft_256' automatically.
+INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 0.11 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.11 seconds; current allocated memory: 798.797 MB.
+WARNING: [HLS 200-960] Cannot flatten loop 'VITIS_LOOP_22_3' (doppler_fft_256/doppler.cpp:23:39) in function 'fft_fast' the outer loop is not a perfect loop because either the parent loop or the sub loop has no computeable trip count.
+WARNING: [HLS 200-960] Cannot flatten loop 'VITIS_LOOP_19_2' (doppler_fft_256/doppler.cpp:18:9) in function 'fft_fast' the outer loop is not a perfect loop.
+WARNING: [HLS 200-960] Cannot flatten loop 'Loop-2' (doppler_fft_256/doppler.cpp:55:52) in function 'doppler_fft_256' either the parent loop or sub loop is do-while loop.
+INFO: [XFORM 203-541] Flattening a loop nest 'VITIS_LOOP_58_1' (doppler_fft_256/doppler.cpp:58:30) in function 'doppler_fft_256'.
+WARNING: [HLS 200-960] Cannot flatten loop 'VITIS_LOOP_70_3' (doppler_fft_256/doppler.cpp:68:9) in function 'doppler_fft_256' more than one sub loop.
+INFO: [HLS 200-472] Inferring partial write operation for 'x.0' (doppler_fft_256/doppler.cpp:12:18)
+INFO: [HLS 200-472] Inferring partial write operation for 'x.0' (doppler_fft_256/doppler.cpp:13:20)
+INFO: [HLS 200-472] Inferring partial write operation for 'x.0' (doppler_fft_256/doppler.cpp:27:26)
+INFO: [HLS 200-472] Inferring partial write operation for 'x.0' (doppler_fft_256/doppler.cpp:28:31)
+INFO: [HLS 200-472] Inferring partial write operation for 'range_dop_map._M_value' 
+INFO: [HLS 200-472] Inferring partial write operation for 'range_dop_map._M_value' (doppler_fft_256/doppler.cpp:62:33)
+INFO: [HLS 200-472] Inferring partial write operation for 'range_dop_map._M_value' (doppler_fft_256/doppler.cpp:40:14)
+INFO: [HLS 200-472] Inferring partial write operation for 'range_dop_map._M_value' (doppler_fft_256/doppler.cpp:41:21)
+INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 0.1 seconds. CPU system time: 0.02 seconds. Elapsed time: 0.13 seconds; current allocated memory: 870.465 MB.
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'doppler_fft_256' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'doppler_fft_256_Pipeline_1' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'Loop 1'.
+INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 1, loop 'Loop 1'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.03 seconds. CPU system time: 0.05 seconds. Elapsed time: 0.09 seconds; current allocated memory: 871.789 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.02 seconds. CPU system time: 0 seconds. Elapsed time: 0.01 seconds; current allocated memory: 871.789 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'doppler_fft_256_Pipeline_2' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'Loop 1'.
+INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 1, loop 'Loop 1'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.02 seconds. CPU system time: 0 seconds. Elapsed time: 0.01 seconds; current allocated memory: 871.832 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.01 seconds. CPU system time: 0 seconds. Elapsed time: 0 seconds; current allocated memory: 871.832 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'doppler_fft_256_Pipeline_VITIS_LOOP_58_1_VITIS_LOOP_60_2' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_58_1_VITIS_LOOP_60_2'.
+INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 3, loop 'VITIS_LOOP_58_1_VITIS_LOOP_60_2'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.03 seconds. CPU system time: 0 seconds. Elapsed time: 0.04 seconds; current allocated memory: 871.832 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.02 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.02 seconds; current allocated memory: 871.832 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'fft_fast_Pipeline_VITIS_LOOP_8_1' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_8_1'.
+WARNING: [HLS 200-880] The II Violation in module 'fft_fast_Pipeline_VITIS_LOOP_8_1' (loop 'VITIS_LOOP_8_1'): Unable to enforce a carried dependence constraint (II = 1, distance = 1, offset = 1) between 'store' operation ('x_0_addr_1_write_ln13', doppler_fft_256/doppler.cpp:13) of variable 'x_0_load', doppler_fft_256/doppler.cpp:13 on array 'x_0' and 'load' operation ('x_0_load_1', doppler_fft_256/doppler.cpp:12) on array 'x_0'.
+WARNING: [HLS 200-880] The II Violation in module 'fft_fast_Pipeline_VITIS_LOOP_8_1' (loop 'VITIS_LOOP_8_1'): Unable to enforce a carried dependence constraint (II = 2, distance = 1, offset = 1) between 'store' operation ('x_0_addr_1_write_ln13', doppler_fft_256/doppler.cpp:13) of variable 'x_0_load', doppler_fft_256/doppler.cpp:13 on array 'x_0' and 'load' operation ('x_0_load_1', doppler_fft_256/doppler.cpp:12) on array 'x_0'.
+INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 3, Depth = 4, loop 'VITIS_LOOP_8_1'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.05 seconds. CPU system time: 0 seconds. Elapsed time: 0.05 seconds; current allocated memory: 872.910 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.02 seconds. CPU system time: 0 seconds. Elapsed time: 0.03 seconds; current allocated memory: 872.910 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'fft_fast_Pipeline_VITIS_LOOP_23_4' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_23_4'.
+WARNING: [HLS 200-880] The II Violation in module 'fft_fast_Pipeline_VITIS_LOOP_23_4' (loop 'VITIS_LOOP_23_4'): Unable to enforce a carried dependence constraint (II = 1, distance = 1, offset = 1) between 'store' operation ('x_0_addr_write_ln27', doppler_fft_256/doppler.cpp:27) of variable '__r._M_value' on array 'x_0' and 'load' operation ('u._M_value', doppler_fft_256/doppler.cpp:26) on array 'x_0'.
+WARNING: [HLS 200-880] The II Violation in module 'fft_fast_Pipeline_VITIS_LOOP_23_4' (loop 'VITIS_LOOP_23_4'): Unable to enforce a carried dependence constraint (II = 2, distance = 1, offset = 1) between 'store' operation ('x_0_addr_write_ln27', doppler_fft_256/doppler.cpp:27) of variable '__r._M_value' on array 'x_0' and 'load' operation ('u._M_value', doppler_fft_256/doppler.cpp:26) on array 'x_0'.
+WARNING: [HLS 200-880] The II Violation in module 'fft_fast_Pipeline_VITIS_LOOP_23_4' (loop 'VITIS_LOOP_23_4'): Unable to enforce a carried dependence constraint (II = 3, distance = 1, offset = 1) between 'store' operation ('x_0_addr_write_ln27', doppler_fft_256/doppler.cpp:27) of variable '__r._M_value' on array 'x_0' and 'load' operation ('u._M_value', doppler_fft_256/doppler.cpp:26) on array 'x_0'.
+WARNING: [HLS 200-880] The II Violation in module 'fft_fast_Pipeline_VITIS_LOOP_23_4' (loop 'VITIS_LOOP_23_4'): Unable to enforce a carried dependence constraint (II = 4, distance = 1, offset = 1) between 'store' operation ('x_0_addr_write_ln27', doppler_fft_256/doppler.cpp:27) of variable '__r._M_value' on array 'x_0' and 'load' operation ('u._M_value', doppler_fft_256/doppler.cpp:26) on array 'x_0'.
+WARNING: [HLS 200-880] The II Violation in module 'fft_fast_Pipeline_VITIS_LOOP_23_4' (loop 'VITIS_LOOP_23_4'): Unable to enforce a carried dependence constraint (II = 11, distance = 1, offset = 1) between 'store' operation ('x_0_addr_2_write_ln28', doppler_fft_256/doppler.cpp:28) of variable '__r._M_value' on array 'x_0' and 'load' operation ('__t') on array 'x_0'.
+WARNING: [HLS 200-880] The II Violation in module 'fft_fast_Pipeline_VITIS_LOOP_23_4' (loop 'VITIS_LOOP_23_4'): Unable to enforce a carried dependence constraint (II = 15, distance = 1, offset = 1) between 'store' operation ('x_0_addr_2_write_ln28', doppler_fft_256/doppler.cpp:28) of variable '__r._M_value' on array 'x_0' and 'load' operation ('__t') on array 'x_0'.
+WARNING: [HLS 200-880] The II Violation in module 'fft_fast_Pipeline_VITIS_LOOP_23_4' (loop 'VITIS_LOOP_23_4'): Unable to enforce a carried dependence constraint (II = 17, distance = 1, offset = 1) between 'store' operation ('x_0_addr_2_write_ln28', doppler_fft_256/doppler.cpp:28) of variable '__r._M_value' on array 'x_0' and 'load' operation ('__t') on array 'x_0'.
+INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 18, Depth = 19, loop 'VITIS_LOOP_23_4'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.09 seconds. CPU system time: 0 seconds. Elapsed time: 0.09 seconds; current allocated memory: 873.523 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.11 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.11 seconds; current allocated memory: 873.523 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'fft_fast' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.09 seconds. CPU system time: 0 seconds. Elapsed time: 0.1 seconds; current allocated memory: 873.910 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.05 seconds. CPU system time: 0 seconds. Elapsed time: 0.04 seconds; current allocated memory: 873.910 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'doppler_fft_256_Pipeline_VITIS_LOOP_38_1' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_38_1'.
+WARNING: [HLS 200-885] The II Violation in module 'doppler_fft_256_Pipeline_VITIS_LOOP_38_1' (loop 'VITIS_LOOP_38_1'): Unable to schedule 'load' operation ('range_dop_map_M_value_load_1', doppler_fft_256/doppler.cpp:40) on array 'range_dop_map_M_value' due to limited memory ports (II = 1). Please consider using a memory core with more ports or partitioning the array 'range_dop_map_M_value'.
+INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 2, Depth = 2, loop 'VITIS_LOOP_38_1'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.08 seconds. CPU system time: 0 seconds. Elapsed time: 0.08 seconds; current allocated memory: 874.324 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.01 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.02 seconds; current allocated memory: 874.324 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'doppler_fft_256_Pipeline_VITIS_LOOP_75_4' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_75_4'.
+INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 13, loop 'VITIS_LOOP_75_4'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.06 seconds. CPU system time: 0 seconds. Elapsed time: 0.06 seconds; current allocated memory: 874.773 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.07 seconds. CPU system time: 0 seconds. Elapsed time: 0.07 seconds; current allocated memory: 874.773 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'doppler_fft_256' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.11 seconds. CPU system time: 0 seconds. Elapsed time: 0.11 seconds; current allocated memory: 875.340 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.13 seconds. CPU system time: 0 seconds. Elapsed time: 0.14 seconds; current allocated memory: 875.340 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'doppler_fft_256_Pipeline_1' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-100] Finished creating RTL model for 'doppler_fft_256_Pipeline_1'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.16 seconds. CPU system time: 0 seconds. Elapsed time: 0.16 seconds; current allocated memory: 875.340 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'doppler_fft_256_Pipeline_2' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-100] Finished creating RTL model for 'doppler_fft_256_Pipeline_2'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.02 seconds. CPU system time: 0 seconds. Elapsed time: 0.03 seconds; current allocated memory: 875.941 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'doppler_fft_256_Pipeline_VITIS_LOOP_58_1_VITIS_LOOP_60_2' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'doppler_fft_256_Pipeline_VITIS_LOOP_58_1_VITIS_LOOP_60_2' pipeline 'VITIS_LOOP_58_1_VITIS_LOOP_60_2' pipeline type 'loop pipeline'
+INFO: [RTGEN 206-100] Finished creating RTL model for 'doppler_fft_256_Pipeline_VITIS_LOOP_58_1_VITIS_LOOP_60_2'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.03 seconds. CPU system time: 0 seconds. Elapsed time: 0.03 seconds; current allocated memory: 876.887 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'fft_fast_Pipeline_VITIS_LOOP_8_1' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'fft_fast_Pipeline_VITIS_LOOP_8_1' pipeline 'VITIS_LOOP_8_1' pipeline type 'loop pipeline'
+INFO: [RTGEN 206-100] Finished creating RTL model for 'fft_fast_Pipeline_VITIS_LOOP_8_1'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.08 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.08 seconds; current allocated memory: 878.227 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'fft_fast_Pipeline_VITIS_LOOP_23_4' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'fft_fast_Pipeline_VITIS_LOOP_23_4' pipeline 'VITIS_LOOP_23_4' pipeline type 'loop pipeline'
+INFO: [RTGEN 206-100] Generating core module 'faddfsub_32ns_32ns_32_5_full_dsp_1': 2 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'fmul_32ns_32ns_32_4_max_dsp_1': 4 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'fft_fast_Pipeline_VITIS_LOOP_23_4'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.06 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.07 seconds; current allocated memory: 879.961 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'fft_fast' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-100] Generating core module 'faddfsub_32ns_32ns_32_5_full_dsp_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'fmul_32ns_32ns_32_4_max_dsp_1': 2 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'fft_fast'.
+INFO: [HLS 200-111]==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2022.1 (64-bit)
+Tool Version Limit: 2022.04
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2022.1 (64-bit)
+Tool Version Limit: 2022.04
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1611] Setting target device to 'xc7z020-clg484-1'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1464] Running solution command: config_export -format=ip_catalog
+INFO: [HLS 200-1464] Running solution command: config_export -rtl=verilog
+INFO: [HLS 200-1510] Running: set_part xc7z020clg484-1 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [HLS 200-1510] Running: config_export -format ip_catalog -rtl verilog 
+INFO: [HLS 200-1510] Running: source ./doppler_fft_256/solution1/directives.tcl
+INFO: [HLS 200-1510] Running: set_directive_top -name doppler_fft_256 doppler_fft_256 
+INFO: [HLS 200-1510] Running: csynth_design 
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0.01 seconds. CPU system time: 0 seconds. Elapsed time: 0 seconds; current allocated memory: 1.745 GB.
+INFO: [HLS 200-10] Analyzing design file 'doppler_fft_256/doppler.cpp' ... 
+INFO: [HLS 200-10] Analyzing design file 'doppler_fft_256/input.cpp' ... 
+INFO: [HLS 200-10] Analyzing design file 'doppler_fft_256/tw.cpp' ... 
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 5.79 seconds. CPU system time: 1.93 seconds. Elapsed time: 7.67 seconds; current allocated memory: 753.035 MB.
+INFO: [HLS 200-777] Using interface defaults for 'Vivado' flow target.
+INFO: [HLS 214-178] Inlining function 'fftshift_inplace(std::complex<float>*, int)' into 'doppler_fft_256(hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<float, 0ul, 0ul, 0ul>, 0>&)' (doppler_fft_256/doppler.cpp:48:0)
+INFO: [HLS 214-131] Inlining function '_llvm.fpga.unpack.none.s_struct.std::complex<float>s.i64' into 'doppler_fft_256(hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<float, 0ul, 0ul, 0ul>, 0>&)' (/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_axi_sdata.h:293:5)
+INFO: [HLS 214-131] Inlining function '_llvm.fpga.pack.none.i1.s_struct.ap_uint<1>s' into 'doppler_fft_256(hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<float, 0ul, 0ul, 0ul>, 0>&)' (/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_axi_sdata.h:304:5)
+INFO: [HLS 214-131] Inlining function '_llvm.fpga.pack.none.i4.s_struct.ap_uint<4>s' into 'doppler_fft_256(hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<float, 0ul, 0ul, 0ul>, 0>&)' (/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_axi_sdata.h:304:5)
+INFO: [HLS 214-131] Inlining function '_llvm.fpga.pack.none.i32.f32' into 'doppler_fft_256(hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<float, 0ul, 0ul, 0ul>, 0>&)' (/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_axi_sdata.h:304:5)
+INFO: [HLS 214-131] Inlining function '_llvm.fpga.unpack.none.s_struct.ap_uint<8>s.i8' into 'doppler_fft_256(hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<float, 0ul, 0ul, 0ul>, 0>&)' (/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_axi_sdata.h:293:5)
+INFO: [HLS 214-131] Inlining function '_llvm.fpga.unpack.none.s_struct.ap_uint<1>s.i1' into 'doppler_fft_256(hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<float, 0ul, 0ul, 0ul>, 0>&)' (/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_axi_sdata.h:293:5)
+INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 2.6 seconds. CPU system time: 0.76 seconds. Elapsed time: 3.49 seconds; current allocated memory: 754.168 MB.
+INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0.01 seconds; current allocated memory: 754.168 MB.
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 0.03 seconds. CPU system time: 0 seconds. Elapsed time: 0.04 seconds; current allocated memory: 760.621 MB.
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 0.07 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.08 seconds; current allocated memory: 768.770 MB.
+INFO: [XFORM 203-510] Pipelining loop 'VITIS_LOOP_8_1' (doppler_fft_256/doppler.cpp:8) in function 'fft_fast' automatically.
+INFO: [XFORM 203-510] Pipelining loop 'VITIS_LOOP_23_4' (doppler_fft_256/doppler.cpp:23) in function 'fft_fast' automatically.
+INFO: [XFORM 203-510] Pipelining loop 'Loop-2' (doppler_fft_256/doppler.cpp:55) in function 'doppler_fft_256' automatically.
+INFO: [XFORM 203-510] Pipelining loop 'Loop-3.1' (doppler_fft_256/doppler.cpp:55) in function 'doppler_fft_256' automatically.
+INFO: [XFORM 203-510] Pipelining loop 'VITIS_LOOP_60_2' in function 'doppler_fft_256' automatically.
+INFO: [XFORM 203-510] Pipelining loop 'VITIS_LOOP_38_1' (doppler_fft_256/doppler.cpp:38) in function 'doppler_fft_256' automatically.
+INFO: [XFORM 203-510] Pipelining loop 'VITIS_LOOP_75_4' (doppler_fft_256/doppler.cpp:68) in function 'doppler_fft_256' automatically.
+INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 0.11 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.11 seconds; current allocated memory: 798.551 MB.
+WARNING: [HLS 200-960] Cannot flatten loop 'VITIS_LOOP_22_3' (doppler_fft_256/doppler.cpp:23:39) in function 'fft_fast' the outer loop is not a perfect loop because either the parent loop or the sub loop has no computeable trip count.
+WARNING: [HLS 200-960] Cannot flatten loop 'VITIS_LOOP_19_2' (doppler_fft_256/doppler.cpp:18:9) in function 'fft_fast' the outer loop is not a perfect loop.
+WARNING: [HLS 200-960] Cannot flatten loop 'Loop-2' (doppler_fft_256/doppler.cpp:55:52) in function 'doppler_fft_256' either the parent loop or sub loop is do-while loop.
+INFO: [XFORM 203-541] Flattening a loop nest 'VITIS_LOOP_58_1' (doppler_fft_256/doppler.cpp:58:30) in function 'doppler_fft_256'.
+WARNING: [HLS 200-960] Cannot flatten loop 'VITIS_LOOP_70_3' (doppler_fft_256/doppler.cpp:68:9) in function 'doppler_fft_256' more than one sub loop.
+INFO: [HLS 200-472] Inferring partial write operation for 'x.0' (doppler_fft_256/doppler.cpp:12:18)
+INFO: [HLS 200-472] Inferring partial write operation for 'x.0' (doppler_fft_256/doppler.cpp:13:20)
+INFO: [HLS 200-472] Inferring partial write operation for 'x.0' (doppler_fft_256/doppler.cpp:27:26)
+INFO: [HLS 200-472] Inferring partial write operation for 'x.0' (doppler_fft_256/doppler.cpp:28:31)
+INFO: [HLS 200-472] Inferring partial write operation for 'range_dop_map._M_value' 
+INFO: [HLS 200-472] Inferring partial write operation for 'range_dop_map._M_value' (doppler_fft_256/doppler.cpp:62:33)
+INFO: [HLS 200-472] Inferring partial write operation for 'range_dop_map._M_value' (doppler_fft_256/doppler.cpp:40:14)
+INFO: [HLS 200-472] Inferring partial write operation for 'range_dop_map._M_value' (doppler_fft_256/doppler.cpp:41:21)
+INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 0.07 seconds. CPU system time: 0.02 seconds. Elapsed time: 0.11 seconds; current allocated memory: 870.469 MB.
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'doppler_fft_256' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'doppler_fft_256_Pipeline_1' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'Loop 1'.
+INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 1, loop 'Loop 1'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.03 seconds. CPU system time: 0.04 seconds. Elapsed time: 0.07 seconds; current allocated memory: 871.793 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.01 seconds. CPU system time: 0 seconds. Elapsed time: 0.01 seconds; current allocated memory: 871.793 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'doppler_fft_256_Pipeline_2' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'Loop 1'.
+INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 1, loop 'Loop 1'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.02 seconds. CPU system time: 0 seconds. Elapsed time: 0.02 seconds; current allocated memory: 872.145 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.01 seconds. CPU system time: 0 seconds. Elapsed time: 0.01 seconds; current allocated memory: 872.145 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'doppler_fft_256_Pipeline_VITIS_LOOP_58_1_VITIS_LOOP_60_2' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_58_1_VITIS_LOOP_60_2'.
+INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 3, loop 'VITIS_LOOP_58_1_VITIS_LOOP_60_2'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.03 seconds. CPU system time: 0 seconds. Elapsed time: 0.02 seconds; current allocated memory: 872.551 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.02 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.03 seconds; current allocated memory: 872.551 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'fft_fast_Pipeline_VITIS_LOOP_8_1' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_8_1'.
+WARNING: [HLS 200-880] The II Violation in module 'fft_fast_Pipeline_VITIS_LOOP_8_1' (loop 'VITIS_LOOP_8_1'): Unable to enforce a carried dependence constraint (II = 1, distance = 1, offset = 1) between 'store' operation ('x_0_addr_1_write_ln13', doppler_fft_256/doppler.cpp:13) of variable 'x_0_load', doppler_fft_256/doppler.cpp:13 on array 'x_0' and 'load' operation ('x_0_load_1', doppler_fft_256/doppler.cpp:12) on array 'x_0'.
+WARNING: [HLS 200-880] The II Violation in module 'fft_fast_Pipeline_VITIS_LOOP_8_1' (loop 'VITIS_LOOP_8_1'): Unable to enforce a carried dependence constraint (II = 2, distance = 1, offset = 1) between 'store' operation ('x_0_addr_1_write_ln13', doppler_fft_256/doppler.cpp:13) of variable 'x_0_load', doppler_fft_256/doppler.cpp:13 on array 'x_0' and 'load' operation ('x_0_load_1', doppler_fft_256/doppler.cpp:12) on array 'x_0'.
+INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 3, Depth = 4, loop 'VITIS_LOOP_8_1'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.05 seconds. CPU system time: 0 seconds. Elapsed time: 0.05 seconds; current allocated memory: 872.918 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.02 seconds. CPU system time: 0 seconds. Elapsed time: 0.02 seconds; current allocated memory: 872.918 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'fft_fast_Pipeline_VITIS_LOOP_23_4' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_23_4'.
+WARNING: [HLS 200-880] The II Violation in module 'fft_fast_Pipeline_VITIS_LOOP_23_4' (loop 'VITIS_LOOP_23_4'): Unable to enforce a carried dependence constraint (II = 1, distance = 1, offset = 1) between 'store' operation ('x_0_addr_write_ln27', doppler_fft_256/doppler.cpp:27) of variable '__r._M_value' on array 'x_0' and 'load' operation ('u._M_value', doppler_fft_256/doppler.cpp:26) on array 'x_0'.
+WARNING: [HLS 200-880] The II Violation in module 'fft_fast_Pipeline_VITIS_LOOP_23_4' (loop 'VITIS_LOOP_23_4'): Unable to enforce a carried dependence constraint (II = 2, distance = 1, offset = 1) between 'store' operation ('x_0_addr_write_ln27', doppler_fft_256/doppler.cpp:27) of variable '__r._M_value' on array 'x_0' and 'load' operation ('u._M_value', doppler_fft_256/doppler.cpp:26) on array 'x_0'.
+WARNING: [HLS 200-880] The II Violation in module 'fft_fast_Pipeline_VITIS_LOOP_23_4' (loop 'VITIS_LOOP_23_4'): Unable to enforce a carried dependence constraint (II = 3, distance = 1, offset = 1) between 'store' operation ('x_0_addr_write_ln27', doppler_fft_256/doppler.cpp:27) of variable '__r._M_value' on array 'x_0' and 'load' operation ('u._M_value', doppler_fft_256/doppler.cpp:26) on array 'x_0'.
+WARNING: [HLS 200-880] The II Violation in module 'fft_fast_Pipeline_VITIS_LOOP_23_4' (loop 'VITIS_LOOP_23_4'): Unable to enforce a carried dependence constraint (II = 4, distance = 1, offset = 1) between 'store' operation ('x_0_addr_write_ln27', doppler_fft_256/doppler.cpp:27) of variable '__r._M_value' on array 'x_0' and 'load' operation ('u._M_value', doppler_fft_256/doppler.cpp:26) on array 'x_0'.
+WARNING: [HLS 200-880] The II Violation in module 'fft_fast_Pipeline_VITIS_LOOP_23_4' (loop 'VITIS_LOOP_23_4'): Unable to enforce a carried dependence constraint (II = 11, distance = 1, offset = 1) between 'store' operation ('x_0_addr_2_write_ln28', doppler_fft_256/doppler.cpp:28) of variable '__r._M_value' on array 'x_0' and 'load' operation ('__t') on array 'x_0'.
+WARNING: [HLS 200-880] The II Violation in module 'fft_fast_Pipeline_VITIS_LOOP_23_4' (loop 'VITIS_LOOP_23_4'): Unable to enforce a carried dependence constraint (II = 15, distance = 1, offset = 1) between 'store' operation ('x_0_addr_2_write_ln28', doppler_fft_256/doppler.cpp:28) of variable '__r._M_value' on array 'x_0' and 'load' operation ('__t') on array 'x_0'.
+WARNING: [HLS 200-880] The II Violation in module 'fft_fast_Pipeline_VITIS_LOOP_23_4' (loop 'VITIS_LOOP_23_4'): Unable to enforce a carried dependence constraint (II = 17, distance = 1, offset = 1) between 'store' operation ('x_0_addr_2_write_ln28', doppler_fft_256/doppler.cpp:28) of variable '__r._M_value' on array 'x_0' and 'load' operation ('__t') on array 'x_0'.
+INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 18, Depth = 19, loop 'VITIS_LOOP_23_4'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.1 seconds. CPU system time: 0 seconds. Elapsed time: 0.11 seconds; current allocated memory: 873.531 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.1 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.1 seconds; current allocated memory: 873.531 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'fft_fast' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.08 seconds. CPU system time: 0 seconds. Elapsed time: 0.09 seconds; current allocated memory: 873.922 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.05 seconds. CPU system time: 0 seconds. Elapsed time: 0.04 seconds; current allocated memory: 873.922 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'doppler_fft_256_Pipeline_VITIS_LOOP_38_1' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_38_1'.
+WARNING: [HLS 200-885] The II Violation in module 'doppler_fft_256_Pipeline_VITIS_LOOP_38_1' (loop 'VITIS_LOOP_38_1'): Unable to schedule 'load' operation ('range_dop_map_M_value_load_1', doppler_fft_256/doppler.cpp:40) on array 'range_dop_map_M_value' due to limited memory ports (II = 1). Please consider using a memory core with more ports or partitioning the array 'range_dop_map_M_value'.
+INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 2, Depth = 2, loop 'VITIS_LOOP_38_1'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.07 seconds. CPU system time: 0 seconds. Elapsed time: 0.08 seconds; current allocated memory: 874.406 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.02 seconds. CPU system time: 0 seconds. Elapsed time: 0.02 seconds; current allocated memory: 874.406 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'doppler_fft_256_Pipeline_VITIS_LOOP_75_4' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_75_4'.
+INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 13, loop 'VITIS_LOOP_75_4'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.06 seconds. CPU system time: 0 seconds. Elapsed time: 0.06 seconds; current allocated memory: 874.785 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.07 seconds. CPU system time: 0 seconds. Elapsed time: 0.06 seconds; current allocated memory: 874.785 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'doppler_fft_256' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.11 seconds. CPU system time: 0 seconds. Elapsed time: 0.12 seconds; current allocated memory: 875.344 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.13 seconds. CPU system time: 0 seconds. Elapsed time: 0.13 seconds; current allocated memory: 875.344 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'doppler_fft_256_Pipeline_1' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-100] Finished creating RTL model for 'doppler_fft_256_Pipeline_1'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.16 seconds. CPU system time: 0 seconds. Elapsed time: 0.16 seconds; current allocated memory: 875.344 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'doppler_fft_256_Pipeline_2' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-100] Finished creating RTL model for 'doppler_fft_256_Pipeline_2'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.02 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.02 seconds; current allocated memory: 875.945 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'doppler_fft_256_Pipeline_VITIS_LOOP_58_1_VITIS_LOOP_60_2' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'doppler_fft_256_Pipeline_VITIS_LOOP_58_1_VITIS_LOOP_60_2' pipeline 'VITIS_LOOP_58_1_VITIS_LOOP_60_2' pipeline type 'loop pipeline'
+INFO: [RTGEN 206-100] Finished creating RTL model for 'doppler_fft_256_Pipeline_VITIS_LOOP_58_1_VITIS_LOOP_60_2'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.01 seconds. CPU system time: 0.02 seconds. Elapsed time: 0.03 seconds; current allocated memory: 876.895 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'fft_fast_Pipeline_VITIS_LOOP_8_1' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'fft_fast_Pipeline_VITIS_LOOP_8_1' pipeline 'VITIS_LOOP_8_1' pipeline type 'loop pipeline'
+INFO: [RTGEN 206-100] Finished creating RTL model for 'fft_fast_Pipeline_VITIS_LOOP_8_1'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.08 seconds. CPU system time: 0 seconds. Elapsed time: 0.08 seconds; current allocated memory: 878.230 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'fft_fast_Pipeline_VITIS_LOOP_23_4' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'fft_fast_Pipeline_VITIS_LOOP_23_4' pipeline 'VITIS_LOOP_23_4' pipeline type 'loop pipeline'
+INFO: [RTGEN 206-100] Generating core module 'faddfsub_32ns_32ns_32_5_full_dsp_1': 2 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'fmul_32ns_32ns_32_4_max_dsp_1': 4 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'fft_fast_Pipeline_VITIS_LOOP_23_4'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.06 seconds. CPU system time: 0 seconds. Elapsed time: 0.06 seconds; current allocated memory: 879.965 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'fft_fast' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-100] Generating core module 'faddfsub_32ns_32ns_32_5_full_dsp_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'fmul_32ns_32ns_32_4_max_dsp_1': 2 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'fft_fast'.
+INFO: [HLS 200-111]==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2022.1 (64-bit)
+Tool Version Limit: 2022.04
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2022.1 (64-bit)
+Tool Version Limit: 2022.04
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2022.1 (64-bit)
+Tool Version Limit: 2022.04
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2022.1 (64-bit)
+Tool Version Limit: 2022.04
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2022.1 (64-bit)
+Tool Version Limit: 2022.04
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2022.1 (64-bit)
+Tool Version Limit: 2022.04
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2022.1 (64-bit)
+Tool Version Limit: 2022.04
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2022.1 (64-bit)
+Tool Version Limit: 2022.04
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2022.1 (64-bit)
+Tool Version Limit: 2022.04
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2022.1 (64-bit)
+Tool Version Limit: 2022.04
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+==============================================================
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-1611] Setting target device to 'xc7z020-clg484-1'
+INFO: [HLS 200-1505] Using flow_target 'vivado'
+INFO: [HLS 200-1464] Running solution command: config_export -format=ip_catalog
+INFO: [HLS 200-1464] Running solution command: config_export -rtl=verilog
+INFO: [HLS 200-1510] Running: set_part xc7z020clg484-1 
+INFO: [HLS 200-1510] Running: create_clock -period 10 -name default 
+INFO: [HLS 200-1510] Running: config_export -format ip_catalog -rtl verilog 
+INFO: [HLS 200-1510] Running: source ./doppler_fft_256/solution1/directives.tcl
+INFO: [HLS 200-1510] Running: set_directive_top -name doppler_fft_256 doppler_fft_256 
+INFO: [HLS 200-1510] Running: csynth_design 
+INFO: [HLS 200-111] Finished File checks and directory preparation: CPU user time: 0.01 seconds. CPU system time: 0 seconds. Elapsed time: 0 seconds; current allocated memory: 1.745 GB.
+INFO: [HLS 200-10] Analyzing design file 'doppler_fft_256/doppler.cpp' ... 
+INFO: [HLS 200-10] Analyzing design file 'doppler_fft_256/input.cpp' ... 
+INFO: [HLS 200-10] Analyzing design file 'doppler_fft_256/tw.cpp' ... 
+INFO: [HLS 200-111] Finished Source Code Analysis and Preprocessing: CPU user time: 5.93 seconds. CPU system time: 1.81 seconds. Elapsed time: 7.69 seconds; current allocated memory: 753.035 MB.
+INFO: [HLS 200-777] Using interface defaults for 'Vivado' flow target.
+INFO: [HLS 214-178] Inlining function 'fftshift_inplace(std::complex<float>*, int)' into 'doppler_fft_256(hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>&)' (doppler_fft_256/doppler.cpp:48:0)
+INFO: [HLS 214-131] Inlining function '_llvm.fpga.unpack.none.s_struct.std::complex<float>s.i64' into 'doppler_fft_256(hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>&)' (/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_axi_sdata.h:293:5)
+INFO: [HLS 214-131] Inlining function '_llvm.fpga.pack.none.i1.s_struct.ap_uint<1>s' into 'doppler_fft_256(hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>&)' (/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_axi_sdata.h:304:5)
+INFO: [HLS 214-131] Inlining function '_llvm.fpga.pack.none.i8.s_struct.ap_uint<8>s' into 'doppler_fft_256(hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>&)' (/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_axi_sdata.h:304:5)
+INFO: [HLS 214-131] Inlining function '_llvm.fpga.pack.none.i64.s_struct.std::complex<float>s' into 'doppler_fft_256(hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>&)' (/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_axi_sdata.h:304:5)
+INFO: [HLS 214-131] Inlining function '_llvm.fpga.unpack.none.s_struct.ap_uint<8>s.i8' into 'doppler_fft_256(hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>&)' (/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_axi_sdata.h:293:5)
+INFO: [HLS 214-131] Inlining function '_llvm.fpga.unpack.none.s_struct.ap_uint<1>s.i1' into 'doppler_fft_256(hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>&, hls::stream<hls::axis<std::complex<float>, 0ul, 0ul, 0ul>, 0>&)' (/tools/Xilinx/Vitis_HLS/2022.1/common/technology/autopilot/ap_axi_sdata.h:293:5)
+INFO: [HLS 200-111] Finished Compiling Optimization and Transform: CPU user time: 2.74 seconds. CPU system time: 0.7 seconds. Elapsed time: 3.54 seconds; current allocated memory: 754.051 MB.
+INFO: [HLS 200-111] Finished Checking Pragmas: CPU user time: 0 seconds. CPU system time: 0 seconds. Elapsed time: 0 seconds; current allocated memory: 754.051 MB.
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms: CPU user time: 0.02 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.04 seconds; current allocated memory: 760.004 MB.
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [HLS 200-111] Finished Checking Synthesizability: CPU user time: 0.05 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.05 seconds; current allocated memory: 767.789 MB.
+INFO: [XFORM 203-510] Pipelining loop 'VITIS_LOOP_8_1' (doppler_fft_256/doppler.cpp:8) in function 'fft_fast' automatically.
+INFO: [XFORM 203-510] Pipelining loop 'VITIS_LOOP_23_4' (doppler_fft_256/doppler.cpp:23) in function 'fft_fast' automatically.
+INFO: [XFORM 203-510] Pipelining loop 'Loop-2' (doppler_fft_256/doppler.cpp:55) in function 'doppler_fft_256' automatically.
+INFO: [XFORM 203-510] Pipelining loop 'VITIS_LOOP_58_1' in function 'doppler_fft_256' automatically.
+INFO: [XFORM 203-510] Pipelining loop 'VITIS_LOOP_38_1' (doppler_fft_256/doppler.cpp:38) in function 'doppler_fft_256' automatically.
+INFO: [XFORM 203-510] Pipelining loop 'VITIS_LOOP_66_2' (doppler_fft_256/doppler.cpp:66) in function 'doppler_fft_256' automatically.
+INFO: [HLS 200-111] Finished Loop, function and other optimizations: CPU user time: 0.08 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.09 seconds; current allocated memory: 796.602 MB.
+WARNING: [HLS 200-960] Cannot flatten loop 'VITIS_LOOP_22_3' (doppler_fft_256/doppler.cpp:23:39) in function 'fft_fast' the outer loop is not a perfect loop because either the parent loop or the sub loop has no computeable trip count.
+WARNING: [HLS 200-960] Cannot flatten loop 'VITIS_LOOP_19_2' (doppler_fft_256/doppler.cpp:18:9) in function 'fft_fast' the outer loop is not a perfect loop.
+INFO: [HLS 200-472] Inferring partial write operation for 'x.0' (doppler_fft_256/doppler.cpp:12:18)
+INFO: [HLS 200-472] Inferring partial write operation for 'x.0' (doppler_fft_256/doppler.cpp:13:20)
+INFO: [HLS 200-472] Inferring partial write operation for 'x.0' (doppler_fft_256/doppler.cpp:27:26)
+INFO: [HLS 200-472] Inferring partial write operation for 'x.0' (doppler_fft_256/doppler.cpp:28:31)
+INFO: [HLS 200-472] Inferring partial write operation for 'range_dop_map._M_value' 
+INFO: [HLS 200-472] Inferring partial write operation for 'range_dop_map._M_value' (doppler_fft_256/doppler.cpp:60:26)
+INFO: [HLS 200-472] Inferring partial write operation for 'range_dop_map._M_value' (doppler_fft_256/doppler.cpp:40:14)
+INFO: [HLS 200-472] Inferring partial write operation for 'range_dop_map._M_value' (doppler_fft_256/doppler.cpp:41:21)
+INFO: [HLS 200-111] Finished Architecture Synthesis: CPU user time: 0.05 seconds. CPU system time: 0.02 seconds. Elapsed time: 0.08 seconds; current allocated memory: 857.148 MB.
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'doppler_fft_256' ...
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'doppler_fft_256_Pipeline_1' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'Loop 1'.
+INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 1, loop 'Loop 1'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.03 seconds. CPU system time: 0.03 seconds. Elapsed time: 0.07 seconds; current allocated memory: 858.348 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.01 seconds. CPU system time: 0 seconds. Elapsed time: 0.01 seconds; current allocated memory: 858.348 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'doppler_fft_256_Pipeline_VITIS_LOOP_58_1' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_58_1'.
+INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 1, loop 'VITIS_LOOP_58_1'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.02 seconds. CPU system time: 0 seconds. Elapsed time: 0.02 seconds; current allocated memory: 858.656 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.01 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.02 seconds; current allocated memory: 858.656 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'fft_fast_Pipeline_VITIS_LOOP_8_1' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_8_1'.
+WARNING: [HLS 200-880] The II Violation in module 'fft_fast_Pipeline_VITIS_LOOP_8_1' (loop 'VITIS_LOOP_8_1'): Unable to enforce a carried dependence constraint (II = 1, distance = 1, offset = 1) between 'store' operation ('x_0_addr_1_write_ln13', doppler_fft_256/doppler.cpp:13) of variable 'x_0_load', doppler_fft_256/doppler.cpp:13 on array 'x_0' and 'load' operation ('x_0_load_1', doppler_fft_256/doppler.cpp:12) on array 'x_0'.
+WARNING: [HLS 200-880] The II Violation in module 'fft_fast_Pipeline_VITIS_LOOP_8_1' (loop 'VITIS_LOOP_8_1'): Unable to enforce a carried dependence constraint (II = 2, distance = 1, offset = 1) between 'store' operation ('x_0_addr_1_write_ln13', doppler_fft_256/doppler.cpp:13) of variable 'x_0_load', doppler_fft_256/doppler.cpp:13 on array 'x_0' and 'load' operation ('x_0_load_1', doppler_fft_256/doppler.cpp:12) on array 'x_0'.
+INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 3, Depth = 4, loop 'VITIS_LOOP_8_1'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.03 seconds. CPU system time: 0 seconds. Elapsed time: 0.03 seconds; current allocated memory: 859.094 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.02 seconds. CPU system time: 0 seconds. Elapsed time: 0.02 seconds; current allocated memory: 859.094 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'fft_fast_Pipeline_VITIS_LOOP_23_4' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_23_4'.
+WARNING: [HLS 200-880] The II Violation in module 'fft_fast_Pipeline_VITIS_LOOP_23_4' (loop 'VITIS_LOOP_23_4'): Unable to enforce a carried dependence constraint (II = 1, distance = 1, offset = 1) between 'store' operation ('x_0_addr_write_ln28', doppler_fft_256/doppler.cpp:28) of variable '__r._M_value' on array 'x_0' and 'load' operation ('__t') on array 'x_0'.
+WARNING: [HLS 200-880] The II Violation in module 'fft_fast_Pipeline_VITIS_LOOP_23_4' (loop 'VITIS_LOOP_23_4'): Unable to enforce a carried dependence constraint (II = 2, distance = 1, offset = 1) between 'store' operation ('x_0_addr_write_ln28', doppler_fft_256/doppler.cpp:28) of variable '__r._M_value' on array 'x_0' and 'load' operation ('__t') on array 'x_0'.
+WARNING: [HLS 200-880] The II Violation in module 'fft_fast_Pipeline_VITIS_LOOP_23_4' (loop 'VITIS_LOOP_23_4'): Unable to enforce a carried dependence constraint (II = 3, distance = 1, offset = 1) between 'store' operation ('x_0_addr_write_ln28', doppler_fft_256/doppler.cpp:28) of variable '__r._M_value' on array 'x_0' and 'load' operation ('__t') on array 'x_0'.
+WARNING: [HLS 200-880] The II Violation in module 'fft_fast_Pipeline_VITIS_LOOP_23_4' (loop 'VITIS_LOOP_23_4'): Unable to enforce a carried dependence constraint (II = 4, distance = 1, offset = 1) between 'store' operation ('x_0_addr_write_ln28', doppler_fft_256/doppler.cpp:28) of variable '__r._M_value' on array 'x_0' and 'load' operation ('__t') on array 'x_0'.
+WARNING: [HLS 200-880] The II Violation in module 'fft_fast_Pipeline_VITIS_LOOP_23_4' (loop 'VITIS_LOOP_23_4'): Unable to enforce a carried dependence constraint (II = 11, distance = 1, offset = 1) between 'store' operation ('x_0_addr_write_ln28', doppler_fft_256/doppler.cpp:28) of variable '__r._M_value' on array 'x_0' and 'load' operation ('__t') on array 'x_0'.
+WARNING: [HLS 200-880] The II Violation in module 'fft_fast_Pipeline_VITIS_LOOP_23_4' (loop 'VITIS_LOOP_23_4'): Unable to enforce a carried dependence constraint (II = 15, distance = 1, offset = 1) between 'store' operation ('x_0_addr_write_ln28', doppler_fft_256/doppler.cpp:28) of variable '__r._M_value' on array 'x_0' and 'load' operation ('__t') on array 'x_0'.
+WARNING: [HLS 200-880] The II Violation in module 'fft_fast_Pipeline_VITIS_LOOP_23_4' (loop 'VITIS_LOOP_23_4'): Unable to enforce a carried dependence constraint (II = 17, distance = 1, offset = 1) between 'store' operation ('x_0_addr_write_ln28', doppler_fft_256/doppler.cpp:28) of variable '__r._M_value' on array 'x_0' and 'load' operation ('__t') on array 'x_0'.
+INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 18, Depth = 18, loop 'VITIS_LOOP_23_4'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.09 seconds. CPU system time: 0 seconds. Elapsed time: 0.09 seconds; current allocated memory: 859.641 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.09 seconds. CPU system time: 0 seconds. Elapsed time: 0.09 seconds; current allocated memory: 859.641 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'fft_fast' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.09 seconds. CPU system time: 0 seconds. Elapsed time: 0.09 seconds; current allocated memory: 859.988 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.04 seconds. CPU system time: 0 seconds. Elapsed time: 0.04 seconds; current allocated memory: 859.988 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'doppler_fft_256_Pipeline_VITIS_LOOP_38_1' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_38_1'.
+WARNING: [HLS 200-885] The II Violation in module 'doppler_fft_256_Pipeline_VITIS_LOOP_38_1' (loop 'VITIS_LOOP_38_1'): Unable to schedule 'load' operation ('range_dop_map_M_value_load_1', doppler_fft_256/doppler.cpp:40) on array 'range_dop_map_M_value' due to limited memory ports (II = 1). Please consider using a memory core with more ports or partitioning the array 'range_dop_map_M_value'.
+INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 2, Depth = 2, loop 'VITIS_LOOP_38_1'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.07 seconds. CPU system time: 0 seconds. Elapsed time: 0.07 seconds; current allocated memory: 860.391 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.01 seconds. CPU system time: 0 seconds. Elapsed time: 0.02 seconds; current allocated memory: 860.391 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'doppler_fft_256_Pipeline_VITIS_LOOP_66_2' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-61] Pipelining loop 'VITIS_LOOP_66_2'.
+INFO: [HLS 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 2, loop 'VITIS_LOOP_66_2'
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.03 seconds. CPU system time: 0 seconds. Elapsed time: 0.03 seconds; current allocated memory: 860.695 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.02 seconds. CPU system time: 0 seconds. Elapsed time: 0.01 seconds; current allocated memory: 860.695 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'doppler_fft_256' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111] Finished Scheduling: CPU user time: 0.03 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.03 seconds; current allocated memory: 861.000 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111] Finished Binding: CPU user time: 0.06 seconds. CPU system time: 0 seconds. Elapsed time: 0.07 seconds; current allocated memory: 861.000 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'doppler_fft_256_Pipeline_1' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-100] Finished creating RTL model for 'doppler_fft_256_Pipeline_1'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.07 seconds. CPU system time: 0 seconds. Elapsed time: 0.07 seconds; current allocated memory: 861.000 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'doppler_fft_256_Pipeline_VITIS_LOOP_58_1' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-100] Finished creating RTL model for 'doppler_fft_256_Pipeline_VITIS_LOOP_58_1'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.03 seconds. CPU system time: 0 seconds. Elapsed time: 0.03 seconds; current allocated memory: 861.480 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'fft_fast_Pipeline_VITIS_LOOP_8_1' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'fft_fast_Pipeline_VITIS_LOOP_8_1' pipeline 'VITIS_LOOP_8_1' pipeline type 'loop pipeline'
+INFO: [RTGEN 206-100] Finished creating RTL model for 'fft_fast_Pipeline_VITIS_LOOP_8_1'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.02 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.04 seconds; current allocated memory: 862.500 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'fft_fast_Pipeline_VITIS_LOOP_23_4' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-100] Generating core module 'faddfsub_32ns_32ns_32_5_full_dsp_1': 2 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'fmul_32ns_32ns_32_4_max_dsp_1': 4 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'fft_fast_Pipeline_VITIS_LOOP_23_4'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.05 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.06 seconds; current allocated memory: 863.961 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'fft_fast' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-100] Finished creating RTL model for 'fft_fast'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.15 seconds. CPU system time: 0 seconds. Elapsed time: 0.15 seconds; current allocated memory: 865.633 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'doppler_fft_256_Pipeline_VITIS_LOOP_38_1' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-100] Finished creating RTL model for 'doppler_fft_256_Pipeline_VITIS_LOOP_38_1'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.09 seconds. CPU system time: 0 seconds. Elapsed time: 0.09 seconds; current allocated memory: 866.781 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'doppler_fft_256_Pipeline_VITIS_LOOP_66_2' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-1030] Apply Unified Pipeline Control on module 'doppler_fft_256_Pipeline_VITIS_LOOP_66_2' pipeline 'VITIS_LOOP_66_2' pipeline type 'loop pipeline'
+INFO: [RTGEN 206-100] Finished creating RTL model for 'doppler_fft_256_Pipeline_VITIS_LOOP_66_2'.
+INFO: [HLS 200-111] Finished Creating RTL model: CPU user time: 0.03 seconds. CPU system time: 0.01 seconds. Elapsed time: 0.04 seconds; current allocated memory: 867.727 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'doppler_fft_256' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+WARNING: [RTGEN 206-101] Design contains AXI ports. Reset is fixed to synchronous and active low.
+INFO: [RTGEN 206-500] Setting interface mode on port 'doppler_fft_256/input_r_V_data_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'doppler_fft_256/input_r_V_keep_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'doppler_fft_256/input_r_V_strb_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'doppler_fft_256/input_r_V_last_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'doppler_fft_256/output_r_V_data_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'doppler_fft_256/output_r_V_keep_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'doppler_fft_256/output_r_V_strb_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on port 'doppler_fft_256/output_r_V_last_V' to 'axis' (register, both mode).
+INFO: [RTGEN 206-500] Setting interface mode on function 'doppler_fft_256' to 'ap_ctrl_none'.
+INFO: [RTGEN 206-100] Finished creating RTL model for 'doppler_fft_256'.
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2022.1 (64-bit)
+Tool Version Limit: 2022.04
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2022.1 (64-bit)
+Tool Version Limit: 2022.04
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+==============================================================
+==============================================================
+Vitis HLS - High-Level Synthesis from C, C++ and OpenCL v2022.1 (64-bit)
+Tool Version Limit: 2022.04
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+==============================================================

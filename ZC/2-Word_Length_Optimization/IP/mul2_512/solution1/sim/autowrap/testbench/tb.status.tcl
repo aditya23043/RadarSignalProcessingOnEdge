@@ -1,0 +1,1 @@
+set ::AESL_AUTOSIM::gTopFileName /mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/zc/mul2_512/solution1/./sim/autowrap/testbench/mul.cpp_pre.cpp.tb.cpp

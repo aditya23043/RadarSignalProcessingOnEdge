@@ -1,0 +1,95 @@
+timestamp=[2026-05-03 15:36:19], mode=WORKBENCH_START, duration=0:00:04.292, duration_ms=4292, data={}
+timestamp=[2026-05-03 15:36:19], mode=WORKBENCH_UI_INIT, duration=0:00:00.245, duration_ms=245, data={editors_count=0, platform_editors_count=0, projects_count=0, platform_projects_count=0, active_platform_editor=false, projects=}
+timestamp=[2026-05-03 15:36:19], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.509, duration_ms=509, data={}
+timestamp=[2026-05-03 15:36:59], mode=APP_CREATION, duration=0:00:10.580, duration_ms=10580, data={name=zc_full, project_type=sdk, os=standalone, processor=ps7_cortexa9, runtime=cpp, platform=design_1_wrapper, application_type=application}
+timestamp=[2026-05-03 15:55:51], mode=PLATFORM_GENERATION, duration=0:00:08.026, duration_ms=8026, data={name=design_1_wrapper}
+timestamp=[2026-05-03 15:55:53], mode=BUILD, duration=0:00:00.341, duration_ms=341, data={name=zc_full, configuration=Debug, clean_build=false}
+timestamp=[2026-05-03 15:57:33], mode=BUILD, duration=0:00:00.406, duration_ms=406, data={name=zc_full, configuration=Debug, clean_build=false}
+timestamp=[2026-05-03 15:57:51], mode=BUILD, duration=0:00:00.399, duration_ms=399, data={name=zc_full, configuration=Debug, clean_build=false}
+timestamp=[2026-05-03 15:58:04], mode=BUILD, duration=0:00:00.653, duration_ms=653, data={name=zc_full, configuration=Debug, clean_build=false}
+timestamp=[2026-05-03 15:58:18], mode=BUILD, duration=0:00:00.298, duration_ms=298, data={name=zc_full, configuration=Debug, clean_build=true}
+timestamp=[2026-05-03 15:58:19], mode=BUILD, duration=0:00:00.654, duration_ms=654, data={name=zc_full, configuration=Debug, clean_build=false}
+timestamp=[2026-05-03 15:58:49], mode=BUILD, duration=0:00:00.604, duration_ms=604, data={name=zc_full, configuration=Debug, clean_build=false}
+timestamp=[2026-05-03 15:59:22], mode=BUILD, duration=0:00:00.549, duration_ms=549, data={name=zc_full, configuration=Debug, clean_build=false}
+timestamp=[2026-05-03 19:30:42], mode=APP_CREATION, duration=0:00:10.496, duration_ms=10496, data={name=zc_full_fifo_fix, project_type=sdk, os=standalone, processor=ps7_cortexa9, runtime=cpp, platform=design_1_wrapper_1, application_type=application}
+timestamp=[2026-05-03 19:42:23], mode=PLATFORM_GENERATION, duration=0:00:08.292, duration_ms=8292, data={name=design_1_wrapper_1}
+timestamp=[2026-05-03 19:42:25], mode=BUILD, duration=0:00:00.389, duration_ms=389, data={name=zc_full_fifo_fix, configuration=Debug, clean_build=false}
+timestamp=[2026-05-03 19:47:39], mode=BUILD, duration=0:00:00.351, duration_ms=351, data={name=zc_full_fifo_fix, configuration=Debug, clean_build=true}
+timestamp=[2026-05-03 19:47:40], mode=BUILD, duration=0:00:00.808, duration_ms=808, data={name=zc_full_fifo_fix, configuration=Debug, clean_build=false}
+timestamp=[2026-05-03 21:08:00], mode=BUILD, duration=0:00:00.343, duration_ms=343, data={name=zc_full_fifo_fix, configuration=Debug, clean_build=false}
+timestamp=[2026-05-03 21:08:28], mode=BUILD, duration=0:00:00.453, duration_ms=453, data={name=zc_full_fifo_fix, configuration=Debug, clean_build=false}
+timestamp=[2026-05-03 22:59:35], mode=BUILD, duration=0:00:00.557, duration_ms=557, data={name=zc_full_fifo_fix, configuration=Debug, clean_build=false}
+timestamp=[2026-05-03 23:20:12], mode=BUILD, duration=0:00:00.536, duration_ms=536, data={name=zc_full_fifo_fix, configuration=Debug, clean_build=false}
+timestamp=[2026-05-03 23:25:37], mode=BUILD, duration=0:00:00.556, duration_ms=556, data={name=zc_full_fifo_fix, configuration=Debug, clean_build=false}
+timestamp=[2026-05-05 00:55:41], mode=WORKBENCH_START, duration=0:00:05.569, duration_ms=5569, data={}
+timestamp=[2026-05-05 00:55:42], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.539, duration_ms=539, data={}
+timestamp=[2026-05-05 00:55:42], mode=WORKBENCH_UI_INIT, duration=0:00:00.840, duration_ms=840, data={editors_count=10, platform_editors_count=2, projects_count=7, platform_projects_count=2, active_platform_editor=false, projects=RemoteSystemsTempFiles,design_1_wrapper,design_1_wrapper_1,zc_full,zc_full_fifo_fix,zc_full_fifo_fix_system,zc_full_system}
+timestamp=[2026-05-05 00:56:42], mode=APP_CREATION, duration=0:00:11.526, duration_ms=11526, data={name=zc_full_2, project_type=sdk, os=standalone, processor=ps7_cortexa9, runtime=cpp, platform=design_1_wrapper_2, application_type=application}
+timestamp=[2026-05-05 01:01:34], mode=PLATFORM_GENERATION, duration=0:00:08.006, duration_ms=8006, data={name=design_1_wrapper_2}
+timestamp=[2026-05-05 01:01:36], mode=BUILD, duration=0:00:00.636, duration_ms=636, data={name=zc_full_2, configuration=Debug, clean_build=false}
+timestamp=[2026-05-05 01:01:54], mode=BUILD, duration=0:00:00.297, duration_ms=297, data={name=zc_full_2, configuration=Debug, clean_build=true}
+timestamp=[2026-05-05 01:01:54], mode=BUILD, duration=0:00:00.694, duration_ms=694, data={name=zc_full_2, configuration=Debug, clean_build=false}
+timestamp=[2026-05-05 01:05:33], mode=BUILD, duration=0:00:00.292, duration_ms=292, data={name=zc_full_2, configuration=Debug, clean_build=true}
+timestamp=[2026-05-05 01:05:33], mode=BUILD, duration=0:00:00.695, duration_ms=695, data={name=zc_full_2, configuration=Debug, clean_build=false}
+timestamp=[2026-05-05 01:08:33], mode=BUILD, duration=0:00:00.298, duration_ms=298, data={name=zc_full_2, configuration=Debug, clean_build=true}
+timestamp=[2026-05-05 01:08:33], mode=BUILD, duration=0:00:00.740, duration_ms=740, data={name=zc_full_2, configuration=Debug, clean_build=false}
+timestamp=[2026-05-05 01:10:16], mode=BUILD, duration=0:00:00.484, duration_ms=484, data={name=zc_full_2, configuration=Debug, clean_build=false}
+timestamp=[2026-05-05 01:13:03], mode=BUILD, duration=0:00:00.547, duration_ms=547, data={name=zc_full_2, configuration=Debug, clean_build=false}
+timestamp=[2026-05-05 01:13:09], mode=BUILD, duration=0:00:00.296, duration_ms=296, data={name=zc_full_2, configuration=Debug, clean_build=false}
+timestamp=[2026-05-05 01:18:06], mode=BUILD, duration=0:00:00.544, duration_ms=544, data={name=zc_full_2, configuration=Debug, clean_build=false}
+timestamp=[2026-05-05 01:21:56], mode=BUILD, duration=0:00:00.431, duration_ms=431, data={name=zc_full_2, configuration=Debug, clean_build=false}
+timestamp=[2026-05-05 01:23:37], mode=BUILD, duration=0:00:00.599, duration_ms=599, data={name=zc_full_2, configuration=Debug, clean_build=false}
+timestamp=[2026-05-05 01:24:50], mode=BUILD, duration=0:00:00.551, duration_ms=551, data={name=zc_full_2, configuration=Debug, clean_build=false}
+timestamp=[2026-05-05 01:24:57], mode=BUILD, duration=0:00:00.348, duration_ms=348, data={name=zc_full_2, configuration=Debug, clean_build=false}
+timestamp=[2026-05-05 01:26:14], mode=BUILD, duration=0:00:00.452, duration_ms=452, data={name=zc_full_2, configuration=Debug, clean_build=false}
+timestamp=[2026-05-05 01:27:37], mode=BUILD, duration=0:00:00.449, duration_ms=449, data={name=zc_full_2, configuration=Debug, clean_build=false}
+timestamp=[2026-05-05 01:29:03], mode=BUILD, duration=0:00:00.553, duration_ms=553, data={name=zc_full_2, configuration=Debug, clean_build=false}
+timestamp=[2026-05-05 01:29:06], mode=BUILD, duration=0:00:00.284, duration_ms=284, data={name=zc_full_2, configuration=Debug, clean_build=false}
+timestamp=[2026-05-05 01:31:44], mode=BUILD, duration=0:00:00.348, duration_ms=348, data={name=zc_full_2, configuration=Debug, clean_build=false}
+timestamp=[2026-05-05 01:31:55], mode=BUILD, duration=0:00:00.552, duration_ms=552, data={name=zc_full_2, configuration=Debug, clean_build=false}
+timestamp=[2026-05-05 01:33:24], mode=BUILD, duration=0:00:00.346, duration_ms=346, data={name=zc_full_2, configuration=Debug, clean_build=false}
+timestamp=[2026-05-05 01:33:30], mode=BUILD, duration=0:00:00.602, duration_ms=602, data={name=zc_full_2, configuration=Debug, clean_build=false}
+timestamp=[2026-05-05 01:34:43], mode=BUILD, duration=0:00:00.497, duration_ms=497, data={name=zc_full_2, configuration=Debug, clean_build=false}
+timestamp=[2026-05-05 01:36:14], mode=BUILD, duration=0:00:00.598, duration_ms=598, data={name=zc_full_2, configuration=Debug, clean_build=false}
+timestamp=[2026-05-05 01:40:04], mode=BUILD, duration=0:00:00.548, duration_ms=548, data={name=zc_full_2, configuration=Debug, clean_build=false}
+timestamp=[2026-05-05 01:40:07], mode=BUILD, duration=0:00:00.285, duration_ms=285, data={name=zc_full_2, configuration=Debug, clean_build=false}
+timestamp=[2026-05-05 01:42:37], mode=BUILD, duration=0:00:00.606, duration_ms=606, data={name=zc_full_2, configuration=Debug, clean_build=false}
+timestamp=[2026-05-05 01:42:42], mode=BUILD, duration=0:00:00.287, duration_ms=287, data={name=zc_full_2, configuration=Debug, clean_build=false}
+timestamp=[2026-05-05 01:45:40], mode=BUILD, duration=0:00:00.351, duration_ms=351, data={name=zc_full_2, configuration=Debug, clean_build=false}
+timestamp=[2026-05-05 01:45:53], mode=BUILD, duration=0:00:00.552, duration_ms=552, data={name=zc_full_2, configuration=Debug, clean_build=false}
+timestamp=[2026-05-05 01:46:00], mode=BUILD, duration=0:00:00.345, duration_ms=345, data={name=zc_full_2, configuration=Debug, clean_build=false}
+timestamp=[2026-05-05 01:47:36], mode=WORKBENCH_START, duration=0:00:04.776, duration_ms=4776, data={}
+timestamp=[2026-05-05 01:47:37], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.436, duration_ms=436, data={}
+timestamp=[2026-05-05 01:47:37], mode=WORKBENCH_UI_INIT, duration=0:00:00.925, duration_ms=925, data={editors_count=16, platform_editors_count=4, projects_count=10, platform_projects_count=3, active_platform_editor=false, projects=RemoteSystemsTempFiles,design_1_wrapper,design_1_wrapper_1,design_1_wrapper_2,zc_full,zc_full_2,zc_full_2_system,zc_full_fifo_fix,zc_full_fifo_fix_system,zc_full_system}
+timestamp=[2026-05-05 11:03:28], mode=BUILD, duration=0:00:00.583, duration_ms=583, data={name=zc_full_2, configuration=Debug, clean_build=false}
+timestamp=[2026-05-05 11:05:11], mode=BUILD, duration=0:00:00.427, duration_ms=427, data={name=zc_full_2, configuration=Debug, clean_build=false}
+timestamp=[2026-05-05 11:55:57], mode=WORKBENCH_START, duration=0:00:05.311, duration_ms=5311, data={}
+timestamp=[2026-05-05 11:55:58], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.550, duration_ms=550, data={}
+timestamp=[2026-05-05 11:55:58], mode=WORKBENCH_UI_INIT, duration=0:00:00.802, duration_ms=802, data={editors_count=16, platform_editors_count=4, projects_count=10, platform_projects_count=3, active_platform_editor=false, projects=RemoteSystemsTempFiles,design_1_wrapper,design_1_wrapper_1,design_1_wrapper_2,zc_full,zc_full_2,zc_full_2_system,zc_full_fifo_fix,zc_full_fifo_fix_system,zc_full_system}
+timestamp=[2026-05-05 11:58:14], mode=APP_CREATION, duration=0:00:09.983, duration_ms=9983, data={name=zc_full_num_batch_8, project_type=sdk, os=standalone, processor=ps7_cortexa9, runtime=cpp, platform=design_1_wrapper_3, application_type=application}
+timestamp=[2026-05-05 12:03:27], mode=PLATFORM_GENERATION, duration=0:00:07.879, duration_ms=7879, data={name=design_1_wrapper_3}
+timestamp=[2026-05-05 12:03:29], mode=BUILD, duration=0:00:00.583, duration_ms=583, data={name=zc_full_num_batch_8, configuration=Debug, clean_build=false}
+timestamp=[2026-05-05 12:04:19], mode=BUILD, duration=0:00:00.274, duration_ms=274, data={name=zc_full_num_batch_8, configuration=Debug, clean_build=false}
+timestamp=[2026-05-05 12:07:07], mode=BUILD, duration=0:00:00.481, duration_ms=481, data={name=zc_full_num_batch_8, configuration=Debug, clean_build=false}
+timestamp=[2026-05-05 12:09:28], mode=BUILD, duration=0:00:00.485, duration_ms=485, data={name=zc_full_num_batch_8, configuration=Debug, clean_build=false}
+timestamp=[2026-05-05 12:11:08], mode=BUILD, duration=0:00:00.481, duration_ms=481, data={name=zc_full_num_batch_8, configuration=Debug, clean_build=false}
+timestamp=[2026-05-05 12:15:37], mode=BUILD, duration=0:00:00.478, duration_ms=478, data={name=zc_full_num_batch_8, configuration=Debug, clean_build=false}
+timestamp=[2026-05-05 12:34:33], mode=BUILD, duration=0:00:00.281, duration_ms=281, data={name=zc_full_num_batch_8, configuration=Debug, clean_build=false}
+timestamp=[2026-05-05 12:48:20], mode=APP_CREATION, duration=0:00:10.573, duration_ms=10573, data={name=zc_full_mul_fixed, project_type=sdk, os=standalone, processor=ps7_cortexa9, runtime=cpp, platform=design_1_wrapper_mul_fixed, application_type=application}
+timestamp=[2026-05-05 12:50:02], mode=PLATFORM_GENERATION, duration=0:00:11.035, duration_ms=11035, data={name=design_1_wrapper_mul_fixed}
+timestamp=[2026-05-05 12:50:04], mode=BUILD, duration=0:00:00.540, duration_ms=540, data={name=zc_full_mul_fixed, configuration=Debug, clean_build=false}
+timestamp=[2026-05-05 12:50:25], mode=BUILD, duration=0:00:00.290, duration_ms=290, data={name=zc_full_mul_fixed, configuration=Debug, clean_build=true}
+timestamp=[2026-05-05 12:50:26], mode=BUILD, duration=0:00:00.694, duration_ms=694, data={name=zc_full_mul_fixed, configuration=Debug, clean_build=false}
+timestamp=[2026-05-05 13:00:23], mode=BUILD, duration=0:00:00.286, duration_ms=286, data={name=zc_full_mul_fixed, configuration=Debug, clean_build=false}
+timestamp=[2026-05-05 13:03:17], mode=BUILD, duration=0:00:00.283, duration_ms=283, data={name=zc_full_mul_fixed, configuration=Debug, clean_build=false}
+timestamp=[2026-05-05 13:03:57], mode=BUILD, duration=0:00:00.490, duration_ms=490, data={name=zc_full_mul_fixed, configuration=Debug, clean_build=false}
+timestamp=[2026-05-06 01:01:01], mode=WORKBENCH_START, duration=0:00:05.543, duration_ms=5543, data={}
+timestamp=[2026-05-06 01:01:01], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.510, duration_ms=510, data={}
+timestamp=[2026-05-06 01:01:02], mode=WORKBENCH_UI_INIT, duration=0:00:00.754, duration_ms=754, data={editors_count=28, platform_editors_count=8, projects_count=16, platform_projects_count=5, active_platform_editor=true, projects=RemoteSystemsTempFiles,design_1_wrapper,design_1_wrapper_1,design_1_wrapper_2,design_1_wrapper_3,design_1_wrapper_mul_fixed,zc_full,zc_full_2,zc_full_2_system,zc_full_fifo_fix,zc_full_fifo_fix_system,zc_full_mul_fixed,zc_full_mul_fixed_system,zc_full_num_batch_8,zc_full_num_batch_8_system,zc_full_system}
+timestamp=[2026-05-06 01:02:10], mode=APP_CREATION, duration=0:00:10.585, duration_ms=10585, data={name=dopp_wlo, project_type=sdk, os=standalone, processor=ps7_cortexa9, runtime=cpp, platform=design_1_wrapper_dopp_WLO, application_type=application}
+timestamp=[2026-05-06 01:05:17], mode=PLATFORM_GENERATION, duration=0:00:08.004, duration_ms=8004, data={name=design_1_wrapper_dopp_WLO}
+timestamp=[2026-05-06 01:05:19], mode=BUILD, duration=0:00:00.588, duration_ms=588, data={name=dopp_wlo, configuration=Debug, clean_build=false}
+timestamp=[2026-05-06 01:08:28], mode=BUILD, duration=0:00:00.295, duration_ms=295, data={name=dopp_wlo, configuration=Debug, clean_build=false}
+timestamp=[2026-05-06 01:09:46], mode=BUILD, duration=0:00:00.396, duration_ms=396, data={name=dopp_wlo, configuration=Debug, clean_build=false}
+timestamp=[2026-05-06 01:10:10], mode=BUILD, duration=0:00:00.449, duration_ms=449, data={name=dopp_wlo, configuration=Debug, clean_build=false}
+timestamp=[2026-05-06 01:11:18], mode=BUILD, duration=0:00:00.549, duration_ms=549, data={name=dopp_wlo, configuration=Debug, clean_build=false}

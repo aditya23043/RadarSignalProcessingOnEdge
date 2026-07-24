@@ -1,0 +1,10 @@
+INFO: [SIM 2] *************** CSIM start ***************
+INFO: [SIM 4] CSIM will launch GCC as the compiler.
+   Compiling ../../../doppler_fft_tb.cpp in debug mode
+   Compiling ../../../doppler_fft.cpp in debug mode
+   Generating csim.exe
+RMSE vs reference: 0.079622
+SUCCESS: All samples within threshold. RMSE = 0.079622
+Output saved to output.h
+INFO: [SIM 1] CSim done with 0 errors.
+INFO: [SIM 3] *************** CSIM finish ***************

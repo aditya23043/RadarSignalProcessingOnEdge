@@ -1,0 +1,15 @@
+INFO: [SIM 2] *************** CSIM start ***************
+INFO: [SIM 4] CSIM will launch GCC as the compiler.
+   Compiling ../../../trigger_ip_tb.cpp in debug mode
+   Generating csim.exe
+8
+[TEST 1] rx=262144/262144 tlast=8/8 done=1  PASS
+[TEST 2] Back-pressure: before=100 after=100 done=1  PASS
+[TEST 3] Reset: done after reset=0  PASS
+[TEST 4] Post-reset capture: rx=262144/262144 tlast=8/8 done=1  PASS
+[TEST 5] Mid-capture reset: partial_rx=98304 done_after_reset=0  PASS
+[TEST 5] Post-mid-reset capture: rx=262144 tlast=8  PASS
+
+ALL TESTS PASS
+INFO: [SIM 1] CSim done with 0 errors.
+INFO: [SIM 3] *************** CSIM finish ***************

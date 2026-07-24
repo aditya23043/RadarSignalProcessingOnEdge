@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="sdx.custom.platform.repository.locations" value="/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/design_1_wrapper/export/design_1_wrapper;/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/design_1_wrapper_1/export/design_1_wrapper_1;/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/design_1_wrapper_2/export/design_1_wrapper_2;/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/design_1_wrapper_3/export/design_1_wrapper_3;/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/design_1_wrapper_mul_fixed/export/design_1_wrapper_mul_fixed;/mnt/arch/home/adi/repo/AELD_Lab_2026/as_close_as_midsem/vivado_zc_full/design_1_wrapper_dopp_WLO/export/design_1_wrapper_dopp_WLO"/>
+</section>
