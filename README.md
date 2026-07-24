@@ -1,4 +1,6 @@
 # Triggering Based Real Time Radar Signal Processing
+ 
+> All images in this repository's README were generated using https://chatgpt.com
 
 A hardware-accelerated radar signal processing pipeline implemented on the Xilinx Zynq platform. The project performs real-time Range-Doppler processing using custom IPs designed in the Vivado Suite.
 
@@ -39,8 +41,6 @@ This implementation supports both:
 ## Broad Architecture
 
 ![Architecture](./assets/rsp_architecture_dark.png)
-
-> Image Generated using https://chatgpt.com
  
 ### Transmitter
 
