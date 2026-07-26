@@ -8,6 +8,8 @@ This implementation supports both:
 - Golay Sequence Based Single Carrier Radar
 - Zadoff-Chu (ZC) Sequence Based Multi Carrier Radar
 
+[View the PDF Report of this Project](./assets/2_End_Sem_Project_Report.pdf)
+
 ## Features
 
 - Trigger-based continuous radar acquisition
@@ -27,6 +29,13 @@ This implementation supports both:
 - Maximum Range = 256 m
 - Velocity Resolution = 2.86 m/s
 - Maximum Velocity = +- 732.42 m/s
+- Number of samples per pulse = 512
+- Fifo Size = 32,768 samples
+- Number of Batches = 16
+- Total Pulses - Golay = 256 (pairs)
+- Total Pulses - ZC = 512
+- SNR Range Tested = -45 dB to -30 dB
+- Monte Carlo Trials = 50 per SNR point
 
 ### Why are we sending in batches?
 
