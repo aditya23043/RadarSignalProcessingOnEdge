@@ -153,8 +153,12 @@ ZC
   samples to the receiver DDR and then pick them back column wise with the
   DMA and to the doppler FFT IP from where we do 2D range-doppler map
   generation and peak detection
+ 
+#### Block Design
 
 ![Golay Vivado Block Design](./assets/full_golay.png)
+
+---
 
 ### Zadoff Chu
 
@@ -168,4 +172,10 @@ ZC
 - The processing remains similar to Golay just with 512 point FFT,
   multiplication and IFFT; and no summing after the IFFT operation
  
+#### Block Design
+ 
 ![ZC Vivado Block Design](./assets/full_zc.png)
+
+## Development Log
+
+[![Notion Link](./assets/notion.png)](https://frill-camel-cd2.notion.site/AELD-Final-Project-Log-20b24d9543b280e0b460d4ed8ba5045b?source=copy_link)
