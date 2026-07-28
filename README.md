@@ -154,6 +154,8 @@ ZC
   DMA and to the doppler FFT IP from where we do 2D range-doppler map
   generation and peak detection
 
+![Golay Vivado Block Design](./assets/full_golay.png)
+
 ### Zadoff Chu
 
 ![ZC Architecture](./assets/zc_data_sizing_dark.png)
@@ -165,3 +167,5 @@ ZC
   manner and the unique samples remain even if we discard the 2nd half
 - The processing remains similar to Golay just with 512 point FFT,
   multiplication and IFFT; and no summing after the IFFT operation
+ 
+![ZC Vivado Block Design](./assets/full_zc.png)
