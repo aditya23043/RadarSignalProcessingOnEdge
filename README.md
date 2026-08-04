@@ -1,6 +1,6 @@
 # Triggering Based Real Time Radar Signal Processing
 
-<p align="center"><img src="./assets/Subject.png" width="60%"></p>
+<p align="center"><img src="./assets/zedboard.png" width="60%"></p>
 
 A hardware-accelerated radar signal processing pipeline implemented on the Xilinx Zynq platform. The project performs real-time Range-Doppler processing using custom IPs designed in the Vivado Suite.
 
