@@ -1,4 +1,6 @@
 # Triggering Based Real Time Radar Signal Processing
+
+<p align="center"><img src="./assets/Subject.png" width="60%"></p>
  
 > All images in this repository's README were generated using https://chatgpt.com
 
