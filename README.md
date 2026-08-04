@@ -179,3 +179,7 @@ ZC
 ## Development Log
 
 [![Notion Link](./assets/notion.png)](https://frill-camel-cd2.notion.site/AELD-Final-Project-Log-20b24d9543b280e0b460d4ed8ba5045b?source=copy_link)
+
+## Report
+
+[![report](./assets/report_cover.png)](./assets/2_End_Sem_Project_Report.pdf)
